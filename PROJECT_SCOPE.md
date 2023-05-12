@@ -25,7 +25,7 @@ In 1 year we look back, the above goals are hit, and turn OnBoard into an ongoin
 - Money ops flow. How do we give grants to people? What is the SOP?
 - Financing the project. Need to raise $150,000!
 
-Project scope:
+## Project scope:
 
 - Marketing:
   - https://hackclub.com/onboard/ inspiring marketing site with VERY CLEAR INSTRUCTIONS
@@ -59,4 +59,15 @@ Project scope:
   - $150,000 raised total
   - $150 per teenager to participate
   - North America specific to start
--
+
+## Timeline and schedule:
+
+- Deadline for launch 27th (2 weeks from time of writing)
+  - Marketing site online (Max)
+  - github.com/hackclub/onboard online with working PR flow (Kevin + Al, usertest by John)
+  - Basic money ops flow online (Daisy + Max)
+  - First piece of training / inspiration material published (PCB business card) (Kevin + John, design by Maggie)
+  - First community event announced with RSVP flow: “Come join Maggie to watch her build a PCB board from scratch for OnBoard!” (Max)
+- Regular syncs (twice weekly? Planning and working session)
+  - Working session is optional, for meeting and working through things
+  - Team syncs are required to make sure everything is ontrack and we’re all in the loop
