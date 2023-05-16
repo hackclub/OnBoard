@@ -12,4 +12,5 @@ Every student will receive up to $100 to cover PCB manufacturing costs, and join
 It's easier than ever for high school students to get involved with programming; all you need is a computing device and internet access. Yet, *it's not the same for hardware*. While PCB fabs have greatly increased the accessibility for professionally done boards, there is still no clear way for high school students to jump in. This is where OnBoard comes in.
 
 # Timeline
-*Put in timeline later*
+
+We're launching this on May 27th. Details for launching [are found here](meta/2023-05-12_PROJECT_SCOPE.md#timeline-and-schedule).

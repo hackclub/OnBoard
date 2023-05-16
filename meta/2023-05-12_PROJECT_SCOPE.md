@@ -1,5 +1,7 @@
 # Onboard Project Scope
 
+_In attendance: Al, Daisy, John, Kevin, Max, Zach_
+
 ## Team & Responsibilities
 
 Max: Product Manager
