@@ -5,9 +5,13 @@ _In attendance: Al, Daisy, John, Kevin, Max, Zach_
 ## Team & Responsibilities
 
 Max: Product Manager
+
 John: Creative Lead
+
 Kevin: Hacker Experience
+
 Al: Operations Support
+
 Daisy: Operations Support
 
 ## Goals
