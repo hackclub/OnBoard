@@ -1,5 +1,5 @@
-# OnBoard [^1]
-[^1] Interested in joining? Head over to [`Directions.md`](https://github.com/hackclub/OnBoard/directions.md) to get started!
+# OnBoard
+##### Interested in joining? Head over to [`Directions.md`](https://github.com/hackclub/OnBoard/directions.md) to get started!
 
 How do we get high school students excited about electronics and PCB design? 
 
