@@ -28,7 +28,7 @@ Yes! You can design multiple small projects as long as it costs less than 1k. Ju
 
 ##### Does the entire board have to cost less than $100?
 
-The board may have a budget exceeding $250. However, you would be responsible for covering the difference by adding money to your Hack Club Bank account.
+The board may have a budget exceeding $100. However, you would be responsible for covering the difference by adding money to your Hack Club Bank account.
 
 ##### What if I need more funds than initially planned?
 
@@ -40,7 +40,7 @@ We'll try our best to review within 48 hours. However, there may be delays aroun
 
 ##### Will we have to pay the 7% fee for Hack Club Bank?
 
-The 7% fiscal sponsorship fee will be waived for Winter Hardware Wonderland grant funds. If your project's budget exceeds $250, and you need more funds to build your project, there will be no fee to add personal funds to your account.
+The 7% fiscal sponsorship fee will be waived for Onboard grant funds. If your project's budget exceeds $100, and you need more funds to build your project, there will be no fee to add personal funds to your account.
 
 ##### Should my budget include shipping and taxes?
 
