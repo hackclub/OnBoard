@@ -24,7 +24,8 @@ There are 1,000 grants. Fortunately, OnBoard is will snowball into a continuous 
 
 ##### Can we design multiple small boards instead of one?
 
-Yes! You can design as many board as you want– just keep in mind the $100 grant is per-person. Just follow [DIRECTIONS.md](https://github.com/hackclub/OnBoard/directions.md) for each board!
+Yes! You can design as many boards as you want– just keep in mind the $100 grant is per-person. Just follow [DIRECTIONS.md](https://github.com/hackclub/OnBoard/directions.md) for each board!
+
 
 ##### Does the entire board have to cost less than $100?
 
