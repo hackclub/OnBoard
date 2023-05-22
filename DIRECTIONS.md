@@ -2,8 +2,9 @@
 Interested in submitting to OnBoard? You're in the right place!
 
 ## 1. Fork!
-- [ ] Fork of this repo [`onboard`](https://github.com/hackclub/OnBoard/)! This is the where you'll add your project and eventually PR from.
-- [ ] Fork [`Onboard-template`](https://github.com/hackclub/OnBoard-template/) and give it a name! This will be your project repo where you store your design files, Gerbers, and budget.
+Fork the [`onboard`](https://github.com/hackclub/OnBoard/) repo! This is the where you'll add your project files and eventually PR from!
+
+![Fork the OnBoard repo](docs/images/directions/OnBoard-Fork.png)
 
 ## 2. Design a Board!
 It's design time! Head over to an eCAD software of your choice (EasyEDA, KiCAD, Eagle) and start designing!
@@ -11,19 +12,45 @@ It's design time! Head over to an eCAD software of your choice (EasyEDA, KiCAD, 
 Never designed before? No problem! We have design resources for EasyEDA, a free online eCAD program. Check them out here.
 
 ## 3. Upload to JLCPCB and Check
-- [ ] Upload your Gerber files to JLCPCB and make sure they pass inspection. 
+Upload your Gerber files to JLCPCB and make sure they pass inspection. This is done by going to check out and selecting the review before paying option.
 
-This is **VITAL** since your project will only be approved if it passes inspection. Take a screen shot. You'll include this in your PR later.
+This is **VITAL** since your project will only be approved if it passes inspection. **Take a screen shot**. You'll include this in your PR later.
 
 ## 4. Add Your Design to Your Project Repo
-- [ ] Add your design files (schematics, PCB, and Gerbers) to the project repo you made earlier!
+From your fork of `OnBoard`, create a folder with your project name under `OnBoard/projects`. To do this, go to the projects folder and click `Create new file`.
 
-## 5. Add Your Project to OnBoard
+![Projects folder](/docs/images/directions/projects.png)
 
+![Create new file](/docs/images/directions/add-file.png)
 
-## 6. Create A PR
+Then in the box labeled `name your file...`, type in `GITHUB_USERNAME/README.md`. This creates a README file under a folder called your Github username.
 
+![Creating a folder](/docs/images/directions//creating-a-folder.png)
 
-## 7. Celebrate!
-Post photos of your board in `#onboard`! Can't wait to see what you make!
+After this, copy and paste the contents of [`TEMPLATE.md`](./projects/!Template/TEMPLATE.md) into the text editor and fill it out!
 
+![Paste in TEMPLATE.md](docs/images/directions/paste-in-template.png)
+
+Press the big green `Commit changes` button to save!
+
+Once this is done, go under your folder and begin uploading your Gerber, design files, and screen shot of JLCPCB approval. In all, you should have the follow files under your project folder:
+- [ ] `Gerbers.zip`: This should be the file that you send off to JLCPCB.
+- [ ] `JLCPCB.png`: A screen shot of JLCPCB approving your board
+- [ ] Design files (`design.json`, `design.sch`, `design.brd`, etc). Whatever format your designer outputs to should be included.
+- [ ] `README.md`: A filled out [`TEMPLATE.md`](./TEMPLATE.md), renamed to `README.md`
+
+If you have all the above, you're done with this step!
+
+## 6. Create a PR!
+Once you've uploaded your files, you can merge them to the main repo through a pull request! Under the contribute tab of your forked repo, click the big green `Open pull request`.
+
+![Open a PR](docs/images/directions/open-pr.png)
+
+That will bring you to the main repo, where you'll initiate a pull request. Follow the checklist, we'll then review your PR and you'll be off to the races!
+
+![Submission checklist](docs/images/directions/submission-checklist.png)
+
+## 7. Ship it!
+Post photos of your board in `#onboard`! We can't wait to see what you make!
+
+![John sharing PCB](docs/images/directions/john-sharing-pcb.png)
