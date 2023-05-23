@@ -1,6 +1,6 @@
 # OnBoard
 
-##### Interested in joining? We're launching May 27th! Stay tuned! RSVP [here](https://onboard.hackclub.com/)!
+> Interested in joining? We're launching May 27th! Stay tuned! RSVP [here](https://onboard.hackclub.com/)!
 <!-- Head over to [`DIRECTIONS.md`](./DIRECTIONS.md) to get started! -->
 
 How do we get high school students excited about electronics and PCB design? 
