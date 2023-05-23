@@ -23,17 +23,21 @@ From your fork of `OnBoard`, create a folder with your project name under `OnBoa
 
 ![Create new file](/docs/images/directions/add-file.png)
 
-Then in the box labeled `name your file...`, type in `GITHUB_USERNAME/README.md`. This creates a README file under a folder called your Github username.
+Then in the box labeled `name your file...`, type in `PROJECT_NAME/README.md`. This creates a README file under a folder called named after your project.
 
-![Creating a folder](/docs/images/directions//creating-a-folder.png)
+![Creating a folder](/docs/images/directions//creating-a-folder-highlighted.png)
 
 After this, copy and paste the contents of [`TEMPLATE.md`](./projects/!Template/TEMPLATE.md) into the text editor and fill it out!
 
 ![Paste in TEMPLATE.md](docs/images/directions/paste-in-template.png)
 
-Press the big green `Commit changes` button to save!
+Once your done, press the big green `Commit changes` button to save!
 
-Once this is done, go under your folder and begin uploading your Gerber, design files, and screen shot of JLCPCB approval. In all, you should have the follow files under your project folder:
+With your README filled out, head over to add files to begin uploading your Gerber, design files, and screen shot of JLCPCB approval. 
+
+![Upload gerber files](docs/images/directions/adding-gerbers.png)
+
+In all, you should have the following files under your project folder:
 - [ ] `Gerbers.zip`: This should be the file that you send off to JLCPCB.
 - [ ] `JLCPCB.png`: A screen shot of JLCPCB approving your board
 - [ ] Design files (`design.json`, `design.sch`, `design.brd`, etc). Whatever format your designer outputs to should be included.
