@@ -22,3 +22,5 @@ Actionables:
 
 - Record purchase of boards on JLCPCB via HCB card for bank team to link to in signup
 - Setup flow for group onboarding calls that people opt-into
+- Make sure Bank cards work on JLCPCB
+- Update country policy to state that the supported country list isn't constrained by HCB (it'll be based on where JLCPCB ships to)
