@@ -5,7 +5,7 @@ github_handle: "@Leo32345"
 project: "Leos_Project"
 ---
 
-# PROJECT NAME
+# Leos_Project
 ## Summary
 ##### My board is an NFC business card. It is similar to the one Maggie did on the livestream. 
 
