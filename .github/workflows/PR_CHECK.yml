@@ -1,0 +1,63 @@
+name: PR Check
+run-name: PR Check
+on: 
+    pull_request: 
+        types: [opened]
+
+jobs:
+  Check-for-files:
+    name: Check for files
+    runs-on: ubuntu-latest
+    steps:
+        - name: Check out
+          uses: actions/checkout@v2
+        
+        - name: Check for README.md
+          run: |
+            URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
+            FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
+            if echo $FILES | grep -q "README.md"; then
+                echo "README.md included"
+                exit 0
+            else
+                echo "No README.md"
+                exit 1
+            fi
+        - name: Check for Gerbers
+          run: |
+            URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
+            FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
+            if echo $FILES | grep -q ".zip"; then
+                echo "Gerbers included"
+                exit 0
+            else
+                echo "Gerbers included"
+                exit 1
+            fi
+        - name: Check for BOM
+          run: |
+            URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
+            FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
+            if [echo $FILES | grep -q ".csv"] || [echo $FILES | grep -q ".xlsx"]; then
+                echo "BOM included"
+                exit 0
+            else
+                echo "BOM not included"
+                exit 1
+            fi
+        - name: Check for design files
+          run: |
+            URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
+            FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
+            if [echo $FILES | grep -q ".json"] || [echo $FILES | grep -q ".sch"] || [echo $FILES | grep -q ".brd"] || [echo $FILES | grep -q ".schdoc"]; then
+                echo "Design files included"
+                exit 0
+            else
+                echo "Design files not included"
+                exit 1
+            fi
+
+
+            
+
+            
