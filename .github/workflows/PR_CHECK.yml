@@ -1,0 +1,28 @@
+name: PR Check
+run-name: PR Check
+on: 
+    pull_request: 
+        types: [opened]
+
+jobs:
+  Check-for-files:
+    name: Check for files
+    runs-on: ubuntu-latest
+    steps:
+        - name: Check out
+          uses: actions/checkout@v2
+        
+        - name: Get changed files
+          run: |
+            URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
+            FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
+            if echo $FILES | grep -q ".json"; then
+                echo "EasyEDA file included"
+            else
+                echo "No EasyEDA file included"
+            fi
+
+            echo $FILES
+            
+
+            
