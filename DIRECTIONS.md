@@ -54,6 +54,16 @@ That will bring you to the main repo, where you'll initiate a pull request. Foll
 
 ![Submission checklist](docs/images/directions/submission-checklist.png)
 
+> Here's a quick preview of the [submission checklist](.github/PULL_REQUEST_TEMPLATE.md)
+> ## Submission Checklist:
+> - [ ] I am a current high school, middle school, or home schooled student.
+>- [ ] I am a member of the Hack Club Slack (Join [here](https://hackclub.com/slack>)).
+> - [ ] I have followed [DIRECTIONS.md](https://github.com/hackclub/OnBoard/directions.md)
+>   - [ ] Created a folder under `onboard/projects`
+>   - [ ] Filled out `TEMPLATE.md`
+>   - [ ] Uploaded Gerber and design files
+>  - [ ] Uploaded screen shot of PCB passing JLCPCB inspection
+
 ## 7. Ship it!
 Post photos of your board in `#onboard`! We can't wait to see what you make!
 
