@@ -1,8 +1,9 @@
 ---
 name: "FIRST LAST"
-slack_handle: "SLACK HANDLE"
-github_handle: "GITHUB HANDLE"
+slack_handle: "@SLACK HANDLE"
+github_handle: "@GITHUB HANDLE"
 project: "PROJECT NAME"
+
 ---
 
 # PROJECT NAME
