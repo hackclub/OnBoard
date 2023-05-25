@@ -27,11 +27,7 @@ jobs:
             - name: Assign to reviewers
               uses: actions/github-script@v5
               with:
-<<<<<<< HEAD
-                github-token: ${{secrets.GITHUB_TOKEN}}
-=======
                 # github-token: ${{secrets.GITHUB_TOKEN}}
->>>>>>> ba233f3e20a16559a9e2d5db954d7987c56aee64
                 script: |
                     github.rest.issues.addAssignees({
                         issue_number: context.issue.number,
