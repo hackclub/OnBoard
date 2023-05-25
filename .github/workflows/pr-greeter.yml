@@ -14,7 +14,7 @@ jobs:
             - name: Greetings
               uses: actions/github-script@v5
               with:
-                github-token: ${{secrets.ONBRDER_TOKEN}}
+                # github-token: ${{secrets.ONBRDER_TOKEN}}
                 script: |
                     github.rest.issues.createComment({
                         issue_number: context.issue.number,
@@ -26,11 +26,11 @@ jobs:
                         Get ready!
                         "
                     })
-            
+             
             - name: Assign to reviewers
               uses: actions/github-script@v5
               with:
-                github-token: ${{secrets.ONBRDER_TOKEN}}
+                # github-token: ${{secrets.ONBRDER_TOKEN}}
                 script: |
                     github.rest.issues.addAssignees({
                         issue_number: context.issue.number,
