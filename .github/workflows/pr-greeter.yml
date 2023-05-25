@@ -10,10 +10,23 @@ jobs:
     comment:
         runs-on: ubuntu-latest
         steps:
+
+            - name: Assign to reviewers
+              uses: actions/github-script@v5
+              with:
+                github-token: ${{secrets.GITHUB_TOKEN}}
+                script: |
+                    github.rest.issues.addAssignees({
+                        issue_number: context.issue.number,
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        assignees: ['bykevinyang']
+                    })
+           
             - name: Greetings
               uses: actions/github-script@v5
               with:
-                # github-token: ${{secrets.GITHUB_TOKEN}}
+                github-token: ${{secrets.GITHUB_TOKEN}}
                 script: |
                     github.rest.issues.createComment({
                         issue_number: context.issue.number,
@@ -21,16 +34,4 @@ jobs:
                         repo: context.repo.repo,
                         body: "👋 Hey there! We got your merge! @bykevinyang will be reviewing it very soon. Check back in 24 hours for an update!\nIn the meantime, can you fill out this airtable form? AIRTABLE FORM
                         "
-                    })
-             
-            - name: Assign to reviewers
-              uses: actions/github-script@v5
-              with:
-                # github-token: ${{secrets.GITHUB_TOKEN}}
-                script: |
-                    github.rest.issues.addAssignees({
-                        issue_number: context.issue.number,
-                        owner: context.repo.owner,
-                        repo: context.repo.repo,
-                        assignees: ['bykevinyang']
                     })
