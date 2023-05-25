@@ -1,0 +1,24 @@
+name: Congrats!
+run-name: Congrats!
+on: 
+    pull_request: 
+        types: [closed]
+
+jobs:
+    comment:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Greetings
+              uses: actions/github-script@v5
+              with:
+                script: |
+                    github.rest.issues.createComment({
+                        issue_number: context.issue.number,
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        body: "
+                        Congrats! You're project has been merged!
+
+                        Your next step is to schedule a call with Bank to get setup with your OnBoard card! Find a time here: ____________
+                        "
+                    })
