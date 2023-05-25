@@ -12,7 +12,7 @@ jobs:
         - name: Check out
           uses: actions/checkout@v2
         - name: Check for BOM
-          run: |
+          run: |    
             URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
             FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
             project_name=$(echo $FILES[0] | cut -d'/' -f2)
