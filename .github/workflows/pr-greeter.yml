@@ -40,27 +40,13 @@ jobs:
                 script: |
                     PR_NUMBER=$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
                     PR_URL="https://github.com/hackclub/OnBoard/pull/${PR_NUMBER}"
+                    echo "${PR_URL}"
 
                     GITHUB_HANDLE=context.payload.pull_request.user.login
-
-                    echo "${github.actor}"
-                    echo "${PR_URL}"
                     echo "${GITHUB_HANDLE}"
 
                     URL="https://airtable.com/shrRaW9OXoIwUXn1E?prefill_PR=${PR_URL}&hide_PR=true&prefill_Github+Handle=${GITHUB_HANDLE}&hide_Github+Handle=true"
+                    echo "${URL}"
 
                     BODY="![Orpheus waving](http://rawr.hackclub.com/hyper-dino-wave.gif)\n\n👋 Hey there! Welcome to [OnBoard](https://onboard.hackclub.com/)! We got your submission! We currently have our best and brightest reviewing this PR!\n\nIn the meantime, we'll need your email and photo ID to set you setup with Hack Club Bank! **Can you fill out this [form](${URL})**?\n\nSee you in a bit! Woo!"
-
-
-                    REQUEST=$(
-                    jq --null-input \
-                        --arg issue_number context.issue.number, \
-                        --arg owner context.repo.owner, \
-                        --arg repo context.repo.repo \
-                        --arg body ${BODY} \
-                        '{issue_number: "context.issue.number", owner: "context.repo.owner", repo: "context.repo.repo", body: $body}'
-                    )
-
-                    echo $REQUEST
-
-                    github.rest.issues.createComment($REQUEST)
+                    echo "${BODY}"
