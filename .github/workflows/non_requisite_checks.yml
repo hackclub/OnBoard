@@ -1,12 +1,12 @@
-name: Non-Requiste Check
-run-name: Non-Requiste Check
+name: Non-Requisite Check
+run-name: Non-Requisite Check
 on: 
     pull_request: 
         types: [opened] # make this only for main
 
 jobs:
   Check-for-files:
-    name: Non-Requiste Check
+    name: Non-Requisite Check
     runs-on: ubuntu-latest
     steps:
         - name: Check out
