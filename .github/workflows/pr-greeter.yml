@@ -34,12 +34,10 @@ jobs:
             
             - name: Greetings
               uses: actions/github-script@v5
-              env:
-                GITHUB_URL: "${{ github.event.pull_request.comments_url }}"
-                GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
               with:
                 script: |
-                    echo "test"
+                    GITHUB_URL=${{ github.event.pull_request.comments_url }}
+                    echo $GITHUB_URL
                 
             # - name: Greetings
             #   uses: actions/github-script@v5
