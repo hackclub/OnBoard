@@ -38,9 +38,8 @@ jobs:
               with:
                 github-token: ${{ secrets.GITHUB_TOKEN }}
                 script: |
-
                     PR_NUMBER=$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
-                    PR_URL=https://github.com/hackclub/OnBoard/pull/${PR_NUMBER}
+                    PR_URL="https://github.com/hackclub/OnBoard/pull/${PR_NUMBER}""
                     
                     const GITHUB_HANDLE = context.payload.pull_request.user.login
                     
@@ -48,11 +47,11 @@ jobs:
                     echo "${PR_URL}"
                     echo "${GITHUB_HANDLE}"
                     
-                    URL="https://airtable.com/shrRaW9OXoIwUXn1E?prefill_PR=${PR_URL}&hide_PR=true&prefill_Github+Handle=${GITHUB_HANDLE}&hide_Github+Handle=true"
+                    URL="https://airtable.com/shrRaW9OXoIwUXn1E?prefill_PR=$PR_URL&hide_PR=true&prefill_Github+Handle=${GITHUB_HANDLE}&hide_Github+Handle=true"
 
                     github.rest.issues.createComment({
                         issue_number: context.issue.number,
                         owner: context.repo.owner,
                         repo: context.repo.repo,
-                        body: "![Orpheus waving](http://rawr.hackclub.com/hyper-dino-wave.gif)\n*(Orpheus says hello!)*\n\n👋 Hey there! Welcome to [OnBoard](https://onboard.hackclub.com/)! We got your submission! We currently have our best and brightest reviewing this PR!\n\nIn the meantime, we'll need your email and photo ID to set you setup with Hack Club Bank! **Can you fill out this [form](${URL})**?\n\nSee you in a bit! Woo!"
+                        body: '![Orpheus waving](http://rawr.hackclub.com/hyper-dino-wave.gif)\n*(Orpheus says hello!)*\n\n👋 Hey there! Welcome to [OnBoard](https://onboard.hackclub.com/)! We got your submission! We currently have our best and brightest reviewing this PR!\n\nIn the meantime, we'll need your email and photo ID to set you setup with Hack Club Bank! **Can you fill out this [form](${URL})**?\n\nSee you in a bit! Woo!'
                         })
