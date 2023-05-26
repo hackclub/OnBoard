@@ -1,7 +1,7 @@
 # OnBoard
 
 > Interested in joining? We're launching May 27th! Stay tuned! RSVP [here](https://onboard.hackclub.com/)!
-<!-- Head over to [`DIRECTIONS.md`](./DIRECTIONS.md) to get started! -->
+<!-- > Interested in joining? Head over to [`DIRECTIONS.md`](./DIRECTIONS.md) to get started! -->
 
 How do we get high school students excited about electronics and PCB design? 
 
@@ -13,7 +13,7 @@ OnBoard is a high school program inspiring and supporting 1,000 teenagers to mak
 Every student will receive up to $100 to cover PCB manufacturing costs, and join a community of buzzing, passionate individuals all eager to design circuitry.
 
 ## Getting Started
-Create a PR in this repo using the following 
+Head over to [`DIRECTIONS.md`](./DIRECTIONS.md) to get started!
 
 ## The Problem
 It's easier than ever for high school students to get involved with programming; all you need is a computing device and internet access. Yet, *it's not the same for hardware*. While PCB fabs have greatly increased the accessibility for professionally done boards, there is still no clear way for high school students to jump in. This is where OnBoard comes in.

@@ -11,7 +11,7 @@ project: "PROJECT NAME"
 ##### Describe your board in 2-3 sentences. What are you making? What will it do?
 
 ## Plan
-##### How much is it going to cost? What's your timeline?
+##### How much is it going to cost?
 
 ## Design
 ##### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional**

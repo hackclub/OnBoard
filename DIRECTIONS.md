@@ -38,10 +38,10 @@ With your README filled out, head over to add files to begin uploading your Gerb
 ![Upload gerber files](docs/images/directions/adding-gerbers.png)
 
 In all, you should have the following files under your project folder:
-- [ ] `Gerbers.zip`: This should be the file that you send off to JLCPCB.
-- [ ] `JLCPCB.png`: A screen shot of JLCPCB approving your board
-- [ ] Design files (`design.json`, `design.sch`, `design.brd`, etc). Whatever format your designer outputs to should be included.
 - [ ] `README.md`: A filled out [`TEMPLATE.md`](./TEMPLATE.md), renamed to `README.md`
+- [ ] `JLCPCB.png`: A screen shot of JLCPCB approving your board
+- [ ] `Gerbers.zip`: This should be the file that you send off to JLCPCB.
+- [ ] Design files (`design.json`, `design.sch`, `design.brd`, etc). Whatever format your designer outputs to should be included.
 
 If you have all the above, you're done with this step!
 
