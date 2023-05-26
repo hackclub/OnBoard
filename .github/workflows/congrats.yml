@@ -6,7 +6,6 @@ on:
 
 jobs:
     comment:
-        if: github.event.pull_request.merged == true
         runs-on: ubuntu-latest
         steps:
             - name: Greetings
@@ -14,8 +13,7 @@ jobs:
               with:
                 github-token: ${{secrets.GITHUB_TOKEN}}
                 script: |
-                    OWNER=github.event.pull_request.head.repo.owner.login
-                    BODY="Congrats @$OWNER! You're project has just been merged!\n\nYour next step is to claim your grant! You should have just received an email from Hack Club Bank on joining the OnBoard bank platform. Make sure to check spam!\n\nIf you have any questions, feel free to reach out in [`#onboard-help`](https://hackclub.slack.com/archives/C0593MG26TT) or to contact @daisy from bank.\n\nNow, you can finally get those PCBs ordered!🎉\n\nP.S. If you haven't already, join the [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ)channel. There's a party brewing!"
+                    BODY="![Orpheus Party](http://rawr.hackclub.com/party_orpheus.png)\n\nCongrats! You're project has just been merged!\n\nYour next step is to claim your grant! You should have just received an email from Hack Club Bank on joining the OnBoard bank platform. Make sure to check spam!\n\nIf you have any questions, feel free to reach out in [`#onboard-help`](https://hackclub.slack.com/archives/C0593MG26TT) or to contact @daisy from bank.\n\nNow, you can finally get those PCBs ordered!🎉\n\nP.S. If you haven't already, join the [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ)channel. There's a party brewing!"
 
                     github.rest.issues.createComment({
                         issue_number: context.issue.number,
