@@ -4,7 +4,8 @@ Interested in submitting to OnBoard? You're in the right place!
 ## 1. Join [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) on Slack!
 Our [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel is where the party is getting started! If you haven't already joined, make sure to add yourself to the channel. And for those who are new to the Hack Club slack, sign up to our community of 13k+ makers through [here](https://hackclub.com/slack/) (don't worry, there isn't an application).
 
-Maybe ping a little hello to `@Kevin Yang`?
+Perhaps ping a little hello to `@Kevin Yang`?
+
 ## 2. Fork!
 Fork the [`onboard`](https://github.com/hackclub/OnBoard/) repo! This is the where you'll add your project files and eventually PR from!
 
