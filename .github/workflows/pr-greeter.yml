@@ -38,9 +38,24 @@ jobs:
               with:
                 github-token: ${{secrets.GITHUB_TOKEN}}
                 script: |
+                    const issues = await github.rest.pulls.list({
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        state: 'open',
+                        head: `${context.repo.owner}:${context.ref.replace('refs/heads/', '')}`
+                    })
+
+                    const pr = context.issue.number || issues.data[0].number
+                    const PR_URL = https://github.com/hackclub/OnBoard/pull/${pr}
+                    
+                    const GITHUB_HANDLE = context.payload.pull_request.user.login
+                    
+                    echo "PR URL: ${PR_URL}"
+                    echo "Github Handle: ${GITHUB_HANDLE}"
+                    
                     github.rest.issues.createComment({
                         issue_number: context.issue.number,
                         owner: context.repo.owner,
                         repo: context.repo.repo,
-                        body: "![Orpheus waving](http://rawr.hackclub.com/hyper-dino-wave.gif)\n*(Orpheus says hello!)*\n\n👋 Hey there! Welcome to [OnBoard](https://onboard.hackclub.com/)! We got your submission! We currently have our best and brightest reviewing this PR!\n\nIn the meantime, we'll need your email and photo ID to set you setup with Hack Club Bank! **Can you fill out this [form](https://airtable.com/shrRaW9OXoIwUXn1E)**?\n\nSee you in a bit! Woo!"
+                        body: "![Orpheus waving](http://rawr.hackclub.com/hyper-dino-wave.gif)\n*(Orpheus says hello!)*\n\n👋 Hey there! Welcome to [OnBoard](https://onboard.hackclub.com/)! We got your submission! We currently have our best and brightest reviewing this PR!\n\nIn the meantime, we'll need your email and photo ID to set you setup with Hack Club Bank! **Can you fill out this [form](https://airtable.com/shrRaW9OXoIwUXn1E?prefill_PR=${PR_URL}&hide_PR=true&prefill_Github+Handle=${GITHUB_HANDLE}&hide_Github+Handle=true)**?\n\nSee you in a bit! Woo!"
                     })
