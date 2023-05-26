@@ -69,3 +69,6 @@ fi
 #     echo "BOM not included"
 #     exit 1
 # fi
+OWNER="KEVIN"
+BODY="Congrats $OWNER! You're project has been merged! Your next step is to schedule a call with @daisy (from Bank) to get setup with your OnBoard card! Find a time [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0pvZ17vB492hU6bVBAFJsYgILdPQr32t5z4LrC7DWHfJDMLGs3A0ca-OfvZe3h6I6FmIuom6mM)"
+echo $BODY

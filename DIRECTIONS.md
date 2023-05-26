@@ -1,22 +1,26 @@
 # Directions
 Interested in submitting to OnBoard? You're in the right place!
 
-## 1. Fork!
+## 1. Join [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) on Slack!
+Our [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel is where the party is getting started! If you haven't already joined, make sure to add yourself to the channel. And for those who are new to the Hack Club slack, sign up to our community of 13k+ makers through [here](https://hackclub.com/slack/) (don't worry, there isn't an application).
+
+Maybe ping a little hello to `@Kevin Yang`?
+## 2. Fork!
 Fork the [`onboard`](https://github.com/hackclub/OnBoard/) repo! This is the where you'll add your project files and eventually PR from!
 
 ![Fork the OnBoard repo](docs/images/directions/OnBoard-Fork.png)
 
-## 2. Design a Board!
-It's design time! Head over to an eCAD software of your choice (EasyEDA, KiCAD, Eagle) and start designing!
+## 3. Design a Board!
+It's design time! Head over to an eCAD software of your choice ([EasyEDA](https://easyeda.com/), [KiCAD](https://www.kicad.org/), [Eagle](http://eagle.autodesk.com/)) and start designing!
 
-Never designed before? No problem! We have design resources for EasyEDA, a free online eCAD program. Check them out here.
+Never designed before? No problem! We have design resources for [EasyEDA](https://easyeda.com/), a free online eCAD program. We'll be adding tutorials to [`design_resources.md`](./docs/design_resources.md) as we record them!
 
-## 3. Upload to JLCPCB and Check
+## 4. Upload to JLCPCB and Check
 Upload your Gerber files to JLCPCB and make sure they pass inspection. This is done by going to check out and selecting the review before paying option.
 
 This is **VITAL** since your project will only be approved if it passes inspection. **Take a screen shot**. You'll include this in your PR later.
 
-## 4. Add Your Design to Your Project Repo
+## 5. Add Your Design to Your Project Repo
 From your fork of `OnBoard`, create a folder with your project name under `OnBoard/projects`. To do this, go to the projects folder and click `Create new file`.
 
 ![Projects folder](/docs/images/directions/projects.png)
@@ -33,7 +37,7 @@ After this, copy and paste the contents of [`TEMPLATE.md`](https://github.com/cj
 
 Once your done, press the big green `Commit changes` button to save!
 
-With your README filled out, head over to add files to begin uploading your Gerber, design files, and screen shot of JLCPCB approval. 
+With your README filled out, head over to add files to begin uploading your Gerber, design files, and screen shot of JLCPCB approval.
 
 ![Upload gerber files](docs/images/directions/adding-gerbers.png)
 
@@ -57,7 +61,6 @@ That will bring you to the main repo, where you'll initiate a pull request. Foll
 > Here's a quick preview of the [submission checklist](.github/PULL_REQUEST_TEMPLATE.md)
 > ## Submission Checklist:
 > - [ ] I am a current high school, middle school, or home schooled student.
->- [ ] I am a member of the Hack Club Slack (Join [here](https://hackclub.com/slack>)).
 > - [ ] I have followed [DIRECTIONS.md](https://github.com/hackclub/OnBoard/directions.md)
 >   - [ ] Created a folder under `onboard/projects`
 >   - [ ] Filled out `TEMPLATE.md`
@@ -65,6 +68,6 @@ That will bring you to the main repo, where you'll initiate a pull request. Foll
 >  - [ ] Uploaded screen shot of PCB passing JLCPCB inspection
 
 ## 7. Ship it!
-Post photos of your board in `#onboard`! We can't wait to see what you make!
+Post photos of your board in [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ)! We can't wait to see what you make!
 
 ![John sharing PCB](docs/images/directions/john-sharing-pcb.png)
