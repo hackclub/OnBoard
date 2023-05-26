@@ -20,3 +20,7 @@ Head over to [`DIRECTIONS.md`](./DIRECTIONS.md) to get started!
 
 ## The Problem
 It's easier than ever for high school students to get involved with programming; all you need is a computing device and internet access. Yet, *it's not the same for hardware*. While PCB fabs have greatly increased the accessibility for professionally done boards, there is still no clear way for high school students to jump in. This is where OnBoard comes in.
+
+## Example Projects
+[PCB Business Card with NFC](https://www.instructables.com/PCB-Business-Card-With-NFC/)
+[DIY Raspberry Pico Dev Board](https://01001000.xyz/2021-02-13-Raspberry-Pi-Pico-dev-board-Kiwikit/)
