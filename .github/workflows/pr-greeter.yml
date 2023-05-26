@@ -8,7 +8,6 @@ jobs:
     Greetings:
         runs-on: ubuntu-latest
         steps:
-
             - name: Assign to reviewers
               uses: actions/github-script@v5
               with:
@@ -32,12 +31,21 @@ jobs:
                         repo: context.repo.repo,
                         labels: ['Submission']
                     })
-             
+            
             - name: Greetings
               uses: actions/github-script@v5
               env:
-                GITHUB_URL: ${{ github.event.pull_request.comments_url }}
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                GITHUB_URL: "${{ github.event.pull_request.comments_url }}"
+                GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
               with:
                 script: |
                     echo "test"
+                
+            # - name: Greetings
+            #   uses: actions/github-script@v5
+            #   env:
+            #     GITHUB_URL: ${{ github.event.pull_request.comments_url }}
+            #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            #   with:
+            #     script: |
+            #         echo "test"
