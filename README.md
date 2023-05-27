@@ -15,6 +15,15 @@ OnBoard is a high school program inspiring and supporting 1,000 teenagers to mak
 
 Every student will receive up to $100 to cover PCB manufacturing costs, and join a community of buzzing, passionate individuals all eager to design circuitry.
 
+## Requirements
+Every design/submission needs to meet the following constraints to be approved:
+
+- Unique and open-source design
+- Must be orderable on JLCPCB (that includes a supported shipping address!)
+- Must be in high school[^1] and show proof of high school enrollment to submit
+
+[^1]: Home school still counts!
+
 ## Getting Started
 Head over to [`DIRECTIONS.md`](./DIRECTIONS.md) to get started!
 
