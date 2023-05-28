@@ -1,6 +1,6 @@
 ---
 name: "Muhammad Shah"
-slack_handle: "U059E2QD7GF"
+slack_handle: "Muhammad Shah"
 github_handle: "babyyoda777"
 project: "DIY Power Bank"
 ---
