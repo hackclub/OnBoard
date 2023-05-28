@@ -12,7 +12,7 @@ My project is basically a USB Type C Power Bank which I will probably make mysel
 
 ## Plan
 ##### How much is it going to cost? What's your timeline?
-I assume for a single until with no mistakes the total coast would be around £30 but I might need a couple of tries so will probably use around £90 total to get it right.
+I assume for a single until with no mistakes the total cost would be around £3.
 
 ## Design
 ##### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional**
