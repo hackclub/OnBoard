@@ -4,6 +4,10 @@ on:
     pull_request: 
         types: [ closed ]
 
+permissions:
+    pull-requests: write
+    issues: write
+
 jobs:
     Congrats:
         if: github.event.pull_request.merged == true
