@@ -12,7 +12,7 @@ My project is basically a USB Type C Power Bank which I will probably make mysel
 
 ## Plan
 ##### How much is it going to cost? What's your timeline?
-I assume for a single until with no mistakes the total cost would be around £3.
+I assume for a single until with no mistakes the total cost would be around £3. With all components included it will cost around £10 per board along with assembly since I don't have the tools to solder it at home myself :(
 
 ## Design
 ##### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional**
