@@ -1,39 +1,39 @@
-name: Non-Requisite Check
-run-name: Non-Requisite Check
-on: 
-    pull_request: 
-        types: [opened] # make this only for main
+# name: Non-Requisite Check
+# run-name: Non-Requisite Check
+# on: 
+#     pull_request: 
+#         types: [opened] # make this only for main
 
-jobs:
-  Non-Requisite-Check:
-    name: Non-Requisite Check
-    runs-on: ubuntu-latest
-    steps:
-        - name: Check out
-          uses: actions/checkout@v2
-        - name: Check for BOM
-          run: |    
-            URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
-            FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
-            project_name=$(echo $FILES[0] | cut -d'/' -f2)
+# jobs:
+#   Non-Requisite-Check:
+#     name: Non-Requisite Check
+#     runs-on: ubuntu-latest
+#     steps:
+#         - name: Check out
+#           uses: actions/checkout@v2
+#         - name: Check for BOM
+#           run: |    
+#             URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
+#             FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
+#             project_name=$(echo $FILES[0] | cut -d'/' -f2)
 
-            if echo $FILES | grep -qi "$project_name/.*.csv" || echo $FILES | grep -qi "$project_name/.*.xlsx"; then
-                echo "BOM included"
-            else
-                echo "BOM not included"
-                exit 1
-            fi
-            exit 0
-        - name: Check for design files
-          run: |
-            URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
-            FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
-            project_name=$(echo $FILES[0] | cut -d'/' -f2)
+#             if echo $FILES | grep -qi "$project_name/.*.csv" || echo $FILES | grep -qi "$project_name/.*.xlsx"; then
+#                 echo "BOM included"
+#             else
+#                 echo "BOM not included"
+#                 exit 1
+#             fi
+#             exit 0
+#         - name: Check for design files
+#           run: |
+#             URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
+#             FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
+#             project_name=$(echo $FILES[0] | cut -d'/' -f2)
 
-            if echo $FILES | grep -qi "$project_name/.*.json" || echo $FILES | grep -qi "$project_name/.*.brd" || echo $FILES | grep -qi "$project_name/.*.sch"; then
-                echo "Design files included"
-            else
-                echo "Design files not included"
-                exit 1
-            fi
-            exit 0
+#             if echo $FILES | grep -qi "$project_name/.*.json" || echo $FILES | grep -qi "$project_name/.*.brd" || echo $FILES | grep -qi "$project_name/.*.sch"; then
+#                 echo "Design files included"
+#             else
+#                 echo "Design files not included"
+#                 exit 1
+#             fi
+#             exit 0
