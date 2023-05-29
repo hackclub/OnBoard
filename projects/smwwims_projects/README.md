@@ -14,9 +14,9 @@ I have already designed the board and have all parts at home to solder it. The o
 | Type of Cost  | Cost   |
 | ------------- | ------ |
 | PCB           | $8.70  |
-| Shipping      | $19.27 |
-| Customs       | $3.60  |
-| Discount      | -$9.99 |
+| Shipping      | $17.70 |
+| Customs       | $5.28  |
+| Discount      |-$10.10 |
 | Total         | $21.58 |
 
 ## Design
