@@ -11,6 +11,8 @@ project: "Card - Marios"
 Following Maggies tutorial I wanted to give a try to make a custom business card with my name.
 So that is what I did, with KiCad on my hand I completed the project!
 
+Note: I took a screenshot of the order screen and not the review screen because there wasn't an option to Pay Later.
+
 ## Plan
 ##### How much is it going to cost? What's your timeline?
 | ITEM            | COST     |
