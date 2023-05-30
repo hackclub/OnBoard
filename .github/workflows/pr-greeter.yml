@@ -4,21 +4,21 @@ on:
     pull_request:
         types: [ opened ]
 
+permissions:
+    pull-requests: write
+    issues: write
+
 jobs:
     Greetings:
         runs-on: ubuntu-latest
         steps:
             - name: Assign to reviewers
-              uses: actions/github-script@v5
+              uses: madrapps/add-reviewers@v1
               with:
-                github-token: ${{secrets.GITHUB_TOKEN}}
-                script: |
-                    github.rest.issues.addAssignees({
-                        issue_number: context.issue.number,
-                        owner: context.repo.owner,
-                        repo: context.repo.repo,
-                        assignees: ['bykevinyang']
-                    })
+                token: ${{ secrets.GITHUB_TOKEN }}
+                reviewers: 'bykevinyang'
+                re-request-when-changes-requested: true
+                re-request-when-approved: true
 
             - name: Label as submission
               uses: actions/github-script@v5
@@ -33,11 +33,12 @@ jobs:
                     })
             
             - name: Greetings
-              uses: actions/github-script@v5
+              uses: thollander/actions-comment-pull-request@v2.3.1
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
-                script: |
-                    GITHUB_URL=${{ github.event.pull_request.comments_url }}
-                    echo $GITHUB_URL
+                message: |
+                    ![Orpheus waving](http://rawr.hackclub.com/hyper-dino-wave.gif)\n*(Orpheus says hello!)*\n\n👋 Hey there! Welcome to [OnBoard](https://onboard.hackclub.com/)! We got your submission! We currently have our best and brightest reviewing this PR!\n\nIn the meantime, we'll need your email and photo ID to set you setup with Hack Club Bank! **Can you fill out this [form](https://airtable.com/shrbcDANe6ug6gj0p)**?\n\nSee you in a bit! Woo!
                 
             # - name: Greetings
             #   uses: actions/github-script@v5
