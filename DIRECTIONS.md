@@ -16,10 +16,11 @@ It's design time! Head over to an eCAD software of your choice ([EasyEDA](https:
 
 Never designed before? No problem! We have design resources for [EasyEDA](https://easyeda.com/), a free online eCAD program. We'll be adding tutorials to [`design_resources.md`](./docs/design_resources.md) as we record them!
 
-## 4. Upload to JLCPCB and Check
-Upload your Gerber files to JLCPCB and make sure they pass inspection. This is done by going to check out and selecting the review before paying option.
+## 4. Upload to JLCPCB and Take a Screenshot
+Upload your Gerber files to JLCPCB and add them to you cart. Once completed, take a screenshot with cost included!
+> If you're curious what all the settings are about or how to order for assembly, check out our [`ordering_from_JLCPCB.md`](./docs/ordering_from_JLCPCB.md) doc!
 
-This is **VITAL** since your project will only be approved if it passes inspection. **Take a screen shot**. You'll include this in your PR later.
+**Note:** Your screenshot is **VITAL** since your project cannot be approved without it. You'll include the screenshot in your PR later.
 
 ## 5. Add Your Design to Your Project Repo
 From your fork of `OnBoard`, create a folder with your project name under `OnBoard/projects`. To do this, go to the projects folder and click `Create new file`.
