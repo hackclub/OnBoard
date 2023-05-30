@@ -38,7 +38,13 @@ jobs:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
                 message: |
-                    ![Orpheus waving](http://rawr.hackclub.com/hyper-dino-wave.gif)\n*(Orpheus says hello!)*\n\n👋 Hey there! Welcome to [OnBoard](https://onboard.hackclub.com/)! We got your submission! We currently have our best and brightest reviewing this PR!\n\nIn the meantime, we'll need your email and photo ID to set you setup with Hack Club Bank! **Can you fill out this [form](https://airtable.com/shrbcDANe6ug6gj0p)**?\n\nSee you in a bit! Woo!
+                    ![Orpheus waving](http://rawr.hackclub.com/hyper-dino-wave.gif)
+                    
+                    👋 **Hey there!** Welcome to [OnBoard](https://onboard.hackclub.com/)! We got your submission! We currently have our best and brightest reviewing this PR!
+                    
+                    In the meantime, hang out in [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ). People are making some really cool stuff!
+                    
+                    I'll see you in a bit! Woo!
                 
             # - name: Greetings
             #   uses: actions/github-script@v5
