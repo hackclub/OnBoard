@@ -22,9 +22,9 @@ I’m currently trying to build a Hexapod Platform (also known as Stewart Platfo
 What helped me when designing my interface board was just analyzing other interface boards, like the Arduino Shields.
 
 
-# 2. NFC Buisness Card
+# 2. NFC Business Card
 ## Summary
-As many other Hack Clubbers I also designed a nfc buisness card I can give to recruiters. It's basically the same schematic just with another design on top of it.
+As many other Hack Clubbers I also designed a nfc business card I can give to recruiters. It's basically the same schematic just with another design on top of it.
 
 ## Plan
 | Type of Cost  | Cost   |
