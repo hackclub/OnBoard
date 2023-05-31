@@ -12,5 +12,5 @@ project: "NFC Business Card"
 ## Followed the instructon video provided by maggie (thanks for it), but I have designed it on my own with some inspiration drawn from instructables.
 ##### its around $30 (with coupon), I have selected the cheapest shipping method (for 12-20 days) so that it could save money!
 
-## Took inspiration from instructables but 90% is designed by me
+## Took inspiration from instructables but 99% is designed by me
 ##### The biggest challenge was routing all connections, but it was fun.
