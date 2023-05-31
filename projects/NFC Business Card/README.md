@@ -1,7 +1,7 @@
 ---
 name: "YASH SAXENA"
 slack_handle: "@Yash7"
-github_handle: "EnigmaByte7"
+github_handle: "@EnigmaByte7"
 project: "NFC Business Card"
 ---
 
