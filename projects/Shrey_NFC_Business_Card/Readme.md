@@ -10,9 +10,10 @@ project: "NFC Business Card"
 I followed maggie's workshop and make my own NFC business card!
 
 ## Plan
-Board production and assembly total is $5 and the shipping is $62.46 and Paypal fees is $ 3.34 the total is $70.80
+Board production and assembly total is $20.95 and the shipping is $72.80 and Paypal fees is $ 0.50 the total is $84.95
 Full price quote: 
-![image](https://github.com/Shrey-Mehra/OnBoard/assets/85977707/d64d7215-1ad2-4dca-974f-4ea7247429e4)
+![image](https://github.com/Shrey-Mehra/OnBoard/assets/85977707/ca26abf1-5e7a-435a-8bca-231a8e0df092)
+
 
 
 ## Design
