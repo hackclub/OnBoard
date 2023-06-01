@@ -3,6 +3,7 @@ run-name: Requisite Check
 on: 
     pull_request: 
         types: [opened]
+        paths: 'projects/**'
 
 jobs:
   Requisite-Check:
