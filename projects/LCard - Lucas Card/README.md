@@ -10,7 +10,7 @@ project: "LCard - NFC Business Card"
 ### A PCB based Business Card with NFC support.
 
 ## Plan
-##### Followed the instructon video provided by maggie (thanks!).
+### Followed the instructon video provided by maggie (thanks!).
 
 | What is? | Price | About |
 | --- | --- | --- |
@@ -20,7 +20,4 @@ project: "LCard - NFC Business Card"
 | ICMS SP | ~8.97 USD | 18% of the value*, ref: [Lei Complementar Federal 87/1996](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp87.htm); [Secretaria da Fazenda do Estado de São Paulo](https://portal.fazenda.sp.gov.br/acessoinformacao/Paginas/ICMS.aspx)
 | Total | 82.48 USD | N/A |
 
-* value = total declared + ship price
-
-## Design
-##### The top layer is supposed to be assembled and have the electrical components with a design. On the bottom layer there's a dogs draw. 
+`* value = total declared + ship price`
