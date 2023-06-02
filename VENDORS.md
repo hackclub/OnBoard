@@ -4,6 +4,7 @@ This is the list of approved vendors that the HCB grant cards can be used on. To
 
 - [JLCPCB](https://jlcpcb.com/): The default vendor.
 <!-- add more under this line to suggest a new vendor after reading the directions -->
+- [PCBgogo](https://www.pcbgogo.com): Cheaper shipping for UK via Hong Kong post + $50 coupon for first time users.
 
 ## Adding to the list
 
