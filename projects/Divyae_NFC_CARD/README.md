@@ -10,7 +10,7 @@ project: "Divyae_NFC_Card"
 ##### I followed maggie's tutorial and made an NFC enabled business card.
 
 ## Plan
-##### PCB cost (including shipping) comes out to be $59.28![image](https://github.com/TheARDxD/OnBoard/assets/69312435/1df0cc0c-8bc8-40a3-855d-d352d8e0ff07)
+##### PCB cost (including shipping) comes out to be $59.28. ![JLCPCB](https://github.com/TheARDxD/OnBoard/assets/69312435/d198e276-c5a7-4eb2-9035-e4817c81eb90)
 
 
 ## Design
