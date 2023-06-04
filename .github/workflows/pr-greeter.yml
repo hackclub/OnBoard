@@ -3,6 +3,8 @@ run-name: PR Greeter
 on:
     pull_request:
         types: [ opened ]
+        paths: 'projects/**'
+        
 
 permissions:
     pull-requests: write

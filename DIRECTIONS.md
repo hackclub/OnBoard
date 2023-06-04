@@ -6,6 +6,12 @@ Our [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel is whe
 
 Perhaps ping a little hello to `@Kevin Yang`?
 
+## Star the repo (Optional)
+
+To follow the repo for updates and show you're participating, click the "star" button on the [`onboard`](https://github.com/hackclub/OnBoard/) repo.
+
+![Star the OnBoard repo](docs/images/directions/star-repo.png)
+
 ## 2. Fork!
 Fork the [`onboard`](https://github.com/hackclub/OnBoard/) repo! This is the where you'll add your project files and eventually PR from!
 
