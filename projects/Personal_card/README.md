@@ -16,7 +16,7 @@ Project : NFC Personal Card
 #### I made an NFC Business card for me by following Maggie's tutorial on it.
 ## Plan
 #### Manufaturing cost: $2, Shipping: $15 (could be reduced to cheaper shipping plan).
-#### Components Required to build a PCB Piano using Arduino Nano
+
 
 
 #### I will create it in 20 day because of delivary.
