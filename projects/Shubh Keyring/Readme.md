@@ -11,9 +11,10 @@ project: "Orpheus Keyring"
 I followed maggie's design and make my own orpheus Keyring!
 
 ## Plan
-Board production and assembly total is $39.14 and the shipping is $72.80 the total is $111.92
+Board production and assembly total is $60.09 and the shipping is $37.77 the total is $97.86
 Full price quote: 
-![image](https://github.com/Shubh-Mehra/OnBoard/assets/135533126/1112cc0d-b87f-4291-b5d4-d1a4eace85cf)
+![image](https://github.com/Shubh-Mehra/OnBoard/assets/135533126/49e2bf65-6bd8-4e18-8456-f73261f1cc1c)
+
 
 
 
