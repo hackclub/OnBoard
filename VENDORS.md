@@ -3,6 +3,7 @@
 This is the list of approved vendors that the HCB grant cards can be used on. To keep the experience uniform for beginners our documentation will still refer to our default vendor, JLCPCB, and we're going to recommend them as the default route. The intent of opening up other vendors is to help people in different areas with different board sizes to find the best price option for shipping.
 
 - [JLCPCB](https://jlcpcb.com/): The default vendor.
+- [Oshpark](https://oshpark.com/)
 <!-- add more under this line to suggest a new vendor after reading the directions -->
 
 ## Adding to the list
