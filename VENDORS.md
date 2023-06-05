@@ -4,6 +4,7 @@ This is the list of approved vendors that the HCB grant cards can be used on. To
 
 - [JLCPCB](https://jlcpcb.com/): The default vendor.
 <!-- add more under this line to suggest a new vendor after reading the directions -->
+- [LCSC](https://lcsc.com): A parts vendor that works with JLCPCB.
 
 ## Adding to the list
 
