@@ -2,7 +2,7 @@
 name: "Acon"
 slack_handle: "Acon"
 github_handle: "acornitum"
-project: "aconbadge"
+project: "nfc badge"
 ---
 
 # nfc badge
