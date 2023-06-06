@@ -28,7 +28,7 @@ Upload your Gerber files to whatever vendor you prefer [^1] and add them to you 
 
 **Note:** Your screenshot is **VITAL** since your project cannot be approved without it. You'll include the screenshot in your PR later.
 
-[^1] Don't know which ones you can use? Check out [`VENDORS.md`](./docs/VENDORS.md) for more info!
+[^1] Don't know which ones you can use? Check out [`VENDORS.md`](./VENDORS.md) for more info!
 
 ## 5. Add Your Design to Your Project Repo
 From your fork of `OnBoard`, create a folder with your project name under `OnBoard/projects`. To do this, go to the projects folder and click `Create new file`.
