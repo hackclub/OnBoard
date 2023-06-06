@@ -1,13 +1,13 @@
 # Vendors
 
-This is the list of approved vendors that the HCB grant cards can be used on. To keep the experience uniform for beginners our documentation will still refer to our default vendor, JLCPCB, and we're going to recommend them as the default route. The intent of opening up other vendors is to help people in different areas with different board sizes to find the best price option for shipping.
+Hey there! This is the list of approved vendors that the HCB grant cards can be used on. To keep the experience uniform for beginners our documentation will still refer to our default vendor, JLCPCB, and we're going to recommend them as the default route. The intent of opening up other vendors is to help people in different areas with different board sizes to find the best price option for shipping.
 
 - [JLCPCB](https://jlcpcb.com/): The default vendor.
 <!-- add more under this line to suggest a new vendor after reading the directions -->
 
 ## Adding to the list
 
-To recommend a vendor for us to reseach, please submit a PR (only 1 vendor per PR) to this list! In general, we can only approve vendors that...
+To recommend a vendor for us to research, please submit a PR (only 1 vendor per PR) to this list! In general, we can only approve vendors that...
 
 - Only fulfill PCB fabrication (no general vendors like Mouser, Digikey, etc.)
 - Provide itemized receipts
