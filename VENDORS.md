@@ -4,6 +4,7 @@ This is the list of approved vendors that the HCB grant cards can be used on. To
 
 - [JLCPCB](https://jlcpcb.com/): The default vendor.
 <!-- add more under this line to suggest a new vendor after reading the directions -->
+- [RS-ONLINE](https://www.rs-online.com/): Parts vendor for parts not pre-assembled by JLCPCB.
 
 ## Adding to the list
 
