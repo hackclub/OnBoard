@@ -12,6 +12,9 @@ The printed (silkscreened) layers on your PCB. These are either white or black a
 
 ## Top/BottomPasteMaskLayer:
 This is the mask for the solder paste. Anything that will be soldered needs to have paste on it. You probably don't need to mess with this layer unless you know what you're doing, it should be automatically handled by your part footprints.
+![Screenshot 2023-06-09 131423](https://github.com/Shrey-Mehra/OnBoard/assets/85977707/c79e868f-6e33-4163-951b-ae6a217cd4bb)
+
+
 ## Top/BottomSolderMaskLayer:
 The is is the mask for the soldermask. The soldermask is the colored coating that goes on the board. By default, it covers everything except pads and is what gets printed on. Removing soldermask can be used to expose copper for cool effects.
 ![Screenshot 2023-06-09 125935](https://github.com/Shrey-Mehra/OnBoard/assets/85977707/d0fdff6c-024e-4324-bd57-a86ac82daf59)
@@ -20,6 +23,8 @@ The is is the mask for the soldermask. The soldermask is the colored coating tha
 These have no impact on the final production of your board, they are simply guides to tell you where you still need to draw traces.
 ## BoardOutLine:
 This is the actual outline of how your board will be cut.
+![Screenshot 2023-06-09 131358](https://github.com/Shrey-Mehra/OnBoard/assets/85977707/062d5d2a-fc90-4c7f-bfca-98bf2734e10b)
+
 ## Multi-Layer: 
 This holds, as the name suggests, multilayer elements such as vias or holes.
 ## Document: 
