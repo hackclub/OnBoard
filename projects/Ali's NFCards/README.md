@@ -13,9 +13,9 @@ NFCards are PCBs that are the same height and width as a credit card (ID-1 ISO s
 ## Plan
 ##### How much is it going to cost? What's your timeline?
 
-According to JLCPCB, the total cost, including shipping, is $101.00
+According to JLCPCB, the total cost, including shipping & applicable discounts (I have a $10 coupon), is $98.40.
 
-<img width="370" alt="image" src="https://github.com/alialiwa2005/OnBoard/assets/27908087/272b549f-0069-410f-9bad-c7cd63ea9339">
+<img width="1440" alt="image" src="https://github.com/alialiwa2005/OnBoard/assets/27908087/25502377-6c3f-4c1f-8192-9f06dd844602">
 
 ## Design
 ##### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional**
@@ -30,4 +30,4 @@ Ultimately, I simplified my design down to one antenna, one chip, and one LED, b
 
 I've made two NFCard designs; one is a Personal Computer Scientist business card, and another commemorates the Hack Club I've founded, learned and developed (in many ways) through, Gaynor McCown Hack Club.
 
-I found this to be a significantly enjoyable learning experience that I will remember for years to come.
+I found this to be an enjoyable learning experience that I will remember for years to come.
