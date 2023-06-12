@@ -1,0 +1,14 @@
+Name: Sahil Dasari
+Slack Handle:
+Github Handle:
+Project Name: Sahil Dasari's PCB
+
+#Sahil Dasari's PCB
+##Summary
+# Im making a Pcb Board (round rectangle). It has a QR code to my all about me website and has a LED on the I in my first name.
+
+##Plan
+###It will cost around $60 and 3-7 days.... All the info is on the **cart.png**
+
+###Design
+I started watching maggie make her PCB. A challange was getting pictures on the PCB because i kept getting **😓NO path-tags found** error. Exporting the QR on figma as a svg helped. 
