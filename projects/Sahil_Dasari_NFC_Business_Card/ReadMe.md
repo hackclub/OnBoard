@@ -1,7 +1,7 @@
 ---
 name: "Sahil Dasari"
-slack_handle: "SLACK HANDLE"
-github_handle: "GITHUB HANDLE"
+slack_handle: "Sahil IsCool"
+github_handle: "sahilchess"
 project: "Sahil Dasari PCB"
 ---
 
