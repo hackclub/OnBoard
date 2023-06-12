@@ -5,7 +5,7 @@ github_handle: "sahilchess"
 project: "Sahil Dasari PCB"
 ---
 
-#**Sahil Dasari PCB**
+# **Sahil Dasari PCB**
 ## Summary
 ##### Im making a Pcb Board (round rectangle). It has a QR code to my all about me website and has a LED on the I in my first name.
 
