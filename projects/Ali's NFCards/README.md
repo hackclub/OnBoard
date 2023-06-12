@@ -13,7 +13,7 @@ NFCards are PCBs that are the same height and width as a credit card (ID-1 ISO s
 ## Plan
 ##### How much is it going to cost? What's your timeline?
 
-The total cost is around 25 dollars per 5 PCBs, dependant on PCB color for each design, before shipping. I plan to test and use my project as soon as possible, following their delivery.
+The total cost is around 25 dollars per 5 PCBs, dependant on PCB color for each design, before shipping. I plan to test and use my projects as soon as possible, following their delivery.
 
 ## Design
 ##### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional**
