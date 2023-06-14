@@ -23,12 +23,13 @@ It's design time! Head over to an eCAD software of your choice ([EasyEDA](https:
 Never designed before? No problem! We have design resources for [EasyEDA](https://easyeda.com/), a free online eCAD program. We'll be adding tutorials to [`design_resources.md`](./docs/design_resources.md) as we record them!
 
 ## 4. Upload to a Vendor and Take a Screenshot
-Upload your Gerber files to whatever vendor you prefer [^1] and add them to you cart. Once completed, take a screenshot with cost included!
+Upload your Gerber files to whatever vendor you prefer [^1] and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^2]. Once completed, take a screenshot with cost included!
 > If you're curious what all the settings are about or how to order for assembly, check out our [`ordering_from_JLCPCB.md`](./docs/ordering_from_JLCPCB.md) doc!
 
 **Note:** Your screenshot is **VITAL** since your project cannot be approved without it. You'll include the screenshot in your PR later.
 
 [^1] Don't know which ones you can use? Check out [`VENDORS.md`](./VENDORS.md) for more info!
+[^2] If outside the US you may be charged customs which aren't covered by the grant! Check beforehand.
 
 ## 5. Add Your Design to Your Project Repo
 From your fork of `OnBoard`, create a folder with your project name under `OnBoard/projects`. To do this, go to the projects folder and click `Create new file`.
@@ -78,6 +79,7 @@ That will bring you to the main repo, where you'll initiate a pull request. Foll
 >   - [ ] Filled out `TEMPLATE.md`
 >   - [ ] Uploaded Gerber and design files
 >   - [ ] Uploaded screen shot of PCB passing vendor inspection
+>   - [ ] If outside the US I've checked that I can afford the customs charges in my country (which isn't covered by the grant)
 
 
 ## 7. Ship it!
