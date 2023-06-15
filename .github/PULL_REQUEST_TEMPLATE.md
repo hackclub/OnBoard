@@ -8,5 +8,6 @@
   - [ ] Filled out `TEMPLATE.md`
   - [ ] Uploaded Gerber and design files
   - [ ] Uploaded screen shot of PCB passing JLCPCB inspection
+  - [ ] If outside the US I've checked that I can afford the customs charges in my country (which isn't covered by the grant)
 
 <!-- -Submission- -->
