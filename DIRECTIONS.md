@@ -74,6 +74,7 @@ That will bring you to the main repo, where you'll initiate a pull request. Foll
 > - [ ] I am a current high school, middle school, or home schooled student.
 >  - [ ] I have filled out the [verification form](https://airtable.com/shrbcDANe6ug6gj0p)
 > - [ ] I have joined the [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel on Slack
+> - [ ] I made this board from scratch, even if I followed a tutorial
 > - [ ] I have followed [DIRECTIONS.md](https://github.com/hackclub/OnBoard/directions.md)
 >   - [ ] Created a folder under `onboard/projects`
 >   - [ ] Filled out `TEMPLATE.md`
