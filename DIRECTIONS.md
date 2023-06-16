@@ -80,6 +80,7 @@ That will bring you to the main repo, where you'll initiate a pull request. Foll
 >   - [ ] Filled out `TEMPLATE.md`
 >   - [ ] Uploaded Gerber and design files
 >   - [ ] Uploaded screen shot of PCB passing vendor inspection
+>   - [ ] I am ordering the smallest batch size (ie. JLCPCB's smallest order is for 5 boards)
 >   - [ ] If outside the US I've checked that I can afford the customs charges in my country (which isn't covered by the grant)
 
 
