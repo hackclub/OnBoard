@@ -10,7 +10,7 @@ project: "Samarth's Bussines Card"
 #####  I made an NFC-based business card initial design after watching Maggie's tutorial but changed the schematics a bit to include extra LEDs.
 
 ## Plan
-##### It should cost in total $40.42, with delivery charges included! It will take 2–3 days to deliver, according to JLCPCB.-
+##### It should cost in total $31.76 , with delivery charges included! It will take 2–3 days to deliver, according to JLCPCB.-
 
 ## Design
 ##### I watched Medggi's tutorial for initial design, and then I changed the schematics to include extra LEDs.
