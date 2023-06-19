@@ -17,7 +17,7 @@ and far less distracting than a fidget spinner.
 
 ## Plan
 
-I will order 10 boards from JLCPCB, who quotes $44.50 for the boards, economic
+I will order 5 boards from JLCPCB, who quotes $33.60 for the boards, economic
 assembly, and parts. Some parts, which I expect to be outside of the grant,
 will also come from Digi-Key (such as the battery holders which are not
 PnP-able, and the SOIC programming clip, and some jumper wires for
