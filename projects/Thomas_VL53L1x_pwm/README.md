@@ -34,7 +34,7 @@ I started this project planning to use the VL53C4x sensor for its slightly bette
 
 At this point I ran into a conflict between a small, inexpensive microcontroller and VL53C4x, as I found that the (required) STM device drivers used upwards of 50 kB of flash memory, which was well over total internal flash budget. If I had more experience with embedded development, I probably could have made this work with execute-in-place on a SPI external flash chip, but I didn't really think that was feasible.
 
-Pivoting to the VL53L1x, my job was a lot easier as the drivers only use ~2.3 kB of flash. The VL53L1x specifically operates at 1.6v~2.8v logic level, which drove my choice specifically to the STM32L011k for its 1.8v operating level. Doing an I2C shift would be possible, but would introduce a lot of potential problems with high-speed communications. Just shifting SWD and the PWM output would be a lot easier.
+Pivoting to the VL53L1x, my job was a lot easier as the drivers only use \~2.3 kB of flash. The VL53L1x specifically operates at 1.6v\~2.8v logic level, which drove my choice specifically to the STM32L011k for its 1.8v operating level. Doing an I2C shift would be possible, but would introduce a lot of potential problems with high-speed communications. Just shifting SWD and the PWM output would be a lot easier.
 
 A last-minute addition was the INT (interrupt) output pin, as I realized that the sensor update rates weren't quite as good as I thought, and so downstream devices could easily find a notification of new updates useful.
 
