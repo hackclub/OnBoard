@@ -12,7 +12,7 @@ project: "E-Fidget Lite"
 The E-Fidget Lite is a small fidget toy on a PCB. It uses a relay to create the
 feeling of a haptic "click". An ATtiny13A is responible for controlling the relay's
 interval, and a 6mm pushbutton connects the microcontroller to a coin battery when
-pushed. This can be used to aid in focus & anxiety prevention, while being discreet
+pushed. This device can be used to aid in focus & anxiety prevention, while being discreet
 and far less distracting than a fidget spinner.
 
 ## Plan
