@@ -28,8 +28,8 @@ Upload your Gerber files to whatever vendor you prefer [^1] and add them to you 
 
 **Note:** Your screenshot is **VITAL** since your project cannot be approved without it. You'll include the screenshot in your PR later.
 
-[^1] Don't know which ones you can use? Check out [`VENDORS.md`](./VENDORS.md) for more info!
-[^2] If outside the US you may be charged customs which aren't covered by the grant! Check beforehand.
+[^1]: Don't know which ones you can use? Check out [`VENDORS.md`](./VENDORS.md) for more info!
+[^2]: If outside the US you may be charged customs which aren't covered by the grant! Check beforehand.
 
 ## 5. Add Your Design to Your Project Repo
 From your fork of `OnBoard`, create a folder with your project name under `OnBoard/projects`. To do this, go to the projects folder and click `Create new file`.
@@ -42,7 +42,7 @@ Then in the box labeled `name your file...`, type in `PROJECT_NAME/README.md`. T
 
 ![Creating a folder](/docs/images/directions//creating-a-folder-highlighted.png)
 
-After this, copy and paste the contents of [`TEMPLATE.md`](https://github.com/cjdenio/OnBoard/blob/main/projects/!Template/TEMPLATE.md?plain=1) into the text editor and fill it out!
+After this, copy and paste the contents of [`TEMPLATE.md`](./projects/!Template/TEMPLATE.md) into the text editor and fill it out!
 
 ![Paste in TEMPLATE.md](docs/images/directions/paste-in-template.png)
 
