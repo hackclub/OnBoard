@@ -4,7 +4,7 @@
 
 The success of the OnBoard program's goal to inspire and support 1,000 teenagers in making their first PCB will be measured by categorizing submissions into two groups: *beginning* and *advanced* projects.
 
-The program aims to have 300 experienced projects and 700 beginning projects by the end of the year.
+The program aims to have 600 experienced projects and 1400 beginning projects by the end of the year.
 
 ### Beginning projects
 
