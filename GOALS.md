@@ -9,6 +9,6 @@ Purpose of this document is to outline our goals around distribution of projects
 Definitions:
 
 - **Beginner Projects**: Use few components and usually based on existing projects or tutorials
-- **Experienced Projects**: Very original, and have with multiple components.
+- **Experienced Projects**: Very original, and have multiple components.
 
 We aim to have 600 experienced projects and 1400 beginner projects funded by OnBoard by June 2024.
