@@ -20,12 +20,15 @@ If you team up with an IRL friend and want to build a project together, you woul
 
 ##### How many total grants are there available?
 
-There are 1,000 grants. Fortunately, OnBoard is will snowball into a continuous program, so don't worry if you're not in the first 1k.
+There are 1,000 grants. Fortunately, OnBoard will snowball into a continuous program, so don't worry if you're not in the first 1k.
 
 ##### Can we design multiple small boards instead of one?
 
 Yes! You can design as many boards as you want– just keep in mind the $100 grant is per-person. Just follow [DIRECTIONS.md](https://github.com/hackclub/OnBoard/directions.md) for each board!
 
+##### Are international customs fees covered?
+
+No, we unfortunately cannot reimburse for the cost of taxes and duties for your PCB shipment. However, certain vendors do offer shipping options that prepay customs, and we recommend using them.
 
 ##### Does the entire board have to cost less than $100?
 
