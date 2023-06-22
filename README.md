@@ -20,7 +20,7 @@ Every student will receive up to $100 to cover PCB manufacturing costs, and join
 Every design/submission needs to meet the following constraints to be approved:
 
 - Unique and open-source design
-- Must be orderable on JLCPCB or other [approved vendor](./VENDORS.md)
+- Must be orderable on JLCPCB or other [approved vendor](./docs/VENDORS.md)
 - Must be in high school[^1] and show proof of high school enrollment to submit
 
 [^1]: Home school still counts!
