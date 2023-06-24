@@ -1,6 +1,6 @@
 ![3 card](https://github.com/hackclub/OnBoard/assets/122998778/0e9e869c-95d2-41fb-8d44-9d58b37b5d49)
 
-# OnBoard
+# OnBoard - Get a $100 grant and make a PCB!
 
 > Interested in joining? Head over to [`DIRECTIONS.md`](./DIRECTIONS.md) to get started!
 
