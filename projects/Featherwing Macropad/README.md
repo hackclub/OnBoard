@@ -6,7 +6,7 @@ project: "Featherwing Macropad"
 
 ---
 
-# PROJECT NAME
+# Featherwing Macropad
 ## Summary
 ##### I am going to make a 4-key Cherry MX macropad that will be powered by an Adafruit Featherwing. There will also be a small monochrome OLED display.
 
