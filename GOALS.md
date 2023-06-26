@@ -14,3 +14,5 @@ Definitions:
 Please note that "projects" refers to an individual merged pull request submitting Gerber files to OnBoard. So a single individual could do 1 beginner and 1 experienced project using their $100 grant across 2 PRs.
 
 We aim to have 600 experienced projects and 1,400 beginner projects funded by OnBoard by June 2024.
+
+Stats Document: https://docs.google.com/spreadsheets/d/1EyV9SNxrJ36lN0HngtkWJxe8XCAiZ5sQ421pSQoUtEE/edit#gid=0
