@@ -12,4 +12,8 @@
   - [ ] I am ordering the smallest batch size (ie. JLCPCB's smallest order is for 5 boards)
   - [ ] If outside the US I've checked that I can afford the customs charges in my country (which isn't covered by the grant)
 
+- [ ] (Optional) This project is from a tutorial[^1].
+
+[^1]: Projects from a tutorial are 100% fine! We just want to ask so we can count how people are using tutorials.
+
 <!-- -Submission- -->
