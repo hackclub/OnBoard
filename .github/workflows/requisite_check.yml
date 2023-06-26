@@ -3,6 +3,7 @@ run-name: Requisite Check
 on: 
     pull_request: 
         types: [opened]
+        paths: 'projects/**'
 
 jobs:
   Requisite-Check:
@@ -67,16 +68,16 @@ jobs:
             fi
             exit 0
 
-        - name: Check for JLCPCB Approval
+        - name: Check for Vendor Approval
           run: |
             URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
             FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
             project_name=$(echo $FILES[0] | cut -d'/' -f2)
 
             if echo $FILES | grep -qi "$project_name/.*.png" || echo $FILES | grep -qi "$project_name/.*.jpeg" || echo $FILES | grep -qi "$project_name/.*.tiff"; then
-                echo "JLCPCB approval included"
+                echo "Vendor approval included"
             else
-                echo "JLCPCB approval not included"
+                echo "Vendor approval not included"
                 exit 1
             fi
             exit 0

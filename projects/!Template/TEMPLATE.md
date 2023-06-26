@@ -14,4 +14,4 @@ project: "PROJECT NAME"
 ##### How much is it going to cost?
 
 ## Design
-##### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional**
+##### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional***
