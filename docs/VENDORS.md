@@ -6,6 +6,7 @@ This is the list of approved vendors that the HCB grant cards can be used on. To
 <!-- add more under this line to suggest a new vendor after reading the directions -->
 - [OSHPark](https://oshpark.com/): A US-based vendor with purple PCBs. A bit more expensive, but may be cheaper after shipping.
 - [PCBgogo](https://www.pcbgogo.com): Cheaper shipping for UK via Hong Kong post + $50 coupon for first time users.
+- [NextPCB](https://www.nextpcb.com/?code=Zackdd): Offers $100 off first order great for if you have used some of your budget already and only have enough to pay for shipping.
 
 > Keep in mind that some international vendors will place an additional customs surcharge after purchasing. JLCPCB generally covers this in their additional fees breakdown (they don't cover customs in India). It's on you to check before ordering because the grant can't cover additional merchants like customs.
 
