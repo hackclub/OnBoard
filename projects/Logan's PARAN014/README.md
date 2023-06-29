@@ -15,7 +15,7 @@ Bare PCBs should cost about $50-$60 for 5 sets (PCB, Plate, Backplate, + shippin
 
 ## Parts needed 
 | Item  | Quantity | Price per unit |
-| ------------- | ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | [M2 Standoff Kit](https://www.amazon.com/dp/B07B9X1KY6/) | 2 | $11 |
 | [1N4148 Diodes](https://keeb.io/products/1n4148-diodes) | 1 | $3 |
 | [SSD1306 128x32](https://www.aliexpress.us/item/2251832693387998.html) | 5 | $2.6 |
