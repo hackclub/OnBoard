@@ -1,6 +1,6 @@
 ---
 name: "Logan Chung"
-slack_handle: "@SLACK HANDLE"
+slack_handle: "@Infinity"
 github_handle: "@LGN-infinity"
 project: "PARAN014"
 
