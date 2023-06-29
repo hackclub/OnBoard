@@ -1,4 +1,4 @@
-![3 card](https://github.com/hackclub/OnBoard/assets/122998778/0e9e869c-95d2-41fb-8d44-9d58b37b5d49)
+![Hop Onboard banner logo](https://cloud-b3h81o0df-hack-club-bot.vercel.app/0onboard_github.png)
 
 # OnBoard - Get a $100 grant and make a PCB!
 
