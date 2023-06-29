@@ -53,7 +53,7 @@ With your README filled out, head over to add files to begin uploading your Gerb
 ![Upload gerber files](docs/images/directions/adding-gerbers.png)
 
 In all, you should have the following files under your project folder:
-- [ ] `README.md`: A filled out [`TEMPLATE.md`](./TEMPLATE.md), renamed to `README.md`
+- [ ] `README.md`: A filled out [`TEMPLATE.md`](./projects/!Template/TEMPLATE.md?plain=1), renamed to `README.md`
 - [ ] `cart.png`: A screen shot of your vendor approving your board
 - [ ] `Gerbers.zip`: This should be the file that you send off to the vendor.
 - [ ] Design files (`design.json`, `design.sch`, `design.brd`, etc). Whatever format your designer outputs to should be included.
