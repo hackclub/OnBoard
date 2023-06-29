@@ -28,3 +28,9 @@ Bare PCBs should cost about $50-$60 for 5 sets (PCB, Plate, Backplate, + shippin
 
 ## Design
 The design was made in mind that anyone with a soldering iron should be able to make it, whether they be a complete newbie or an experienced maker. Another principle was to keep everything simple and accessible for everyone, as all the parts should be able to be ordered from one vendor and the case should not be hard to obtain, which is why I opted for mulitple plates versus a 3D-printed design, as 3D-printing is still not widely avaliable for everyone and the plates will be relatiuvely cheap.
+
+## Development
+Designed in kicad using these libraries:
++ https://github.com/BathroomEpiphanies/KiCAD-Keyboard-Tutorial/
++ https://github.com/g200kg/kicad-lib-arduino
++ https://github.com/foostan/kbd
