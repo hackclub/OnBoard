@@ -31,7 +31,7 @@ I explain my decisions further in the workshop I'm writing!
 
 ![longhorn shaped green pcb](https://cloud-k7cxb3o6w-hack-club-bot.vercel.app/0image.png)
 
-I'll spray paint this side burnt orange.
+I'll spray paint this side burnt orange ^.
 
 ![pcb with a bunch of components](https://cloud-3nvtmen07-hack-club-bot.vercel.app/0image.png)
 
