@@ -42,7 +42,7 @@ Then in the box labeled `name your file...`, type in `PROJECT_NAME/README.md`. T
 
 ![Creating a folder](/docs/images/directions//creating-a-folder-highlighted.png)
 
-After this, copy and paste the contents of [`TEMPLATE.md`](./projects/!Template/TEMPLATE.md) into the text editor and fill it out!
+After this, copy and paste the contents of [`TEMPLATE.md`](./projects/!Template/TEMPLATE.md?plain=1) into the text editor and fill it out!
 
 ![Paste in TEMPLATE.md](docs/images/directions/paste-in-template.png)
 
