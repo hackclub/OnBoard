@@ -15,7 +15,8 @@ I am making an NFC-based business card.
 
 ## Plan
 ##### How much is it going to cost?
-$94.83
+$89.19
+
 
 ## Design
 ##### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional***
