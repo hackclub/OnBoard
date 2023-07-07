@@ -1,4 +1,3 @@
-name: "Paolo L."
 slack_handle: "@MintyTreble"
 github_handle: "@bassusteur"
 project: "PROTO2040"
@@ -26,5 +25,5 @@ I continued working on it:
 and i got this:
 ![immagine](https://github.com/bassusteur/OnBoard/assets/42449683/af27f993-58f0-43c7-a505-fe22bc6c9ab7)
 I then asked my dear friend https://github.com/CRImier and our small group on discord for help with reviewing and enhancing this board and idea after idea we eventually got this..
-![immagine](https://github.com/bassusteur/OnBoard/assets/42449683/578ae32a-5f0a-490c-aa69-50bf72b0fa09)
+![immagine](https://github.com/bassusteur/OnBoard/assets/42449683/aefadbdd-99e6-4ad2-97dc-f3eee5f86a11)name: "Paolo L."
 ![immagine](https://github.com/bassusteur/OnBoard/assets/42449683/d5819616-5516-4248-b7f1-b82f1e38c462)
