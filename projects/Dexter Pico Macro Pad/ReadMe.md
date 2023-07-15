@@ -14,7 +14,7 @@ This is a custom macro pad built using a raspberry pi pico and 8 Kailh switches.
 
 ## Plan
 ##### How much is it going to cost?
-The PCB for each unit will cost about £1.01 GBP before shipping, the components used to populate the boards come to a total of roughly £12.54 GBP from thepihut.co.uk .
+The PCB for each unit will cost about £1.01 GBP before shipping, the components used to populate the boards come to a total of roughly £12.54 GBP from thepihut.co.uk which combined means a total cost of £13.55 GBP before shipping.
 
 ## Design
 ##### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional***
