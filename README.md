@@ -3,7 +3,8 @@
 # OnBoard - Get a $100 grant and make a PCB!
 
 > "I’m so glad that young people can create things like PC boards online. May your creativity have no limits!”
-> - [Steve Wozniak](https://en.wikipedia.org/wiki/Steve_Wozniak), Apple co-founder
+>
+> _– [Steve Wozniak](https://en.wikipedia.org/wiki/Steve_Wozniak), Apple co-founder_
 
 Our goal is to get high schoolers excited about electronics and circuit board (PCB) design. How do we do that?
 **By empowering them to bring their circuit designs to life!**
