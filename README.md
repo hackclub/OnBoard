@@ -10,7 +10,7 @@ It's easier than ever for high school students to get involved with programming;
 
 ---
 
-Every student will receive up to $100 to cover PCB manufacturing costs, and join a community of buzzing, passionate individuals all eager to design circuitry.
+Every student will receive up to $100 to cover PCB manufacturing costs, and join a community of peers– some more beginner and some more experienced.
 
 ## Requirements
 
@@ -25,30 +25,27 @@ Every design/submission needs to meet the following constraints to be approved:
 
 ## Getting Started
 
-### 1. Join [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) on Slack!
-Our [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel is where the party is getting started! If you haven't already joined, make sure to add yourself to the channel. And for those who are new to the Hack Club slack, sign up to our community of 13k+ makers through [here](https://hackclub.com/slack/?event=onboard) (don't worry, there isn't an application).
-
-Perhaps ping a little hello to `@Kevin Yang`?
-
 ### Star the repo (Optional)
 
 To follow the repo for updates and show you're participating, click the "star" button on the [`onboard`](https://github.com/hackclub/OnBoard/) repo.
 
 ![Star the OnBoard repo](docs/images/directions/star-repo.png)
 
-### 2. Fork!
+### 1. Join [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) on Slack!
 
-Fork the [`onboard`](https://github.com/hackclub/OnBoard/) repo! This is the where you'll add your project files and eventually PR from!
+Our [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel is where the party is getting started! If you haven't already joined, make sure to add yourself to the channel. And for those who are new to the Hack Club slack, sign up to our community of 13k+ makers through [here](https://hackclub.com/slack/?event=onboard) (don't worry, there isn't an application).
 
-![Fork the OnBoard repo](docs/images/directions/OnBoard-Fork.png)
+Perhaps ping a little hello to `@Kevin Yang`?
 
-### 3. Design a Board!
+### 2. Design a Board!
 
-It's design time! Head over to an eCAD software of your choice ([EasyEDA](https://easyeda.com/), [KiCAD](https://www.kicad.org/), [Eagle](http://eagle.autodesk.com/)) and start designing!
+It's design time! If you've done this before, you can skip ahead to step 3. Most people reading this will be new to PCB design, so we've made a simple tutorial on making an example board.
 
-Never designed before? No problem! We have design resources for [EasyEDA](https://easyeda.com/), a free online eCAD program. We'll be adding tutorials to [`design_resources.md`](./docs/design_resources.md) as we record them!
+Watch [Maggie's NFC card tutorial](https://hack.af/business-card), where you'll make a design from scratch in a free online editor in under half and hour. This is jumping in the deep end- it won't explain everything, but it will give you a taste of what's possible. By the end you probably won't understand _what_ you did or _why_ you did it, but you will have a working design for a board and you'll know how to **tweak** and **edit** the design to make it your own.
 
-### 4. Upload to a Vendor and Take a Screenshot
+_If you get stuck on this tutorial, or want more example projects to learn from, post in the Slack channel to hear from others going on their journeys._
+
+### 3. Upload to a Vendor and Take a Screenshot
 
 Upload your Gerber files to whatever vendor you prefer [^1] and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^2]. Once completed, take a screenshot with cost included!
 > If you're curious what all the settings are about or how to order for assembly, check out our [`ordering_from_JLCPCB.md`](./docs/ordering_from_JLCPCB.md) doc!
@@ -57,6 +54,12 @@ Upload your Gerber files to whatever vendor you prefer [^1] and add them to you 
 
 [^1]: Don't know which ones you can use? Check out [`VENDORS.md`](./VENDORS.md) for more info!
 [^2]: If outside the US you may be charged customs which aren't covered by the grant! Check beforehand.
+
+### 4. Fork!
+
+Fork the [`onboard`](https://github.com/hackclub/OnBoard/) repo! This is the where you'll add your project files and eventually PR from!
+
+![Fork the OnBoard repo](docs/images/directions/OnBoard-Fork.png)
 
 ### 5. Add Your Design to Your Project Repo
 
