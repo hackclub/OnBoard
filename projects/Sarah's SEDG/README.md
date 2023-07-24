@@ -1,7 +1,7 @@
 ---
 name: Sarah Wang
-slack_handle: @sarahcha
-github_handle: @sarinara
+slack_handle: sarahcha
+github_handle: sarinara
 project: SEDG
 ---
 
