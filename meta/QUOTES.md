@@ -3,12 +3,12 @@
 ## [Dean Kamen](https://en.wikipedia.org/wiki/Dean_Kamen)
 
 > “When I have a great idea, I often have to create my own parts to do it. I learned long ago how to create my own printed circuit boards and you can too with OnBoard.”
-
-- Dean Kamen
+>
+> \- Dean Kamen
 
 > “I encourage all FIRST students to check this out.”
-
-- Dean Kamen
+>
+> \- Dean Kamen
 
 ## [Steve Wozniak](https://en.wikipedia.org/wiki/Steve_Wozniak)
 
@@ -25,5 +25,5 @@
 > I realized that, in my head, this PC board represented myself, and that’s how perfect (as can be) I was. When you care, it’s not about money. It’s about yourself and your ability and your desire to do as good a job as possible.
 > 
 > I’m so glad that young people can create things like PC boards online. May your creativity have no limits!
-
-- Steve Woz
+>
+> \- Steve Woz
