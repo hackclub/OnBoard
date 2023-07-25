@@ -26,4 +26,4 @@
 > 
 > I’m so glad that young people can create things like PC boards online. May your creativity have no limits!
 >
-> \- Steve Woz
+> \- Steve Wozniak ("Woz")
