@@ -13,9 +13,9 @@ project: "Dominic's NFC Card"
 
 ## Plan
 
-Order 10 boards (or are they cards now) from JCLPCB, with parts comes out to just under. Shipping is ~$15.
+Order 5 boards (or are they cards now) from JCLPCB, with parts comes out to just over $22 with a _"special offer_. Shipping is ~$15.
 
-Then probably use the rest of the money to make another batch with a different design? Not sure on the rules for this.
+Then probably make another batch with a different design? Not sure on the rules for this.
 
 ## Design
 
