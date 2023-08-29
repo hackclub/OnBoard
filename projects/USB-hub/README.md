@@ -1,6 +1,6 @@
 ---
 name: "Arvin Premlal"
-slack_handle: "@SLACK HANDLE"
+slack_handle: "@Arvin Premlal"
 github_handle: "@Arvin-Prem"
 project: "Usb-hub"
 
