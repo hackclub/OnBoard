@@ -6,7 +6,7 @@ project: "TOTKey"
 
 ---
 
-# PROJECT NAME
+# TOTKey
 ## Summary
 A USB key capable of generating TOTPs (2FA codes) and sending them to the attached computer.
 Because I want to be able to generate 2FA codes without my phone. Pronounced `/ˌti o ti ˈki/`.
