@@ -47,13 +47,13 @@ _If you get stuck on this tutorial, or want more example projects to learn from,
 
 ### 3. Upload to a Vendor and Take a Screenshot
 
-Upload your Gerber files to whatever vendor you prefer [^1] and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^2]. Once completed, take a screenshot with cost included!
+Upload your Gerber files to JLCPCB.com and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^3] if there's a specific one you want to use [^4]. Once completed, take a screenshot with cost included!
 > If you're curious what all the settings are about or how to order for assembly, check out our [`ordering_from_JLCPCB.md`](./docs/ordering_from_JLCPCB.md) doc!
 
 **Note:** Your screenshot is **VITAL** since your project cannot be approved without it. You'll include the screenshot in your PR later.
 
-[^1]: Don't know which ones you can use? Check out [`VENDORS.md`](./VENDORS.md) for more info!
-[^2]: If outside the US you may be charged customs which aren't covered by the grant! Check beforehand.
+[^3]: Don't know which ones you can use? Check out [`VENDORS.md`](./VENDORS.md) for more info!
+[^4]: If outside the US you may be charged customs which aren't covered by the grant! Check beforehand.
 
 ### 4. Fork!
 
