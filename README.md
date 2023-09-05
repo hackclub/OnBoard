@@ -52,7 +52,7 @@ Upload your Gerber files to JLCPCB.com and add them to you cart. JLCPCB is the d
 
 **Note:** Your screenshot is **VITAL** since your project cannot be approved without it. You'll include the screenshot in your PR later.
 
-[^3]: Don't know which ones you can use? Check out [`VENDORS.md`](./VENDORS.md) for more info!
+[^3]: Don't know which ones you can use? Check out [`VENDORS.md`](docs/VENDORS.md) for more info!
 [^4]: If outside the US you may be charged customs which aren't covered by the grant! Check beforehand.
 
 ### 4. Fork!
