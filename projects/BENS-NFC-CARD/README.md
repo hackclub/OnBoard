@@ -11,8 +11,8 @@ project: "BENS-NFC-CARD"
 ##### NFC card thats cool to whip out as little spice to the regular card
 
 ## Plan
-##### For 10 cards, $13 Dollars X 2 (2 iterations/types) =$26 USD
-please print 10 of each iteration
+##### For 5 cards, $10 Dollars X 2 (2 iterations/types) =$20 USD
+please print 5 of each iteration
 
 ## Design
 ##### The tutorial yall made
