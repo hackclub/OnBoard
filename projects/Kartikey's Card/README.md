@@ -13,8 +13,8 @@ Made a cool bussiness card by following Maggie's tutorial, but focused tons on A
 
 ## Plan
 ##### How much is it going to cost?
-It's going to cost $30.05
-$10.80 for the 20 cards and $19.95 for shipping to India by Air Mail
+It's going to cost $16.90
+$2 for the 5 cards and $14.80 for shipping to India by Air Mail
 
 ## Design
 ##### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional***
