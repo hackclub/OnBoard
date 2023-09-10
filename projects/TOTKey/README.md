@@ -14,9 +14,9 @@ Because I want to be able to generate 2FA codes without my phone. Pronounced `/Ë
 ## Plan/Cost
 Part|Part No.|Supplier|Price|Notes
 ---|---|---|---|---
-PCB/PCBA|N/A|JLCPCB|$50.21|Hopefully less if I can figure out how to apply a coupon
+PCB/PCBA|N/A|JLCPCB|$52.83|
 OLED|B08ZY4YBHL|[Amazon](https://www.amazon.com/Teyleten-Robot-Display-SSD1306-Raspberry/dp/B08ZY4YBHL)|$13.88|
-Battery holder|C964720|[LCSC](https://www.lcsc.com/product-detail/Battery-Connectors_MYOUNG-BS-12-A1AJ002-F_C964720.html)|$9.39|Shipping is most of this cost
+Battery holder|C964720|[LCSC](https://www.lcsc.com/product-detail/Battery-Connectors_MYOUNG-BS-12-A1AJ002-F_C964720.html)|$11.51|Shipping is most of this cost
 CR1220 batteries|B0797NRXZY|[Amazon](https://www.amazon.com/LiCB-Pack-CR1220-Lithium-Battery/dp/B0797NRXZY)|$5.99|
 
 Hopefully everything works on the first revision (thanks to #onboard, especially Hugo, Karmanyaah, and Ishan, for catching some issues before I made v1), but if it doesn't,
