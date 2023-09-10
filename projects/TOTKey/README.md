@@ -9,7 +9,8 @@ project: "TOTKey"
 # TOTKey
 ## Summary
 A USB key capable of generating TOTPs (2FA codes) and sending them to the attached computer.
-Because I want to be able to generate 2FA codes without my phone. Pronounced `/ˌti o ti ˈki/`.
+Why? Because I want to be able to generate 2FA codes when I don't have my phone. Pronounced `/ˌti o ti ˈki/`.
+Also, this  happens to be a pretty capable RP2040 devboard, with an OLED, 3 buttons, 2 LEDs, and a battery-backed RTC.
 
 ## Plan/Cost
 Part|Part No.|Supplier|Price|Notes
