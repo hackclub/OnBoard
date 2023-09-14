@@ -17,7 +17,7 @@ Every student will receive up to $100 to cover PCB manufacturing costs, and join
 Every design/submission needs to meet the following constraints to be approved:
 
 - Unique and open-source design
-- Must be orderable on JLCPCB or other [approved vendor](./docs/VENDORS.md)
+- Must be orderable on JLCPCB or other [approved vendor](https://github.com/hackclub/OnBoard/blob/main/docs/VENDORS.md)
 - Must be in high school[^1][^2] and show proof of high school enrollment to submit
 
 [^1]: Home school still counts!
@@ -47,13 +47,13 @@ _If you get stuck on this tutorial, or want more example projects to learn from,
 
 ### 3. Upload to a Vendor and Take a Screenshot
 
-Upload your Gerber files to whatever vendor you prefer [^1] and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^2]. Once completed, take a screenshot with cost included!
+Upload your Gerber files to JLCPCB.com and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^3] if there's a specific one you want to use [^4]. Once completed, take a screenshot with cost included!
 > If you're curious what all the settings are about or how to order for assembly, check out our [`ordering_from_JLCPCB.md`](./docs/ordering_from_JLCPCB.md) doc!
 
 **Note:** Your screenshot is **VITAL** since your project cannot be approved without it. You'll include the screenshot in your PR later.
 
-[^1]: Don't know which ones you can use? Check out [`VENDORS.md`](./VENDORS.md) for more info!
-[^2]: If outside the US you may be charged customs which aren't covered by the grant! Check beforehand.
+[^3]: Don't know which ones you can use? Check out [`VENDORS.md`](docs/VENDORS.md) for more info!
+[^4]: If outside the US you may be charged customs which aren't covered by the grant! Check beforehand.
 
 ### 4. Fork!
 
@@ -100,21 +100,6 @@ Once you've uploaded your files, you can merge them to the main repo through a p
 That will bring you to the main repo, where you'll initiate a pull request. Follow the checklist, we'll then review your PR and you'll be off to the races!
 
 ![Submission checklist](docs/images/directions/submission-checklist.png)
-
-> Here's a quick preview of the [submission checklist](.github/PULL_REQUEST_TEMPLATE.md)
-> ## Submission Checklist:
->
-> - [ ] I am a current high school, middle school, or home schooled student.
->  - [ ] I have filled out the [verification form](https://airtable.com/shrbcDANe6ug6gj0p)
-> - [ ] I have joined the [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel on Slack
-> - [ ] I made this board from scratch, even if I followed a tutorial
-> - [ ] I have followed [DIRECTIONS.md](https://github.com/hackclub/OnBoard/directions.md)
->   - [ ] Created a folder under `onboard/projects`
->   - [ ] Filled out `TEMPLATE.md`
->   - [ ] Uploaded Gerber and design files
->   - [ ] Uploaded screen shot of PCB passing vendor inspection
->   - [ ] I am ordering the smallest batch size (ie. JLCPCB's smallest order is for 5 boards)
->   - [ ] If outside the US I've checked that I can afford the customs charges in my country (which isn't covered by the grant)
 
 
 ### 7. Ship it!
