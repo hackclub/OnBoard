@@ -17,6 +17,8 @@ Go ahead and get yourself a JST-XH connector set and an IWISS dupont/JST crimper
 
 Parts that are specific:
 
+You'll need 2 of the boards, one for the mainboard side and one for the hotend side.
+
 Phoenix Contact 1984617 4x
 
 JST S34B-PHDSS 2x
@@ -26,4 +28,4 @@ JST PHDR-34VS 2x
 34, yes 34 of these wires https://www.digikey.com/en/products/detail/jst-sales-america-inc/AJWPFJWPF22K305R/6708754 or if you want to crimp them yourselves, you can get the individual leads, though that's a pain.
 
 ## Design
-##### This design has been worked on for at least a year. I'm personally extremely proud of this. I've had many failures with the previous designs though, the first one had too small of traces, and I never noticed until I made v1.5.
+##### This design has been worked on for at least a year. I'm personally extremely proud of this. I've had many failures with the previous designs though, the first one had too small of traces, and I never noticed until I made v1.5. Made with KiCAD
