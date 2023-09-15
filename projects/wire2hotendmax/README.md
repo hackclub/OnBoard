@@ -12,11 +12,17 @@ project: "Wire2Hotend MAX"
 
 ## Plan
 ##### Not the cheapest thing on earth, though not for no reason. 
+
 Go ahead and get yourself a JST-XH connector set and an IWISS dupont/JST crimper, best bang for your buck. You will be using these connectors for 99% of everything. 
+
 Parts that are specific:
+
 Phoenix Contact 1984617 4x
+
 JST S34B-PHDSS 2x
+
 JST PHDR-34VS 2x
+
 34, yes 34 of these wires https://www.digikey.com/en/products/detail/jst-sales-america-inc/AJWPFJWPF22K305R/6708754 or if you want to crimp them yourselves, you can get the individual leads, though that's a pain.
 
 ## Design
