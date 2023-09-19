@@ -19,7 +19,7 @@ Parts that are specific:
 
 You'll need 2 of the boards, one for the mainboard side and one for the hotend side.
 
-Phoenix Contact 1984617 4x
+Phoenix Contact 1984617 4x OR any 3.50mm pitch 1 level 2 conductor wire to board terminal block, still need 4.
 
 JST S34B-PHDSS 2x
 
