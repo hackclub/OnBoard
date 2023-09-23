@@ -12,7 +12,7 @@ I made an NFC Business card. It features some cool space art and a QR code to ge
 
 ## Plan
 ##### How much is it going to cost?
-![image](https://github.com/Itz-Hex/OnBoard/assets/90038308/9fe5d45a-ecef-4c3f-a18e-5d67c4047838)
+![image](https://github.com/Itz-Hex/OnBoard/assets/90038308/ef6065eb-106e-4d05-af66-04b5a0eeb57d)
 
 ## Design
 ##### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional***
