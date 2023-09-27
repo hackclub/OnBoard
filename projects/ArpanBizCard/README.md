@@ -15,7 +15,7 @@ Making a bussiness card as in Maggie's Jam and also planning to put up some tuto
 
 ## Plan
 ##### How much is it going to cost?
-About 10 USD for the PCBs and 29 USD for assembly.
+About 2 USD for the PCBs and 18 USD for assembly.
 
 ## Design
 ##### Tell us a little bit about your design process. What were some challenges? What helped?
