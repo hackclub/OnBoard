@@ -15,9 +15,10 @@ anyone I want to outreach to in meetings where I go, the user can scan the qr co
 ## Plan
 | Cost Reason  | Cost |
 | ------------- | ------------- |
-| 5 x Boards  | $2   |
-| Shipping Cost  | $36.2  |
-| Total  | $39  |
+| 5 x Boards  | $2  |
+| 5 x Gerber for NFC  | $18.54   |
+| Shipping Cost  | $36.2 (India)  |
+| Total  | $60 |
 
 ## Design
 well it was based on the maggie's tutorial with my hint of design :)
