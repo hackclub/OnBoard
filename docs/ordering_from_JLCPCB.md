@@ -26,7 +26,7 @@ PCB fabs have *A LOT* of settings for board manufacturing, and JLCPCB is no exce
 - **Different Design**: This is the number of designs within your gerber files. This number will be automatically calculated, so don't worry too much about it!
 - **Delivery Format**: Do you want single cut PCBs? Or is your board small enough to be made into a panel? For most boards, `Single PCB` will be enough. If you're board is key-chain sized, think about whether you want to make it into a panel. If you have questions about panelization, send them into [`onboard-help`]()
 - **PCB Thickness**: This is the thickness of your board. The default size is 1.6 mm. Unless you have a special application, I would not differ from it.
-- **PCB Color**: 
+<!-- - **PCB Color**: 
 - **Silkscreen**: 
 - **Surface Finish**: 
 
@@ -39,7 +39,7 @@ PCB fabs have *A LOT* of settings for board manufacturing, and JLCPCB is no exce
 - **Remove Order Number**: 
 - **Flyer Probe Test**: 
 - **Gold Fingers**: 
-- **Castellated Holes**: 
+- **Castellated Holes**:  -->
 
 
-[//]: # (To-do: Add in section about assembly)
+<!-- [//]: # (To-do: Add in section about assembly) -->
