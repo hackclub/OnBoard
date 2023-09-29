@@ -19,7 +19,7 @@ Parts that are specific:
 
 You'll need 2 of the boards, one for the mainboard side and one for the hotend side.
 
-Phoenix Contact 1984617 4x
+Phoenix Contact 1984617 4x OR any 3.50mm pitch 1 level 2 conductor wire to board terminal block, still need 4.
 
 JST S34B-PHDSS 2x
 
@@ -29,3 +29,5 @@ JST PHDR-34VS 2x
 
 ## Design
 ##### This design has been worked on for at least a year. I'm personally extremely proud of this. I've had many failures with the previous designs though, the first one had too small of traces, and I never noticed until I made v1.5. Made with KiCAD
+
+For up to date and more information, visit https://github.com/BoredFishRE/Wire2HotendMAX
