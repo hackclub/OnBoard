@@ -50,7 +50,7 @@ PCB fabs have *A LOT* of settings for board manufacturing, and JLCPCB is no exce
 - **PCBA Qty** - Instead of soldering parts to all 5 boards, you can choose to get just 2 to save grant money. They'll ship the other 3 boards without any components on them to you.
 - **Confirm Parts Placement** - JLCPCB will manually check whether your parts are oriented correctly for a small fee.
 
-Then on the next screen, upload the bom.csv and positions.csv (from KiCAD) or BOM_PCB.csv and PickAndPlace.csv (from EasyEDA).
+Then on the next screen, upload the `bom.csv` and `positions.csv` (from KiCAD) or `BOM_PCB.csv` and `PickAndPlace.csv` (from EasyEDA).
 
 ![](images/ordering/BOM.png)
 After that you'll be able to select which parts you want JLCPCB to assemble for you.
@@ -76,4 +76,4 @@ Then, once you go to [My Orders](https://jlcpcb.com/user-center/orders/), you sh
 
 ![](images/ordering/cart.png)
 
-Take a screenshot like that of your order for the OnBoard grant and save it as cart.png.
+Take a screenshot like that of your order for the OnBoard grant and save it as `cart.png`.
