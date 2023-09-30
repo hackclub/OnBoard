@@ -91,7 +91,7 @@ In all, you should have the following files under your project folder:
 - [ ] `cart.png`: A screenshot of your order details
 - [ ] `gerber.zip`: This should be the file that you send off to the vendor.
 - [ ] `schematic.pdf`: Export the schematic from your EDA program as a PDF
-- [ ] `source/`: Design files in a folder called `source`. Whatever format your designer outputs should be included.
+- [ ] `src/`: Design files in a folder called `src`. Whatever format your designer outputs should be included.
     - The files might look like `SCH_name.json` and `PCB_name.json` for EasyEDA
     - Or `name.kicad_pro`, `name_kicad_sch`, and `name.kicad_pcb`
     - Or `design.json`, `design.sch`, `design.brd`, etc.
