@@ -9,3 +9,4 @@ These are recommendations by @karmanyaahm, notes about how I'm doing this, you d
 - If they have PickAndPlace/positions.csv and BOM.csv, put it next to the gerber, leave the original file names. Remove any extra production files such as designators, netlist, or fp-cache.
 - Schematics go with their respective
 - Unzip sources (use discretion on whether it would be useful to read it without downloading), do not unzip gerber.
+- images linked to readme go to ./images/
