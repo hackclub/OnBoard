@@ -89,11 +89,9 @@ With your README filled out, head over to add files to begin uploading your Gerb
 In all, you should have the following files under your project folder:
 - [ ] `README.md`: A filled out [`TEMPLATE.md`](./projects/!Template/TEMPLATE.md?plain=1), renamed to `README.md`
 - [ ] `cart.png`: A screenshot of your order details
-    - JLCPCB should look like this:
-  ![](./docs/images/ordering/cart.png)
 - [ ] `gerber.zip`: This should be the file that you send off to the vendor.
 - [ ] `schematic.pdf`: Export the schematic from your EDA program as a PDF
-- [ ] `source/`: Design files (for example `sch.json`, `pcb.json` for EasyEDA; `design.json`, `design.sch`, `design.brd`, etc) in a folder called `source`. Whatever format your designer outputs to should be included.
+- [ ] `source/`: Design files in a folder called `source`. Whatever format your designer outputs should be included.
     - The files might look like `SCH_name.json` and `PCB_name.json` for EasyEDA
     - Or `name.kicad_pro`, `name_kicad_sch`, and `name.kicad_pcb`
     - Or `design.json`, `design.sch`, `design.brd`, etc.
