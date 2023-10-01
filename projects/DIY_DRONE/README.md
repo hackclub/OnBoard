@@ -1,7 +1,7 @@
 ---
-name: Neerav Gupta
-slack_handle: @BadPotato1007
-github_handle: @BadPotato1007
+name: "Neerav Gupta"
+slack_handle: "@BadPotato1007"
+github_handle: "BadPotato1007"
 project: "DIY DRONE"
 
 ---
