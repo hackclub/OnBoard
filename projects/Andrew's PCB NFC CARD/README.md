@@ -13,8 +13,9 @@ I am making a pcb business card with nfc functionality to open my personal portf
 
 ## Plan
 ##### How much is it going to cost?
-The pcbs will cost **$77.95** which includes shipping with DHL Express Economy for $22.86 and an SMT Assembly Service Coupon for $10.00.
-![image](https://github.com/SirQuackyy/OnBoard/assets/24327117/233bf11a-ff50-4147-bcf9-890728ba158e)
+The pcbs will cost **$40.85** which includes shipping with Global Standard Direct Line for $9.62 and an SMT Special Offer for -$9.00.
+![image](https://github.com/SirQuackyy/OnBoard/assets/24327117/ef6d5c68-c7eb-4571-a65c-e90efc8a8f0b)
+
 
 ## Design
 ##### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional***
