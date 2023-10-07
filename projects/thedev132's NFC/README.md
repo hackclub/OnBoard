@@ -13,4 +13,4 @@ I am making a business card that has NFC capabilities and when u tap it the LED 
 
 <!-- How much is it going to cost? -->
 
-$30.23 for 5 cards
+$29.23 for 5 cards
