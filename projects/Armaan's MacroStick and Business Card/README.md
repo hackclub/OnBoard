@@ -19,5 +19,5 @@ The boards and assembly will cost $93.55. I will purchase the remaining parts on
 ## Design
 There were a lot of challenges with wiring up the rp2040 for the macro stick, but eventually I figured everything out.
 ## Aditional Notes
-The two jsons are directly from easyeda
+The two jsons are directly from easyeda.
 The the .pcb file is a kicad export. The BOM and CPL files are for the totem board in case you cannot deal with the .pcb file
