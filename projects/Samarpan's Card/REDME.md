@@ -16,7 +16,7 @@ It is a PCB board fitted with a NFC chip. It will show up my social media page w
 ## Plan
 I have designed the Card and uploaded its files.
 ##### How much is it going to cost?
-It costs $$40.49 for 5 Cards.
+It costs $40.49 for 5 Cards.
 
 ## Design
 See Uploaded Files
