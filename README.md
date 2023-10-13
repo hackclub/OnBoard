@@ -47,8 +47,11 @@ _If you get stuck on this tutorial, or want more example projects to learn from,
 
 ### 3. Upload to a Vendor and Take a Screenshot
 
-Upload your Gerber files to JLCPCB.com and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^3] if there's a specific one you want to use [^4]. Once completed, take a screenshot with cost included!
+Upload your Gerber files to JLCPCB.com and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^3] if there's a specific one you want to use [^4]. Once completed, take a screenshot with all the final costs and shipping!
 > If you're curious what all the settings are about or how to order for assembly, check out our [`ordering_from_JLCPCB.md`](./docs/ordering_from_JLCPCB.md) doc!
+
+It should look like this:
+![](./docs/images/ordering/cart.png)
 
 **Note:** Your screenshot is **VITAL** since your project cannot be approved without it. You'll include the screenshot in your PR later.
 
@@ -85,9 +88,13 @@ With your README filled out, head over to add files to begin uploading your Gerb
 
 In all, you should have the following files under your project folder:
 - [ ] `README.md`: A filled out [`TEMPLATE.md`](./projects/!Template/TEMPLATE.md?plain=1), renamed to `README.md`
-- [ ] `cart.png`: A screen shot of your vendor approving your board
-- [ ] `Gerbers.zip`: This should be the file that you send off to the vendor.
-- [ ] Design files (`design.json`, `design.sch`, `design.brd`, etc). Whatever format your designer outputs to should be included.
+- [ ] `cart.png`: A screenshot of your order details
+- [ ] `gerber.zip`: This should be the file that you send off to the vendor.
+- [ ] `schematic.pdf`: Export the schematic from your EDA program as a PDF
+- [ ] `src/`: Design files in a folder called `src`. Whatever format your designer outputs should be included.
+    - The files might look like `SCH_name.json` and `PCB_name.json` for EasyEDA
+    - Or `name.kicad_pro`, `name_kicad_sch`, and `name.kicad_pcb`
+    - Or `design.json`, `design.sch`, `design.brd`, etc.
 
 If you have all the above, you're done with this step!
 

@@ -2,13 +2,13 @@
 name: "Karmanyaah Malhotra"
 slack_handle: "@Karmanyaah"
 github_handle: "@karmanyaahm"
-project: "Longhorn LED Level"
+project: "SparkleTilt: Longhorn LED Level"
 
 ---
 
-# Longhorn LED Level
+# SparkleTilt: Longhorn LED Level
 
-Such a creative name, ikr. I could use some suggestions.
+Find up-to-date info on how to make this board in my [Jam](https://jams.hackclub.com/batch/sparkletilt-pcb)!
 
 ## Summary
 ##### Describe your board in 2-3 sentences. What are you making? What will it do?
@@ -38,9 +38,9 @@ I'll spray paint this side burnt orange ^.
 This is the side that is assembled by JLCPCB.
 
 PCB:
-![](./longhorn_leds-brd.svg)
+![](./img/longhorn_leds-brd.svg)
 
 Schematic:
-![](./longhorn_leds.svg)
-![](./longhorn_leds-DEVICES_PAGE.svg)
-![](./longhorn_leds-DEVICES_PAGE-LED-stick0.svg)
+![](./img/longhorn_leds.svg)
+![](./img/longhorn_leds-DEVICES_PAGE.svg)
+![](./img/longhorn_leds-DEVICES_PAGE-LED-stick0.svg)
