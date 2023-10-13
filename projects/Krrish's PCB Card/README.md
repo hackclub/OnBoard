@@ -2,7 +2,7 @@
 name: "KRRISH CHHABRA"
 slack_handle: "@Krrish"
 github_handle: "@krrishvchhabra"
-tutorial: # Link to the tutorial if you used one
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Krrish's PCB Card
