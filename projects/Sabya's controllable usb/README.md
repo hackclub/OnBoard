@@ -11,7 +11,7 @@ Sabya's controllable usb
 ## Summary
 I made a controllable usb from scratch.
 ##### Describe your board in 2-3 sentences. What are you making? What will it do?
-It is a PCB board fitted with a control. It will show up my social media page when tapped on a NFC mobile phone
+It is a PCB board fitted with a control. It can be programmed to do any task.
 
 ## Plan
 I have designed the pcb and uploaded its files.
