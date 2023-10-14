@@ -6,13 +6,7 @@ No, this event is only open to current high school students (or younger).
 
 ##### Can I join the event if I'm not in the US?
 
-Yes, this event is open to everyone. However, Hack Club Bank, the platform you'll be using to receive and spend the grant money may or may not work as well outside of North America. Using Hack Club Bank outside of the North America is still experimental. We'd love to still hear from you and will try our best to help make it work!
-
-See [this page](./eligible_countries.md) for a list of countries where Hack Club Bank is confirmed to work.
-
-<!-- ##### What if I don't have a project idea?
-
-Check out the [examples](/examples) for inspiration. If you're still stuck, you can ask for help in the [#hardware-party](https://hackclub.slack.com/archives/C0168BR5PDE) channel on Slack. -->
+Yes, this event is open to everyone. However, this program was designed in North America and your milage may vary. For example, some countries will charge customs taxes that the grant doesn't cover.
 
 ##### Can multiple people team up to work on a project?
 
@@ -24,7 +18,7 @@ There are 1,000 grants. Fortunately, OnBoard will snowball into a continuous pro
 
 ##### Can we design multiple small boards instead of one?
 
-Yes! You can design as many boards as you want– just keep in mind the $100 grant is per-person. Just follow [DIRECTIONS.md](https://github.com/hackclub/OnBoard/directions.md) for each board!
+Yes! You can design as many boards as you want– just keep in mind the $100 grant is per-person. Just follow [the directions](https://github.com/hackclub/OnBoard/README.md) for each board!
 
 ##### Are international customs fees covered?
 
@@ -44,7 +38,7 @@ We'll try our best to review within 48 hours. However, there may be delays aroun
 
 ##### Will we have to pay the 7% fee for Hack Club Bank?
 
-The 7% fiscal sponsorship fee will be waived for Onboard grant funds. If your project's budget exceeds $100, and you need more funds to build your project, there will be no fee to add personal funds to your account.
+No fee! It'd be kinda weird to give you the $100, and then take $7 back. The 7% fiscal sponsorship fee will be waived for Onboard grant funds. If your project's budget exceeds $100, and you need more funds to build your project, there will be no fee to add personal funds to your account.
 
 ##### Should my budget include shipping and taxes?
 
