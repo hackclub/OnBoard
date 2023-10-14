@@ -14,7 +14,7 @@ I made a controllable usb from scratch.
 It is a PCB board fitted with a control. It will show up my social media page when tapped on a NFC mobile phone
 
 ## Plan
-I have designed the Card and uploaded its files.
+I have designed the pcb and uploaded its files.
 ##### How much is it going to cost?
 It costs $20.54 for 5 Cards.
 Total Cost is $88.24
