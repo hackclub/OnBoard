@@ -9,4 +9,4 @@ tutorial: https://jams.hackclub.com/jam/hacker-card
 
 This is a business card with NFC to advertise my website and github!
 
-$7.72/10 cards
+$4.62/5cards
