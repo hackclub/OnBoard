@@ -3,7 +3,7 @@ name: "Arvin Premlal"
 slack_handle: "@Arvin Premlal"
 github_handle: "@Arvin-Prem"
 project: "Usb-hub"
-
+tutorial: https://jams.hackclub.com/batch/usb-hub
 ---
 
 # PROJECT NAME
