@@ -6,7 +6,7 @@ has_errors=0
 for project_dir in "$base_dir"*/; do
   errors=""
   # Check if 'cart.png' exists
-  if [ ! -f "$project_dir/cart.png" ]; then
+  if [ ! -f "$project_dir/cart."* ]; then
     errors+="\n    missing cart.png"
   fi
 
@@ -26,7 +26,7 @@ for project_dir in "$base_dir"*/; do
   fi
 
   # Check if 'schematic.pdf' exists
-  if [ ! -f "$project_dir/schematic.pdf" ]; then
+  if [ ! -f "$project_dir/schematic."* ]; then
     errors+="\n    missing schematic.pdf"
   fi
 
