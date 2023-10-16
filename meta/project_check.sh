@@ -2,7 +2,7 @@
 
 # This script is used to check the formatting of all the projects in the repo.
 base_dir="./projects/"
-# find "$base_dir" -type d | while read -r project_dir; do
+has_errors=0
 for project_dir in "$base_dir"*/; do
   errors=""
   # Check if 'cart.png' exists
@@ -26,8 +26,13 @@ for project_dir in "$base_dir"*/; do
   fi
 
   if [ ! -z "$errors" ]; then
+    has_errors=1
     printf "Project $project_dir has errors:"
     printf "$errors"
     echo ""
   fi
 done
+
+if [ $has_errors -eq 1 ]; then
+  exit 1
+fi
