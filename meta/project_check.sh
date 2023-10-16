@@ -25,6 +25,11 @@ for project_dir in "$base_dir"*/; do
     errors+="\n    missing gerber.zip"
   fi
 
+  # Check if 'schematic.pdf' exists
+  if [ ! -f "$project_dir/schematic.pdf" ]; then
+    errors+="\n    missing schematic.pdf"
+  fi
+
   if [ ! -z "$errors" ]; then
     has_errors=1
     printf "Project $project_dir has errors:"
