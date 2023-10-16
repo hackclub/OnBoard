@@ -2,6 +2,7 @@
 name: "Chris C"
 slack_handle: "@Chris"
 github_handle: "@chrischufang"
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 Chris NFC card
