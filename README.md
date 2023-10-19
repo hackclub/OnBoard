@@ -41,7 +41,7 @@ Perhaps ping a little hello to `@Kevin Yang`?
 
 It's design time! If you've done this before, you can skip ahead to step 3. Most people reading this will be new to PCB design, so we've made a simple tutorial on making an example board.
 
-Watch [Maggie's NFC card tutorial](https://hack.af/business-card), where you'll make a design from scratch in a free online editor in under half and hour. This is jumping in the deep end- it won't explain everything, but it will give you a taste of what's possible. By the end you probably won't understand _what_ you did or _why_ you did it, but you will have a working design for a board and you'll know how to **tweak** and **edit** the design to make it your own.
+Follow [Maggie's NFC card tutorial](https://jams.hackclub.com/jam/hacker-card), where you'll make a design from scratch in a free online editor in under an hour. This is jumping in the deep end- it won't explain everything, but it will give you a taste of what's possible. By the end you probably won't understand _what_ you did or _why_ you did it, but you will have a working design for a board and you'll know how to **tweak** and **edit** the design to make it your own.
 
 _If you get stuck on this tutorial, or want more example projects to learn from, post in the Slack channel to hear from others going on their journeys._
 
@@ -108,8 +108,17 @@ That will bring you to the main repo, where you'll initiate a pull request. Foll
 
 ![Submission checklist](docs/images/directions/submission-checklist.png)
 
+### 7. Get approval and order your board!
 
-### 7. Ship it!
+Once you submit your PR, it needs two approvals:
+- One verifying your high school enrollment documents, from HCB.
+- Another one from the engineering team, checking that your design follows the grant requirements.
+
+These reviews typically take 24-48 business hours if everything is correct. Then we merge your PR!
+
+After your PR gets merged, it takes up to 24 business hours for you to receive an email from HCB with a virtual credit card. Make sure to check your spam folder. Then, you can order your board!
+
+### 8. Ship it!
 
 Post photos of your board in [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ)! We can't wait to see what you make!
 
@@ -117,5 +126,6 @@ Post photos of your board in [`#onboard`](https://hackclub.slack.com/archives/C0
 
 ## Example Projects
 
-- [PCB Business Card with NFC](https://www.instructables.com/PCB-Business-Card-With-NFC/)
-- [DIY Raspberry Pico Dev Board](https://01001000.xyz/2021-02-13-Raspberry-Pi-Pico-dev-board-Kiwikit/)
+- [PCB Business Card with NFC](https://jams.hackclub.com/jam/hacker-card)
+- [Build a USB Hub](https://jams.hackclub.com/batch/usb-hub)
+- [Make a Digital Level](https://jams.hackclub.com/batch/sparkletilt-pcb)
