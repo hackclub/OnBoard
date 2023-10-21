@@ -11,8 +11,8 @@ tutorial: https://jams.hackclub.com/jam/hacker-card
 It's a basic NFC card with my socials and website printed on it - that harvests energy to light up an LED. I'll try to write a vCard, such that anyone who scans the card will have my contact pop up.  
   
 ### Costs  
-According to JLCPCB, $46.36 for 5 pieces.  
-$28.60 for the PCBs and $17.76 for shipping.  
+According to JLCPCB, $46.50 for 5 pieces.  
+$28.74 for the PCBs and $17.76 for shipping.  
   
 ### Design Process  
 I'm quite the perfectionist, so getting things **mostly** neatly aligned (down to 3 decimal places) was really a challenge. Especially because icons have different sizes, and the alignment is quite funky.  
