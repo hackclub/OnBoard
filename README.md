@@ -108,8 +108,17 @@ That will bring you to the main repo, where you'll initiate a pull request. Foll
 
 ![Submission checklist](docs/images/directions/submission-checklist.png)
 
+### 7. Get approval and order your board!
 
-### 7. Ship it!
+Once you submit your PR, it needs two approvals:
+- One verifying your high school enrollment documents, from HCB.
+- Another one from the engineering team, checking that your design follows the grant requirements.
+
+These reviews typically take 24-48 business hours if everything is correct. Then we merge your PR!
+
+After your PR gets merged, it takes up to 24 business hours for you to receive an email from HCB with a virtual credit card. Make sure to check your spam folder. Then, you can order your board!
+
+### 8. Ship it!
 
 Post photos of your board in [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ)! We can't wait to see what you make!
 
@@ -117,5 +126,6 @@ Post photos of your board in [`#onboard`](https://hackclub.slack.com/archives/C0
 
 ## Example Projects
 
-- [PCB Business Card with NFC](https://www.instructables.com/PCB-Business-Card-With-NFC/)
-- [DIY Raspberry Pico Dev Board](https://01001000.xyz/2021-02-13-Raspberry-Pi-Pico-dev-board-Kiwikit/)
+- [PCB Business Card with NFC](https://jams.hackclub.com/jam/hacker-card)
+- [Build a USB Hub](https://jams.hackclub.com/batch/usb-hub)
+- [Make a Digital Level](https://jams.hackclub.com/batch/sparkletilt-pcb)
