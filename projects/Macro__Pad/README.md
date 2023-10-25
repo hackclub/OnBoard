@@ -1,11 +1,11 @@
 ---
-name: "FIRST LAST"
-slack_handle: "@SLACK HANDLE"
-github_handle: "@GITHUB HANDLE"
-tutorial: # Link to the tutorial if you used one
+name: "Zacky Albandar"
+slack_handle: "@Zacky Albandar"
+github_handle: "@durzal1"
+tutorial: n/a # Link to the tutorial if you used one
 ---
 
-# YOUR PROJECT NAME
+# Macro Pad
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 
