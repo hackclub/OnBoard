@@ -41,9 +41,9 @@ Perhaps ping a little hello to `@Kevin Yang`?
 
 It's design time! If you've done this before, you can skip ahead to step 3. Most people reading this will be new to PCB design, so we've made a simple tutorial on making an example board.
 
-Follow [Maggie's NFC card tutorial](https://jams.hackclub.com/jam/hacker-card), where you'll make a design from scratch in a free online editor in under an hour. This is jumping in the deep end- it won't explain everything, but it will give you a taste of what's possible. By the end you probably won't understand _what_ you did or _why_ you did it, but you will have a working design for a board and you'll know how to **tweak** and **edit** the design to make it your own.
+Check out our [PCB tutorials](https://jams.hackclub.com/tag/pcb), where you'll make a design from scratch in a free online editor. This is jumping in the deep end- it won't explain everything, but it will give you a taste of what's possible. By the end you probably won't understand _what_ you did or _why_ you did it, but you will have a working design for a board and you'll know how to **tweak** and **edit** the design to make it your own.
 
-_If you get stuck on this tutorial, or want more example projects to learn from, post in the Slack channel to hear from others going on their journeys._
+_If you get stuck on these tutorials, or want more example projects to learn from, post in the Slack channel to hear from others going on their journeys._
 
 ### 3. Upload to a Vendor and Take a Screenshot
 
