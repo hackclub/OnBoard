@@ -9,4 +9,4 @@ tutorial: # https://jams.hackclub.com/jam/hacker-card
 
 <!-- My first go at making a PCB board. It shows my contact info on me and some art. -->
 
-<!-- 10 of these cost about $9.10 -->
+<!-- 10 of these cost about $2.00 -->
