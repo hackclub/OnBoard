@@ -2,7 +2,7 @@
 name: "Adam Miller"
 slack_handle: "@Adam Miller"
 github_handle: "@AdamCodes2023"
-tutorial: # NONE
+tutorial: "NONE"
 ---
 
 # BLINKINGLIGHTS
