@@ -1,11 +1,11 @@
 ---
 name: Cooper Sobel
-slack_handle: dont have one
+slack_handle: #dont have one
 github_handle: @rouguecrow10639
-tutorial: (https://jams.hackclub.com/jam/hacker-card)
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
-BlackCardNFCPcb
+# BlackCardNFCPcb
 
 I made Maggie Liu's design for a buisness card nfc pcb.  I decided to leave it completely bland so I could repuprose it for diferent thigns later on.  I did it because everyone needs to start somewhere and why not with tutorials that will end up getting me the physical product.
 
