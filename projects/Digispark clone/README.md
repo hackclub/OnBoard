@@ -11,7 +11,7 @@ Digispark
 ## Summary
 I made a DIY digispark board from scratch.
 ##### Describe your board in 2-3 sentences. What are you making? What will it do?
-It is a PCB board fitted with a NFC chip. It will show up my social media page when tapped on a NFC mobile phone
+It is a PCB board fitted with Attiny85. It will work like rubber ducky.
 
 ## Plan
 I have designed the dev board and uploaded its files.
