@@ -23,3 +23,7 @@ Total cost= shipping cost + PCB cost + Taxes
 ## Design
 See Uploaded Files
 ##### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional***
+
+## Tutorials
+https://www.udemy.com/course/crash-course-electronics-and-pcb-design/
+https://www.udemy.com/course/step-by-step-pcb-design-course-for-electronics-projects/
