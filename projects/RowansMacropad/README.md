@@ -1,5 +1,5 @@
 ---
-name: "Logan HOllowood"
+name: "Logan Hollowood"
 slack_handle: "@Logan Hollowood"
 github_handle: "@GearBoxFox"
 ---
