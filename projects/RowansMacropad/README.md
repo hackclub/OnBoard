@@ -4,7 +4,7 @@ slack_handle: "@Logan Hollowood"
 github_handle: "@GearBoxFox"
 ---
 
-# YOUR PROJECT NAME
+# Rowans Macropad
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 I am making a macroboard that will help automate the daily tasks that I do during coding. 
