@@ -1,9 +1,9 @@
-'''
+---
 name: "BRIGHT LI"
 slack_handle: "Bright Li"
 github_handle: "BrightTheBackpack"
 project: "Bright's Hacker Card"
-'''
+---
 
 #Bright's Hacker Card
 ##Summary
