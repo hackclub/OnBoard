@@ -2,6 +2,7 @@
 name: "Logan Hollowood"
 slack_handle: "@Logan Hollowood"
 github_handle: "@GearBoxFox"
+tutorial: # none
 ---
 
 # Rowans Macropad
