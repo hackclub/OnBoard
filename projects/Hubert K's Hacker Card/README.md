@@ -11,6 +11,6 @@ tutorial: https://jams.hackclub.com/jam/hacker-card
 This is an NFC business card from the tutorial above.
 
 <!-- How much is it going to cost? -->
-$28.59 with shipping
+$30.50 with shipping and discount
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
