@@ -3,6 +3,7 @@ name: "BRIGHT LI"
 slack_handle: "Bright Li"
 github_handle: "BrightTheBackpack"
 project: "Bright's Hacker Card"
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Bright's Hacker Card
