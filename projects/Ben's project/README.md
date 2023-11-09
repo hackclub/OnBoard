@@ -5,10 +5,10 @@ github_handle: "@27bchaos"
 tutorial: # Link to the tutorial if you used one
 ---
 
-# QR code reader application
+ QR code reader application
 
-#I am making a board that when someone scans loads a website. It will redirect them to YouTube and open Rick Astley. 
+I am making a board that when someone scans loads a website. It will redirect them to YouTube and open Rick Astley. 
 
- #2 dollars
+ 2 dollars
 
-#It Was hard to build but I eventually figured out tools and programs.
+It Was hard to build but I eventually figured out tools and programs.
