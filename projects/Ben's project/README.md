@@ -1,4 +1,3 @@
-
 name: Ben Chao"
 slack_handle: "@Benjmain Chao" id:@U05USECC2JD
 github_handle: "@27bchaos"
