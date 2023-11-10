@@ -1,7 +1,7 @@
-name: Ben Chao"
-slack_handle: "@Benjmain Chao" id:@U05USECC2JD
+name: "Ben Chao"
+slack_handle: "@Benjmain Chao"
 github_handle: "@27bchaos"
-tutorial: # Link to the tutorial if you used one
+tutorial: https://jams.hackclub.com/jam/hacker-card # Link to the tutorial if you used one
 ---
 
  QR code reader application
