@@ -1,6 +1,6 @@
 ---
 name: "Taylor Jackson"
-slack_handle: "@SLACK HANDLE" 
+slack_handle: "@Taylor Jackson" 
 github_handle: "@Taylortot11"
 tutorial: "#https://jams.hackclub.com/jam/hacker-card"
 
