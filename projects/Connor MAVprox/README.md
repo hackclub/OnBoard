@@ -3,17 +3,14 @@ name: "Connor Menon"
 slack_handle: "@Connor Menon"
 github_handle: "@Connor2648"
 ---
-# MAVprox & MAVterm
+# MAVprox
 
-#### The MAVterm
-The MAVterm is an very simple board that fixes a problem my team had where the terminating resistor 
-for the CANbus on our robot broke, and we figured designing a board for it would be the best solution. It 
-consists of a connector to plug in both wires of the CAN, and a 120 ohm resistor on the end of it.
 #### The MAVprox
 The MAVprox is a magnetic hall effect sensor. It has the sensor on one end, and has a  LED that will 
 light up when it senses a magnet as well as emmitting voltage back. We designed it because we wanted a 
 hall effect sensor that would be on the same plane of motion that the magnet would be moving in rather
 than in a perpendicular plane.
+
 ##### How much is it going to cost?
 Both sets of boards will cost around $10 total.
 ##### Tell us a little bit about your design process. What were some challenges? What helped?
