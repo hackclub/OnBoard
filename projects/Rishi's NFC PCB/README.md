@@ -5,7 +5,7 @@ github_handle: "@agreedrn"
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
-# YOUR PROJECT NAME
+# RISHI's NFC PCB
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 
@@ -13,6 +13,6 @@ I am making a NFC Tag that will transmit a URL or anything really after it is pr
 
 <!-- How much is it going to cost? -->
 
-JLCPCB says the final cost is $38.29. but I also have a 9 dollar coupon for the assembly JLCPCB has given for free, so the expected total is $29.29
+JLCPCB says the final cost is $38.29, but I also have a 9 dollar coupon for the assembly JLCPCB has given for free, so the expected total is $29.29.
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
