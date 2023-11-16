@@ -18,7 +18,7 @@ Every design/submission needs to meet the following constraints to be approved:
 
 - Unique and open-source design
 - Must be orderable on JLCPCB or other [approved vendor](https://github.com/hackclub/OnBoard/blob/main/docs/VENDORS.md)
-- Must be in high school or younger[^1][^2] and show proof of school enrollment to submit
+- Must be in high school or younger[^1][^2][^3] and show proof of school enrollment to submit
 
 [^1]: Home school still counts!
 [^2]: If you left high school early you can also submit.
