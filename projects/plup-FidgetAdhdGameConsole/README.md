@@ -2,7 +2,7 @@
 name: "ariel troyanovsky"
 slack_handle: "@arielT"
 github_handle: "@arielTROY"
-tutorial: chatgpt flux ai version and a past project knowledge (hope i didnt make any mistakes :) )
+tutorial: # tutorial link here if used
 ---
 
 # plup - fidget game console for kids with adhd
@@ -14,3 +14,4 @@ while focusing on something else. so i created game console which uses vibration
 113 usd but i will add 13 usd from my own money its just that the shipping cost is a lot on jlcpcb + i need assembly for 3 board and the 7 usd option is not availble for my components so its 20 usd so it adds up
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 i didnt understand the easyeda software but after some  tutorials i got it.,
+Help from: chatgpt flux ai version and a past project knowledge (hope i didnt make any mistakes :) )
