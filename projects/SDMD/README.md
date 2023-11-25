@@ -6,7 +6,7 @@ project: "SDMD"
 
 ---
 
-# OpenDrive
+# SDMD (prev. OpenDrive)
 ## Summary
 ##### Compact, inexpensive, open source motor controller for 1lb combat robots. Capable of controlling 2 motors and providing 5V BEC power. Uses the servo protocol. Comes with overcurrent protection so the board will attempt to preserve itself in the event of an overcurrent fault.
 
