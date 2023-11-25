@@ -15,3 +15,10 @@ project: "SDMD"
 
 ## Design
 ##### Thanks to Hack Club and NHRL. Designed in KiCad 7.0. NOTE: THE MISO AND MOSI PINS ON THE ICSP HEADER ARE SWAPPED/MISWIRED. YOU WILL HAVE TO ACCOUNT FOR THIS WHEN WIRING YOUR PROGRAMMER.
+
+## Finished Board
+
+![](https://cloud-8fwacaxhc-hack-club-bot.vercel.app/0img_6434.jpg)
+![](https://cloud-8fwacaxhc-hack-club-bot.vercel.app/1img_6432.jpg)
+![](https://cloud-8fwacaxhc-hack-club-bot.vercel.app/2img_6369.mp4)
+![](https://cloud-8fwacaxhc-hack-club-bot.vercel.app/3img_5757.jpg)
