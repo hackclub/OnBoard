@@ -21,4 +21,4 @@ project: "SDMD"
 ![](https://cloud-8fwacaxhc-hack-club-bot.vercel.app/0img_6434.jpg)
 ![](https://cloud-8fwacaxhc-hack-club-bot.vercel.app/1img_6432.jpg)
 ![](https://cloud-8fwacaxhc-hack-club-bot.vercel.app/3img_5757.jpg)
-<video src="https://cloud-8fwacaxhc-hack-club-bot.vercel.app/2img_6369.mp4" ></video>
+Video of robot driving: <https://cloud-8fwacaxhc-hack-club-bot.vercel.app/2img_6369.mp4>
