@@ -4,7 +4,7 @@ _Submitted by @MaxWofford. The following is a request for comments before we mak
 
 ## Intent
 
-The intent of OnBoard as layed out in our [GOALS.md](./GOALS.md) is to provide an onramp for teens to get into cirucuitry and to boost teens currently making circuitry projects in our community.
+The intent of OnBoard as layed out in our [GOALS.md](./GOALS.md) is to provide an onramp for teens to get into circuitry and to boost teens currently making circuitry projects in our community.
 
 The current way we're doing that is to provide a $100 grant, reguardless of the project. This has led to a lot of hacker card PCBs being made, which a great start for people getting into circuitry, but doesn't help people go further or highlight really unique and interesting projects. Also, in some edge cases people are ordering boards that use up their grant, preventing them from making a future iteration or more complex project.
 
