@@ -18,10 +18,11 @@ Every design/submission needs to meet the following constraints to be approved:
 
 - Unique and open-source design
 - Must be orderable on JLCPCB or other [approved vendor](https://github.com/hackclub/OnBoard/blob/main/docs/VENDORS.md)
-- Must be in high school[^1][^2] and show proof of high school enrollment to submit
+- Must be in high school or younger[^1][^2][^3] and show proof of school enrollment to submit
 
 [^1]: Home school still counts!
 [^2]: If you left high school early you can also submit.
+[^3]: If you need help with ideas for proof of age, ask in our Slack and we'll help you out! [here](https://hackclub.com/slack/?event=onboard)
 
 ## Getting Started
 
@@ -49,6 +50,7 @@ _If you get stuck on these tutorials, or want more example projects to learn fro
 
 Upload your Gerber files to JLCPCB.com and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^3] if there's a specific one you want to use [^4]. Once completed, take a screenshot with all the final costs and shipping!
 > If you're curious what all the settings are about or how to order for assembly, check out our [`ordering_from_JLCPCB.md`](./docs/ordering_from_JLCPCB.md) doc!
+> To avoid excess shipping fees or customs, check out [`the Shipping Tips`](./community/shipping.md) doc!
 
 It should look like this:
 ![](./docs/images/ordering/cart.png)

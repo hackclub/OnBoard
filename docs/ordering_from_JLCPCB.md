@@ -64,7 +64,11 @@ Then, on the orientation screen, make sure all your assembly components are rota
 [^orient]: Recall that components like resistors and ceramic capacitors are symmetrical, but diodes, LEDs, and ICs are not.
 
 ### Cart
-After you reach the cart, click on checkout and fill out the information. And in the 3rd box, you can select either "Pay after Review" or "Pay Directly", and click "Submit Order".
+After you reach the cart, click on checkout and fill out the information.
+
+> To avoid excess shipping fees or customs, check out [`the Shipping Tips`](./community/shipping.md) doc!
+
+ And in the 3rd box, you can select either "Pay after Review" or "Pay Directly", and click "Submit Order".
 
 ![](images/ordering/submit-order.png)
 
