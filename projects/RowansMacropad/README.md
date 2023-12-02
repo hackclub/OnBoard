@@ -12,7 +12,7 @@ I am making a macroboard that will help automate the daily tasks that I do durin
 It uses an AtMega32u4 microcontroller with a 3x3 matrix.
 
 <!-- How much is it going to cost? -->
-5 PCBs plus 2 assembled boards will cost $64.91 before shipping.
+5 PCBs plus 2 assembled boards will cost $64.91 before shipping, and $88.26 after shipping fees.
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 This was my first time designing a board/circuit, so I had to do a lot of research for a minimal-useable AtMega32u4 circuit. 
