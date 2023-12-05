@@ -2,7 +2,7 @@
 name: "Raksshana Harish Babu"
 slack_handle: "@Raksshana Harish Babu"
 github_handle: "@raksshana"
-tutorial: # [Link to the tutorial if you used one](https://cloud-baw5pw456-hack-club-bot.vercel.app/0build_a_circuit_board_with_maggie.mp4)
+tutorial: # [https://cloud-baw5pw456-hack-club-bot.vercel.app/0build_a_circuit_board_with_maggie.mp4]
 ---
 
 # Raksshana's PCB Board
