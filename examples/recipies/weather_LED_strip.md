@@ -1,0 +1,3 @@
+# Weather LED strip
+
+TODO
