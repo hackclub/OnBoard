@@ -2,7 +2,7 @@
 name: "Benjamin Vaccaro"
 slack_handle: "@BEN V"
 github_handle: "@2008wbbv"
-project: "BENS-NFC-CARD"
+project: "BENS-USB-CARD"
 
 ---
 
