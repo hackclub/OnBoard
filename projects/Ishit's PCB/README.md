@@ -2,7 +2,7 @@
 name: "Ishit Rastogi"
 slack_handle: "@Ishit Rastogi"
 github_handle: "@NotIshi28"
-tutorial: https://jams.hackclub.com/jam/hacker-card#Turn%20your%20design...%20into%20an%20actual%20card!
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Ishit's PCB
