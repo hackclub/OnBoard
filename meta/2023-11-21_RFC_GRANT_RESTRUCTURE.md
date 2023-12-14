@@ -16,12 +16,12 @@ Examples (each unnamed, but based on real experiences):
 
 ## Proposal
 
-Now, projects following a Hack Club jam will be funded $40 and are allowed to be copies of other projects. This encourages beginners to still get their foot in the door, while preventing a misclicked "basic assembly" from eating up their grant funds.
+Now, projects following a Hack Club jam will be funded $50 and are allowed to be copies of other projects. This encourages beginners to still get their foot in the door, while preventing a misclicked "basic assembly" from eating up their grant funds.
 
 All other projects aren't affected by this change. Projects that are not following a Hack Club jam, or remix the jam in a new way will get the full $100 grant.
 
 ### Examples & Edgecases
 
-- A teen makes a hacker card PCB. They're approved for $40, and can make another beginner project with the remaining $60.
+- A teen makes a hacker card PCB. They're approved for $50, and can make another beginner project with the remaining $50.
 - A teen who already made a hacker card for $30 wants to make a more complex project. They're approved for the full grant, which is $70 (the leftover that they didn't use with the hacker card).
 - A teen remixes the hacker card tutorial, building a doorbell that buzzes on phone tap instead of lighting up an LED. To power their circuit they need to add a battery and a few minor components (capacitors and resistors) to their board. They're approved for the full grant of $100.
