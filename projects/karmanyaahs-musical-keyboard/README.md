@@ -33,7 +33,7 @@ My board arrived on Dec 6! One day before a final exam. So what did I do? I tune
 
 ![picture of the actual board](https://cloud-ikvjqbt2i-hack-club-bot.vercel.app/0rect899.png)
 
-My friend reflecting on our shared predicament by playing Welcome to the Black Parade: [![video](https://cloud-r0tvjamxw-hack-club-bot.vercel.app/0pxl_20231207_070916248.ts_2.mp4)](https://cloud-r0tvjamxw-hack-club-bot.vercel.app/0pxl_20231207_070916248.ts_2.mp4)
+@gjkeller reflecting on our shared final exam predicament by playing Welcome to the Black Parade: [![video](https://cloud-r0tvjamxw-hack-club-bot.vercel.app/0pxl_20231207_070916248.ts_2.mp4)](https://cloud-r0tvjamxw-hack-club-bot.vercel.app/0pxl_20231207_070916248.ts_2.mp4)
 And the month with Jingle Bells: [![video](https://cloud-6mqalxy6w-hack-club-bot.vercel.app/0pxl_20231207_071113477.ts.mp4)](https://cloud-6mqalxy6w-hack-club-bot.vercel.app/0pxl_20231207_071113477.ts.mp4)
 
 I'm working on V2 right now and hope to make it significantly cheaper to manufacture.
