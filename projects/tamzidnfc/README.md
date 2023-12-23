@@ -2,7 +2,7 @@
 name: "Tamzid Rahman"
 slack_handle: "@Tamzid Rahman"
 github_handle: "@tamzidrahman10"
-tutorial: # https://jams.hackclub.com/jam/hacker-card
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Tamzid's NFC Card
