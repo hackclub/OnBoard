@@ -66,7 +66,7 @@ Then, on the orientation screen, make sure all your assembly components are rota
 ### Cart
 After you reach the cart, click on checkout and fill out the information.
 
-> To avoid excess shipping fees or customs, check out [`the Shipping Tips`](./community/shipping.md) doc!
+> To avoid excess shipping fees or customs, check out [`the Shipping Tips`](../community/shipping.md) doc!
 
  And in the 3rd box, you can select either "Pay after Review" or "Pay Directly", and click "Submit Order".
 
