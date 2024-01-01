@@ -4,7 +4,7 @@
   - [ ] I have filled out the [verification form](https://airtable.com/app4Bs8Tjwvk5qcD4/pagxECjJZOgvKVnLd/form)
 - [ ] I have joined the [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel on Slack
 - [ ] I made this board from scratch, even if I followed a tutorial
-- [ ] I have followed [DIRECTIONS.md](https://github.com/hackclub/OnBoard/blob/main/DIRECTIONS.md)
+- [ ] I have followed the directions in [README.md](https://github.com/hackclub/OnBoard/blob/main/README.md#getting-started)
   - [ ] Created a folder under `onboard/projects`
   - [ ] Filled out `TEMPLATE.md` as `README.md`
   - [ ] Uploaded Gerber, sources, and schematic
