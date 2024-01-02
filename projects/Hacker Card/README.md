@@ -1,8 +1,9 @@
 ---
-name: "Mehul Dabas"
-slack_handle: "@Mehul"
-github_handle: "@AGENTM7"
+name: Mehul Dabas
+slack_handle: @Mehul
+github_handle: @AGENTM7
 tutorial: https://www.youtube.com/watch?v=enMtMOgimm4
+--
 
 #PCB Hacker Card
 
