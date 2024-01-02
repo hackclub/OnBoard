@@ -1,7 +1,7 @@
 ---
 name: "Aiden Paul"
 github_handle: "@PilotOfGolf"
-Slack_Handle: "don't have one"
+Slack_Handle: "@U06CHEJ7P6U"
 ---
 
 # AidensCompSwitch
