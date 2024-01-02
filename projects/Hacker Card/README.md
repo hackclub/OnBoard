@@ -9,4 +9,4 @@ tutorial: https://www.youtube.com/watch?v=enMtMOgimm4
 It is a NFC based Hacker card on a PCB and if you bring near your phone, the nfc chip will activate and it will redirect you to any site or link you want!
 
 It will cost me $14.30 before adding shipping costs
-<!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
+
