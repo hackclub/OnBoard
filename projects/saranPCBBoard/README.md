@@ -2,11 +2,11 @@
 name: "Saran Wagner"
 slack_handle: "@fuzzy__"
 github_handle: "@glitchyfuzzy"
-tutorial: # https://jams.hackclub.com/jam/hacker-card
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Saran's PCB Board
 
-<!-- My first go at making a PCB board. It shows my contact info on me and some art. -->
+My first go at making a PCB board. It shows my contact info on me and some art.
 
-<!-- 10 of these cost about $2.00 -->
+5 of these (2 assembled) cost about $16.47
