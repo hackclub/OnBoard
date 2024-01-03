@@ -2,7 +2,7 @@
 name: "Karthick Arun"
 slack_handle: "@karthickarun"
 github_handle: "@aicoder2009"
-tutorial: # Link to the tutorial if you used one
+tutorial: (https://jams.hackclub.com/jam/hacker-card)
 ---
 
 # karthicks nfc card
