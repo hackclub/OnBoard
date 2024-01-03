@@ -19,5 +19,5 @@ To recommend a vendor for us to reseach, please submit a PR (only 1 vendor per P
 - Work with HCB cards
 
 At this time we aren't accepting vendors that provide extra services.
-
+-- adding PCBWay
 After you submit a PR adding them to the list, the organizers will review the vendor and test to make sure they work with our cards. We may accept or reject the PR based on what we find.
