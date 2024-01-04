@@ -1,7 +1,7 @@
 ---
 name: Neel Patel
-slack_handle: @Neel Patel
-github_handle: TheSaltTable
+slack_handle: "@Neel Patel"
+github_handle: "@TheSaltTable"
 tutorial: https://jams.hackclub.com/jam/onboard-grant 
 ---
 
