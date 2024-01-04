@@ -1,5 +1,5 @@
 ---
-name: "SAM KOTHE"
+name: "Sam KOTHE"
 slack_handle: "@tori"
 github_handle: "@abitchinmorewaysthanone"
 tutorial: n/a
