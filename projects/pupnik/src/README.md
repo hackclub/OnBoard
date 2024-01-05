@@ -1,0 +1,1 @@
+I couldn't really figure out how to export a json form EasyEDA Pro (the desktop app) and I made a bunch of custom components and stuff for this project so here's it exported as an Altium file because that was the closest thing I could find to exporting a native filetype, and you can import it into EasyEDA pro.
