@@ -2,7 +2,7 @@
 name: Seth Miller
 slack_handle: @Seth Miller
 github_handle: @big-man-max
-tutorial: (https://jams.hackclub.com/jam/hacker-card)
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 NFC Cards for FRC
