@@ -2,10 +2,10 @@
 name: "Dominic Cangemi"
 slack_handle: "@Dominic Cangemi"
 github_handle: "@KingsmanBaca"
-tutorial: #n/a (EasyEDA tool usage)
+tutorial: #n/a
 ---
 
-# YOUR PROJECT NAME
+# HALL-EFFECT SENSOR PLATE
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 This sensor plate consist of 36 hall-effect sensors; 32 sensors for personel identification and 4 sensors for company identification.
