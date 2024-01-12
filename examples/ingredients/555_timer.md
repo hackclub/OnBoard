@@ -36,7 +36,29 @@ Usually you only need to configure a couple of them, so here's a simplified layo
 
 ## Examples
 
-The timer is a
+The timer is a TODO
+![](https://cloud-bc8fblv1k-hack-club-bot.vercel.app/0image.png)
+
+## 555 Timer with Variable Frequency (Musical Keyboard)
+
+If you want multiple switches varying the oscillation frequency of your 555 timer. We use potentiometers here to act as variable resistors and allow tuning the board to account for tolerance issues.
+
+This differs slightly from a standard 555 timer layout. 
+
+When SW1 is pressed, the timer will oscillate at one frequency, but when SW2 is pressed, it'll operate at a higher frequency. 
+
+![](https://cloud-1aeqdw5du-hack-club-bot.vercel.app/0image.png)
+
+![](https://cloud-m216uvuch-hack-club-bot.vercel.app/0image.png)
+
+All a 555 timer circuit does, is charge and dischargethe capacitor (C5 in this case) at varying rates to generate the oscillation frequency.
+
+If we want a low frequency, we want the capacitor to charge slowly. Key1 is the lowest key of the piano, so it has the most resistors in the chain. When power is applied to Key1, it has to go through a lot of different resistors to get to the Timer. When power is applied to Key2, it has slightly less resistance, and therefore charges C5 faster, resulting in a higher frequency. Key12 has the least resistance, resulting in the least frequency.
+
+The lower half of resistors, R11 - R14 allow us to change the *discharge* resistance between 0 and 13.2kOhm, providing even more adjustment (to limit the maximum frequency) of the timer between different keyboards.
+
+
+TODO
 
 <!-- Helpful links: -->
 <!-- https://ohmslawcalculator.com/555-astable-calculator -->

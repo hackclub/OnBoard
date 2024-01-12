@@ -36,3 +36,5 @@ To change the volume of a speaker we can increase the power to it or add resista
 Below is the same timer circuit above, but wiht a new dial that controls volume.
 
 TODO: PASSIVE SPEAKER WITH VOLUME CONTROL
+
+![](https://cloud-gvvwccn42-hack-club-bot.vercel.app/0image.png)
