@@ -2,7 +2,7 @@
 name: "Dominic Cangemi"
 slack_handle: "@Dominic Cangemi"
 github_handle: "@KingsmanBaca"
-tutorial: # Link to the tutorial if you used one
+tutorial: #n/a (EasyEDA tool usage)
 ---
 
 # YOUR PROJECT NAME
