@@ -1,0 +1,22 @@
+name: Gerbview Comment
+run-name: Gerbview Comment
+on: 
+    pull_request: 
+        types: [synchronize, labeled]
+        paths: 'projects/**'
+
+jobs:
+  echo-input:
+    #if: contains(github.event.pull_request.labels.*.name, 'Submission') || contains(github.event.pull_request.labels.*.name, 'PCB')
+    # don't need this condition, because gets called on.pull_request.paths == 'projects/**' above. Leaving for posterity.
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.ORPHEUS_PAT || secrets.GITHUB_TOKEN }}
+          script: |
+            const script = require('./.github/workflows/gerbview.js')
+            console.log(await script({gh: github, ctx: context}))
