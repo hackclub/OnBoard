@@ -2,7 +2,7 @@
 name: "KRRISH KISHORE KUMAR"
 slack_handle: "@KRRISH KISHORE KUMAR"
 github_handle: "@THEREALFIISH"
-tutorial: # https://jams.hackclub.com/jam/hacker-card
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Krrish's Minimalist Card
