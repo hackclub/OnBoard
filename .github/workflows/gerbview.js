@@ -87,9 +87,12 @@ async function gitDiffFiles() {
   return gitdifffiles;
 }
 
+var execSync = require('child_process').execSync;
 async function currentCommitHash() {
   console.log(context);
-  return context.payload.head.sha;
+  let s =  execSync("git -C ./theirOnBoard git rev-parse HEAD", {encoding: 'utf-8', timeout: 3000});
+  console.log(s);
+  return s;
 }
 
 module.exports = run
