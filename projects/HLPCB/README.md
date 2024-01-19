@@ -10,7 +10,7 @@ HLPDC
 
 Describe your board in 2-3 sentences. What are you making? What will it do? 
 I have made a PCB that will act as a buissness card for me, this card has the ability to save URL's using NFC. 
-I will also be albe ot use it along side my flipper zero, i can program it to unlock door send notifications whne tapped and many other ideas.
+I will also be able to use it along side my flipper zero, which i can use to program it to unlock doors, send notifications when tapped, and many other ideas.
 
 
 <!-- How much is it going to cost? -->
