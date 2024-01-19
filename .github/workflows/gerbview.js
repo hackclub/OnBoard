@@ -88,7 +88,8 @@ async function gitDiffFiles() {
 }
 
 async function currentCommitHash() {
-  return context.payload.after;
+  console.log(context);
+  return context.payload.head.sha;
 }
 
 module.exports = run
