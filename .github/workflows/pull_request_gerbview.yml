@@ -13,7 +13,7 @@ jobs:
     permissions: write-all
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/github-script@v7
+      - uses: actions/github-script@v4
         with:
           #github-token: ${{ secrets.ORPHEUS_PAT || secrets.GITHUB_TOKEN }}
           script: |
