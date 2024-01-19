@@ -89,8 +89,8 @@ async function gitDiffFiles() {
 
 var execSync = require('child_process').execSync;
 async function currentCommitHash() {
-  console.log(context);
-  let s =  execSync("git -C ./theirOnBoard git rev-parse HEAD", {encoding: 'utf-8', timeout: 3000});
+  //console.log(context);
+  let s =  execSync("git -C ./theirOnBoard rev-parse HEAD", {encoding: 'utf-8', timeout: 3000});
   console.log(s);
   return s;
 }
