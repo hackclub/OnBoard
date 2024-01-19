@@ -2,7 +2,7 @@ name: Gerbview Comment
 run-name: Gerbview Comment
 on: 
     pull_request_target: 
-        types: [synchronize, labeled]
+        types: [opened, synchronize, labeled]
         paths: 'projects/**'
 
 jobs:
