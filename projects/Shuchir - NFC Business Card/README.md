@@ -1,6 +1,6 @@
 ---
 name: "Shuchir Jain"
-slack_handle: "Snow"
+slack_handle: "@shuchir"
 github_handle: "CoolCoderSJ"
 project: "NFC Business Card"
 ---
