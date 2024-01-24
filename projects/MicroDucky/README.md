@@ -7,6 +7,8 @@ tutorial: "https://circuitdigest.com/microcontroller-projects/diy-usb-rubber-duc
 
 # MicroDucky v1.0
 
+![3D render of the board](https://cloud-mi8mbf5ic-hack-club-bot.vercel.app/0image.png)
+
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 Its a reincarnation of the popular BadUSB board, and can be used to inject keystrokes into the target computer within seconds. It can be wasily concealed, being the perfect mischievous tool! 
 <!-- How much is it going to cost? -->
