@@ -1,7 +1,7 @@
 ---
 name: Elliott Benson
-slack_handle: @boredfish
-github_handle: @BoredFishRE
+slack_handle: "@boredfish"
+github_handle: "@BoredFishRE"
 tutorial: # none
 ---
 

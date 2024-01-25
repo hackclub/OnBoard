@@ -1,7 +1,7 @@
 ---
 name: Sohjeet Singh
-slack_handle: @sohjeet
-github_handle: @sohjeet
+slack_handle: "@sohjeet"
+github_handle: "@sohjeet"
 project: Touch Capacitive Piano
 ---
 
