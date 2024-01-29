@@ -9,7 +9,7 @@ ESP32 Omni-direcitonal PCB Robot
 This is a simple ESP32 robot that utilizes omni wheels for omnidirectional movement and encoders for possible PID control. The robot utilizes a ESP32-S2-MINI-2 as it's brain (designed to run micropython), sends outputs 
 through 2 DRV8833 motor drivers which allow for bidirectional control of 4 6v 170rpm DC motors with encoders. The robot is powered by 6 AAA RECHARABLE batteries (rechargable batteries output a constant amount of voltage
 no matter their charge which is necessary for the robot to properly function) but can also take micro usb power input if not running the motors.
-Additional CAD for the robot body and other parts will be uploaded later
+Additional CAD for the robot body and other parts will be uploaded later. This robot was meant to compete for the Robot Tour event in Science Olypiad.
 
 Total PCB Cost: $144.17 (I will cover the excess $44.17)
 
