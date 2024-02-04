@@ -13,4 +13,4 @@ These cards emit NFC signals and when completing the circuit emit and led signal
 
 ## Plan
 ##### Associated Costs
-The PCB costs total to $85.58 with shipping taking up $23.80 and merchandise costs dictating $55.44.
+The PCB costs total to $43.90 with shipping taking up $17.80 and merchandise costs dictating $22.33.
