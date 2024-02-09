@@ -15,7 +15,7 @@ This is currently the 2nd version of the CAN Switch, which is 4x smaller than th
 <!-- How much is it going to cost? -->
 
 The cost of the parts:
-  MFS401N-2-Z (4PDT slide switch) : $1.77000
+  MFS401N-2-Z (4PDT slide switch) : $1.77000, 
   2x ESR10EZPF1200 (120 chip resistor) : $0.21 * 2
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
