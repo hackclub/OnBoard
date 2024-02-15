@@ -2,7 +2,7 @@
 name: "Vinci Chan"
 slack_handle: "@Pikca-c"
 github_handle: "@pikca-c"
-tutorial: [# Link to the tutorial if you used one](https://hackaday.io/project/182069-picolight-minimalist-light-for-product-shots)
+tutorial: https://hackaday.io/project/182069-picolight-minimalist-light-for-product-shots
 ---
 
 # YOUR PROJECT NAME
