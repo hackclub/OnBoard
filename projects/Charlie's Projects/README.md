@@ -17,6 +17,6 @@ I'm actually ordering seven + one of my friends at once to save money, so here t
 - Si4063 breakout - This is an awesome radio chip, with no Arduino libraries or other breakouts (AKA lots of fun staying up too late).
 - Tiny4FSK - This is a board created by my friend that I'm ordering for him to save on shipping costs. It is similar to LittleLoRa, but instead uses the 4FSK modulation protocol (again, ham radio). https://github.com/New-England-Weather-Balloon-Society/Tiny4FSK
 
-These projects are going to cost a total of $62.80, with $45 worth of board and $17.80 worth of shipping.
+These projects are going to cost a total of $66.72, with $45 worth of board and $17.80 worth of shipping.
 
 The hardest part was making super complicated SMD boards with all the components so close together. And the RF design SUCKED.
