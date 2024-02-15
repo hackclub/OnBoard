@@ -5,7 +5,6 @@ github_handle: "@pikca-c"
 tutorial: https://hackaday.io/project/182069-picolight-minimalist-light-for-product-shots
 ---
 
-# YOUR PROJECT NAME
 # PicoLED
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
