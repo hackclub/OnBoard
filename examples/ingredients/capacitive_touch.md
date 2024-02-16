@@ -1,19 +1,16 @@
 # Capacitive touch
 
-## What is it? IMage! Description!
 A capacitive touch sensor allows you to sense the presence of fingers near a large copper area in the PCB.
 
 ![TODO: record our own image of a capacitive touch](https://cloud-i6dtyyfxm-hack-club-bot.vercel.app/01375.gif)
 
-Some microcontrollers (like the ESP32 series) have capacitive touch sensors built in, but even if yours doesn't it's very simple to add a capacitive touch sensor to your circuit.
-
+Some microcontrollers (like the ESP32 series) have capacitive touch sensors built in, or you can add a capacitive touch integrated circuit.
 
 ## Example Circuit
 
 ### Specific part with pinout!
 
 The TTP233H-HA6 is a great IC available on JLCPCB that can do capacitive touch sensing. 
-
 
 ## LED Example
 
