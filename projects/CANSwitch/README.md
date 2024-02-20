@@ -18,6 +18,8 @@ The cost of the parts:
   MFS401N-2-Z (4PDT slide switch) : $1.77000, 
   2x ESR10EZPF1200 (120 chip resistor) : $0.21 * 2
 
+Cost of 3 boards : $1.90
+
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 
 Finding a 4PDT switch that was small, low-profile and cheap was hard, because there were not a lot that were in 
