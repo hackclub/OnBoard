@@ -7,7 +7,8 @@
 - [ ] I have followed the directions in [README.md](https://github.com/hackclub/OnBoard/blob/main/README.md#getting-started)
   - [ ] Created a folder under `onboard/projects`
   - [ ] Filled out `TEMPLATE.md` as `README.md`
-  - [ ] Uploaded Gerber, sources, and schematic
+  - [ ] Uploaded Gerber.zip and Schematic.pdf
+  - [ ] Created a folder called `src` and uploaded design files
   - [ ] Uploaded screenshot of PCB order with all costs included
   - [ ] I am ordering the smallest batch size (ie. JLCPCB's smallest order is for 5 boards)
   - [ ] If outside the US I've checked that I can afford the customs charges in my country (which isn't covered by the grant)
