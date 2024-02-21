@@ -1,8 +1,9 @@
+---
 name: Scott Chiang
 slack_handle: @Scott
 github_handle: Scott170c
 tutorial: [schematic (I sorta followed)](https://learn.adafruit.com/assets/36269)
-
+---
 # Quadruped Servo Driver
 
 `
