@@ -30,3 +30,17 @@ I was originally using a 4PDT like a 3PDT (cause 3PDT's are somehow more expensi
 made it everything more organized and less clustered.
 
 It was hard figuring out a position for parts and pads to be in that would make the board as compact as possible.
+
+
+### More notes from comment
+I probably should mention some things about the circuit for the pcb, because it does not use a Voltage supply or Ground.
+
+I color coded the tracks in the schematic so that half of them are yellow, while the rest are green (CAN bus colors). The yellow tracks are for high signals passing through the circuit and green tracks are for low signals.
+
+When the switch is flipped one way, the yellow tracks should connect together, and when flipped the yellow tracks should pass through a 120 ohms resistor and into a green track. (terminating CAN)
+
+On the PCB design, all the yellow tracks are on one side of the board while green tracks are on the other.
+
+Parts:
+- https://www.mouser.com/ProductDetail/ROHM-Semiconductor/ESR10EZPF1200?qs=DyUWGjl%252BcVtTejlGEVMJGA%3D%3D
+- https://www.digikey.com/en/products/detail/nidec-components-corporation/MFS401N-2-Z/5086558
