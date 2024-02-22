@@ -1,7 +1,7 @@
 ---
 name: Cooper Sobel
 slack_handle: #dont have one
-github_handle: @rouguecrow10639
+github_handle: "@rouguecrow10639"
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 

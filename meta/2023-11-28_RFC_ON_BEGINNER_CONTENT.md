@@ -48,3 +48,10 @@ Examples:
 Examples:
 - A transistor (both NPN and PNP w/ an example)
 - Using a multimeter
+
+## Early notes
+
+![](https://cloud-d7h0bmcir-hack-club-bot.vercel.app/0img_0927.png)
+![](https://cloud-d7h0bmcir-hack-club-bot.vercel.app/1img_0928.png)
+![](https://cloud-d7h0bmcir-hack-club-bot.vercel.app/2img_0929.png)
+![](https://cloud-d7h0bmcir-hack-club-bot.vercel.app/3img_0926.png)

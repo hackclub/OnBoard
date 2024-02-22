@@ -1,0 +1,29 @@
+name: Gerbview Comment
+run-name: Gerbview Comment
+on: 
+    pull_request_target: 
+        types: [opened, synchronize, reopened,labeled]
+        paths: 'projects/**'
+
+jobs:
+  echo-input:
+    #if: contains(github.event.pull_request.labels.*.name, 'Submission') || contains(github.event.pull_request.labels.*.name, 'PCB')
+    # don't need this condition, because gets called on.pull_request.paths == 'projects/**' above. Leaving for posterity.
+    runs-on: ubuntu-latest
+    permissions: 
+      pull-requests: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4 # base (safe) branch because of pull_request_target
+        with:
+          path: ./ourOnBoard
+      - uses: actions/checkout@v4 # unsafe, user contributed branch
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: ./theirOnBoard
+      - uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.ORPHEUS_PAT || secrets.GITHUB_TOKEN }}
+          script: |
+            const script = require('./ourOnBoard/.github/workflows/gerbview.js')
+            console.log(await script({gh: github, ctx: context}))
