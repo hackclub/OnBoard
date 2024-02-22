@@ -27,7 +27,7 @@ This activity is a quick way to get club members to understand what a PCB is & h
 
 ## How to run it
 
-1. Write down a list of components listed in the [ingredients](./ingredients) folder on sticky notes.
+1. Write down a list of components listed in the [ingredients](./ingredients) folder on sticky notes. The first time I did this I started by writing them on a [note pad](https://cloud-m1em9o5uc-hack-club-bot.vercel.app/0img_0931.png).
 2. Seperate them into two cups: one for inputs and one for outputs.
 3. Pass them out to everyone. You could give people 1 of each. You can spice it up by giving everyone either 2 inputs or 2 outputs, then a minute to trade with people to get an input and an output. At minimium, everyone should have 1 input and 1 output.
 4. Provide an example project idea that uses the components you have. For example, if you have a capacitive touch sensor and a speaker, you could make a [pocket piano](./recipies/pocket_piano.md).
