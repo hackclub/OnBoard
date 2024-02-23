@@ -1,8 +1,8 @@
 ---
-name: Scott Chiang
-slack_handle: @Scott
-github_handle: Scott170c
-tutorial: [schematic (I sorta followed)](https://learn.adafruit.com/assets/36269)
+name: "Scott Chiang"
+slack_handle: "Scott"
+github_handle: "Scott170c"
+tutorial: https://learn.adafruit.com/assets/36269
 ---
 # Quadruped Servo Driver
 
@@ -11,7 +11,7 @@ This board is an upgrade to my last years WHW project https://scrapbook.hackclub
 
 <!-- How much is it going to cost? -->
 # COST
-`58 dollary doos (ruh roh)`
+`58 dollary doos (a bit pricey)`
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 # Challenges
