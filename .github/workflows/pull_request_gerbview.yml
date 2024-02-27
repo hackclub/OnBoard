@@ -26,7 +26,7 @@ jobs:
         with:
           github-token: ${{ secrets.ORPHEUS_PAT || secrets.GITHUB_TOKEN }}
           script: |
+            const script = require('./ourOnBoard/.github/workflows/gerbview.js')
             const { chdir } = require('node:process');
             chdir('./OnBoard');
-            const script = require('.github/workflows/gerbview.js')
             console.log(await script({gh: github, ctx: context}))
