@@ -18,11 +18,13 @@ async function run({ gh, ctx }) {
 
 async function findREADME() {
   let filesChanged = await gitDiffFiles();
+	console.error(filesChanged);
 
   let namee = undefined;
   let cleanedFiles = filesChanged.filter((file) => file.filename.toLowerCase().includes("readme") && file.filename.toLowerCase().endsWith('md'));
-  if (cleanedFiles.length === 0) return undefined;
-  else if (cleanedFiles.length > 1) return false;
+  console.error(cleanedFiles);
+  if (cleanedFiles.length === 0) return 0;
+  else if (cleanedFiles.length > 1) return 2;
 
   return cleanedFiles[0];
 }
@@ -96,9 +98,9 @@ return `Hi, I'm Orpheus Leap! Here to help you review your PR.
 async function mainReal(readme) {
 	console.error(readme);
 
-	if (readme === undefined) {
+	if (readme === 0) {
 		return `Cannot find a file describing your project called "README.md".`;
-	} else if (readme === false) {
+	} else if (readme === 2) {
 		return `Found multiple files named README.md. Please only provide one per PR. Make seperate PRs for multiple independent projects.`;
 	} else if (readme) { // TODO add conditions
 		return processREADME(readme);
