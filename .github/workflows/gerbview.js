@@ -117,9 +117,9 @@ async function processREADME(readme) {
 
 Required files
 ||||
+|---|---|---|
 |✅| README.md | A description of your project |
-|${await hasCart(readme) ?"✅":"❌"} | cart.png | ${await hasCart(readme) ?"![cart.png](https://raw.githubusercontent.com/hackclub/OnBoard/" + (await currentCommitHash()) + "/" + path.dirname(readme) + "/cart.png)":"You need to include a screenshot of your JLCPCB. Check out [these instructions](https://github.com/hackclub/OnBoard/blob/main/docs/ordering_from_JLCPCB.md#pcb-review)"} |
-`;
+|${await hasCart(readme) ?"✅":"❌"} | cart.png | ${await hasCart(readme) ?"![cart.png](https://raw.githubusercontent.com/hackclub/OnBoard/" + (await currentCommitHash()) + "/" + path.dirname(readme) + "/cart.png)":"You need to include a screenshot of your JLCPCB. Check out [these instructions](https://github.com/hackclub/OnBoard/blob/main/docs/ordering_from_JLCPCB.md#pcb-review)"} |`;
 
 	let gerbers = await gerbersInDir(path.dirname(readme));
 
@@ -148,7 +148,7 @@ if (!isValidGerber(gerber)) {
 	`;
 }
   let URL = `https://tracespace.io/view/?boardUrl=https://raw.githubusercontent.com/hackclub/OnBoard/` + (await currentCommitHash()) + "/" + gerber;
-	return`
+	return `
 |${await isValidGerber(gerber) ?"✅":"❌"}| gerber.zip | ${await isValidGerber(gerber) ?"":'This gerber file is invalid. Please export a gerber from your PCB Design software (the same file you will submit to JLCPCB) and name it exactly "gerber.zip".'}|
 |${await hasSchematic(gerber) ?"✅":"❌"} | schematic.pdf | |
 || src files ||
