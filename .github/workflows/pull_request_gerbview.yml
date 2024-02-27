@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4 # unsafe, user contributed branch
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          path: ./OnBoard
+          path: ./theirOnBoard
 
       - uses: actions/github-script@v7
         with:
@@ -28,5 +28,5 @@ jobs:
           script: |
             const script = require('./ourOnBoard/.github/workflows/gerbview.js')
             const { chdir } = require('node:process');
-            chdir('./OnBoard');
+            chdir('./theirOnBoard');
             console.log(await script({gh: github, ctx: context}))
