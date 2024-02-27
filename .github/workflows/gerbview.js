@@ -20,14 +20,11 @@ async function findREADME() {
   let filesChanged = await gitDiffFiles();
 
   let namee = undefined;
-  for (let file of filesChanged) {
-    let name = file.filename
-    if (name.toLowerCase().includes("readme") && name.toLowerCase().endsWith('md')) {
-	    if (name != undefined) { return false; }
-	    namee = name;
-    }
-  }
-  return name;
+  let cleanedFiles = filesChanged.filter((file) => file.filename.toLowerCase().includes("readme") && file.filename.toLowerCase().endsWith('md'));
+  if (cleanedFiles.length === 0) return undefined;
+  else if (cleanedFiles.length > 1) return false;
+
+  return cleanedFiles[0];
 }
 
 // make or update comment with `body` markdown
