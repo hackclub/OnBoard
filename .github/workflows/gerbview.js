@@ -26,7 +26,7 @@ async function findREADME() {
   if (cleanedFiles.length === 0) return 0;
   else if (cleanedFiles.length > 1) return 2;
 
-  return cleanedFiles[0];
+  return cleanedFiles[0].filename;
 }
 
 // make or update comment with `body` markdown
