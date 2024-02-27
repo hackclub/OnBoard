@@ -119,7 +119,7 @@ Required files
 ||||
 |---|---|---|
 |✅| README.md | A description of your project |
-|${await hasCart(readme) ?"✅":"❌"} | cart.png | ${await hasCart(readme) ?"![cart.png](https://raw.githubusercontent.com/hackclub/OnBoard/" + (await currentCommitHash()) + "/" + path.dirname(readme) + "/cart.png)":"You need to include a screenshot of your JLCPCB. Check out [these instructions](https://github.com/hackclub/OnBoard/blob/main/docs/ordering_from_JLCPCB.md#pcb-review)"} |`;
+|${await hasCart(readme) ?"✅":"❌"} | cart.png | ${await hasCart(readme) ?"![cart.png](<https://raw.githubusercontent.com/hackclub/OnBoard/" + (await currentCommitHash()) + "/" + path.dirname(readme) + "/cart.png>)":"You need to include a screenshot of your JLCPCB. Check out [these instructions](https://github.com/hackclub/OnBoard/blob/main/docs/ordering_from_JLCPCB.md#pcb-review)"} |`;
 
 	let gerbers = await gerbersInDir(path.dirname(readme));
 
