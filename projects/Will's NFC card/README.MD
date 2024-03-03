@@ -12,4 +12,4 @@ A Simple NFC Business Card with a light up LED.
 <!-- How much is it going to cost? -->
 It will cost $24.35
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
-One challenge was selecting the right parts and sone settings inside jlcpcb.com. The tutorial really helped!
+One challenge was selecting the right parts and some PCB settings inside jlcpcb.com. The tutorial really helped!
