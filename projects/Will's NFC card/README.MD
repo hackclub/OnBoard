@@ -2,6 +2,7 @@
 name: "Will Mehler"
 github_handle: "@thedog-bot"
 tutorial: https://jams.hackclub.com/jam/hacker-card
+slack_handle: "Will Mehler"
 ---
 
 # NFC Business Card
