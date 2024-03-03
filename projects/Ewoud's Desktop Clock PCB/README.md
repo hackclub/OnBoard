@@ -1,8 +1,8 @@
 ---
 name: "Ewoud Van Vooren"
-slack_handle: "n/a"
+slack_handle: "Ewoud Tinkerboy"
 github_handle: "EwoudVV"
-tutorial: # Link to the tutorial if you used one
+tutorial: "n/a" # Link to the tutorial if you used one
 ---
 
 # Desktop Clock
