@@ -2,7 +2,7 @@
 name: "Ewoud Van Vooren"
 slack_handle: "Ewoud Tinkerboy"
 github_handle: "EwoudVV"
-tutorial: "n/a" # Link to the tutorial if you used one
+tutorial: https://www.youtube.com/playlist?list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O
 ---
 
 # Desktop Clock
