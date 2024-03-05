@@ -1,9 +1,8 @@
----
+
 name: Shayan Malik
 slack_handle: @Shayan Malik
 github_handle: "@Lightshayan
 tutorial: [# Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
----
 
 # Shayan's_Buisness_Card
 
