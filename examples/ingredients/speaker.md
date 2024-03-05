@@ -2,7 +2,7 @@
 
 ## Part numbers
 
-TODO: include part number
+> Recommended part: C530531
 
 ## Intro
 
@@ -27,14 +27,14 @@ To create a frequency we need to turn on and off the power to the circuit. For t
 
 Below is a simple [timer circuit](./555_timer.md) combined with a speaker. We've also included a dial that changes the timing of the circuit.
 
-TODO: TIMER CIRCUIT WITH PASSIVE SPEAKER
+<!-- TODO: TIMER CIRCUIT WITH PASSIVE SPEAKER -->
 
 ## Controling Volume
 
 To change the volume of a speaker we can increase the power to it or add resistance to it. Speakers have a maximum volume before they blow out, so make sure to read the spec sheet!
 
-Below is the same timer circuit above, but wiht a new dial that controls volume.
+Below is the same timer circuit above, but with a new dial that controls volume.
 
-TODO: PASSIVE SPEAKER WITH VOLUME CONTROL
+<!-- TODO: PASSIVE SPEAKER WITH VOLUME CONTROL -->
 
 ![](https://cloud-gvvwccn42-hack-club-bot.vercel.app/0image.png)

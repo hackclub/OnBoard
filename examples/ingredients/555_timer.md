@@ -2,9 +2,17 @@
 
 Timers are common in electronics. Here are a couple examples of how to use them:
 
-## Specific example
+## Example
+
+Here's a simple timer circuit in action:
+
+![](https://cloud-bc8fblv1k-hack-club-bot.vercel.app/0image.png)
+
+<!-- ![](https://cloud-i4fta41h4-hack-club-bot.vercel.app/0screenshot_2024-03-02_at_10.25.05.png) -->
 
 ## How fast do you run it?
+
+You can change the speed it occolates at by changing the resistors and capacitors connected to it. There's physics behind this, or you can just use an [online 555 calculator](https://ohmslawcalculator.com/555-astable-calculator).
 
 ## Pinout
 
@@ -30,15 +38,9 @@ Usually you only need to configure a couple of them, so here's a simplified layo
 7. Wire this to pin 8 through resistor R2
 8. VCC (Power!)
 
-## Technical limitations
+<!-- ## Technical limitations -->
 
-- Rated voltage
-
-## Examples
-
-Here's a simple timer circuit in action:
-
-![](https://cloud-bc8fblv1k-hack-club-bot.vercel.app/0image.png)
+<!-- - Rated voltage -->
 
 ## Changing Frequencies
 
