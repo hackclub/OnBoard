@@ -5,7 +5,7 @@ github_handle: "@ari-kl"
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
-# YOUR PROJECT NAME
+# Ari's Card
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 This is my first PCB, it is a card with NFC and some fun graphics. I am planning to use it as a fun and visually interesting way to have data on a card.
