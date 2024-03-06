@@ -165,7 +165,7 @@ async function eachGerber(gerber) {
 	`;
   }
   let URL =
-    `https://tracespace.io/view/?boardUrl=https://raw.githubusercontent.com/hackclub/OnBoard/` +
+    `https://gerber.zip/2d/?mode=layers&boardUrl=https://raw.githubusercontent.com/hackclub/OnBoard/` +
     (await currentCommitHash()) +
     "/" +
     gerber;
@@ -183,7 +183,7 @@ async function eachGerber(gerber) {
         "/schematic.pdf>)" : "You must export your schematic file as schematic.pdf"} |
 |${srcstatus}| Source files - ${srcsw} | ${srcmessage} |
 
-You can view a render of your board over on [tracespace.io](<${URL}>)!
+You can view a render of your board over on [gerber.zip/2d](<${URL}>)!
 		`;
 }
 
