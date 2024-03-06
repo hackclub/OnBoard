@@ -141,7 +141,7 @@ Required files
   if (gerbers.length === 0) {
     ans += `
 
-**Cannot find a Gerber File. Please export a gerber from your PCB Design software and name it exactly "gerber.zip".**`;
+**❌❌❌Cannot find a Gerber File. Please export a gerber from your PCB Design software and name it exactly "gerber.zip".**`;
   } else if (gerbers.length === 1) {
     ans += await eachGerber(gerbers[0]);
   } else {
