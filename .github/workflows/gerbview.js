@@ -223,7 +223,7 @@ const isKiCADPCB = (f) => {
 };
 
   let d = path.dirname(gerber) + "/src/";
-  var ret = ["❌","Unknown","No source files found. Please make a directory called 'src' and put your gerbers and upload your source files there. See instructions for [EasyEDA]() and [KiCAD]()."];;
+  var ret = ["❌","Unknown","No source files found. Please make a directory called 'src' and put your gerbers and upload your source files there. There must be two files, one for the schematic and one for the PCB. ."];;// TODO: See instructions for [EasyEDA]() and [KiCAD]()
   var files;
   
 	try{
@@ -256,7 +256,7 @@ const isKiCADPCB = (f) => {
 		ret = ["✅", "EasyEDA", " Found both PCB and SCH files"];
 	} else if (atLeastOneEasyEDASch || atLeastOneEasyEDAPCB) {
 		ret[1] = "EasyEDA";
-		ret[2] = "Please upload both your PCB and Schematic EasyEDA files. Instructions available [here]()";
+		ret[2] = "Please upload both your PCB and Schematic EasyEDA files. ";//Instructions available [here]() TODO: add instructions
 	}
         //console.error(files);
   
