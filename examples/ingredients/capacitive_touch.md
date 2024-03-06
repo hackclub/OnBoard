@@ -14,6 +14,8 @@ Some microcontrollers (like the ESP32 series) have capacitive touch sensors buil
 
 ![](https://cloud-q3gbbbgp4-hack-club-bot.vercel.app/0screenshot_2024-03-04_at_17.09.03.png)
 
+_Note: This circuilt is setting the circuit to TOGGLE mode, so it will toggle between on and off when you touch it. If you want it to only be on when you're touching it, connect the TOG pin to GND._
+
 ## Pinout
 
 - Q: The signal output. Whatever you're trying to control should connect to Q.
