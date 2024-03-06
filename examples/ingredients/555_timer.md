@@ -12,7 +12,7 @@ Here's a simple timer circuit in action:
 
 ## How fast do you run it?
 
-You can change the speed it occolates at by changing the resistors and capacitors connected to it. There's physics behind this, or you can just use an [online 555 calculator](https://ohmslawcalculator.com/555-astable-calculator).
+You can change the speed it oscillate at by changing the resistors and capacitors connected to it. There's physics behind this, or you can just use an [online 555 calculator](https://ohmslawcalculator.com/555-astable-calculator).
 
 ## Pinout
 
