@@ -1,7 +1,7 @@
 ---
-name: "YASH SAXENA"
-slack_handle: "@Yash7"
-github_handle: "@EnigmaByte7"
+name: "SAFNI mj"
+slack_handle: "@safnimj"
+github_handle: "@safnimj"
 project: "NFC Business Card"
 ---
 
@@ -10,7 +10,7 @@ project: "NFC Business Card"
 ##### A PCB based Business Card with NFC support.
 
 ## Plan
-##### Followed the instructon video provided by maggie (thanks for it), but I have designed it on my own with some inspiration drawn from instructables.its around $30 in total(with coupon), I have selected the cheapest shipping method (for 12-20 days) so that it could save money!
+##### I followed the instructional video provided by Maggie (thanks for it), but I designed it on my own, drawing inspiration from Instructables. It cost around $30 in total (with a coupon). I selected the cheapest shipping method (12-20 days) to save money!
 
 ## Design
-##### The pcb board (88.93mm by 50.8mm) has two layers, the top layer is supposed to be assembled and have the electrical components with a design. On the bottom layer lies the contact information and profile with some cool designs.The biggest challenge was routing all connections, but it was fun.
+##### The PCB board (88.93mm by 50.8mm) has two layers. The top layer is intended for assembly and contains the electrical components along with a design. On the bottom layer, there's the contact information and profile along with some cool designs. The biggest challenge was routing all connections, but it was fun.
