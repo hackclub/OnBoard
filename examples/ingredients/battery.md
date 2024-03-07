@@ -1,6 +1,6 @@
 # Battery power
 
-> Recommended part: C964831
+> Recommended part: C964831 (1.5V [watch battery](https://en.wikipedia.org/wiki/Button_cell))
 
 Batteries are pretty nifty! They have a `+` side (VCC) and a `-` side (GND). You can connect them to your circuit to power it.
 
