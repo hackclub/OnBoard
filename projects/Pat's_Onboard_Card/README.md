@@ -2,7 +2,7 @@
 name: "Patricio Gonzalez Cabrera"
 slack_handle: "@patcybermind"
 github_handle: "@patcybermind"
-tutorial: # https://jams.hackclub.com/jam/hacker-card
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Pat's Onboard Card
