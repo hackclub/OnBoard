@@ -21,3 +21,6 @@ it should be something like 19 dollars.
 This was my first time making a pcb and it was really cool! I dont think i would have ever made one if it werent for
 Onboard. I did struggle a bit once in a while like when i couldnt find the right led but i got help from the people in
 the Onboard channel! Thanks to them I managed to get everything to work without breaking my head open on my desk.
+
+![image](https://github.com/Patcybermind/myOnBoardcard/assets/97562509/a32eb3a4-0244-4ca3-832d-f3228e3c5bf0)
+
