@@ -1,9 +1,10 @@
 name: Requisite Check
 run-name: Requisite Check
 on: 
-    pull_request: 
-        types: [opened]
-        paths: 'projects/**'
+    workflow_dispatch:
+      #pull_request: 
+      #    types: [opened]
+      #    paths: 'projects/**'
 
 jobs:
   Requisite-Check:
