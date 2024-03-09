@@ -3,7 +3,7 @@
 name: Juan Zarco
 slack_handle: @Juan Z
 github_handle: @Scrlpter
-tutorial: (https://jams.hackclub.com/jam/hacker-card)
+tutorial: https://jams.hackclub.com/jam/hacker-card
 
 # PCB_PCB_HACKER_CARD2
 
