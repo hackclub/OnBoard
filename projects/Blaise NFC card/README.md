@@ -9,4 +9,4 @@ tutorial: https://jams.hackclub.com/jam/hacker-card
 
 Learning how pcbs can be used to make business card and I just made myslef a business card from a jam by Maggie which was very informative, interntaining and amazing
 
-$45.19/5cards with shipment overall total including everything.
+$28.24/5cards with shipment overall total including everything.
