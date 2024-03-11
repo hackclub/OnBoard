@@ -4,7 +4,7 @@ slack_handle: "@Max Robotics"
 github_handle: "@maxsrobotics"
 ---
 
-# YOUR PROJECT NAME
+# Tiny4FSK
 
 Tiny4FSK aims to run on 1x AAA battery to transmit 4FSK signals on the amateur radio band, allowing for high-altitiude tracking systems for high-altitude systems.
 
