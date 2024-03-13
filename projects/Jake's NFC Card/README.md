@@ -1,8 +1,8 @@
 ---
 name: "Jake Bryant"
 slack_handle: "@SLACK HANDLE"
-github_handle: "@GITHUB Jbryant5213"
-tutorial: # Link to the tutorial if you used one
+github_handle: "@Jbryant5213"
+tutorial: https://jams.hackclub.com/jam/hacker-card # Link to the tutorial if you used one
 ---
 
 # Hacker Card 
