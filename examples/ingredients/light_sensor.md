@@ -1,5 +1,7 @@
 # Light Sensor
 
+Part number: C72049
+
 <!-- ## Photoresistor
 
 A photo resistor increases its resistance when light shines on it. -->
@@ -14,4 +16,3 @@ Here is a reverse night light circuit. When the room is dark the LED turns off. 
 
 ![](https://cloud-9aphg9qtq-hack-club-bot.vercel.app/0screenshot_2024-03-01_at_18.03.05.png)
 
-Part number: C72049
