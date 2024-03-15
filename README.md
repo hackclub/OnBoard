@@ -26,6 +26,10 @@ Every design/submission needs to meet the following constraints to be approved:
 
 ## Getting Started
 
+> You can also go through a video with instructions on how to submit your grant!
+>
+> [<img src="https://cloud-hlrub17tx-hack-club-bot.vercel.app/0yt_link.png" style="width: 500px;"/>](https://www.youtube.com/watch?v=Bh3dm81X_zs)
+
 ### Star the repo (Optional)
 
 To follow the repo for updates and show you're participating, click the "star" button on the [`onboard`](https://github.com/hackclub/OnBoard/) repo.
