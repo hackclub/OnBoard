@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+<script>
+  outputComponents = [
+    {
+      name: "Speaker",
+      description: "Make some noise! Add a speaker and make it everyone's problem.",
+      link: "speaker.md"
+    },
+    {
+      name: "Rumble motor",
+      description: "Vibrate! Good for tactile feedback.",
+      link: "rumble.md"
+    },
+    {
+      name: "LED",
+      description: "Shine bright like a diamond!",
+      link: "led.md"
+    }
+  ]
+  inputComponents = [
+    {
+      name: "Capacitive sensor",
+      description: "See what's touching it through the power of electricity.",
+      link: "capacitive_touch.md"
+    },
+    {
+      name: "Button",
+      description: "Bopit!",
+      link: "button.md"
+    },
+    {
+      name: "Joystick",
+      description: "Move it around!",
+      link: "joystick.md"
+    },
+    {
+      name: "Light sensor",
+      description: "See the light!",
+      link: "photoresistor.md"
+    }
+  ]
+
+  function randomizeComponents() {
+
+    // const inputComponents = inputComponents[Math.floor(Math.random() * inputComponents.length)];
+    // const outputComponents = outputComponents[Math.floor(Math.random() * outputComponents.length)];
+    document.getElementById("input-component").innerHTML = inputComponents.map(component => component.name).join(", ")
+    document.getElementById("output-component").innerHTML = inputComponents.map(component => component.name).join(", ")
+  }
+</script>
+</head>
+</body>
+  <h1>Components in a cap!</h1>
+  <button class="btn btn-outline-brand btn-sm" onclick="randomizeComponents()">Componentize me capt'n!</button>
+  <p>What if you connected a <span id="input-component"></span> to a <span id="output-component"></span></p>
+</body>
+</html>
