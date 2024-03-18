@@ -1,8 +1,8 @@
 ---
-name: SwastikBajpai
+name: Swastik Bajpai
 slack_handle: @Always Busy
 github_handle: @Swamstick911
-tutorial: I used the tutorial which the hack club provided for the 'hacking card'.
+tutorial: I used the tutorial which the hack club provided for the hacking card.
 ---
 
 # Swastik's Card
