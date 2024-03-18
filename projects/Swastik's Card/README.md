@@ -1,5 +1,5 @@
 ---
-name: Swastik Bajpai
+name: SwastikBajpai
 slack_handle: @Always Busy
 github_handle: @Swamstick911
 tutorial: I used the tutorial which the hack club provided for the 'hacking card'.
