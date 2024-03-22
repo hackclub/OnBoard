@@ -9,9 +9,9 @@ tutorial: "https://jams.hackclub.com/jam/hacker-card"
 
 I made an NFC card following the tutorial linked above. It has my name, contact details, and a few components.
 
-price: $28.75
-shipping: $25.50
-total: $53.75
+price: $21.50
+shipping: $18.80
+total: $40.30
 
 timeline: 3-5 business days
 
