@@ -5,7 +5,7 @@ github_handle: "@revaga"
 tutorial: # 
 ---
 
-# Pi-Day Pie PCB
+# Pi-Day Pie PCB Keychain
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 I made a keychain in the shape of a pie. It has 3 LEDs that will light up if the switch is flipped. I made this for Pi-day (3/14)
