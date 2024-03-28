@@ -13,4 +13,4 @@ It is a 4 USB's Type-A usb hub, it will give 3 extra ports when connected to you
 ![image](https://github.com/lowkeyvansh/OnBoard/assets/141631987/8d0a69c7-ae5c-48ef-b1c5-900902dd49bc)
 
 
-It will cost me #37.89 for 15 PCB's + $36.43 for shipping which adds up to a total of $80.92
+It will cost me $37.89 for 15 PCB's + $36.43 for shipping which adds up to a total of $80.92
