@@ -17,8 +17,8 @@ PCB fabs have *A LOT* of settings for board manufacturing, and JLCPCB is no exce
 
 - **Base Material**: What material you're going to make the PCBs out of. For OnBoard purposes, you'll board will be made out of FR-4.
 - **Layers**: These are the number of copper layers that are in your design. This field should be auto filled with what JLCPCB detects in your Gerbers. 2 or 4 layer PCBs are the most common. Note that anything 6 and above will cost more!
-- **Dimensions:**: The size of your PCB. Field should be auto-populated based off of your gerbers.
-- **PCB QTY:**: Number of PCBs you're ordering. The OnBoard grant only allows the minimum, which is usually 5.
+- **Dimensions**: The size of your PCB. Field should be auto-populated based off of your gerbers.
+- **PCB QTY**: Number of PCBs you're ordering. The OnBoard grant only allows the minimum, which is usually 5.
 - **Product Type**: Don't worry too much about this setting. It mostly deals with what level of care JLCPCB needs to handle your boards with (i.e medical cannot have lead on it). Keep it Industrial/Consumer Electronics.
 
 ### PCB Specifications
@@ -46,9 +46,9 @@ PCB fabs have *A LOT* of settings for board manufacturing, and JLCPCB is no exce
 
 ![](images/ordering/assembly.png)
 
-- **PCBA Type** - Economic. Standard is very expensive.
-- **PCBA Qty** - Instead of soldering parts to all 5 boards, you can choose to get just 2 to save grant money. They'll ship the other 3 boards without any components on them to you.
-- **Confirm Parts Placement** - JLCPCB will manually check whether your parts are oriented correctly for a small fee.
+- **PCBA Type**: Economic. Standard is very expensive.
+- **PCBA Qty**: Instead of soldering parts to all 5 boards, you can choose to get just 2 to save grant money. They'll ship the other 3 boards without any components on them to you.
+- **Confirm Parts Placement**: JLCPCB will manually check whether your parts are oriented correctly for a small fee.
 
 Then on the next screen, upload the `bom.csv` and `positions.csv` (from KiCAD) or `BOM_PCB.csv` and `PickAndPlace.csv` (from EasyEDA).
 
