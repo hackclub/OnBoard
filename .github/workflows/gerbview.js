@@ -174,7 +174,7 @@ async function eachGerber(gerber) {
       ? ""
       : 'This gerber file is invalid. Please export a gerber from your PCB Design software (the same file you will submit to JLCPCB) and name it exactly "gerber.zip".'
     }|
-|${(await hasSchematic(gerber)) ? "🟨" : "❌"} | schematic.pdf | ${(await hasSchematic(gerber)) ? "Manually check ![schematic.pdf](<https://raw.githubusercontent.com/hackclub/OnBoard/" +
+|${(await hasSchematic(gerber)) ? "✅" : "❌"} | schematic.pdf | ${(await hasSchematic(gerber)) ? "Manually check ![schematic.pdf](<https://raw.githubusercontent.com/hackclub/OnBoard/" +
       (await currentCommitHash()) +
       "/" +
       path.dirname(gerber) +
