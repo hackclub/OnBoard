@@ -14,7 +14,7 @@ Basic info about me, an Functioning LED and a QR Code :)
 
 <!-- How much is it going to cost? -->
 
-66.28€ including Customs Taxes and Shipping. ( 15 PCB'S)
+45.12€ including shipping tax and customs (5 PCS)
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 
