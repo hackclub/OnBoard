@@ -132,8 +132,8 @@ Required files
       "/" +
       path.dirname(readme) +
       "/cart.png>)"
-      : "You need to include a screenshot of your JLCPCB. Check out [these instructions](https://github.com/hackclub/OnBoard/blob/main/docs/ordering_from_JLCPCB.md#pcb-review)"
-    } |`;
+      : "You need to include a screenshot of your JLCPCB. Check out [these instructions](https://github.com/hackclub/OnBoard/blob/main/docs/ordering_from_JLCPCB.md#pcb-review). If you already have one, make sure it's a PNG file named exactly \"cart.png\"."
+    } |`; // TODO: can we handle both png and jpg/jpeg??
 
   let gerbers = await gerbersInDir(path.dirname(readme));
 
@@ -144,7 +144,7 @@ Required files
   } else if (gerbers.length === 1) {
     ans += await eachGerber(gerbers[0]);
   } else {
-    ans += "Formatting for multi-board projects not implemented yet."; //TODO
+    ans += "\n\nFormatting for multi-board projects not implemented yet."; //TODO
   }
   return ans;
 }
