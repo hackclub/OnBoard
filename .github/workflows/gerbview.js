@@ -186,7 +186,7 @@ async function analyzeSourceFiles(gerber) {
   const isEasyEDASch = (f) => {
     try {
       let a = fss.readFileSync(f, { encoding: "utf-8", start: 0, end: 300 })
-      return a.includes("schematics") && a.includes(`docType": "5`);
+      return a.includes("schematics") && (a.includes(`docType": "5`) || a.includes(`docType":"1`));
     } catch (error) {
       return false;
     }
@@ -195,7 +195,7 @@ async function analyzeSourceFiles(gerber) {
   const isEasyEDAPCB = (f) => {
     try {
       let a = fss.readFileSync(f, { encoding: "utf-8", start: 0, end: 300 })
-      return a.includes("canvas") && a.includes(`docType": "3`);
+      return a.includes("canvas") && (a.includes(`docType": "3`) || a.includes(`docType":"3`));
     } catch (error) {
       return false;
     }
