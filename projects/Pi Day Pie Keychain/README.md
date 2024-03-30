@@ -11,7 +11,7 @@ tutorial: #
 I made a keychain in the shape of a pie. It has 3 LEDs that will light up if the switch is flipped. I made this for Pi-day (3/14)
 
 <!-- How much is it going to cost? -->
-$22.67 (not including shipping)
+$26.16 (not including shipping)
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 The first PCB workshop I attended was at Spark where Maggie was explaining how to make a Hacker Card. At Summit, Max's workshop gave me more exposure to PCBs and his workshop in the Slack channel helped me experiment with different parts. 
