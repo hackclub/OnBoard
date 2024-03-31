@@ -2,7 +2,7 @@
 name: "Hunter Green"
 slack_handle: "@hunter"
 github_handle: "@locust580"
-tutorial: #https://jams.hackclub.com/jam/hacker-card
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Hunter's PCB (NFC card)
