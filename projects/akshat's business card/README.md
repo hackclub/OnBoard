@@ -2,10 +2,10 @@
 name: "Akshat Sharma"
 slack_handle: "@Akshat Sharma"
 github_handle: "@Akshatbigman"
-tutorial: # https://jams.hackclub.com/jam/hacker-card
+tutorial: #https://jams.hackclub.com/jam/hacker-card
 ---
 
-# YOUR PROJECT NAME
+# Akshat's Business card
 
 <!-- I am making a business card for my self which will have a QR code to scan which will lead to my website and i also have my Github handle next to it -->
 
