@@ -10,11 +10,11 @@ github_handle: "@ANG13T"
 This star-shaped blinky wearable showcases mesmerizing constellation and star art, brought to life by the bright programmable LEDs showcasing dazzling light patterns on a sleek SMD PCB canvas. Powered by the ATtiny13 IC, this wearable features ICSP pins at the bottom, allowing for quick programmability. With the aid of a stencil, if needed, users can hone their SMD soldering skills while assembling this board 🌟.
 
 ### Cost
-Total: 
+Total: $57.56
 
 PCB Total: $9
 
-Non PCB BOM Total:
+Non PCB BOM Total: $48.56
 
 - [Coin Cell Battery Holder](https://www.amazon.com/Hxchen-BS-6DIP-Electrical-Lithium-Battery/dp/B07VZCXQJ3/ref=sr_1_4?crid=137ZLMXB341HN&dib=eyJ2IjoiMSJ9.FAZfUVjx-amvVZQFDQayx1DTAELAT7UHsjt1i3umGrmq6VrMWubXK4cR3pBM2OXSFJxGxn66Rqdb75hRqESjyekIWibwSGPvcUW_ZunogmkfUMXzrjglRcwq7rYWKGZNgoAJeeKDEVF0zIDRyL6-7NgC4t-UccmiJd2TyywsCXh8i3oRKWlyLkxmMmLMCbIMxj1R2Xmxx2ad2woiqsd3-W30hNI-EFuWxWSaqX6obgs.yfpnrf9w42S0wzco9R1xrDe15wqjDZEtSnvYh6hZCOk&dib_tag=se&keywords=smd+3v+coin+battery+holder&qid=1711984515&sprefix=sm3v+coin+battery+holder%2Caps%2C280&sr=8-4): $7.99
 - [3V Coin Cell Battery](https://www.amazon.com/LiCB-CR2032-Lithium-Battery-10-Pack/dp/B071D4DKTZ/ref=sr_1_7?crid=1S3G5YBWB3BRE&dib=eyJ2IjoiMSJ9.bDz2iaX_geo6C_G1I5ucCSGZaYp8caqzjiwddTfxVtc8_8tHbLnVF8rMzk-mkwg04mJ6obyYIqQGZUpACYCZ5lnXn9nGypEf45t46hUi6eEiFvew0RbMfK0udv3dqnUhkzPikNvxi4gPwBEiMHdZ8e-exyI2_pzWSlyBi4cYkWVYXd51sT2QrJZKuUqhofcd4u3LqAC1kbJyYZh5DqHmLS8Sxh_mMKrYphv7fQRuspyrfA6JVP1bw9beFWpZHGH9drfXg6IiSUj4L9D32pNFpSFs5o7dPN2TV0icnrw3qKA.Rmmm3N3AgkriWudaT8TdFe4-ypdy_AJakXMsLmsvbZ4&dib_tag=se&keywords=3v+coin+battery&qid=1711984455&sprefix=3v+coin+%2Caps%2C224&sr=8-7): $5.99
