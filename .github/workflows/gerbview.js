@@ -175,7 +175,7 @@ async function eachGerber(gerber) {
       ? ""
       : 'This gerber file is invalid. Please export a gerber from your PCB Design software (the same file you will submit to JLCPCB) and name it exactly "gerber.zip".'
     }|
-|${(await hasSchematic(gerber)) ? "✅" : "❌"} | [schematic.pdf](${rawPdfUrl}) | ${(await hasSchematic(gerber)) ? `Manually check ![schematic.pdf](${rawPdfUrl})` : "You must export your schematic file as schematic.pdf"} |
+|${(await hasSchematic(gerber)) ? "✅" : "❌"} | [schematic.pdf](<${rawPdfUrl}>) | ${(await hasSchematic(gerber)) ? `Manually check [schematic.pdf](<${rawPdfUrl}>)` : "You must export your schematic file as schematic.pdf"} |
 |${srcstatus}| Source files - ${srcsw} | ${srcmessage} |
 
 You can view a render of your board over on [gerber.zip/2d](<${URL}>)!
