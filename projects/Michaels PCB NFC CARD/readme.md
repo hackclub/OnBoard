@@ -1,8 +1,8 @@
-
+---
 name: "Michael Garcia"
 slack_handle: "@Michael Garcia"
 github_handle: "@voidsshadows"
-tutorial: [Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
+tutorial: "https://jams.hackclub.com/jam/hacker-card"
 ---
 
 # Michaels PCB NFC CARD
