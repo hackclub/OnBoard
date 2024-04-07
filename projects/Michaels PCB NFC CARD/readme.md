@@ -6,8 +6,8 @@ tutorial: # Link to the tutorial if you used one
 https://jams.hackclub.com/jam/hacker-card
 --- 
 
-# YOUR PROJECT NAME
-Michaels PCB NFC CARD
+# Michaels PCB NFC CARD
+
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 This board is a pcb nfc biusness card that shows people my information and is a conversation starter
