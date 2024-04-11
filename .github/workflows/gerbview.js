@@ -126,15 +126,14 @@ Required files
 ||||
 |---|---|---|
 |✅| README.md | A description of your project |
-|${(await hasCart(readme)) ? "✅" : "❌"} | cart.png | ${
-    (await hasCart(readme))
+|${(await hasCart(readme)) ? "✅" : "❌"} | cart.png | ${(await hasCart(readme))
       ? "![cart.png](<https://raw.githubusercontent.com/hackclub/OnBoard/" +
-        (await currentCommitHash()) +
-        "/" +
-        path.dirname(readme) +
-        "/cart.png>)"
-      : "You need to include a screenshot of your JLCPCB. Check out [these instructions](https://github.com/hackclub/OnBoard/blob/main/docs/ordering_from_JLCPCB.md#pcb-review)"
-  } |`;
+      (await currentCommitHash()) +
+      "/" +
+      path.dirname(readme) +
+      "/cart.png>)"
+      : "You need to include a screenshot of your JLCPCB. Check out [these instructions](https://github.com/hackclub/OnBoard/blob/main/docs/ordering_from_JLCPCB.md#pcb-review). If you already have one, make sure it's a PNG file named exactly \"cart.png\"."
+    } |`; // TODO: can we handle both png and jpg/jpeg??
 
   let gerbers = await gerbersInDir(path.dirname(readme));
 
@@ -145,16 +144,16 @@ Required files
   } else if (gerbers.length === 1) {
     ans += await eachGerber(gerbers[0]);
   } else {
-    ans += "Formatting for multi-board projects not implemented yet."; //TODO
+    ans += "\n\nFormatting for multi-board projects not implemented yet."; //TODO
   }
   return ans;
 }
 
 async function gerbersInDir(readmepath) {
-	//console.error(readmepath);
-	//console.error(await fs.readdir(readmepath, {recursive: true}));
-	// INFO: ALLEGEDLY NEEDS NODE 20
-	return (await fs.readdir(readmepath, {recursive: true})).filter((f) => f.endsWith("gerber.zip")).map((f) => readmepath + "/" + f);
+  //console.error(readmepath);
+  //console.error(await fs.readdir(readmepath, {recursive: true}));
+  // INFO: ALLEGEDLY NEEDS NODE 20
+  return (await fs.readdir(readmepath, { recursive: true })).filter((f) => f.endsWith("gerber.zip")).map((f) => readmepath + "/" + f);
 }
 
 async function eachGerber(gerber) {
@@ -170,17 +169,13 @@ async function eachGerber(gerber) {
     "/" +
     gerber;
   let [srcstatus, srcsw, srcmessage] = await analyzeSourceFiles(gerber);
+  let rawPdfUrl = `https://raw.githubusercontent.com/hackclub/OnBoard/${await currentCommitHash()}/${path.dirname(gerber)}/schematic.pdf`
   return `
-|${(await isValidGerber(gerber)) ? "✅" : "❌"}| gerber.zip | ${
-    (await isValidGerber(gerber))
+|${(await isValidGerber(gerber)) ? "✅" : "❌"}| gerber.zip | ${(await isValidGerber(gerber))
       ? ""
       : 'This gerber file is invalid. Please export a gerber from your PCB Design software (the same file you will submit to JLCPCB) and name it exactly "gerber.zip".'
-  }|
-|${(await hasSchematic(gerber)) ? "🟨" : "❌"} | schematic.pdf | ${(await hasSchematic(gerber)) ? "Manually check ![schematic.pdf](<https://raw.githubusercontent.com/hackclub/OnBoard/" +
-        (await currentCommitHash()) +
-        "/" +
-        path.dirname(gerber) +
-        "/schematic.pdf>)" : "You must export your schematic file as schematic.pdf"} |
+    }|
+|${(await hasSchematic(gerber)) ? "✅" : "❌"} | [schematic.pdf](<${rawPdfUrl}>) | ${(await hasSchematic(gerber)) ? `Manually check [schematic.pdf](<${rawPdfUrl}>)` : "You must export your schematic file as schematic.pdf"} |
 |${srcstatus}| Source files - ${srcsw} | ${srcmessage} |
 
 You can view a render of your board over on [gerber.zip/2d](<${URL}>)!
@@ -188,80 +183,80 @@ You can view a render of your board over on [gerber.zip/2d](<${URL}>)!
 }
 
 async function analyzeSourceFiles(gerber) {
-const isEasyEDASch = (f) => {
+  const isEasyEDASch = (f) => {
     try {
-        let a = fss.readFileSync(f, { encoding: "utf-8", start: 0, end: 300 })
-        return a.includes("schematics") && a.includes(`docType": "5`);
+      let a = fss.readFileSync(f, { encoding: "utf-8", start: 0, end: 300 })
+      return a.includes("schematics") && (a.includes(`docType": "5`) || a.includes(`docType":"1`));
     } catch (error) {
-        return false;
+      return false;
     }
-};
+  };
 
-const isEasyEDAPCB = (f) => {
+  const isEasyEDAPCB = (f) => {
     try {
-        let a = fss.readFileSync(f, { encoding: "utf-8", start: 0, end: 300 })
-        return a.includes("canvas") && a.includes(`docType": "3`);
+      let a = fss.readFileSync(f, { encoding: "utf-8", start: 0, end: 300 })
+      return a.includes("canvas") && (a.includes(`docType": "3`) || a.includes(`docType":"3`));
     } catch (error) {
-        return false;
+      return false;
     }
-};
+  };
 
-const isKiCADSch = (f) => {
+  const isKiCADSch = (f) => {
     try {
-        return fss.readFileSync(f, { encoding: "utf-8", start: 0, end: 15 }).includes("kicad_sch");
+      return fss.readFileSync(f, { encoding: "utf-8", start: 0, end: 15 }).includes("kicad_sch");
     } catch (error) {
-        return false;
+      return false;
     }
-};
+  };
 
-const isKiCADPCB = (f) => {
+  const isKiCADPCB = (f) => {
     try {
-        return fss.readFileSync(f, { encoding: "utf-8", start: 0, end: 15 }).includes("kicad_pcb");
+      return fss.readFileSync(f, { encoding: "utf-8", start: 0, end: 15 }).includes("kicad_pcb");
     } catch (error) {
-        return false;
+      return false;
     }
-};
+  };
 
   let d = path.dirname(gerber) + "/src/";
-  var ret = ["❌","Unknown","No source files found. Please make a directory called 'src' and put your gerbers and upload your source files there. There must be two files, one for the schematic and one for the PCB. ."];;// TODO: See instructions for [EasyEDA]() and [KiCAD]()
+  var ret = ["❌", "Unknown", "No source files found. Please make a directory called 'src' and put your gerbers and upload your source files there. There must be two files, one for the schematic and one for the PCB. ."];;// TODO: See instructions for [EasyEDA]() and [KiCAD]()
   var files;
-  
-	try{
-		files = (await fs.readdir(d)).map((f) => d + f);
-	}
-	catch {
-      return  ret;
-	}
 
-	if (files.length === 0) {
-		return ret;
-	}
+  try {
+    files = (await fs.readdir(d)).map((f) => d + f);
+  }
+  catch {
+    return ret;
+  }
 
-	// heuristics, not super super accurate
-	let atLeastOneKicadSch = files.some((f) => isKiCADSch(f))
-	let atLeastOneKicadPCB = files.some((f) => isKiCADPCB(f))
-	let atLeastOneEasyEDASch = files.some((f) => isEasyEDASch(f))
-	let atLeastOneEasyEDAPCB = files.some((f) => isEasyEDAPCB(f))
+  if (files.length === 0) {
+    return ret;
+  }
 
-	if (atLeastOneKicadSch && atLeastOneKicadPCB) { // at least one file includes kicad
-		ret = ["✅", "KiCAD", "Found both PCB and SCH files"];
-		if (files.some((f) => (f.includes("backups") && fss.statSync(f).isDirectory()) || f.includes("cache"))) {
-			ret[0] = "❌";
-			ret[2] = "Please remove backups, cache and any other unneccessary files";
-		}
-	} else if (atLeastOneKicadSch || atLeastOneKicadPCB) { // here we are assuming all jsons are easyeda?????
-		ret[1] = "KiCAD";
-		ret[2] = "Please upload both your PCB and Schematic KiCAD files";
-	} else if (atLeastOneEasyEDASch && atLeastOneEasyEDAPCB) {
-		ret = ["✅", "EasyEDA", " Found both PCB and SCH files"];
-	} else if (atLeastOneEasyEDASch || atLeastOneEasyEDAPCB) {
-		ret[1] = "EasyEDA";
-		ret[2] = "Please upload both your PCB and Schematic EasyEDA files. ";//Instructions available [here]() TODO: add instructions
-	}
-        //console.error(files);
-  
-  
-      return ret;
+  // heuristics, not super super accurate
+  let atLeastOneKicadSch = files.some((f) => isKiCADSch(f))
+  let atLeastOneKicadPCB = files.some((f) => isKiCADPCB(f))
+  let atLeastOneEasyEDASch = files.some((f) => isEasyEDASch(f))
+  let atLeastOneEasyEDAPCB = files.some((f) => isEasyEDAPCB(f))
+
+  if (atLeastOneKicadSch && atLeastOneKicadPCB) { // at least one file includes kicad
+    ret = ["✅", "KiCAD", "Found both PCB and SCH files"];
+    if (files.some((f) => (f.includes("backups") && fss.statSync(f).isDirectory()) || f.includes("cache"))) {
+      ret[0] = "❌";
+      ret[2] = "Please remove backups, cache and any other unneccessary files";
+    }
+  } else if (atLeastOneKicadSch || atLeastOneKicadPCB) { // here we are assuming all jsons are easyeda?????
+    ret[1] = "KiCAD";
+    ret[2] = "Please upload both your PCB and Schematic KiCAD files";
+  } else if (atLeastOneEasyEDASch && atLeastOneEasyEDAPCB) {
+    ret = ["✅", "EasyEDA", " Found both PCB and SCH files"];
+  } else if (atLeastOneEasyEDASch || atLeastOneEasyEDAPCB) {
+    ret[1] = "EasyEDA";
+    ret[2] = "Please upload both your PCB and Schematic EasyEDA files. ";//Instructions available [here]() TODO: add instructions
+  }
+  //console.error(files);
+
+
+  return ret;
 }
 
 function hasCart(readme) {
@@ -282,7 +277,7 @@ function hasSchematic(gerber) {
     .readFile(d + "/schematic.pdf", { encoding: "utf-8", start: 0, end: 4 })
     .then((fileContent) => fileContent.startsWith("%PDF-"))
     .catch((error) => {
-	   //console.error("Error occurred:", error);
+      //console.error("Error occurred:", error);
       return false;
     });
 }
@@ -290,7 +285,7 @@ function hasSchematic(gerber) {
 function isValidGerber(gerber) {
   var s = null;
   if (path.basename(gerber) !== "gerber.zip") {
-	  return false;
+    return false;
   }
   try {
     s = execSync(`unzip -l "${gerber}"`, {
