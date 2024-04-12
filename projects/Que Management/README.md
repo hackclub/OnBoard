@@ -2,7 +2,7 @@
 name: "Ram Gupta"
 slack_handle: "@Gram"
 github_handle: "@Screen-sLaYeR"
-tutorial: # Link to the tutorial if you used one
+tutorial: None
 ---
 
 # Queue Management
@@ -21,6 +21,9 @@ This project is helpful for queue management
 | CD4511 x 5       | $10.30 |
 | 7 Segment Display x 15        | $18.04 |
 | NodeMCU 8266 x 3        | $16.57 |
-| Total         | $77.54 |
+| 0.96 inch Oled display  x 3        | $17.97 |
+| Total         | $95.51 |
 
-<!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
+Rest the Solder and the assembly can be done my self.
+
+Earlier I tested it on my Prototyping Breadboard. The programming of ESP-12F was only, the hard part because it is not breadboard-friendly we had to hold the wire until the programming was done.
