@@ -2,7 +2,7 @@
 name: "Sang Nguyen"
 slack_handle: "@Sang Nguyen"
 github_handle: "@SangTNguyen2"
-tutorial: # https://github.com/SangTNguyen2/OnBoard/tree/main/projects/TOTKey (had to improvise some parts)
+tutorial: # https://github.com/hackclub/OnBoard/tree/main/projects/TOTKey (had to improvise some parts)
 ---
 
 # YOUR PROJECT NAME
