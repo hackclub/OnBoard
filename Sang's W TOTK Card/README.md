@@ -5,7 +5,7 @@ github_handle: "@SangTNguyen2"
 tutorial: # https://github.com/hackclub/OnBoard/tree/main/projects/TOTKey (had to improvise some parts)
 ---
 
-# YOUR PROJECT NAME
+# SANGS TOTK KEY
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 I am making a TOTK board inspired by "rivques" that i saw featured on the onboard website
