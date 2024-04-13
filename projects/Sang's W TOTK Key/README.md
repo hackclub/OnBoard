@@ -1,7 +1,7 @@
 ---
 name: "Sang Nguyen"
 slack_handle: "@Sang Nguyen"
-github_handle: "@SangTNguyen"
+github_handle: "@SangTNguyen2"
 tutorial: # technically: https://oshwlab.com/rivques/totkey
 ---
 
