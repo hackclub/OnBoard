@@ -5,7 +5,7 @@ github_handle: "@gitcomit8"
 tutorial: # [Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
 ---
 
-# YOUR PROJECT NAME
+# Ayaan's Cards
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 A cool hopefully aesthetic business card.
