@@ -26,15 +26,21 @@ Every design/submission needs to meet the following constraints to be approved:
 
 ## Getting Started
 
+> You can also go through a video with instructions on how to submit your grant!
+>
+> [<img src="https://cloud-hlrub17tx-hack-club-bot.vercel.app/0yt_link.png" style="width: 500px;"/>](https://www.youtube.com/watch?v=Bh3dm81X_zs)
+
 ### Star the repo (Optional)
 
 To follow the repo for updates and show you're participating, click the "star" button on the [`onboard`](https://github.com/hackclub/OnBoard/) repo.
 
 ![Star the OnBoard repo](docs/images/directions/star-repo.png)
 
-### 1. Join [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) on Slack!
+### 1. Join `#onboard` on Slack!
 
-Our [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel is where the party is getting started! If you haven't already joined, make sure to add yourself to the channel. And for those who are new to the Hack Club slack, sign up to our community of 13k+ makers through [here](https://hackclub.com/slack/?event=onboard) (don't worry, there isn't an application).
+Our [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel[^4] is where the party is getting started! If you haven't already joined, make sure to add yourself to the channel. And for those who are new to the Hack Club slack, sign up to our community of 13k+ makers through [here](https://hackclub.com/slack/?event=onboard) (don't worry, there isn't an application).
+
+[^4]: This link only works after you've joined the slack. Make sure to get an invite [here](https://hackclub.com/slack/?event=onboard) first.
 
 Perhaps ping a little hello to `@Kevin Yang`?
 
@@ -48,7 +54,7 @@ _If you get stuck on these tutorials, or want more example projects to learn fro
 
 ### 3. Upload to a Vendor and Take a Screenshot
 
-Upload your Gerber files to JLCPCB.com and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^3] if there's a specific one you want to use [^4]. Once completed, take a screenshot with all the final costs and shipping!
+Upload your Gerber files to JLCPCB.com and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^5] if there's a specific one you want to use [^6]. Once completed, take a screenshot with all the final costs and shipping!
 > If you're curious what all the settings are about or how to order for assembly, check out our [`ordering_from_JLCPCB.md`](./docs/ordering_from_JLCPCB.md) doc!
 > To avoid excess shipping fees or customs, check out [`the Shipping Tips`](./community/shipping.md) doc!
 
@@ -57,8 +63,8 @@ It should look like this:
 
 **Note:** Your screenshot is **VITAL** since your project cannot be approved without it. You'll include the screenshot in your PR later.
 
-[^3]: Don't know which ones you can use? Check out [`VENDORS.md`](docs/VENDORS.md) for more info!
-[^4]: If outside the US you may be charged customs which aren't covered by the grant! Check beforehand.
+[^5]: Don't know which ones you can use? Check out [`VENDORS.md`](docs/VENDORS.md) for more info!
+[^6]: If outside the US you may be charged customs which aren't covered by the grant! Check beforehand.
 
 ### 4. Fork!
 

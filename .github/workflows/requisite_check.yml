@@ -1,9 +1,10 @@
 name: Requisite Check
 run-name: Requisite Check
 on: 
-    pull_request: 
-        types: [opened]
-        paths: 'projects/**'
+    workflow_dispatch:
+      #pull_request: 
+      #    types: [opened]
+      #    paths: 'projects/**'
 
 jobs:
   Requisite-Check:
@@ -11,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: Check out
-          uses: actions/checkout@v2
+          uses: actions/checkout@v4
 
         - name: Testing
           run: |
