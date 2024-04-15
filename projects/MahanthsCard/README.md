@@ -2,7 +2,7 @@
 name: "Mahanth Komuravelli"
 slack_handle: "@mahanth"
 github_handle: "@Mahanth-07"
-tutorial: # https://jams.hackclub.com/jam/hacker-card
+tutorial: "https://jams.hackclub.com/jam/hacker-card"
 ---
 
 # Mahanth's Card
