@@ -14,5 +14,5 @@ The board on its own from JLCPCB is going to cost $2, but with shipping it's cos
 I honestly never was into electronics, but ASL recognition through gestures felt like an fun summer project to work on. so I saw some
 videos online on understanding circuits in general, used a breadboard for awhile to make some dumb projects to mess around with, and I
 made the sign language gloves with an breadboard! but I wanted to make it portable through which I thought PCBs are EPICC, I learned a bit
-of eagle actually from a friend who also helped me design the circuit and after like a week of playing around I felt that I made a really good
+of EasyEDA actually from a friend who also helped me design the circuit and after like a week of playing around I felt that I made a really good
 board! :D
