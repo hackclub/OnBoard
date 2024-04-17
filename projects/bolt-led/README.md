@@ -1,6 +1,6 @@
 ---
 name: "Eamonn O'brien"
-slack_handle: "I am stuck on the wait list"
+slack_handle: "I can't get access"
 github_handle: "@Jimmmmithy"
 tutorial: # Link to the tutorial if you used one
 ---
