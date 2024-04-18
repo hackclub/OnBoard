@@ -1,6 +1,6 @@
 ---
 name: "Eamonn O'brien"
-slack_handle: "I can't get access"
+slack_handle: "Eamonn O'brien"
 github_handle: "@Jimmmmithy"
 tutorial: # Link to the tutorial if you used one
 ---
