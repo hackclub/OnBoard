@@ -15,6 +15,6 @@ it's an easy way to allow your single usb c connection into a more versatile 4 U
 
 <!-- How much is it going to cost? -->
 C$90.50
-
+(For a breakdown, check out cost.png)
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 Some challenges I faced were properly laying them out to get it as small as possible for ease of use. Looking at other commerial dongles helped me figure out a good placement.
