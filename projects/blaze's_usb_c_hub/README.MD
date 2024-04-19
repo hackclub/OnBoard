@@ -5,7 +5,7 @@ github_handle: "@blazecoding2009"
 tutorial: # Link to the tutorial if you used one
 ---
 
-# YOUR PROJECT NAME
+# Blaze's USB-C Hub
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 
