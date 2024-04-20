@@ -1,6 +1,6 @@
 ---
 name: "Arnnav Kudale"
-slack_handle: have sent request, not heard back yet. will update once i do 
+slack_handle: Arnnav Kudale 
 github_handle: "@blazecoding2009"
 tutorial: # Link to the tutorial if you used one
 ---
