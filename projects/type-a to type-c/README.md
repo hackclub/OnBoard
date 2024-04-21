@@ -1,7 +1,7 @@
 ---
-name: Joseph Dang
-slack_handle: @Joseph Dang
-github_handle: @Alecsis
+name: "Joseph Dang"
+slack_handle: "@Joseph Dang"
+github_handle: "@Alecsis"
 tutorial: 
 ---
 
