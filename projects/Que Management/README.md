@@ -16,13 +16,9 @@ This project is helpful for queue management
 | Service / Product  | Cost   |
 | ------------- | ------ |
 | PCB           | $2.00  |
-| Shipping      | $17.01 |
-| ESP12F x 5        | $13.62 |
-| CD4511 x 5       | $10.30 |
-| 7 Segment Display x 15        | $18.04 |
-| NodeMCU 8266 x 3        | $16.57 |
-| 0.96 inch Oled display  x 3        | $17.97 |
-| Total         | $95.51 |
+| PCBA          | $58.49 |
+| Shipping      | $37.28 |
+| Total         | $97.77 |
 
 Rest the Solder and the assembly can be done my self.
 
