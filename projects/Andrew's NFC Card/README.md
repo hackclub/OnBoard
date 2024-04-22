@@ -1,6 +1,6 @@
 ---
-name: "Andrew M"
-slack_handle: "@Andrew"
+name: "Andrew"
+slack_handle: "@radi8"
 github_handle: "@radeeyate"
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
@@ -13,7 +13,7 @@ My board is an NFC activated "business card" for myself. When in contact with a 
 
 ## How much is it going to cost?
 
-After shipping, it costs $29.68.
+After shipping, it costs $29.66.
 
 ## Tell us a little bit about your design process. What were some challenges? What helped?
 
