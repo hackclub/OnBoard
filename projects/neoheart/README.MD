@@ -18,3 +18,5 @@ Around 98 dollars, materials only are about 60 dollars, 20 dollars of VAT (IVA i
 The main challenge that i had to tackle was power. The small CR2032 battery isn't made to supply a lot of current, and it has a low voltage. I first tried on a breadboard, and i managed to power 25 WS2812b 5050 LEDs
 Then, i needed to calculate the values for the boost converter (from 3V to 4.7), and i learned how to use a MOSFet.
 The internet generally helped me, and some of my friends gave me a couple of hints (bf inclued lol)
+
+When i finish making the blender render, i'll create a repo on my github (url should look like this: https://github.com/fellettigiacomo/neoheart/)
