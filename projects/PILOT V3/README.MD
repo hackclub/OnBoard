@@ -10,6 +10,4 @@ tutorial:
 New more robust version of v2 and 1, it has a voltage regulator and rather than having an always on led I connected the led to one of the pins on the AT tiny.
 It also now has decoupling capicitors and the reset pin is wired correctly.
 
-<!-- 2 bucks because I already have the parts but I bought a stencil for 7 bucks to make it easier to solder -->
-
-<!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
+2 bucks because I already have the parts but I bought a stencil for 7 bucks to make it easier to solder
