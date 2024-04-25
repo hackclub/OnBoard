@@ -1,6 +1,6 @@
 ---
 name: "Ray Kangas"
-slack_handle: "@SLACK HANDLE"
+slack_handle: "@WinteryCart"
 github_handle: "@WinteryCart4875"
 tutorial: # Link to the tutorial if you used one
 ---
