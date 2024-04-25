@@ -9,5 +9,5 @@ tutorial: #https://www.figma.com/proto/dClT4WRNUPsUnu7tmkDJmA/pcb-555-class-(Com
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
  The board is a 555 timer with leds that i will be able to plug in to my bread board circuts and run my circuts through this clock. It will also have leds which will show the clock pattern on the card.
 <!-- How much is it going to cost? -->
-22-24$
+28-30$
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
