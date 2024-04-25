@@ -11,4 +11,4 @@ I'm making a 555 timer ciruit from a tutorial by Angelina Tsuboi-->
 
 <!-- How much is it going to cost?  $27.82 -->
 
-<!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->!
+<!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
