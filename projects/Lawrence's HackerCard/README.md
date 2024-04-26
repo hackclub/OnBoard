@@ -1,7 +1,7 @@
 ---
 name: "Lawrence Porquia"
 slack_handle: "@Carthy"
-github_handle: "@GITHUB HANDLE"
+github_handle: "@CarthyPoo"
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
