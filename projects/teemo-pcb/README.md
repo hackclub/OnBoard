@@ -9,6 +9,6 @@ tutorial: https://www.figma.com/community/file/1364286922202353780
 
 basic 555 timer
 
-around 30.00 USD
+around 60.00 USD
 
 tutorial (submission part) was vague and hard to follow
