@@ -1,7 +1,7 @@
 ---
 name: "Michael Chuang"
 slack_handle: "@Michael Chuang"
-github_handle: "@[GITHUB HANDLE](https://github.com/mchuang413/)"
+github_handle: "@mchuang413"
 tutorial: # Link to the tutorial if you used one
 ---
 
