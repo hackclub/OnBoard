@@ -3,7 +3,7 @@ name: "Jake Feldman"
 gmail: "jake13.feldman@gmail.com"
 github_handle: "awessome13"
 tutorial: # Link to the tutorial if you used one
---- https://github.com/awessome13/OnBoard?tab=readme-ov-file
+---
 
 # BATMAN 555 timer
 
