@@ -4,8 +4,7 @@ slack_handle: "@Pranay Kancharla"
 github_handle: "@p-kancharla"
 ---
 
-# YOUR PROJECT NAME
-ESPAudio
+# ESPAudio
 
 I made a board which can show what is currently playing on your Spotify account, and also control the volume of it and control what song is playing. It utlizes an ESP32 to connect to the Spotify API, and will display what is playing on a color LCD, along with being controlled with buttons.
 
