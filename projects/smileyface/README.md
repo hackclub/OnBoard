@@ -2,7 +2,7 @@
 name: "Ray Yang"
 slack_handle: "U071B1CE9JM"
 github_handle: "RayYang1"
-tutorial: https://github.com/hackclub/OnBoard/blob/main/README.md
+tutorial: ""
 ---
 
 # smileyface
