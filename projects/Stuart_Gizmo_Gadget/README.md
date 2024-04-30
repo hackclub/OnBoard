@@ -1,6 +1,6 @@
 ---
 name: "Stuart Tomaney"
-github_handle: "@GITHUB HANDLE"
+github_handle: "@sfousafouvnsadoufvdsauf"
 ---
 
 # Stuart_Gizmo_Gadget
