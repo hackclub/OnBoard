@@ -12,5 +12,5 @@ This device can be useful if your computer does not have enough USB ports to con
 
 The actual price on the JLCPCB website would be $47.79, but an actual price for all the components would be about 5 to 8 dollars. That is, if I order all the parts, I can solder them to the board myself.
 
-The designing process was challenging, but not hard. I actually found myself enjoying the process, because I already have experience in soldering PCB boards. Overall, I enjoyed the challenge,
+The designing process was challenging, but not hard. The original tutorial asked for 2 USB ports, but I included 4. I actually found myself enjoying the process, because I already have experience in soldering PCB boards. Overall, I enjoyed the challenge,
 and now I know how to make and design! Thank You for providing me this opportunity.
