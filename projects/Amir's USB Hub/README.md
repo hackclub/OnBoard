@@ -2,7 +2,7 @@
 name: "Amir Zholdassov"
 slack_handle: "@Amir Zholdassov"
 github_handle: "@amirzzz23"
-tutorial: # https://jams.hackclub.com/batch/usb-hub
+tutorial: #https://jams.hackclub.com/batch/usb-hub
 ---
 
 # USB A - 4 USB's Hub
