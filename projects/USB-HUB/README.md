@@ -12,4 +12,4 @@ This project is to allow people to add up to 4 more USB A devices to their devic
 
 # How much is it going to cost?
 
-This will cost exactly $50.97 USD
+This will cost exactly $38.94 USD
