@@ -5,10 +5,33 @@ github_handle: "@TechN3o"
 tutorial: " [yt vid by ElectroNoobs](https://youtu.be/utBQqcuOt9U?si=lmBRnGBFkrFfYdLz) "
 ---
 
-# Desk contRoller
+# About Desk contRoller
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-A 
+It's a device, placed in the teacher's desk, which combines and fulfills the purpose of 2 IR controllers for the projector and the projection screen in our classroom (we are a new department at school - IT, in which we use the projector all the time).
+<br>
+> more about in How did I came to this How did I came to this
+### Function:
+- control of the projector and projector by touch buttons
+- displaying time, time to finish, custom text and other things..
+- easy time adjustment through IoT remote app (for example, during a test reduce time, during a boring lesson easily add time)
+- control via wifi
+- impress teachers, some don't put much trust in us or slightly underestimate us and make a small plus to your advantage
+- hopefully I'll come up with something else :D
+  <br>
+
+### Parts it consists of:
+- 3D printed chasi
+- XIAO ESP32C3 dev board
+- 5× touch buttons (on/off for projector, on/off for screen, one function button)
+- 128×32px OLED i2c display
+- 2× IR 5mm LEDs
+- PCF8574 i2c GPIO expander (already assembled to pcb)
+- 2× 0805 green LEDs for status
+- probably still MP2307DN(MINI360) DC-DC stepdown converter as power supply
+- 2× 10kOhm resistors connecting 3.3v to i2c bus (already assembled to pcb)
+- 2× NPN transistors and 1× LE12CZ voltage regulator to 1.2v - I´m not sure if I´ll use them there, so just in case I´ve placed 6× 0ohm resistor pins, that I´ll cover in solder based on situation needs
+
 
 
 <!-- How much is it going to cost? -->
