@@ -8,12 +8,12 @@ tutorial: "https://youtu.be/utBQqcuOt9U?si=lmBRnGBFkrFfYdLz "
 # About Desk contRoller
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-It's a device, placed in the teacher's desk, which combines and fulfills the purpose of 2 IR controllers for the projector and the projection screen in our classroom (we are a new department at school - IT, in which we use the projector all the time).
+It's a device, placed in the teacher's desk, which combines and fulfills the purpose of 2 IR controllers for the projector and the projection screen in our classroom (we are a new specialization at school - IT, in which we use the projector all the time).
 <br>
 > more about in How did I came to this
 ### Function:
-- control of the projector and projector by touch buttons
-- displaying time, time to finish, custom text and other things..
+- controlling the projector and projector screen by touch buttons
+- displaying time, time till end of class, custom text and other things..
 - easy time adjustment through IoT remote app (for example, during a test reduce time, during a boring lesson easily add time) (still considering if controlling interface would be as local webpage hosted on ESP, or school server hosted webpage with Arduino API, or just Arduino IoT Remote mobile app)
 - control via wifi, getting current time from NTP server
 - impress teachers, some don't put much trust in us or slightly underestimate us and make a small plus to my advantage
@@ -35,7 +35,8 @@ It's a device, placed in the teacher's desk, which combines and fulfills the pur
 
 
 <!-- How much is it going to cost? -->
-I´ve tried to minimize cost to something corresponding to the project, so rn its about 28.07$ for the whole order (5 PCBs, all of them assembled).
+## Cost
+I´ve tried to minimize cost to something corresponding to the project, so rn its about $28.07 for 5 PCBs (all of them assembled), + $8.81 for customs & taxes + $13.84 shipping (the cheapest one), so all that makes `$50.72 in total`
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 
 
