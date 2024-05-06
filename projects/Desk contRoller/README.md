@@ -1,8 +1,8 @@
 ---
-name: "Stepan Otruba"
+name: "Štěpán Otruba (Stepan Otruba)"
 slack_handle: "@Štěpán Otruba"
 github_handle: "@TechN3o"
-tutorial: " [yt vid by ElectroNoobs](https://youtu.be/utBQqcuOt9U?si=lmBRnGBFkrFfYdLz) "
+tutorial: "https://youtu.be/utBQqcuOt9U?si=lmBRnGBFkrFfYdLz "
 ---
 
 # About Desk contRoller
@@ -14,9 +14,9 @@ It's a device, placed in the teacher's desk, which combines and fulfills the pur
 ### Function:
 - control of the projector and projector by touch buttons
 - displaying time, time to finish, custom text and other things..
-- easy time adjustment through IoT remote app (for example, during a test reduce time, during a boring lesson easily add time)
-- control via wifi
-- impress teachers, some don't put much trust in us or slightly underestimate us and make a small plus to your advantage
+- easy time adjustment through IoT remote app (for example, during a test reduce time, during a boring lesson easily add time) (still considering if controlling interface would be as local webpage hosted on ESP, or school server hosted webpage with Arduino API, or just Arduino IoT Remote mobile app)
+- control via wifi, getting current time from NTP server
+- impress teachers, some don't put much trust in us or slightly underestimate us and make a small plus to my advantage
 - hopefully I'll come up with something else :D
   <br>
 
@@ -30,14 +30,16 @@ It's a device, placed in the teacher's desk, which combines and fulfills the pur
 - 2× 0805 green LEDs for status
 - probably still MP2307DN(MINI360) DC-DC stepdown converter as power supply
 - 2× 10kOhm resistors connecting 3.3v to i2c bus (already assembled to pcb)
-- 2× NPN transistors and 1× LE12CZ voltage regulator to 1.2v - I´m not sure if I´ll use them there, so just in case I´ve placed 6× 0ohm resistor pins, that I´ll cover in solder based on situation needs
+- uncertainly 2× NPN transistors and 1× LE12CZ voltage regulator to 1.2v - I´m not sure if I´ll use them there, so just in case I´ve placed 6× 0ohm resistor pins, that I´ll cover in solder based on situation needs
 
 
 
 <!-- How much is it going to cost? -->
 I´ve tried to minimize cost to something corresponding to the project, so rn its about 28.07$ for the whole order (5 PCBs, all of them assembled).
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
-## How did I came to this
+
+
+## How did I came to this idea
 So in my classroom at school, we have a projector and a projection screen that are controlled via IR
 signals.<br>
 Then I came to the conclusion that having 2 controllers on the table all the time, one of which doesn't
@@ -85,7 +87,7 @@ PCB board either on a cnc mill or ordered, when this interesting OnBoard program
 kicked me into doing something.
 <br>
 
-In EasyEDA, with a little tutorial, I have redesigned the schematic and pcb... now I hope for a good
+In EasyEDA, with a little tutorial, I have redesigned the schematic and pcb, added a few components... now I hope for a good
 results :D
 
 
