@@ -10,7 +10,7 @@ tutorial: "https://youtu.be/utBQqcuOt9U?si=lmBRnGBFkrFfYdLz "
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 It's a device, placed in the teacher's desk, which combines and fulfills the purpose of 2 IR controllers for the projector and the projection screen in our classroom (we are a new department at school - IT, in which we use the projector all the time).
 <br>
-> more about in How did I came to this How did I came to this
+> more about in How did I came to this
 ### Function:
 - control of the projector and projector by touch buttons
 - displaying time, time to finish, custom text and other things..
