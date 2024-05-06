@@ -81,6 +81,9 @@ Ended up with a chasi, without the glass and practicaly nothing working
 <br>
 
 <img src="v1look.png" width="350">
+<img src="v1look2.png" width="350">
+<img src="v1look3.png" width="350">
+<img src="v1look4.png" width="350">
 
     
 Then I was broken, desperately just scrolling through the ig and thinking, what about making it as a
