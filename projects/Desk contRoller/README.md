@@ -79,7 +79,7 @@ But it had a lot of problems:
 Ended up with a chasi, without the glass and practicaly nothing working
 <br>
 
-![Thats how the v1 looks](v1look.png)
+<img src="v1look.png" width="350">
 
     
 Then I was broken, desperately just scrolling through the ig and thinking, what about making it as a
