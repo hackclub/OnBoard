@@ -2,7 +2,7 @@
 name: "Vikki Muruganandham"
 slack_handle: "@SLACK HANDLE"
 github_handle: "@BmvVikki"
-tutorial: # Link to [the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
+tutorial: [the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
 --- 
 
 # Vikki's PCB Card
