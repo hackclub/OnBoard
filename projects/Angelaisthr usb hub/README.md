@@ -2,7 +2,7 @@
 name: "ANGELA NG"
 slack_handle: "@Angelaisthr"
 github_handle: "@Angelaisthr"
-tutorial: # https://jams.hackclub.com/batch/usb-hub
+tutorial: https://jams.hackclub.com/batch/usb-hub
 ---
 
 # Angelaisthr usb-hub
