@@ -1,6 +1,6 @@
 ---
 name: "Bowie Sykes"
-slack_handle: "@SLACK HANDLE"
+slack_handle: "@bowie"
 github_handle: "@bowie-dev"
 tutorial: https://github.com/ruiqimao/keyboard-pcb-guide
 ---
