@@ -1,7 +1,7 @@
 ---
 name: "Shaan"
-slack_handle: "Shaan Duggal" (I think my username is Shaan Duggal)
-github_handle: "Shaan-Duggal" (This is my username dont know if it the same thing as a handle)
+slack_handle: "Shaan Duggal"
+github_handle: "Shaan-Duggal"
 tutorial: "https://jams.hackclub.com/jam/hacker-card"
 ---
 
