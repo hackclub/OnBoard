@@ -2,7 +2,7 @@
 name: "sargon khoshaba"
 slack_handle: "sargon khoshaba"
 github_handle: "@lan1ern"
-tutorial: # (https://jams.hackclub.com/jam/hacker-card)
+tutorial: # https://jams.hackclub.com/jam/hacker-card
 ---
 
 # lants objekt (based off the kpop group "ARTMS") nfc card
