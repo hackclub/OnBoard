@@ -1,6 +1,6 @@
 ---
 name: "sargon khoshaba"
-slack_handle: "sargon khoshaba"
+slack_handle: "@sargonkhoshaba"
 github_handle: "@lan1ern"
 tutorial: # https://jams.hackclub.com/jam/hacker-card
 ---
