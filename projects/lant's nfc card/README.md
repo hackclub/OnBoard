@@ -12,7 +12,7 @@ tutorial: "https://jams.hackclub.com/jam/hacker-card"
 It's a really simple NFC PCB, based off maggie liu's tutorial that i linked in the header! the design is based off the "objekts" for the k-pop group ARTMS.
 
 # price
-It's gonna cost 36,59$, mainly because of shipping.
+It's gonna cost 36.51$, if you include the 10$ shipping off coupon on JLCPCB.
 
 # design
 for the design process of the PCB i just followed what maggie liu did in her tutorial, i tried making a faithful recreation of ARTMS' objekt in photoshop, and then imported it into EasyEDA. it took a while to get it to look the way i wanted it to but im really happy with the way it came out!
