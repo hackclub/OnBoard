@@ -9,7 +9,7 @@ tutorial: "https://jams.hackclub.com/jam/hacker-card"
 
 
 # summary
-It's a really (really) simple NFC PCB, (heavily) based off maggie liu's tutorial that i linked in the header! the design is based off the "objekts" for the k-pop group ARTMS.
+It's a really simple NFC PCB, based off maggie liu's tutorial that i linked in the header! the design is based off the "objekts" for the k-pop group ARTMS.
 
 # price
 It's gonna cost 36,59$, mainly because of shipping.
