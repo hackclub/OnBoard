@@ -2,7 +2,7 @@
 name: "Amir Zholdassov"
 slack_handle: "@Amir Zholdassov"
 github_handle: "@amirzzz23"
-tutorial: # https://www.hackster.io/1NextPCB/how-to-build-a-pico-macro-pad-3638e6
+tutorial:  https://www.hackster.io/1NextPCB/how-to-build-a-pico-macro-pad-3638e6
 ---
 
 # 9 Button Macros Keyboard
