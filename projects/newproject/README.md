@@ -1,6 +1,6 @@
 ---
 name: "Ava Ayad"
-slack_handle: "@SLACK HANDLE"
+slack_handle: ""
 github_handle: "@Dum-b"
 tutorial: # [Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
 ---
