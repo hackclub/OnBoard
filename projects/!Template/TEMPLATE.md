@@ -1,15 +1,14 @@
 ---
-name: "Vikki Muruganandham"
+name: "FIRST LAST"
 slack_handle: "@SLACK HANDLE"
-github_handle: "@BmvVikki"
-tutorial: [the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
---- 
+github_handle: "@GITHUB HANDLE"
+tutorial: # Link to the tutorial if you used one
+---
 
-# Vikki's PCB Card
+# YOUR PROJECT NAME
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-My PCB card uses an NFC chip to connects to other NFC readers. It allows for wireless communications between two electronic systems
+
 <!-- How much is it going to cost? -->
-My PCB build is set at a price of $20.15
+
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
-The real challenge was connecting the wires but other than that everything was really easy.
