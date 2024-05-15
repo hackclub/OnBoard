@@ -2,7 +2,7 @@
 name: "Ava Ayad"
 slack_handle: ""
 github_handle: "@Dum-b"
-tutorial: # https://jams.hackclub.com/jam/hacker-card
+tutorial: # [Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
 ---
 
 # PCB Hack Club Project
