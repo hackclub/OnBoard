@@ -11,4 +11,4 @@ tutorial: # [Link to the tutorial if you used one](https://jams.hackclub.com/jam
 
 <!-- $19.48 -->
 
-<!-- Some challenges in my design process was that it took me some time to find a good program for outlining my images I want to display on the card. The actual component placement was easy and fun. -->
+<!-- One challenge in my design process was trying to find a quality program for outlining the images I wanted to display on my card. The actual component placement was easy and fun. -->
