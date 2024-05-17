@@ -1,7 +1,7 @@
 ---
 name: "Boyne Gregg"
-slack_handle: "@DedFishy"
-github_handle: "@DedFishy"
+slack_handle: "@NoahF15"
+github_handle: "@NoahF15"
 ---
 
 # Game Scorecards
