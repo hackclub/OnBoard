@@ -1,6 +1,6 @@
 ---
 name: "Tariq Singh"
-slack_handle: "@SLACK HANDLE"
+slack_handle: "Tariq Singh"
 github_handle: "@Triq1"
 tutorial: N/A
 ---
