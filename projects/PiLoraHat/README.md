@@ -1,5 +1,5 @@
 ---
-name: Sidharth Bhatt
+
 slack_handle: @sidharth
 github_handle: @Sidharth Bhatt
 tutorial: # Link to the tutorial if you used one
