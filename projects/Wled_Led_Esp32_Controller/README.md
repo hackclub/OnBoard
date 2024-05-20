@@ -1,5 +1,5 @@
 ---
-name: "Deniz Özcelik"
+name: "Deniz Oezcelik"
 slack_handle: @Playedswag
 github_handle: @Playedswag
 tutorial: Designed it my self, with a little help from the discord Electrical Engineering.
