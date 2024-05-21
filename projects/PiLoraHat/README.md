@@ -2,9 +2,7 @@
 name: Sidharth Bhatt
 slack_handle: @sidharth
 github_handle: @Sidharth Bhatt
-tutorial: # Link to the tutorial if you used one
-My specific module connections on a breadboard:
-https://circuitdigest.com/microcontroller-projects/raspberry-pi-with-lora-peer-to-peer-communication-with-arduino
+tutorial: https://circuitdigest.com/microcontroller-projects/raspberry-pi-with-lora-peer-to-peer-communication-with-arduino
 
 ---
 
