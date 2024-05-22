@@ -5,7 +5,9 @@ github_handle: "@iUnstable0"
 tutorial: # Link to the tutorial if you used one
 ---
 
-# LoRa Messenger for The Trail
+# LoRa Meshenger for The Trail
+
+mesh + messenger = meshenger
 
 This is a device me, evan, cosmin, alex p, and krisk created for the trail event
 This device utilizes LoRa technology to send text messages between users even over long distances.
