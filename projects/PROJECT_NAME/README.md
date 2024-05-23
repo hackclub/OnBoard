@@ -1,6 +1,6 @@
 ---
 name: Kashvi Gupta
-slack_handle: @kashvi.crystal@gmail.com
+slack_handle: @D06U6J20TGB
 github_handle: @kashguppy
 tutorial: # https://jams.hackclub.com/jam/hacker-card
 ---
