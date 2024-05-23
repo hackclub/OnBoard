@@ -8,7 +8,7 @@ tutorial: # Link to the tutorial if you used one
 # Macropad
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-This This is a Macropad, which is basically a 13 key keyboard. After programming, it will help me with shortcuts for softwares like CAD.
+This is a Macropad, which is basically a 13 key keyboard. After programming, it will help me with shortcuts for softwares like CAD.
 
 <!-- How much is it going to cost? -->
 The order total is $32.26
