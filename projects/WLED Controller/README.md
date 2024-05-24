@@ -1,5 +1,5 @@
 ---
-name: "Simone Balleri"
+name: "Simone Ballerini"
 slack_handle: "@shdShadow"
 github_handle: "@shdShadow"
 tutorial:
