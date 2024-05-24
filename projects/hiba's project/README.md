@@ -5,7 +5,7 @@ github_handle: "@hibasheikh2"
 tutorial: # [Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
 ---
 
-# YOUR PROJECT NAME
+#HibaSheikh
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 My board will serve the purpose of helping me grow as a student and build meaningul connections. 
