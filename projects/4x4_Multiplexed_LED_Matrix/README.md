@@ -1,6 +1,6 @@
 # 4x4 Multiplexed LED Matrix
 
-16 LEDs arranged in a square driven by MOSFETS using an Arduino Nano
+I always wanted to learn how to drive an LED Matrix so I went for it and designed the PCB, its a 4 by 4 grid driven by 8 io pins on an arduino NANO.
 
 Price for 5 boards:
 - Manufacturing $2.00
