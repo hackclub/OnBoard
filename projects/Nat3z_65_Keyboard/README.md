@@ -11,8 +11,8 @@ system for scanning key presses using both row2col and col2row in succession. Th
 sucks so much, but hey, as long as it works and is functional I'm happy :)
 
 ## Cost
-PCB itself is $16.50. Assembly from JLCPCB comes up to $46.26 (excluding ATMega32u4-A microcontroller). With shipping, it becomes
-$93.82.
+PCB itself is $16.50. Assembly from JLCPCB comes up to $36.74. With shipping, it becomes
+$99.10.
 
 ## Design Process
 Some of the major challenges I had with this project was learning **how** pcb design worked. I primarily used the Ai03 guide
