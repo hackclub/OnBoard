@@ -12,7 +12,7 @@ This board contains 160W charger that will be able to charge our battery from US
 There is also a ESP32 microcontroller that will connect to our phone to provide precise data about charging and discharging from all connectors.
 It also has connectors for various modules that will provide power in different ways, such as standard and fast USB ports, ports with regulated voltage and more.
 
-Cost of this board is $99.17 for 5 pcb's, 2 assembled. I removed some easy to solder components to fit in 100$ grant.
+Cost of this board is 99.17$ for 5 pcb's, 2 assembled. I removed some easy to solder components to fit in 100$ grant.
 But this is price in the cart, so with shipping and customs it will be more expensive (137.92$) so I will need to donate to onboard this additional 37.92$.
 
 Datasheets of various components is the best help in design process :)
