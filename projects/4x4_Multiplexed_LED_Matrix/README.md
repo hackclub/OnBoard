@@ -1,3 +1,10 @@
+---
+name: "Adrian Rangel"
+slack_handle: "@Rangel"
+github_handle: "@AdrianRang"
+tutorial: NA
+---
+
 # 4x4 Multiplexed LED Matrix
 
 I always wanted to learn how to drive an LED Matrix so I went for it and designed the PCB, its a 4 by 4 grid driven by 8 io pins on an arduino NANO.
