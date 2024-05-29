@@ -1,6 +1,6 @@
 ---
 name: Jeslyn
-slack_handle: Jeslyn Chang (U0594US6E73)
+slack_handle: Jeslyn Chang
 github_handle: @se1yu
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
