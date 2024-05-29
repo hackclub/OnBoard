@@ -1,6 +1,6 @@
 ---
 name: Jeslyn
-slack_handle: Jeslyn Chang
+slack_handle: Jeslyn
 github_handle: @se1yu
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
