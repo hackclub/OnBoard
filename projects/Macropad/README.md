@@ -13,5 +13,4 @@ This is a Macropad, which is basically a 13 key keyboard. After programming, it 
 <!-- How much is it going to cost? -->
 The order total is $32.26
 
-<!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** --
 I designed this independently, so I faced a numerous problems while learning how to create PCB. After A LOT of research and YouTube videos, I was finally able to fulfill my vision.
