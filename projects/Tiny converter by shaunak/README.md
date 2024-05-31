@@ -9,6 +9,6 @@ tutorial: Nah, none
 
 <!-- Convert signals & power from device to device -->
 
-<!-- About $69 US -->
+<!-- About $86 US -->
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
