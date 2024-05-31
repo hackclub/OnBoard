@@ -13,16 +13,17 @@ A simple RP2040 devboard with additional features such as an accelerometer and a
 |-----------------------|--------|
 | PCB                   | $2     |
 | PCBA setup fee        | $8     |
-| Components            | $10.19 |
+| PCBA stencil          | $1.50  |
+| Components            | $24.52 |
 | Extended components   | $22.97 |
-| SMT assembly          | $0.66  |
+| SMT assembly          | $1.30  |
 | Hand soldering labor  | $3.50  |
-| Manual Assembly       | $0.24  |
-| Special components    | $0.06  |
-| Shipment to East Java, Indonesia (via Pos Indonesia) | $1.46  |
-| Total                 | $49.08 |
-
-but JLCPCB said total is $50!
+| Manual Assembly       | $0.38  |
+| Special components    | $0.15  |
+| Board cleaning        | $1.57  |
+| Order total           | $64.32 |
+| Shipment to East Java | $1.46  |
+| Total                 | $65.78 |
 
 # Design
 At first, designing with RP2040  sound easy, but the accelerometer is finnicky to wire. A lot of crossing ratsnets, even for I2C.
