@@ -5,9 +5,8 @@ github_handle: "@juan-gonzalez6"
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
-# YOUR PROJECT NAME
+# NFC business/presentation card.
 
-NFC business/presentation card.
 What better way to let yourself be know that by using an NFC card, it can be used as many times as you want and you are helping the enviroment by not printing many of them, win-win situation 100%
 
 
