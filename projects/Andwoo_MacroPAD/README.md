@@ -1,7 +1,7 @@
 ---
-name: Andrew Dang
-slack_handle: @Andwoo
-github_handle: @Andwoo14
+name: "Andrew Dang"
+slack_handle: "@Andwoo"
+github_handle: "@Andwoo14"
 tutorial: # Link to the tutorial if you used one
 ---
 
