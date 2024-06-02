@@ -1,7 +1,7 @@
 ---
 name: Selene Jiang-Qin
 slack_handle: "@Selene"
-github_handle: @selenejq
+github_handle: "@selenejq"
 tutorial: N/A
 ---
 
