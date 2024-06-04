@@ -1,6 +1,6 @@
 ---
 name: "Dominic Lau"
-slack_handle: "@U05SCJJHUF7"
+slack_handle: "@Dominic L"
 github_handle: "@DominicTYLau"
 tutorial: N/A
 ---
