@@ -2,7 +2,7 @@
 name: "Hilding Lind"
 slack_handle: "@Hilding Lind"
 github_handle: "@HildingL"
-tutorial: -
+tutorial: "-"
 ---
 
 # Wireless turnsignals ("trådlösa blinkers" in swedish)
