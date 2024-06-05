@@ -13,6 +13,6 @@ The system is made up of to parts, a transmitter on the excavaror and a reciver 
 
 It is going to cost $43.44, mostly becuse i hade to make 2 different pcbs and use some special parts.
 
-The harest part about the projekt was to make the transmitter as small as possible to be able to fit it in a standard connector (hope i didn't make i to small lol).
+The harest part about the projekt was to make the transmitter as small as possible to be able to fit it in a standard connector (hope i didn't make i to small so it dosen't work lol).
 
-Ps. plz excuse my bad english(im form Sweden).
+Ps. plz excuse my bad english (im form Sweden).
