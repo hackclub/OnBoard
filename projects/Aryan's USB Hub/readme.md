@@ -11,6 +11,6 @@ tutorial: # https://jams.hackclub.com/batch/usb-hub
 A USB Hub that helps you multiply the number of USB ports available.
 
 <!-- How much is it going to cost? -->
-Around $15
+Around $35 to 40
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
