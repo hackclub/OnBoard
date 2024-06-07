@@ -4,7 +4,7 @@
 
 > "I’m so glad that young people can create things like PC boards online. May your creativity have no limits!”
 >
-> _– [Steve Wozniak](https://en.wikipedia.org/wiki/Steve_Wozniak), Apple co-founder_
+> _– [Steve Wozniak](https://en.wikipedia.org/wiki/Steve_Wozniak), Apple co-founder endorsing Hack Club OnBoard_
 
 It's easier than ever for high school students to get involved with programming; all you need is a computing device and internet access. Yet, *it's not the same for hardware*. While PCB fabs have greatly increased the accessibility for professionally done boards, there is still no clear way for high school students to jump in. This is where OnBoard comes in.
 
@@ -36,9 +36,9 @@ To follow the repo for updates and show you're participating, click the "star" b
 
 ![Star the OnBoard repo](docs/images/directions/star-repo.png)
 
-### 1. Join `#onboard` on Slack!
+### 1. Join `#electronics` on Slack!
 
-Our [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel[^4] is where the party is getting started! If you haven't already joined, make sure to add yourself to the channel. And for those who are new to the Hack Club slack, sign up to our community of 13k+ makers through [here](https://hackclub.com/slack/?event=onboard) (don't worry, there isn't an application).
+Our [`#electronics`](https://hackclub.slack.com/archives/C0587U78RK4) channel[^4] is where the party is getting started! If you haven't already joined, make sure to add yourself to the channel. And for those who are new to the Hack Club slack, sign up to our community of 13k+ makers through [here](https://hackclub.com/slack/?event=onboard) (don't worry, there isn't an application).
 
 [^4]: This link only works after you've joined the slack. Make sure to get an invite [here](https://hackclub.com/slack/?event=onboard) first.
 
@@ -98,12 +98,14 @@ In all, you should have the following files under your project folder:
 - [ ] `README.md`: A filled out [`TEMPLATE.md`](./projects/!Template/TEMPLATE.md?plain=1), renamed to `README.md`
 - [ ] `cart.png`: A screenshot of your order details
 - [ ] `gerber.zip`: This should be the file that you send off to the vendor.
-- [ ] `schematic.pdf`: Export the schematic from your EDA program as a PDF
-- [ ] `src/`: Design files in a folder called `src`. Whatever format your designer outputs should be included.
-    - The files might look like `SCH_name.json` and `PCB_name.json` for EasyEDA
-    - Or `name.kicad_pro`, `name_kicad_sch`, and `name.kicad_pcb`
+- [ ] `schematic.pdf`: Export the schematic from your EDA program as a PDF.
+    - Go to "File > Export > PDF" in EasyEDA's Schematic tab for this.
+- [ ] `src/`: Make a folder called `src` and Whatever format your designer outputs should be included.
+    - For EasyEDA, you need to File > Export > EasyEDA two JSON files - one from the schematic tab and one from the PCB tab. <img src="https://github.com/hackclub/OnBoard/assets/32671690/9f63f922-3009-4c40-af0c-b6239cf2074f" width=500/>
+    - Or `name.kicad_pro`, `name_kicad_sch`, and `name.kicad_pcb` for KiCAD
     - Or `design.json`, `design.sch`, `design.brd`, etc.
 
+Make sure your file names are exactly the same as above.
 If you have all the above, you're done with this step!
 
 ### 6. Create a PR!
