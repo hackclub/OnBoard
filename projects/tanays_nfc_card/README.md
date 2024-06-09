@@ -1,6 +1,6 @@
 ---
 name: "Tanay Bhardwaj"
-slack_handle: "@SLACK HANDLE"
+slack_handle: "@tanay"
 github_handle: "@tnb2407"
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
