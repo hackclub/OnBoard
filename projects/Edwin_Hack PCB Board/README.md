@@ -1,6 +1,6 @@
 ---
 name: "Edwin Zeng"
-slack_handle: "@Edwz208"
+slack_handle: "@edwinz"
 github_handle: "@Edwz208"
 tutorial: "https://jams.hackclub.com/jam/hacker-card"
 ---
