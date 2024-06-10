@@ -2,7 +2,7 @@
 name: "MICHAEL HOTTER"
 slack_handle: "@SLACK HANDLE"
 github_handle: "@Mikeymoo5"
-tutorial: # https://jams.hackclub.com/jam/hacker-card
+tutorial: # [https://jams.hackclub.com/jam/hacker-card]
 ---
 
 # NFC Business Card
