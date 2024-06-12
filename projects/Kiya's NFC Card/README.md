@@ -9,4 +9,4 @@ tutorial: https://jams.hackclub.com/jam/hacker-card
 
 I am making an NFC card that will display information about me. I am making this because it's cool and gives me experience.
 
-$22.80/10 cards with shipment overall total including everything.
+$22.80/5 cards with shipment overall total including everything.
