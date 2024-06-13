@@ -14,8 +14,8 @@ I am trying to make a weight machine contained in a PCB, that can be used as a S
 
 ## Plan
 
-I plan to order the 5 pcbs from JLCPCB, which quotes them at a total of 18.3 dollars. 
-I then plan to purchase 2 assembeled PCBs, and each one costs around 32 dollars.
+I plan to order the 5 pcbs from JLCPCB, which quotes them at a total of 4 dollars. 
+I then plan to purchase 5 assembeled PCBs, and each one costs around 17 dollars.
 I'll also need some headers and buttons, which will be around 2-3 dollars. 
 So, adding in costs for switches, assembly, and shipping, total cost is about 98.86 dollars.
 
