@@ -1,8 +1,8 @@
 ---
-name: "FIRST LAST"
-slack_handle: "@SLACK HANDLE"
-github_handle: "@GITHUB HANDLE"
-tutorial: # Link to the tutorial if you used one
+name: "Arthus PRACHE"
+slack_handle: "@nonr"
+github_handle: "@ArthusPVP"
+tutorial: # none
 ---
 
 # 9 switch macro pad
