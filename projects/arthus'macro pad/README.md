@@ -1,6 +1,6 @@
 ---
 name: "Arthus PRACHE"
-slack_handle: "@nonr"
+slack_handle: "@none"
 github_handle: "@ArthusPVP"
 tutorial: # none
 ---
