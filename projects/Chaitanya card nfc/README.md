@@ -1,12 +1,19 @@
-name	chaitanya
-PROJECT NAME chaitanya card
-Summary
-This is  my take on nfc card
-Plan
-100$(pcb+build+Shipping)
-![image](https://github.com/chaitanya44444/OnBoard/assets/93338022/c320844d-7920-420d-921c-6e942ffd9610)
+---
+name: "Chaitanya Vaswani"
+github_handle: "chaitanya44444"
+project: "chaitanya nfc card"
 
+---
 
+# Nfc card
 
-Design
-inspired by maggies jam
+## Summary
+
+I am trying to make a NFC card with maggies tutorial
+
+## Plan
+
+I plan to order the 5 pcbs from JLCPCB which with shipping comes to 100$Ish
+
+## Design
+
