@@ -1,1 +1,2 @@
-
+This is a leverless fightpad pcb i designed in EasyEDA. it takes heavy inspiration from the Flatbox rev5 made by jfedor and uses a Waveshare Rp2040 zero and outemu MX switches. i will also design and 3d print a case for this 
+I designed this because i have wanted to build a flatbox rev 5 for a long time but it just is too expensive with all the different parts it needs like the Kalih low profile switches and the heat set inserts. this uses none of that, my project will use a 3d printed case, hot glue, a handful of keyboard switches and a Pi pico. i also made this the pin layout of the GP-2040 CE firmware.
