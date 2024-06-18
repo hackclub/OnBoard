@@ -1,8 +1,7 @@
 ---
-name: "FIRST LAST"
-slack_handle: "@SLACK HANDLE"
-github_handle: "@GITHUB HANDLE"
-tutorial: # Link to the tutorial if you used one
+name: "Batuhan Gul"
+slack_handle: "@Batuhan Gul"
+github_handle: "@Elberto22"
 ---
 
 # Tinypad
