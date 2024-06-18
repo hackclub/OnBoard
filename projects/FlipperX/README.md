@@ -2,7 +2,6 @@
 name: "Mats Rohtmets"
 slack_handle: "@redstone"
 github_handle: "@Miner16"
-tutorial: -
 ---
 
 # FlipperX
