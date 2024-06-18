@@ -1,6 +1,7 @@
-
-slack_handle: "@Batuhan Gul"
-github_handle: "@elberto22"
+---
+name: "FIRST LAST"
+slack_handle: "@SLACK HANDLE"
+github_handle: "@GITHUB HANDLE"
 tutorial: # Link to the tutorial if you used one
 ---
 
