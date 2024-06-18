@@ -1,5 +1,5 @@
 ---
-name: "Mats Rohtmets"
+name: "Mats"
 slack_handle: "@redstone"
 github_handle: "@Miner16"
 ---
