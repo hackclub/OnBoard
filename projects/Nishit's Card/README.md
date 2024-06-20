@@ -2,8 +2,8 @@
 name: "Nishit Sharma"
 slack_handle: "@Nishit Sharma"
 github_handle: "@Nishit-Sharma"
-tutorial: # Link to the tutorial if you used one
-https://jams.hackclub.com/jam/hacker-card
+tutorial: https://jams.hackclub.com/jam/hacker-card
+
 ---
 
 # Nishit's Card
