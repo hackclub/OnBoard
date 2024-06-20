@@ -1,8 +1,8 @@
 ---
-name: Atharva Gupta
-slack_handle: @Atharva
-github_handle: @roboticspro1
-tutorial: https://jams.hackclub.com/jam/hacker-card
+name: "Atharva Gupta"
+slack_handle: "@Atharva"
+github_handle: "@roboticspro1"
+tutorial: "https://jams.hackclub.com/jam/hacker-card"
 ---
 
 # YOUR PROJECT NAME
