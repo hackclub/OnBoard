@@ -2,7 +2,7 @@
 name: "Stefan Grimmelikhuijsen"
 slack_handle: "@Stefan G"
 github_handle: "@Skilled Script"
-tutorial: # https://jams.hackclub.com/batch/usb-hub
+tutorial: "https://jams.hackclub.com/batch/usb-hub"
 ---
 
 # USB-A to C Hub
