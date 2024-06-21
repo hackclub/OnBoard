@@ -10,11 +10,12 @@ tutorial:
 
 # The 2NAC Business Hub
 
-Description:
+Description:\n
 USB Hubs are awesome, but as times are changing, we can't really be limited to **only 2 USB-A ports** can we? I added 2 extra USB Type-C Ports in the mix (supporting data transfer as I connected the D+ and D- pins) to the base USB hub, taking full advantage of the microprocessor.
 NFCs... are also cool, but just one? I compressed the USB Hub and already existing NFC tag to add ANOTHER NFC tag!
 And finally, the board also contains buttons, some doing nothing while some light up a wonderful data tree, for times when you need a simple fidget toy (battery needed).
 Perfect for promoting yourself to employers, being an actual useful PCB, and having a bit of a stress reliever, all in one.
+2NAC: 2 NFCs, 2 USB-As, 2 Type-Cs. In a Hub!
 
 Cost:
 Costs $93.51 for the total package in JLCPCB.
