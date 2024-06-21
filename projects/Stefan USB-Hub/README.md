@@ -11,7 +11,7 @@ tutorial: # https://jams.hackclub.com/batch/usb-hub
 I am making a USB hub with 3 USB A ports and 1 USB C port. It's designed to add additional USB ports to a device
 
 <!-- How much is it going to cost? -->
-81.17$ before shipping
+97$ after discounts
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->|
 Originally, my design idea was going to be some sort of usb hub with an SD card reader, however once I attempted at the project and discovered the difficulties 
 of creating a sd card reader that also works over usb, I decided to make a usb-c hub. It was hard to figure out the uses of the pins, but I think i (hopefully)
