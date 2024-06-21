@@ -1,7 +1,7 @@
 ---
 name: "Stefan Grimmelikhuijsen"
 slack_handle: "@Stefan G"
-github_handle: "@Skilled Script"
+github_handle: "@SkilledScript"
 tutorial: "https://jams.hackclub.com/batch/usb-hub"
 ---
 
