@@ -8,7 +8,7 @@ tutorial: # https://jams.hackclub.com/batch/usb-hub
 # USB-A to C Hub
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-I am making a USB hub with 3 USB A ports and 1 USB C port. It's designed to 
+I am making a USB hub with 3 USB A ports and 1 USB C port. It's designed to add additional USB ports to a device
 
 <!-- How much is it going to cost? -->
 81.17$ before shipping
