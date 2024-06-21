@@ -1,5 +1,5 @@
 ---
-name: "Paolo Galamg"
+name: "Paolo Galang"
 slack_handle: "@Map"
 github_handle: "@GGGalang"
 tutorial:
