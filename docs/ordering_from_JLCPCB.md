@@ -24,12 +24,12 @@ PCB fabs have *A LOT* of settings for board manufacturing, and JLCPCB is no exce
 ### PCB Specifications
 ![PCB specifications for JLCPCB](images/ordering/PCB-specifications.png)
 - **Different Design**: This is the number of designs within your gerber files. This number will be automatically calculated, so don't worry too much about it!
-- **Delivery Format**: Do you want single cut PCBs? Or is your board small enough to be made into a panel? For most boards, `Single PCB` will be enough. If you're board is key-chain sized, think about whether you want to make it into a panel. If you have questions about panelization, send them into [`onboard-help`]()
-- **PCB Thickness**: This is the thickness of your board. The default size is 1.6 mm. Unless you have a special application, I would not differ from it.
-<!-- - **PCB Color**:
-- **Silkscreen**:
-- **Surface Finish**:
+- **Delivery Format**: Do you want single cut PCBs? Or is your board small enough to be made into a panel? For most boards, `Single PCB` will be enough. If you're board is key-chain sized, think about whether you want to make it into a panel. If you have questions about panelization, send them into [`#electronics`](https://hackclub.slack.com/archives/C056AMWSFKJ)
+- **PCB Thickness**: This is the thickness of your board. The default size is 1.6 mm. Do not change this - a different thickness can force JLC to use Standard PCBA, which is very expensive.
+- **PCB Color**: This is the color of the PCB! Colors other than green, blue, or black can be significantly more expensive, so be careful.
+- **Surface Finish**: The coating on the board's pads to protect the exposed copper from corrosion and make soldering easier. HASL is a silvery solder finish. Leaded HASL is cheapest, but it's only a small upcharge for safer lead-free HASL. ENIG is a gold plated finish. It's more expensive than lead-free HASL, but it's very pretty.
 
+<!--
 ### High-spec Options
 ![High spec options](images/ordering/high-spec-options.png)
 - **Outer Copper Weight**:
@@ -46,13 +46,14 @@ PCB fabs have *A LOT* of settings for board manufacturing, and JLCPCB is no exce
 
 ![](images/ordering/assembly.png)
 
-- **PCBA Type**: Economic. Standard is very expensive.
+- **PCBA Type**: Economic. Standard PCBA is very expensive. Some parts, like some connectors and daughter boards, or alternate board thicknesses (other than 1.6mm) require Standard PCBA.
 - **PCBA Qty**: Instead of soldering parts to all 5 boards, you can choose to get just 2 to save grant money. They'll ship the other 3 boards without any components on them to you.
 - **Confirm Parts Placement**: JLCPCB will manually check whether your parts are oriented correctly for a small fee.
 
 Then on the next screen, upload the `bom.csv` and `positions.csv` (from KiCAD) or `BOM_PCB.csv` and `PickAndPlace.csv` (from EasyEDA).
 
 ![](images/ordering/BOM.png)
+
 After that you'll be able to select which parts you want JLCPCB to assemble for you.
 
 If parts like the NFC antenna are unselected, that's fine, just go ahead and click 'Do Not Place' on the popup.
@@ -80,4 +81,4 @@ Then, once you go to [My Orders](https://jlcpcb.com/user-center/orders/), you sh
 
 ![](images/ordering/cart.png)
 
-Take a screenshot like that of your order for the OnBoard grant and save it as `cart.png`.
+Take a screenshot like that of your order for the OnBoard grant and save it as `cart.png` (for github, it must be a .png file, and named exactly `cart.png`, all lowercase).
