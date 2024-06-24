@@ -7,9 +7,9 @@ tutorial: # Link to the tutorial if you used one
 
 # PIanoUSBBUS
 
-I made a pcb board for a USB bus to create more USB ports for my laptop.
+I made a pcb board for a USB bus to create more USB ports for my laptop. It's in the shape of a piano so the USB connectors look like the keys. 
 
-
+It takes 87$ to create an assembled one + I live in Canada so shipping is an extra 40$. I've decided to order the USB type-A connectors seperatly so I can solder it myself. This brings my total to $86.88 with shipping (and 3$ for the USB connectors)
 
 I already wanted to create a USB bus because only one of my USB ports actually works, but I did not know what shape I wanted to make it. 
 So, I asked my sister and she said a piano would be cool, and I agreed. 
