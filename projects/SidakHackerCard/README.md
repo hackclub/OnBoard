@@ -2,7 +2,7 @@
 name: "Sidak Singh"
 slack_handle: "@Sidak Singh"
 github_handle: "@Sidak08"
-tutorial: # https://jams.hackclub.com/jam/hacker-card
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # SidakHackerCard
