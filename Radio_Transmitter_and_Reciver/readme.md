@@ -1,7 +1,7 @@
 ---
-name: Abhinav Ajith
-slack_handle: @Abhinav Ajith
-github_handle: @jk-aero 
+name: "Abhinav Ajith"
+slack_handle: "@Abhinav Ajith"
+github_handle: "@jk-aero "
 tutorial: # Link to the tutorial if you used one
 ---
 
