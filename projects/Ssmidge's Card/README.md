@@ -2,7 +2,7 @@
 name: "Adrian Trifonov"
 slack_handle: "@Adrian T"
 github_handle: "@Ssmidge"
-tutorial: [https://jams.hackclub.com/jam/hacker-card](https://jams.hackclub.com/jam/hacker-card)
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Ssmidge's "business" card
