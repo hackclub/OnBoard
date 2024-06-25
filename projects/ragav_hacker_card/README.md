@@ -5,7 +5,7 @@ github_handle: "@Duppi28"
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
-# Ragavs Hacker Card
+# Ragav's Hacker Card
 
 I followed a tutorial to make myself a hacker card. This board uses NFC that redirects to  a link.
 
