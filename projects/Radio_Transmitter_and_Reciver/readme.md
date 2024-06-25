@@ -1,11 +1,11 @@
 ---
-name: "FIRST LAST"
-slack_handle: "@SLACK HANDLE"
-github_handle: "@GITHUB HANDLE"
+name: "Abhinav Ajith"
+slack_handle: "@Abhinav Ajith"
+github_handle: "@jk-aero"
 tutorial: # Link to the tutorial if you used one
 ---
 
-# YOUR PROJECT NAME
+# RF Transmitter and Receiver System Using Raspberry Pi Pico
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 
