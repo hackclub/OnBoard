@@ -15,4 +15,4 @@ This RF transmitter system offers a cost-effective solution for remote data tran
 ##### OLED Display: Displays the percentage values of each channel currently transmitting.
 
 ## cost:
-The cost of Transmitter is 2094.00 INR ;that is 25.10 USD this also include the assembly cost
+The cost of Transmitter is 3630.00 INR ;that is 43.43 USD this also include the assembly cost
