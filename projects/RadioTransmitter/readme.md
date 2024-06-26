@@ -1,4 +1,9 @@
-
+---
+name: "Abhinav Ajith"
+slack_handle: "@Abhinav Ajith"
+github_handle: "@jk-aero"
+tutorial: # Link to the tutorial if you used one
+---
 # RF Transmitter Using Raspberry Pi Pico
 ## Overview
 This project utilizes a Raspberry Pi Pico as the central control unit for a robust RF transmitter and receiver system.
