@@ -1,6 +1,6 @@
 ---
 name: "Aditya naravane"
-slack_handle: "@SLACK HANDLE"
+slack_handle: "@Aditya Naravane"
 github_handle: "@adityanaravane"
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
