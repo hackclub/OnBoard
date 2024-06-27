@@ -1,5 +1,5 @@
 ---
-name: "DIVYANSH RAMISETTY"
+name: "Divyansh Sreekar Ramisetty"
 slack_handle: "@Sreekar Ramisetty"
 github_handle: "@Sreekar617"
 tutorial: https://jams.hackclub.com/jam/hacker-card
