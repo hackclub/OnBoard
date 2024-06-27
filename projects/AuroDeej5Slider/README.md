@@ -30,3 +30,5 @@ I redesigned the board with these considerations and had it manufactured on FR-4
 Overall, from the very first concept to the final design, it took about 6 months. I of course could have done this in far less time, however I had other priorities and was in no rush to finish it. The concept on the breadboard worked identically to the final design. I use my mixer daily, and it is very useful to control the volume of YouTube or Discord while I am in a game.
 
 ![Plugged into PC](https://github.com/MrAuro/OnBoard/assets/35087590/46573d99-f1bc-4c13-b084-aaae61fd3806)
+
+I have some ideas for future projects and I definitely want to explore and incorporate a ESP-32 into one of them.
