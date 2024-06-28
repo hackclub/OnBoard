@@ -106,6 +106,11 @@ In all, you should have the following files under your project folder:
     - Or `design.json`, `design.sch`, `design.brd`, etc.
 
 Make sure your file names are exactly the same as above.
+
+Your PR should look like this:
+
+![ix7t2nJ](https://github.com/hackclub/OnBoard/assets/28641114/5f8bac7f-4a91-4e2c-be67-c002025307e0)
+
 If you have all the above, you're done with this step!
 
 ### 6. Create a PR!
