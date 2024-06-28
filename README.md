@@ -4,7 +4,7 @@
 
 > "I’m so glad that young people can create things like PC boards online. May your creativity have no limits!”
 >
-> _– [Steve Wozniak](https://en.wikipedia.org/wiki/Steve_Wozniak), Apple co-founder_
+> _– [Steve Wozniak](https://en.wikipedia.org/wiki/Steve_Wozniak), Apple co-founder endorsing Hack Club OnBoard_
 
 It's easier than ever for high school students to get involved with programming; all you need is a computing device and internet access. Yet, *it's not the same for hardware*. While PCB fabs have greatly increased the accessibility for professionally done boards, there is still no clear way for high school students to jump in. This is where OnBoard comes in.
 
@@ -36,9 +36,9 @@ To follow the repo for updates and show you're participating, click the "star" b
 
 ![Star the OnBoard repo](docs/images/directions/star-repo.png)
 
-### 1. Join `#onboard` on Slack!
+### 1. Join `#electronics` on Slack!
 
-Our [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel[^4] is where the party is getting started! If you haven't already joined, make sure to add yourself to the channel. And for those who are new to the Hack Club slack, sign up to our community of 13k+ makers through [here](https://hackclub.com/slack/?event=onboard) (don't worry, there isn't an application).
+Our [`#electronics`](https://hackclub.slack.com/archives/C0587U78RK4) channel[^4] is where the party is getting started! If you haven't already joined, make sure to add yourself to the channel. And for those who are new to the Hack Club slack, sign up to our community of 13k+ makers through [here](https://hackclub.com/slack/?event=onboard) (don't worry, there isn't an application).
 
 [^4]: This link only works after you've joined the slack. Make sure to get an invite [here](https://hackclub.com/slack/?event=onboard) first.
 
@@ -106,6 +106,11 @@ In all, you should have the following files under your project folder:
     - Or `design.json`, `design.sch`, `design.brd`, etc.
 
 Make sure your file names are exactly the same as above.
+
+Your PR should look like this:
+
+![ix7t2nJ](https://github.com/hackclub/OnBoard/assets/28641114/5f8bac7f-4a91-4e2c-be67-c002025307e0)
+
 If you have all the above, you're done with this step!
 
 ### 6. Create a PR!
