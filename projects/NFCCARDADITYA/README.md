@@ -1,12 +1,12 @@
 ---
-name: "Aditya naravane"
+name: "Aditya Naravane"
 slack_handle: "@Aditya Naravane"
 github_handle: "@adityanaravane"
-tutorial: https://jams.hackclub.com/jam/hacker-card
+tutorial: # https://jams.hackclub.com/jam/hacker-card
 ---
 
-# NFC Github Card
+# NFC Card
 
-This is a NFC card that, when touched to an nfc card reader such as a phone, will give a popup link. This card was designed to be used to give out my github.
+<!-- This is a business card sized board that will function as an nfc card. When pressed up to a phone or nfc card reader it will be able to give the lin kto my github profile. It has a couple designs and artwork on it. -->
 
-This is going to cost 18.62 + shipping.
+<!-- it is going to cost about 18 dollars and 62 cents before shipping -->
