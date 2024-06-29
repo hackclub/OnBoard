@@ -18,6 +18,6 @@ The board will cost: $96.83
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 
 My design process was fairly straightforward.
-I am a beginner and it was my first time making a PCB board so I designed the outline on rhino. 
-A challenge I encountered was that I changed my mind about a design that turned out pretty good but that would complicate things with all the shapes and cut-outs.
+I am a beginner and it was my first time making a PCB board so I designed the outline on rhino and then worked on the rest on eagle. 
+A challenge I encountered was that I changed my mind about a design that I liked but that would complicate things with all the shapes and cut-outs.
 For me, listening to music while working through this project helped a lot, as well as just looking things up on Google when needed.
