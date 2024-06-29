@@ -8,7 +8,7 @@ github_handle: @vale217
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 
-My board is a cute rounded dinosaur modeled after my little cousin's drawing of a dinosaur (his favorite creature) that will have LED lights as its eye as well as along his back to give the look of small spikes.
+My board is a dinosaur modeled after my little cousin's drawing of one (his favorite creature) that will have LED lights as its eye as well as along his back to give the look of small spikes.
 It will be turned into a clip and gifted to my cousin so he can put it on his backpack.
 
 <!-- How much is it going to cost? -->
