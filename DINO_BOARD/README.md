@@ -1,7 +1,7 @@
 ---
 name: Valeria De Alba
-slack_handle: @Valeria
-github_handle: @vale217
+slack_handle: "@Valeria"
+github_handle: "@vale217"
 ---
 
 # DINO BOARD
