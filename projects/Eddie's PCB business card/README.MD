@@ -2,7 +2,7 @@
 name: "Eddie Bian"
 slack_handle: "@Eddie Bian"
 github_handle: "@b-eddie"
-tutorial: # Link to the tutorial if you used one
+tutorial: https://jams.hackclub.com/jam/hacker-card#Wiring%20up%20the%20components
 ---
 
 # Eddie's cool tech PCB business card
