@@ -2,7 +2,7 @@
 name: "Alex Hayes"
 slack_handle: "@alexjhayes1"
 github_handle: "@Acidicts"
-tutorial: # "https://jams.hackclub.com/jam/hacker-card"
+tutorial: "https://jams.hackclub.com/jam/hacker-card"
 ---
 
 # Hacker NFC Card
