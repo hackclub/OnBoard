@@ -2,7 +2,8 @@
 name: "Sushant Laguri"
 slack_handle: "sushantlaguri308"
 github_handle: "Sushi365"
-tutorial: [# Link to the tutorial if you used one](https://www.youtube.com/watch?v=p66vcZnLWYo)
+tutorial: 
+https://www.youtube.com/watch?v=p66vcZnLWYo
 ---
 
 # YOUR PROJECT NAME
