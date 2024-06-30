@@ -11,4 +11,4 @@ tutorial: "https://jams.hackclub.com/jam/hacker-card"
 I made a nfc card folling th hacker-card tutorial found on the hack club website with intention to learn pcb design. I have learnt how to use easy eda and find resouces to help me.
 
 <!-- How much is it going to cost? -->
-It will cost $18.62 fo my design
+It will cost $18.62 for my design
