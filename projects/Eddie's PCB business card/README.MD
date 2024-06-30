@@ -5,8 +5,7 @@ github_handle: "@b-eddie"
 tutorial: # Link to the tutorial if you used one
 ---
 
-# YOUR PROJECT NAME
-Eddie's cool tech PCB business card
+# Eddie's cool tech PCB business card
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 This is a cool business card with NFC. It has my name and contact info on it.
 
