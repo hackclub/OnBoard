@@ -5,7 +5,7 @@ If you have any general tips or info for your country, please let us know.
 
 ## General
 
-- Sometimes selecting a thinner PCB (going from 1.6mm to 1.0mm) can make shipping cheaper by reducing the board weight. Try different options and see if the cost increase of the PCB and decrease of shipping cancel out.
+- Sometimes selecting a thinner PCB (going from 1.6mm to 1.0mm) can make shipping cheaper by reducing the board weight. Try different options and see if the cost increase of the PCB and decrease of shipping cancel out. Alternatively, some manufacturers charge extra for thicknesses other than 1.6mm - if your assembly is costing more than expected, this could be te reason.
 
 ## United States
 
