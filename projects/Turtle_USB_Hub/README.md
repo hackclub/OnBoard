@@ -2,7 +2,7 @@
 name: "Gabi Antoine"
 slack_handle: "@Beenana"
 github_handle: "@Beenana02"
-tutorial: # https://jams.hackclub.com/batch/usb-hub
+tutorial: https://jams.hackclub.com/batch/usb-hub
 ---
 
 # YOUR PROJECT NAME
