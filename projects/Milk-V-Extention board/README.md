@@ -11,5 +11,5 @@ I have designed an extention board for Milk v duo with few sensors.
 
 
 
-the total cost of this project is 96.22 USD
+the total cost of this project is 53.55 USD
 
