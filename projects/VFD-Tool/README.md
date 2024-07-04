@@ -2,7 +2,7 @@
 name: "Jiacheng Liu"
 slack_handle: "@Geenk"
 github_handle: "@Haxintosh"
-tutorial: # Link to the tutorial if you used one
+tutorial: -
 ---
 
 # VFD-Tool  
@@ -22,3 +22,5 @@ Each layer is 55*90mm, the pitch of the interconnect is 1.27mm, 2x15 and 2x08
 ## Cost  
 Currently the cost/5PCBs (HASL, green) is 7$USD + 7$USD for the stencil, shopping is about 17.30$USD to Canada
 Have not had the chance to do the BOM yet, but the estimate is 20$ for 5+ boards (excluding the RPI 0)  
+### Pics
+[Blender render](projects/VFD-Tool/pics/pcb-render400Samples.png)  
