@@ -20,5 +20,5 @@ The latter 3 pages are reserved if a cheaper 128 bits EEPROM is used.
 
 Each layer is 55*90mm, the pitch of the interconnect is 1.27mm, 2x15 and 2x08  
 ## Cost  
-Currently the cost/5PCBs (HASL, green) is 7$USD + 7$USD for the stencil, shopping is about 10$USD to Canada  
+Currently the cost/5PCBs (HASL, green) is 7$USD + 7$USD for the stencil, shopping is about 17.30$USD to Canada
 Have not had the chance to do the BOM yet, but the estimate is 20$ for 5+ boards (excluding the RPI 0)  
