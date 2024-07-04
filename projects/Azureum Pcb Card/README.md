@@ -2,7 +2,7 @@
 name: "Matthew Mei"
 slack_handle: "@Matthew Mei"
 github_handle: "@Azureum"
-tutorial: # https://jams.hackclub.com/jam/hacker-card
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Matt's PCB Card
