@@ -1,7 +1,7 @@
 ---
-name: "Jeslyn Chang"
-slack_handle: "@Jeslyn"
-github_handle: "@se1yu"
+name: "Nila Palmo Ram"
+slack_handle: "@nila"
+github_handle: "@nilaRam"
 tutorial: # [Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
 ---
 
