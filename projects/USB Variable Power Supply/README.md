@@ -13,4 +13,4 @@ This board allows for custom AMP and voltage outputs via a USB-C port. It will a
 
 <!-- How much is it going to cost? -->
 
-It will cost exactly $76.08USD
+It will cost exactly $98.88USD
