@@ -135,7 +135,7 @@ After your PR gets merged, it takes up to 24 business hours for you to receive a
 
 ### 8. Ship it!
 
-Post photos of your board in [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ)! We can't wait to see what you make!
+Post photos of your board in [`#electronics`](https://hackclub.slack.com/archives/C056AMWSFKJ)! We can't wait to see what you make!
 
 ![John sharing PCB](docs/images/directions/john-sharing-pcb.png)
 
