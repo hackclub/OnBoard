@@ -1,8 +1,8 @@
 ---
-name: "FIRST LAST"
-slack_handle: "@SLACK HANDLE"
-github_handle: "@GITHUB HANDLE"
-tutorial: # Link to the tutorial if you used one
+name: 'Jaehyeon Park <me@mcpepc.com> (https://www.mcpepc.com/)'
+slack_handle: '@Jaehyeon Park'
+github_handle: '@MCPE-PC'
+tutorial: 'https://jams.hackclub.com/jam/hacker-card'
 ---
 
 # YOUR PROJECT NAME
