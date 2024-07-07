@@ -1,6 +1,6 @@
 name: Jennifer Zhao
-slack_handle: "@SLACK HANDLE"
-github_handle: "@GITHUB HANDLE"
+slack_handle: Jennifer Zhao
+github_handle: jenniferZO 
 tutorial: didn't use one
 ---
 
