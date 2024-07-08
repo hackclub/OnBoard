@@ -1,7 +1,7 @@
 ---
 name: Thuy Dang
-slack_handle: @Thuy Dang
-github_handle: @dtnthuy
+slack_handle: "@Thuy Dang"
+github_handle: "@dtnthuy"
 tutorial: # [Link to the tutorial if you used one](https://github.com/ruiqimao/keyboard-pcb-guide)
 ---
 
