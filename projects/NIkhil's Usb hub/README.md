@@ -13,7 +13,7 @@ It's a 4 ports USB hub with sleek and futuristic design and few patterns on it, 
 
 ### How much is it going to cost?
 
-Manufacturing will cost around $12 and shipping charges to india is around $15 through air registered mail. Total amount will be $27
+Manufacturing will cost around $29 and shipping charges to india is around $20 through air registered mail. Total amount will be $51
 
 
 ### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional***
