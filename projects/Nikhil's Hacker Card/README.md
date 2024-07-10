@@ -14,7 +14,7 @@ It's a modern NFC personal card with sleek and futuristic design, It contains al
 
 ### How much is it going to cost?
 
-Manufacturing will cost around $22 and shipping charges to india is around $15 through air registered mail. Total amount will be $37
+Manufacturing will cost around $24 and shipping charges to india is around $21 through air registered mail. Total amount will be $45
 
 
 ### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional***
