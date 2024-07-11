@@ -5,7 +5,7 @@ github_handle: "@petersenmatthew"
 tutorial: # [https://jams.hackclub.com/jam/hacker-card](url)
 ---
 
-# YOUR PROJECT NAME
+# NFC Business Card
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 My board is a business card that can transmit a URL on tap and light up. I plan to configure so that it transmits my LinkedIn link on tap so I can hit 500+ connections :D
