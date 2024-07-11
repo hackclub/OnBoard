@@ -17,10 +17,11 @@ I made a card with some electronic components and the NFS antenna on it. When yo
 If you are interested in this, please contact me and I will be happy to make friends with you.
 
 ## Plan
-I have designed the Card and uploaded its files.
+No plan,
+There is no specific plan, I just think about it as I go.
 
 ##### How much is it going to cost?
-It costs $17.70 for 30 Cards.
+It costs $3.20(Special offer), $17.70 for 30 Cards.
 
 ## Design
 Big head of small pet, cute shape
