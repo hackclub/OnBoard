@@ -20,7 +20,7 @@ If you are interested in this, please contact me and I will be happy to make fri
 I have designed the Card and uploaded its files.
 
 ##### How much is it going to cost?
-It costs $17.70 for 30 Cards.
+It costs $3.20 for 5 Cards, $17.70 for 30 Cards.
 
 ## Design
 Big head of small pet, cute shape
