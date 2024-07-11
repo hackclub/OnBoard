@@ -10,7 +10,7 @@ project: "PCB Hacker Card_070924"
 PCB Hacker Card_070924
 
 ## Summary
-I made a DIY business card from scratch.
+Make your own PCB Hacker Card.
 
 ##### Describe your board in 2-3 sentences. What are you making? What will it do?
 I made a card with some electronic components and the NFS antenna on it. When you hold it close to the back of your phone, the LED on the card will light up. Of course, there is also some personal information about me on it. 
@@ -20,7 +20,7 @@ If you are interested in this, please contact me and I will be happy to make fri
 I have designed the Card and uploaded its files.
 
 ##### How much is it going to cost?
-It costs $3.20 for 5 Cards, $17.70 for 30 Cards.
+It costs $17.70 for 30 Cards.
 
 ## Design
 Big head of small pet, cute shape
@@ -28,9 +28,9 @@ Big head of small pet, cute shape
 ##### Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional***
 I followed
 https://jams.hackclub.com/jam/hacker-card
-to learn and explore step by step
-read the text and video carefully
-corrected mistakes repeatedly
-Maggie's video gave me a lot of inspiration
-let me come up with various creative ideas
-finally designed my pet card
+to learn and explore step by step, 
+read the text and video carefully, 
+corrected mistakes repeatedly, 
+Maggie's video gave me a lot of inspiration, 
+let me come up with various creative ideas, 
+finally designed my pet card!
