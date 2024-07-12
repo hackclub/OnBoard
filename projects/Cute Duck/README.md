@@ -1,14 +1,14 @@
 ---
-name: Varun Wallajabad
-slack_handle: @vwallajabad
-github_handle: @vwallajabad
-tutorial: # Link to the tutorial if you used one
+name: "Varun Wallajabad"
+slack_handle: "@vwallajabad"
+github_handle: "@vwallajabad"
 ---
 
 # Cute Duck
 
-I wanted to make a small and compact card that is powered by a 9v battery. It will lightup the outline of the ducks wings and eyes.
+I am designing a PCB for a duck-shaped LED board. This board will feature a series of LEDs that light up to outline the shape of a duck. The LEDs will be powered by a small battery, providing a decorative and illuminated display.
 
-<!-- How much is it going to cost? -->
+It cost of this is $50.96 (USD)
 
-<!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
+During the design process of my duck-shaped LED board, I faced challenges with arranging the LEDs in a way that accurately followed the duck's outline while maintaining electrical connections. 
+
