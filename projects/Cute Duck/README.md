@@ -4,7 +4,7 @@ slack_handle: "@vwallajabad"
 github_handle: "@vwallajabad"
 ---
 
-# Cute Duck
+# LED Duck
 
 I am designing a PCB for a duck-shaped LED board. This board will feature a series of LEDs that light up to outline the shape of a duck. The LEDs will be powered by a small battery, providing a decorative and illuminated display.
 
