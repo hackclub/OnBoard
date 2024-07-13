@@ -11,7 +11,7 @@ tutorial: https://jams.hackclub.com/batch/usb-hub
 A small usb-c to 4x usb-a hub.
 
 <!-- How much is it going to cost? -->
-At JLCPCB $85.12 ($51.8 before customs, tax and shipping)
+At JLCPCB $68.09 ($51.8 before shipping)
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 A challenge was figuring out how the usb-c connecter worked.
