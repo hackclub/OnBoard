@@ -12,7 +12,7 @@ I decided to create a custom ruler PCB for my school robotics team, bearing our 
 I plan to personally hand one to each and every single one of our team members.
 
 <!-- How much is it going to cost? -->
-$97.43 USD (incl. shipping)
+$59.59 USD (incl. shipping)
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 See [my design process in more detail](docs/workflow.md). My main challenge was vectorising bitmap graphics, and the best solution was hard work and patience.
