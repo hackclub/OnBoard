@@ -21,7 +21,7 @@ No plan,
 There is no specific plan, I just think about it as I go.
 
 ##### How much is it going to cost?
-It costs $3.20 for 5 Cards(Special offer), $17.70 for 30 Cards.
+It costs $24.55 for 5 Cards(There is a $2 discount, but my shipping destination is not eligible for this special offer) .
 
 ## Design
 Big head of small pet, cute shape
