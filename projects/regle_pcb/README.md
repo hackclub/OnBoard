@@ -15,3 +15,4 @@ I plan to personally hand one to each and every single one of our team members.
 $97.43 USD (incl. shipping)
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
+See [my design process in more detail](docs/workflow.md). My main challenge was vectorising bitmap graphics, and the best solution was hard work and patience.
