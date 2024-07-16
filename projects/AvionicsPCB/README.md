@@ -2,7 +2,7 @@
 name: "Carter Pfaff"
 slack_handle: "@Carter pfaff"
 github_handle: "@MelonMars"
-tutorial: # [Sparkletilt](https://jams.hackclub.com/batch/sparkletilt-pcb)
+tutorial: https://jams.hackclub.com/batch/sparkletilt-pcb
 ---
 
 # YOUR PROJECT NAME
