@@ -2,7 +2,7 @@
 name: "Daniel Benge"
 slack_handle: "@Dragon863"
 github_handle: "@Dragon863"
-tutorial: [Hacker Card](https://jams.hackclub.com/jam/hacker-card)
+tutorial: "https://jams.hackclub.com/jam/hacker-card"
 ---
 
 # Dragon863 Hacker Card
