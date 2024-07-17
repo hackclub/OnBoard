@@ -2,7 +2,7 @@
 name: "Justin Huang"
 slack_handle: "@Justin Huang"
 github_handle: "@mjh316"
-tutorial: [# Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
+tutorial: [Maggie's tutorial!](https://jams.hackclub.com/jam/hacker-card)
 ---
 
 # Justin's NFC Card
