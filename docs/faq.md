@@ -10,7 +10,7 @@ Yes, this event is open to everyone. However, this program was designed in North
 
 ##### Can multiple people team up to work on a project?
 
-If you team up with an IRL friend and want to build a project together, you would work together to submit one pull request. All teammates must meet requirements for the event (eg. under 18, have submitted RSVP, be on Slack, etc.) The grant amount would be for up to $100 per person, growing with team size. You must be able to meet up in person to work on the project with your teammate(s). The maximum number of people in a team is 4.
+If you team up with an IRL friend and want to build a project together, you would work together to submit one pull request. All teammates must meet requirements for the event (eg. under 18, have submitted RSVP, be on Slack, etc.) The grant amount would be for up to $100 per person, growing with team size. You must be able to meet up in person to work on the project with your teammate(s). The maximum number of people in a team is 4. Let the pull request reviewer know you're with a team and be ready to provide clarification on your team.
 
 ##### How many total grants are there available?
 
@@ -22,7 +22,7 @@ Yes! You can design as many boards as you want– just keep in mind the $100 gra
 
 ##### Are international customs fees covered?
 
-No, we unfortunately cannot reimburse for the cost of taxes and duties for your PCB shipment. However, certain vendors do offer shipping options that prepay customs, and we recommend using them.
+No, we unfortunately cannot reimburse for the cost of taxes and duties for your PCB shipment. However, certain vendors do offer shipping options that prepay customs, and we recommend using them. The "Standard Global Direct Line" shipping option is cost-effective and usually has no customs fees, but this shipping method is rarely offered; if you're offered this shipping option, take it!
 
 ##### Does the entire board have to cost less than $100?
 
@@ -30,7 +30,7 @@ The board may have a budget exceeding $100. However, you would be responsible fo
 
 ##### What if I need more funds than initially planned?
 
-If your initial grant is less than $100, and you find yourself needing more to order extra parts, reach out to the Bank team at bank@hackclub.com to request additional funds.
+If your initial grant is less than $100, and you find yourself needing more to order extra parts, reach out to the Onboard Team on Slack in #electronics or #onboard-help to request additional funds.
 
 ##### When will my pull request be reviewed?
 
@@ -43,3 +43,6 @@ No fee! It'd be kinda weird to give you the $100, and then take $7 back. The 7% 
 ##### Should my budget include shipping and taxes?
 
 Please do include shipping and taxes so the grant amount you receive will be as close as possible to your project expenses.
+
+#### I only received 50$ in my grant, how come?
+Following a [Hack Club Jam Tutorial](https://jams.hackclub.com/tag/pcb) grants you $50 out of the $100 grant. This amount is based on the average cost of ordering a board using the tutorial, which should be no more than $50. To receive the remaining $50, submit a new PCB, either by following another jam or by creating your own. After your second pull request has been approved, see [here](#what-if-i-need-more-funds-than-initially-planned) for obtaining the rest of your grant.
