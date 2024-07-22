@@ -30,7 +30,7 @@ The board may have a budget exceeding $100. However, you would be responsible fo
 
 ##### What if I need more funds than initially planned?
 
-If your initial grant is less than $100, and you find yourself needing more to order extra parts, reach out to the Bank team at bank@hackclub.com to request additional funds.
+If your initial grant is less than $100, and you find yourself needing more to order extra parts, reach out to the Onboard Team on Slack in #electronics or #onboard-help to request additional funds.
 
 ##### When will my pull request be reviewed?
 
