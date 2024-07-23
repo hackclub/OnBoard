@@ -9,6 +9,6 @@ tutorial: "https://jams.hackclub.com/jam/hacker-card"
 
 <!-- This is going to be a buisness card. It will link to my personal website using an NFC chip. -->
 
-<!-- $34.61 -->
+<!-- $20.35 -->
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
