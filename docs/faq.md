@@ -8,10 +8,6 @@ No, this event is only open to current high school students (or younger).
 
 Yes, this event is open to everyone. However, this program was designed in North America and your milage may vary. For example, some countries will charge customs taxes that the grant doesn't cover.
 
-##### Can multiple people team up to work on a project?
-
-If you team up with an IRL friend and want to build a project together, you would work together to submit one pull request. All teammates must meet requirements for the event (eg. under 18, have submitted RSVP, be on Slack, etc.) The grant amount would be for up to $100 per person, growing with team size. You must be able to meet up in person to work on the project with your teammate(s). The maximum number of people in a team is 4. Let the pull request reviewer know you're with a team and be ready to provide clarification on your team.
-
 ##### How many total grants are there available?
 
 There are 1,000 grants. Fortunately, OnBoard will snowball into a continuous program, so don't worry if you're not in the first 1k.
