@@ -11,6 +11,6 @@ tutorial: https://jams.hackclub.com/jam/hacker-card
 I followed the tutorial and it basically uses an nfc to send information to your phone and power an LED
 
 <!-- How much is it going to cost? -->
-5180 rupees
+6124 rupees
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
