@@ -2,7 +2,7 @@
 name: "John Girgis"
 slack_handle: "@John"
 github_handle: "@astarryknight"
-tutorial: # [Link to the tutorial if you used one](https://github.com/ruiqimao/keyboard-pcb-guide)
+tutorial: [Link to the tutorial if you used one](https://github.com/ruiqimao/keyboard-pcb-guide)
 ---
 
 # Keyboard PCB
