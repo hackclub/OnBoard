@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d41a379b-4e27-4046-94be-607b3186f0a2)---
+---
 name: "NOAH CARMICHAEL"
 slack_handle: "@[SLACK HANDLE](https://hackclub.slack.com/team/U059R0LJTQV)"
 github_handle: "@noah-carmichael"
