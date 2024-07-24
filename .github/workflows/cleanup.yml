@@ -19,16 +19,19 @@ jobs:
               close-pr-message: >
                   This pull request has been inactive for some time and has therefore been closed. Feel free to create a new one when you're ready.
               # The number of days old an issue or a pull request can be before marking it stale. Set to -1 to never mark issues or pull requests as stale automatically.
-              days-before-stale: 7
+              days-before-issue-stale: 30
+              days-before-pr-stale: 7
               # The number of days to wait to close an issue or a pull request after it being marked stale. Set to -1 to never close stale issues or pull requests.
-              days-before-close: 14
+              days-before-close: 7
               # The number of days to wait to close an issue after it being marked stale. Set to -1 to never close stale issues. Override "days-before-close" option regarding only the issues.
               days-before-issue-close: -1
               # The label to apply when an issue is stale.
               stale-issue-label: "Stalled"
               # The labels that mean an issue is exempt from being marked stale. Separate multiple labels with commas (eg. "label1,label2").
               exempt-issue-labels: "Dev"
+              exempt-pr-labels: "Dev"
               # The label to apply when a pull request is stale.
               stale-pr-label: "Stalled"
               # Only pull requests with at least one of these labels are checked if stale. Defaults to `` (disabled) and can be a comma-separated list of labels. Override "any-of-labels" option regarding only the pull requests.
-              any-of-pr-labels: Submission
+              any-of-pr-labels: "Submission"
+              # include-only-assigned: true
