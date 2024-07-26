@@ -11,7 +11,7 @@ tutorial: # Link to the tutorial if you used one
 A NeoPixel strip of lights can be plugged into it and then with the gyroscope and the microcontroller, the lights change color when you shake it! I'm hoping to make those cool long-exposure light photos but with rainbowwww!
 
 <!-- How much is it going to cost? --> 
-More than a $100! So far, I've spent probably $300 or $400...
+More than a $100! So far, I've spent probably $300 or $400 counting the previous JLCPCB prototype orders and the parts I ordered from Digikey after realizing that half of my parts couldn't be assembled by JLCPCB.
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 First time making a PCB and at first I had NO idea what to do. Luckily, the Slack people were a lot of help for looking over the design. This was also my first time soldering and I had quite a bit of trouble but meeting up with Kevin in Boston was a ton of help! I learned soooo much!!
