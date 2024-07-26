@@ -5,7 +5,7 @@ github_handle: "@Beenana02"
 tutorial: https://jams.hackclub.com/batch/usb-hub
 ---
 
-# YOUR PROJECT NAME
+# Turtle_USB_HUB_V2
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 For my second USB hub, I wanted to improve some of the flaws of my first board.
