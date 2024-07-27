@@ -2,7 +2,7 @@
 name: "Eddy Zhao"
 slack_handle: "@eddyzow"
 github_handle: "@eddyzow"
-tutorial: [here](https://jams.hackclub.com/jam/hacker-card)
+tutorial: "[here](https://jams.hackclub.com/jam/hacker-card)"
 ---
 
 # Eddy's NFC Card
