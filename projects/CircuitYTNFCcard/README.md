@@ -1,4 +1,4 @@
-name: Ethan Poon slack_handle: #dont have one yet github_handle: "@poone123" tutorial: hacker-card
+name: Ethan Poon slack_handle: MightyE (ewpoon007@gmail.com) github_handle: "@poone123" tutorial: hacker-card
 
 Summary
 I created another NFC Business Card from Maggie Liu's tutorial. I will link it to my friends channel as I have made this card for their birthday.
