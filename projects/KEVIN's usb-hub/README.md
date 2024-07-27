@@ -2,7 +2,7 @@
 name: "Kevin Lee"
 slack_handle: "@Kevin Lee"
 github_handle: "@abcKFC68"
-tutorial: # Link to the tutorial if you used one
+tutorial: https://jams.hackclub.com/batch/usb-hub/part-1# Link to the tutorial if you used one
 ---
 
 # KEVIN's usb-hub
