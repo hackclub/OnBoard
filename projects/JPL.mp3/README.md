@@ -1,7 +1,7 @@
 ---
 name: Justinas Petkauskas
 slack_handle: "@JustinasPetkauskas"
-github_handle: "@Justinas Petkauskas"
+github_handle: "@JPLabsystems"
 tutorial: N/A
 ---
 
