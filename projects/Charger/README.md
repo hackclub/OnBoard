@@ -8,7 +8,7 @@ project: "Charger"
 
 # Charger for my Arduino projects
 
-I made a custom PCB with some help of a tutorial that will act as a powerbank for my Arduino projects as it can charge them via USB and also get recharg the batteries via usb-c with some leds to show charging progress which helps a lot and will be used by me a lot.
+I made a custom PCB with some help of a tutorial that will act as a powerbank for my Arduino projects as it can charge them via USB and also recharge the batteries via usb-c with some leds to show charging progress which helps a lot and will be used by me a lot.
 
 $81.31
 
