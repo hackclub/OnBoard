@@ -13,6 +13,6 @@ This board is a logic learning platform. There is a buck converter that goes fro
 There are switches and leds with the necessary power already wired so the focus is on logic and not on electricity.
 
 <!-- How much is it going to cost? -->
-we will find out soon
+$103.85 (i assume i can cover the extra)
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
