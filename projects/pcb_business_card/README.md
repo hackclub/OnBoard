@@ -5,10 +5,10 @@ github_handle: "@shim-sham"
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
-# hacker business card
+# shambhavi's hacker card
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-i'm making a simple business card, it contains my email, website, and github links, as well as a QR code to my website. 
+i'm making a simple business (hacker) card, it contains my email, website, and github links, as well as a QR code to my website. 
 there's an LED light next to my name, so it lights up :)
 
 <!-- How much is it going to cost? -->
