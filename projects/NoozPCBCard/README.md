@@ -2,7 +2,7 @@
 name: "Michael Zheng"
 slack_handle: "@NoozAbooz"
 github_handle: "@NoozAbooz"
-tutorial: [# Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Nooz's PCB Card
