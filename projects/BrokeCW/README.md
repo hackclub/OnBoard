@@ -13,6 +13,9 @@ A simple CW transmitter that runs on 12v and can transmit on diffrent frequencie
 Total cost is 47.62USD
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 Design Process is detailed on WeatherlyMed/BrokeCW github
-Started by anaysis of other transmitters
-Built on breadboard
-Tested with components on hand
+
+Started by anaysis of other transmitters designed for various frequencies 
+
+Built on breadboard with on hand components
+
+Tested with osillisope
