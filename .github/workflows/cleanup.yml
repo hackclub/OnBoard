@@ -10,6 +10,7 @@ jobs:
         permissions: 
           pull-requests: write
           issues: write
+          actions: write
         steps: 
           - name: Close Stale Issues
             uses: actions/stale@v9.0.0
