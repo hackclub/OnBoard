@@ -8,6 +8,6 @@ tutorial: https://jams.hackclub.com/jam/hacker-card
 # Hack Card
 
 My board is a hack card where I added an LED, NFC chip, NFC antenna. When scanned it will give them a url to a website of my choosing
-It should cost $11.64
+It should cost $61.30
 
 
