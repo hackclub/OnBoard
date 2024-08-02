@@ -20,7 +20,7 @@ I am making a usb a hub. To connect more then 1 device to a single usb input.
 
 <!-- How much is it going to cost? -->
 6.90 for 20 pieces of pcb
-ard 13 for the parts 
+ard 12.22 for the parts 
 
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? Totally optional -->
