@@ -1,6 +1,6 @@
 ---
 name: "Knut-Herbert Mäeküngas"
-slack_handle: "@SLACK HANDLE"
+slack_handle: "@KHM"
 github_handle: "@cryptopapi713"
 ---
 
