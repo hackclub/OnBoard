@@ -1,6 +1,9 @@
 name: @Yash Sethuraman
+
 slack_handle: @Yash Sethuraman
+
 github_handle: @yashsethu
+
 tutorial: https://jams.hackclub.com/jam/hacker-card
 
 # NFC Hacker Card
