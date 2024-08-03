@@ -14,6 +14,6 @@ A NFC Card with a LED and text on it. When you scan the card, the LED will light
 <!-- How much is it going to cost? -->
 
 $13.64 + $17.99 for shipping + $6.33 for tax
-= $19.64
+= $37.96
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
