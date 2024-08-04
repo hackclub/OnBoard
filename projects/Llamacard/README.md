@@ -2,7 +2,7 @@
 name: "Simon Widén Klövdahl"
 slack_handle: "@SimonK"
 github_handle: "@Lazylllama"
-tutorial: [# Link to the tutorial if you used one](https://www.figma.com/proto/0ucrvtjExgBSEJ6WkTvegZ/hacker-card-jam?type=design&node-id=21-130&t=f8tg0SGZ0aMs0SFo-0&scaling=contain&page-id=0%3A1)
+tutorial: https://www.figma.com/proto/0ucrvtjExgBSEJ6WkTvegZ/hacker-card-jam?type=design&node-id=21-130&t=f8tg0SGZ0aMs0SFo-0&scaling=contain&page-id=0%3A1
 ---
 
 # Llamacard
