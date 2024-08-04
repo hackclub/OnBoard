@@ -2,9 +2,7 @@
 name: 坤鈺 陳
 slack_handle: ken
 github_handle: ouo314
-tutorial: 
-https://www.instructables.com/Build-Custom-ESP32-Boards-From-Scratch-the-Complet/
-https://www.youtube.com/watch?v=5ao2K7-mXyI&ab_channel=HD%E5%8C%A0
+tutorial: https://www.instructables.com/Build-Custom-ESP32-Boards-From-Scratch-the-Complet/ https://www.youtube.com/watch?v=5ao2K7-mXyI&ab_channel=HD%E5%8C%A0
 ---
 
 # ESP32 rc car
