@@ -11,3 +11,4 @@ The board extends one usb port into 4 more. It will help with cable management a
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 
 <!-- How much is it going to cost? -->
+$55.65
