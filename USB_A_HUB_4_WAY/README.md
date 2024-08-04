@@ -2,7 +2,7 @@
 name: "ABHIMANYU CHAUDHARY"
 slack_handle: "@MADROBIN13"
 github_handle: "@MADROBIN13"
-tutorial: # [Link to the tutorial if you used one](https://jams.hackclub.com/batch/usb-hub)
+tutorial: https://jams.hackclub.com/batch/usb-hub
 ---
 
 # 4 WAY USB HUB
