@@ -1,6 +1,7 @@
 ---
-name: "Kerman"
+name: "William Luong"
 github_handle: "Kerman-ap"
+slack_handle: William Luong
 tutorial: https://www.youtube.com/watch?v=TfKz_FbZWLQ
 ---
 
