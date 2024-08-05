@@ -1,7 +1,7 @@
 ---
 name: "Kerman"
 github_handle: "Kerman-ap"
-tutorial: [Riskable's Analog Keyboard Tutorial](https://www.youtube.com/watch?v=TfKz_FbZWLQ)
+tutorial: [Riskable's Analog Keyboard Tutorial]('https://www.youtube.com/watch?v=TfKz_FbZWLQ')
 ---
 
 Kerman's Analog Keyboard
