@@ -1,7 +1,7 @@
 ---
 name: LOUISA MULEI
-slack_handle: "@louisa
-github_handle: "@v1peridae
+slack_handle: @louisa
+github_handle: @v1peridae
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
