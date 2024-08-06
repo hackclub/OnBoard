@@ -11,6 +11,6 @@ tutorial: https://jams.hackclub.com/jam/hacker-card
 PCB designed using EasyEDA functioning as a 'smart' business card. It utilizes an NFC chip paired with an antenna to prompt others' devices to open my personal website (https://aleksanderkurgan.vercel.app/) which I also designed for arcade :). 
 
 <!-- How much is it going to cost? -->
-The boards will cost $12.73 and the shipping, $17.80. This sums to a grand total of $30.53
+The board will cost $30.96
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
