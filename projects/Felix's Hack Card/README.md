@@ -2,7 +2,7 @@
 name: "Felix Myrie"
 slack_handle: "@felixmyrie5"
 github_handle: "@felixm-byte"
-tutorial: [# Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Hack Card
