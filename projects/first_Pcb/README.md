@@ -1,7 +1,7 @@
 ---
-name: Evan Cooper
-slack_handle: @BuildNCode
-github_handle: @BuildNCode1
+name: "Evan Cooper"
+slack_handle: "@BuildNCode"
+github_handle: "@BuildNCode1"
 tutorial:
 ---
 
