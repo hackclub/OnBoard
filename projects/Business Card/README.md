@@ -1,5 +1,5 @@
 ---
-name: "Knut-Herbert Mäeküngas"
+name: "Knut-Herbert"
 slack_handle: "@KHM"
 github_handle: "@cryptopapi713"
 ---
