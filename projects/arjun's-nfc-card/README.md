@@ -12,7 +12,7 @@ The board functions via NFC. It will be used like a traditionnal business card, 
 It has a light that will be on the dot above the "j" above my name that will turn on when the card is scanned.
 
 <!-- How much is it going to cost? -->
-for the minimum of 5 PCB's it will cost $2
+for the minimum of 5 PCB's it will cost $27.53
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 Although I was following a very well structured tutorial, I had trouble with the manual routing, I solved my problem by viewing a more detailed video
