@@ -9,6 +9,6 @@ tutorial: https://jams.hackclub.com/jam/hacker-card
 
 I am making a PCB Hacker Card, my 1st ever PCB Project! Essentially, it is a business card that can transmit a URL and light up when tapped, and is unique to me!
 
-I believe it costs ~$2 according to the website
+I believe it costs ~$2 according to the website, but the shipping cost is ~$18.
 
 Created a schematic, converted it to a PCB design, placed components, and customized the card with text and images. The tutorial by Hackclub really guided me in this process, especially since it was my 1st time ever creating a PCB or anything of that sort. Thank you so much, I really had a lot of fun!
