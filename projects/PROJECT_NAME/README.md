@@ -1,5 +1,5 @@
 ---
-name: "FIRST LAST"
+name: "Rohit Pandey"
 slack_handle: "@RohitPandey"
 github_handle: "@RohitPandey1729"
 tutorial: # Link to the tutorial if you used one
@@ -8,7 +8,7 @@ tutorial: # Link to the tutorial if you used one
 # YOUR PROJECT NAME
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-My board is a hacker card which has some information about me. 
+My board is a hacker card which has some information about me to show my firneds and other people.
 
 <!-- How much is it going to cost? -->
 Around $50
