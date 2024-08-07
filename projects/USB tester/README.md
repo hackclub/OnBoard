@@ -5,7 +5,7 @@ github_handle: "@Peepesucksstiks"
 tutorial: no# Link to the tutorial if you used one
 ---
 
-# YOUR PROJECT NAME
+# USB tester
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 This is a simple board to test usb cables
