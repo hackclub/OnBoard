@@ -10,4 +10,4 @@ github_handle: "@anirudh12032008"
 I'm designing a decorative PCB for a flickering heart-shaped LED display. The board uses an NE555 timer to generate a clock signal, which drives a sequence of red LEDs arranged in a heart pattern. The circuit creates a visually appealing flickering effect, making it perfect for wall-mounted decorative lighting.
 
 <!-- How much is it going to cost? -->
-$50-60
+$56.87 = 4775 INR
