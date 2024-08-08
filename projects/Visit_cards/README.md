@@ -2,7 +2,7 @@
 name: "William SITT"
 slack_handle: "@willy"
 github_handle: "@WilliamBSITT"
-tutorial: # Link to the tutorial if you used one
+tutorial: # https://jams.hackclub.com/jam/hacker-card
 ---
 
 # VISIT CARDS 2.0
