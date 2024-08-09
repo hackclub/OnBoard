@@ -2,7 +2,7 @@
 name: "Dylan Yang"
 slack_handle: "@Dylan Yang"
 github_handle: "@dylanjryang"
-tutorial: #https://jams.hackclub.com/jam/hacker-card
+tutorial: # https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Dylan's NFC Card
