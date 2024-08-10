@@ -4,7 +4,7 @@ slack_handle: "@robin"
 github_handle: "@copybara1"
 ---
 
-# YOUR PROJECT NAME
+# USB Trio Hub
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 My project is a USB hub with one input and three outputs.
