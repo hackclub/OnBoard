@@ -11,6 +11,6 @@ Yash00241's Hacker Card
 A NFC chip based Business card PCB Board.
 
 <!-- How much is it going to cost? -->
-$52.73
+$39.06
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
