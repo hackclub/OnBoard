@@ -6,7 +6,7 @@ github_handle: "@mattsoh"
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
-# YOUR PROJECT NAME
+# NFC Card
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 An NFC card that will be able to store data / link to something
