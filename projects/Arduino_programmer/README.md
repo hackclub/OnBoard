@@ -5,7 +5,7 @@ github_handle: "@ANSHUMANDOCX"
 tutorial: 
 ---
 
-# YOUR PROJECT NAME
+# ARDUINO UNO PROGRAMMER SHIELD
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 It is a Arduino Uno programmer sheild that can be used to program ICs like Attiny 85 or Atemega328p
