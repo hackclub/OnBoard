@@ -1,8 +1,7 @@
 name: Cleanup Pull Requests
-on:
-  push:
-      branches:
-          - main
+on: 
+    pull_request: 
+        types: [ opened, synchronize, reopened, assigned]
       
 jobs:
     stalled-tickets:
