@@ -1,6 +1,6 @@
 ---
 name: "Raimo Sepp"
-slack_handle: "@SLACK HANDLE"
+slack_handle: "@raimar"
 github_handle: "@1million1"
 ---
 
