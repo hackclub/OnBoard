@@ -1,0 +1,221 @@
+(footprint "RaspberryPi_Pico_OptionalKeepoutRF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Supplementary RF keepout zone for the Raspberry Pi Pico W (wireless), to be added to other Raspberry Pi Pico footprints, https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf")
+	(tags "Raspberry Pi Pico module keepout rf wireless extra addon")
+	(property "Reference" "REF**"
+		(at 11.7475 24.765 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "ea31613f-a0a2-4f5a-9373-bee042a054d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "RaspberryPi_Pico_OptionalKeepoutRF"
+		(at 0 36.195 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "0d39661e-f40b-4a60-8ec8-51a5d8c091da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d25956e-8c42-41b7-8a9a-f2e0929bed30")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95525635-6531-4805-ab93-7b59b913fcd9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee2ca12c-0ef2-4b7e-b9e3-27e233650de3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_circle
+		(center -5.7 23.5)
+		(end -4.65 23.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "82f31566-8d6b-4211-8754-77aa301d76db")
+	)
+	(fp_circle
+		(center 5.7 23.5)
+		(end 6.75 23.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "160c447b-6388-48c1-8242-12e3011512bf")
+	)
+	(fp_text user "2.4 GHz RF Keep Out"
+		(at 0 31.75 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "05c13b11-bffb-427b-af67-76d55ef36f21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "^ Suggested board edge for RF ^"
+		(at -14.05 26.67 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "1f07a15d-ab4b-47ce-ac99-1b011e1abd9a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(fp_text user "^ Suggested board edge for RF ^"
+		(at 14.05 26.67 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "378d6a1f-7d98-4c61-96a8-31cd60015d16")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(fp_text user "Keep unobstructed by metal as far as possible in all dimensions"
+		(at 0 33.9725 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "8ba7646f-3410-4b7e-9354-9a6e92bc33e9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(fp_text user "^ Suggested board edge for RF ^"
+		(at 0 17.78 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "ad6b2d46-d63f-4d78-a85c-c87399965902")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu" "*.Paste")
+		(uuid "ee247754-2270-409a-ad04-c8ac65db609d")
+		(name "RF Copper Keep Out")
+		(hatch full 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -21 25) (xy 21 25) (xy 21 35) (xy -21 35)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "Edge.Cuts")
+		(uuid "e578e5ea-ecaa-4070-a90d-95a0c77d4f06")
+		(name "Board Keep Out Suggestion RF")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 7.1 26) (xy 21 26) (xy 21 35) (xy -21 35) (xy -21 26) (xy -7.1 26) (xy -7.1 17) (xy 7.1 17)
+			)
+		)
+	)
+	(group ""
+		(uuid "ae46f597-14c9-45f0-bcaf-d5e88c0493c8")
+		(members "05c13b11-bffb-427b-af67-76d55ef36f21" "160c447b-6388-48c1-8242-12e3011512bf"
+			"1f07a15d-ab4b-47ce-ac99-1b011e1abd9a" "378d6a1f-7d98-4c61-96a8-31cd60015d16"
+			"82f31566-8d6b-4211-8754-77aa301d76db" "8ba7646f-3410-4b7e-9354-9a6e92bc33e9"
+			"ad6b2d46-d63f-4d78-a85c-c87399965902" "e578e5ea-ecaa-4070-a90d-95a0c77d4f06"
+			"ee247754-2270-409a-ad04-c8ac65db609d"
+		)
+	)
+)
