@@ -1,7 +1,8 @@
 Invalid:
-- changed-files:
-  - any-glob-to-any-file: '*'
-  - all-globs-to-any-files: '!projects*'
+- all:
+  - changed-files:
+    - any-glob-to-any-file: '*'
+    - all-globs-to-any-files: '!projects*'
 
 
 # Add 'Submission' label to any changes within '/projects' folder or any subfolders
