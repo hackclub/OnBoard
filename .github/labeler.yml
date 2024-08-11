@@ -2,7 +2,7 @@ Invalid:
 - all:
   - changed-files:
     - any-glob-to-any-file: '*'
-    - all-globs-to-any-file: '!projects*'
+    - all-globs-to-any-file: 'projects/**'
 
 
 # Add 'Submission' label to any changes within '/projects' folder or any subfolders
@@ -12,9 +12,11 @@ Submission:
 
 
 Dev:
-- changed-files:
-  - any-glob-to-any-file:
-    - .github/*
-    - community/*
-    - docs/*
-    - meta/*
+- all:
+  - changed-files:
+    - any-glob-to-any-file:
+      - .github/*
+      - community/*
+      - docs/*
+      - meta/*
+    - all-globs-to-any-file: '!projects/**'
