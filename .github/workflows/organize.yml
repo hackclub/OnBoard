@@ -1,7 +1,5 @@
 name: Cleanup Pull Requests
-on: 
-    pull_request: 
-        types: [ opened, synchronize, reopened, assigned]
+on: pull_request_target
       
 jobs:
     stalled-tickets:
