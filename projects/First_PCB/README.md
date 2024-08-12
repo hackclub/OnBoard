@@ -2,7 +2,7 @@
 name: "Evan Cooper"
 slack_handle: "@BuildNCode"
 github_handle: "@BulidNCode1"
-tutorial: #https://www.youtube.com/watch?v=LrSKs35nR8k&list=PLbNbddgD-XxECO7C2z-FAlSoJ57VqcJA3
+tutorial: "https://www.youtube.com/watch?v=LrSKs35nR8k&list=PLbNbddgD-XxECO7C2z-FAlSoJ57VqcJA3"
 ---
 
 #First PCB
