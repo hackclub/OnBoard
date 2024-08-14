@@ -22,4 +22,6 @@ Order PCB  (cheapest config):
 - change: "Mark on PCB" to "Specify Position" (makes sure the order number is hidden below the USB-C port)
     --> Should cost 2$ or about 1,80€ (excl. shipping)
 
+All components besides the OSD IC can be ordered from LCSC!
+
 I will probably add all design changes and future versions to my GitHub. V0.2 is planned to address any potential errors and bugs that might occur in V0.1, with the goal of having an official V1.0 in the future.
