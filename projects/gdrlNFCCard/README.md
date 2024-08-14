@@ -2,7 +2,7 @@
 name: Gabriel Lam
 slack_handle: @gdrl
 github_handle: @gabrieldrl
-tutorial: (https://jams.hackclub.com/jam/hacker-card)
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # gdrlNFCCard
