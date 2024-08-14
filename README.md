@@ -54,7 +54,7 @@ _If you get stuck on these tutorials, or want more example projects to learn fro
 
 ### 3. Upload to a Vendor and Take a Screenshot
 
-Upload your Gerber files to [JLCPCB.com](https://jlcpcb.com/) and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^5] if there's a specific one you want to use [^6]. Ensure you complete the checkout process by entering your address and selecting a shipping method. Once completed, take a screenshot with all the final costs and shipping!
+Upload your Gerber files to [JLCPCB.com](https://jlcpcb.com/) and add them to your cart. JLCPCB is the default PCB manufacturer, but you can shop around [^5] if there's a specific one you want to use [^6]. Ensure you complete the checkout process by entering your address and selecting a shipping method. Once completed, take a screenshot with all the final costs and shipping!
 > If you're curious what all the settings are about or how to order for assembly, check out our [`ordering_from_JLCPCB.md`](./docs/ordering_from_JLCPCB.md) doc!
 > To avoid excess shipping fees or customs, check out [`the Shipping Tips`](./community/shipping.md) doc!
 
