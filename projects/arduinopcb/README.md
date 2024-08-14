@@ -5,9 +5,9 @@ github_handle: "@Souptik Samanta
 "
 tutorial: # Link to the tutorial if you used one
 ---
-Arduino pcb 
+nfc business card pcb 
 
-i made a arduino pcb full by myself 
+i made a nfc business card 
 
 less than a 100$
 
