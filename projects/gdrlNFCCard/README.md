@@ -5,12 +5,12 @@ github_handle: @gabrieldrl
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
-# gdrlNFCCard
+# YOUR PROJECT NAME
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-I am making my first PCB which is an NFC business card. It has my name and github handle on it along with an NFC component to trasnmit data.
+For my first PCB I followed the tutorial on how to make PCB NFC business card. It also has an LED which will light up after being tapped against a phone.
 
 <!-- How much is it going to cost? -->
-It will cost $24.60:
-- $19.60 for the 5 PCBs
-- $5.00 for shipping
+The total cost came to $24.60:
+- 5 PBCs $19.60
+- Shipping $5.00
