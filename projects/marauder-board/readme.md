@@ -1,14 +1,14 @@
 ---
-name: "Anshuman Tripathy"
-slack_handle: "@Anshuman Tripathy"
-github_handle: "@ANSHUMANDOCX"
-tutorial:
+name: "Roland Kaasik"
+slack_handle: "@hacker1778"
+github_handle: "@roland189"
 ---
 
-# YOUR PROJECT NAME
+# MARAUDER BOARD
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-Its a simple 4 digit Counter PCB
+This board connects an esp32 and a 2.8" tft screen to run a project called 'Wifi Marauder'
 <!-- How much is it going to cost? -->
-Ordering it with other two pcb totoal cost is about 27$
+98.66 dollars with a -9 coupon
+
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
