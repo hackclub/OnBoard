@@ -2,7 +2,7 @@
 name: "DAVID GOLIATH"
 slack_handle: "@David"
 github_handle: "@itskme"
-tutorial: # https://jams.hackclub.com/jam/hacker-card#After%20receiving%20your%20PCB
+tutorial: # [pcb card jam]https://jams.hackclub.com/jam/hacker-card#After%20receiving%20your%20PCB
 ---
 
 # YOUR PROJECT NAME
