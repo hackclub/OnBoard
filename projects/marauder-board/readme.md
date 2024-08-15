@@ -1,10 +1,10 @@
 ---
 name: "Roland Kaasik"
-slack_handle: "@SLACK HANDLE"
+slack_handle: "@hacker1778"
 github_handle: "@roland189"
 ---
 
-# YOUR PROJECT NAME
+# MARAUDER BOARD
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 This board connects an esp32 and a 2.8" tft screen to run a project called 'Wifi Marauder'
