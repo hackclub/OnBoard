@@ -11,4 +11,4 @@ github_handle: "@copybara1"
 The board has an esp32, USB controller, and GPIO pins so that it can do many things, from home automation to wifi hacking.
 <!-- How much is it going to cost? -->
 
-Using a 9-dollar coupon, just under 50 dollars.
+Using a 6-dollar coupon, just under 50 dollars.
