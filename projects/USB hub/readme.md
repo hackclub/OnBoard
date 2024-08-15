@@ -1,9 +1,7 @@
-
 ---
 name: "Oliver Mets"
 slack_handle: "@Oliver"
 github_handle: "@olivermets"
-tutorial: # Link to the tutorial if you used one
 ---
 
 # USB hub
