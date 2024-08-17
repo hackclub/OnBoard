@@ -5,20 +5,23 @@ Have you already shipped a couple PCBs and want to challange yourself and use so
 KiCad is available on Windows, Linux and MacOS and is a downloadable software rather than something that runs in your browser like EasyEDA. Download it [here](https://www.kicad.org/download/), selecting your operating system and install location.
 
 
-### Prerequisites
-#### Plugins (Optional)
+## Prerequisites
+### Plugins (Optional)
 You might also want to install these two plugins the plugin manager that I find really useful, 
 
 <p align="center">
   <img src="images/kicad/plugins.png" alt="Fabrication Toolkit & FreeRouting plugin"/>
 </p>
 
-#### EasyEDA2KiCad (Optional)
+### EasyEDA2KiCad (Optional)
 One small setback to using KiCad is you have to fetch all the symbols,footprints and models yourself rather than EasyEDA automatically finding and importing them for you to use. Not to worry though, some smart guy (Wokwi) decided to make a script to port these files to KiCad; [EasyEDA2KiCad](https://github.com/uPesy/easyeda2kicad.py).
 
 You'll need to have Python installed and functional, perferably the latest, then you can install it with `pip install easyeda2kicad`.
 
 To confirm it was install correct, simply type `easyeda2kicad` in your terminal. 
+
+#### Linking Paths
+Ensure KICad knows where EasyEDA2KiCad is downloading the files to, follow this [guide](https://github.com/uPesy/easyeda2kicad.py?tab=readme-ov-file#-add-libraries-in-kicad) on how to set that up.
 
 ***Windows Troubleshooting***<br>
 
@@ -58,3 +61,16 @@ Try this out with a few other symbols and then connect them together with the "A
 
 #### Tip
 Use [**Labels**](https://www.baldengineer.com/kicad-bus-labels-and-global-labels.html) and [**Power Symbols**](https://klc.kicad.org/symbol/s7/s7.1/). These are very underused in beginner KiCad projects and while they don't serve much functional perpose they make is so much easier to review and understand your design.
+
+## Tutorial: The Hackercard Jam
+We'll start the tutorial by making a simple NFC PCB using the [Hackcard Jam](https://jams.hackclub.com/jam/hacker-card) by Maggie. This tutorial assumes you've already completed this jam but with EasyEDA.
+
+We can start by importing the necessary parts into KiCad's Symbol and Footprint librarys by using the following EasyEDA2KiCad command in a terminal,
+```bash
+easyeda2kicad --lcsc_id C710403 --full
+```
+*replace "C710403" with the actual LCSC part number found on either [JLCPCB Parts](https://jlcpcb.com/partdetail/NxpSemicon-NT3H2111W0FHKH/C710403) or [LCSC](https://www.lcsc.com/product-detail/RFID-ICs_NXP-Semicon-NT3H2111W0FHKH_C710403.html)*
+
+Next, in KiCad, press Place, Symbol and enter the LCSC part number for the part. Do this for every component in the jam. For the antenna this may be a little more tricky, first place the `Antenna_Loop` symbol from KiCad's default library. Lastly, to get the footprint, download the provided `.kicad_mod` [footprint file](docs/images/kicad/25X48MM_NFC_ANTENNA.kicad_mod), then in the KiCad main menu, click footprint editor, open the kicard_mod file and then File > Save As and save it to your easyeda2kicad folder. 
+
+Now when you go back to your schematic, double click the antenna and then click the 3 books icon and type in the name of the footprint, `25X48MM_NFC_ANTENNA`, you should see it there with the correct antenna footprint being displayed.
