@@ -73,4 +73,5 @@ easyeda2kicad --lcsc_id C710403 --full
 
 Next, in KiCad, press Place, Symbol and enter the LCSC part number for the part. Do this for every component in the jam. For the antenna this may be a little more tricky, first place the `Antenna_Loop` symbol from KiCad's default library. Lastly, to get the footprint, download the provided `.kicad_mod` [footprint file](docs/images/kicad/25X48MM_NFC_ANTENNA.kicad_mod), then in the KiCad main menu, click footprint editor, open the kicard_mod file and then File > Save As and save it to your easyeda2kicad folder. 
 
-Now when you go back to your schematic, double click the antenna and then click the 3 books icon and type in the name of the footprint, `25X48MM_NFC_ANTENNA`, you should see it there with the correct antenna footprint being displayed.
+Now when you go back to your schematic, double click the antenna and then click the 3 books icon and type in the name of the footprint, `25X48MM_NFC_ANTENNA`, you should see it there with the correct antenna footprint being displayed. It should look similar to this, 
+![Completed_Schematic](images/kicad/schematic.png)
