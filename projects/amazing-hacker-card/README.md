@@ -2,7 +2,7 @@
 name: "Aadi Sanghvi"
 slack_handle: "@Aadi"
 github_handle: "@sinarck"
-tutorial: [# Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
+tutorial: [Link to tutorial](https://jams.hackclub.com/jam/hacker-card)
 ---
 
 # amazing-hacker-card
