@@ -11,7 +11,7 @@ USB HUB!
 I made a USB hub in EasyEda. I'll need this because this USB HUB is an extension lead for USB devices. It plugs into your PC and lets you connect more
 devices than your exist USB port allows
 <!-- How much is it going to cost? -->
-Placeholder
+I think a little bit under 100$
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 This was really tough and it was in intermediat. While I connecting the copper wires in the PCB, the eletrical lines (blue lines) were very messy
 , and that let to me thinking if how I connected the wires were wrong, since some of the wire path were blocked, and so because of the parts positioning,
