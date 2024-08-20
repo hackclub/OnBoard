@@ -6,9 +6,8 @@ tutorial: https://jams.hackclub.com/jam/hacker-card#Wiring%20up%20the%20componen
 
 #Fatuma_Github_Card
 
-My card is a simple PCB that has my name, cute flower design and github handel.
+My card is a simple PCB that has my name, cute flower design and github handle.
 
 CAD $17.80
 
-I never made a PCB before. Making the schematics was very challenging because it was my first time doing that. I just never did electronics before and I relied heavily
-on tutorials and just ignoring the errors. Maybe I will make more.
+I never made a PCB before. Making the schematics was very challenging because it was my first time doing that. I just never did electronics before and I relied heavily on tutorials and just ignored the errors. Maybe I will make more :)
