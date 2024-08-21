@@ -4,7 +4,7 @@
 
 > "I’m so glad that young people can create things like PC boards online. May your creativity have no limits!”
 >
-> _– [Steve Wozniak](https://en.wikipedia.org/wiki/Steve_Wozniak), Apple co-founder_
+> _– [Steve Wozniak](https://en.wikipedia.org/wiki/Steve_Wozniak), Apple co-founder endorsing Hack Club OnBoard_
 
 It's easier than ever for high school students to get involved with programming; all you need is a computing device and internet access. Yet, *it's not the same for hardware*. While PCB fabs have greatly increased the accessibility for professionally done boards, there is still no clear way for high school students to jump in. This is where OnBoard comes in.
 
@@ -26,15 +26,21 @@ Every design/submission needs to meet the following constraints to be approved:
 
 ## Getting Started
 
+> You can also go through a video with instructions on how to submit your grant!
+>
+> [<img src="https://cloud-hlrub17tx-hack-club-bot.vercel.app/0yt_link.png" style="width: 500px;"/>](https://www.youtube.com/watch?v=Bh3dm81X_zs)
+
 ### Star the repo (Optional)
 
 To follow the repo for updates and show you're participating, click the "star" button on the [`onboard`](https://github.com/hackclub/OnBoard/) repo.
 
 ![Star the OnBoard repo](docs/images/directions/star-repo.png)
 
-### 1. Join [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) on Slack!
+### 1. Join `#electronics` on Slack!
 
-Our [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel is where the party is getting started! If you haven't already joined, make sure to add yourself to the channel. And for those who are new to the Hack Club slack, sign up to our community of 13k+ makers through [here](https://hackclub.com/slack/?event=onboard) (don't worry, there isn't an application).
+Our [`#electronics`](https://hackclub.slack.com/archives/C0587U78RK4) channel[^4] is where the party is getting started! If you haven't already joined, make sure to add yourself to the channel. And for those who are new to the Hack Club slack, sign up to our community of 13k+ makers through [here](https://hackclub.com/slack/?event=onboard) (don't worry, there isn't an application).
+
+[^4]: This link only works after you've joined the slack. Make sure to get an invite [here](https://hackclub.com/slack/?event=onboard) first.
 
 Perhaps ping a little hello to `@Kevin Yang`?
 
@@ -48,7 +54,7 @@ _If you get stuck on these tutorials, or want more example projects to learn fro
 
 ### 3. Upload to a Vendor and Take a Screenshot
 
-Upload your Gerber files to JLCPCB.com and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^3] if there's a specific one you want to use [^4]. Once completed, take a screenshot with all the final costs and shipping!
+Upload your Gerber files to [JLCPCB.com](https://jlcpcb.com/) and add them to your cart. JLCPCB is the default PCB manufacturer, but you can shop around [^5] if there's a specific one you want to use [^6]. Ensure you complete the checkout process by entering your address and selecting a shipping method. Once completed, take a screenshot with all the final costs and shipping!
 > If you're curious what all the settings are about or how to order for assembly, check out our [`ordering_from_JLCPCB.md`](./docs/ordering_from_JLCPCB.md) doc!
 > To avoid excess shipping fees or customs, check out [`the Shipping Tips`](./community/shipping.md) doc!
 
@@ -57,8 +63,8 @@ It should look like this:
 
 **Note:** Your screenshot is **VITAL** since your project cannot be approved without it. You'll include the screenshot in your PR later.
 
-[^3]: Don't know which ones you can use? Check out [`VENDORS.md`](docs/VENDORS.md) for more info!
-[^4]: If outside the US you may be charged customs which aren't covered by the grant! Check beforehand.
+[^5]: Don't know which ones you can use? Check out [`VENDORS.md`](docs/VENDORS.md) for more info!
+[^6]: If outside the US you may be charged customs which aren't covered by the grant! Check beforehand.
 
 ### 4. Fork!
 
@@ -90,13 +96,20 @@ With your README filled out, head over to add files to begin uploading your Gerb
 
 In all, you should have the following files under your project folder:
 - [ ] `README.md`: A filled out [`TEMPLATE.md`](./projects/!Template/TEMPLATE.md?plain=1), renamed to `README.md`
-- [ ] `cart.png`: A screenshot of your order details
+- [ ] `cart.png`: A [screenshot](./docs/images/ordering/cart.png) of your order details
 - [ ] `gerber.zip`: This should be the file that you send off to the vendor.
-- [ ] `schematic.pdf`: Export the schematic from your EDA program as a PDF
-- [ ] `src/`: Design files in a folder called `src`. Whatever format your designer outputs should be included.
-    - The files might look like `SCH_name.json` and `PCB_name.json` for EasyEDA
-    - Or `name.kicad_pro`, `name_kicad_sch`, and `name.kicad_pcb`
+- [ ] `schematic.pdf`: Export the schematic from your EDA program as a PDF.
+    - Go to "File > Export > PDF" in EasyEDA's Schematic tab for this.
+- [ ] `src/`: Make a folder called `src` and Whatever format your designer outputs should be included.
+    - For EasyEDA, you need to File > Export > EasyEDA two JSON files - one from the schematic tab and one from the PCB tab. <img src="https://github.com/hackclub/OnBoard/assets/32671690/9f63f922-3009-4c40-af0c-b6239cf2074f" width=500/>
+    - Or `name.kicad_pro`, `name_kicad_sch`, `name.kicad_pcb` and `name.step` for KiCAD
     - Or `design.json`, `design.sch`, `design.brd`, etc.
+
+Make sure your file names are exactly the same as above.
+
+Your PR should look like this:
+
+![ix7t2nJ](https://github.com/hackclub/OnBoard/assets/28641114/5f8bac7f-4a91-4e2c-be67-c002025307e0)
 
 If you have all the above, you're done with this step!
 
@@ -116,18 +129,18 @@ Once you submit your PR, it needs two approvals:
 - One verifying your high school enrollment documents, from HCB.
 - Another one from the engineering team, checking that your design follows the grant requirements.
 
-These reviews typically take 24-48 business hours if everything is correct. Then we merge your PR!
+These reviews typically take 24-48 business hours, and if everything is correct, we'll merge your pull request!
 
 After your PR gets merged, it takes up to 24 business hours for you to receive an email from HCB with a virtual credit card. Make sure to check your spam folder. Then, you can order your board!
 
 ### 8. Ship it!
 
-Post photos of your board in [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ)! We can't wait to see what you make!
+Post photos of your board in [`#electronics`](https://hackclub.slack.com/archives/C056AMWSFKJ)! We can't wait to see what you make!
 
 ![John sharing PCB](docs/images/directions/john-sharing-pcb.png)
 
 ## Example Projects
 
-- [PCB Business Card with NFC](https://jams.hackclub.com/jam/hacker-card)
+- [PCB Business Card with NFC, "Hackercard"](https://jams.hackclub.com/jam/hacker-card)
 - [Build a USB Hub](https://jams.hackclub.com/batch/usb-hub)
 - [Make a Digital Level](https://jams.hackclub.com/batch/sparkletilt-pcb)

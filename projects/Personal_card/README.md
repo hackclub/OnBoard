@@ -2,9 +2,9 @@
 ---
 Name - Pankaj Daksh
 
-Slack_handle : @pankajdaksh
+Slack_handle : "@pankajdaksh"
 
-github_handle : @pankajdaksh
+github_handle : "@pankajdaksh"
 
 Project : NFC Personal Card
 
