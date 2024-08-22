@@ -1,7 +1,7 @@
 ---
 name: "Boyuan H."
 slack_handle: "@Sosig"
-github_handle: "@Bonza-Dev"
+github_handle: "@Bonzai-Dev"
 tutorial: https://jams.hackclub.com/batch/usb-hub
 ---
 USB Hub with printable case
