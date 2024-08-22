@@ -2,7 +2,7 @@
 name: "Jens van den Akker"
 slack_handle: "@Kipp-ie"
 github_handle: "Kipp-ie"
-tutorial: [# Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
+tutorial: "https://jams.hackclub.com/jam/hacker-card"
 ---
 
 # Kippie's hackercard
