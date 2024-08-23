@@ -10,7 +10,7 @@ tutorial:
 
 This board uses an arduino nano paired with a TEA5767, 4 digit 7 segment display, speaker, and some miscalleneous components to make a WORKING RADIO
 
-$21.80
+$24.50
 
 There was a lot of difficulty with getting the radio to not just play static
 
