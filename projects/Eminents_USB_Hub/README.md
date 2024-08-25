@@ -10,7 +10,7 @@ github_handle: "@eminentquasar34"
 It is a USB Hub with one male USB-C, two female USB-Cs, and two female USB-As. I plan to use it on my computer to charge many different devices at once.
 
 <!-- How much is it going to cost? -->
-$94.90
+$94.90~
 I would love to bring down the cost, but I am not sure how it is possible. The USB-C male piece requires Standard building, which instantly increases the cost by around $30. However, I played around with a few other USB-C male pieces, but they still needed the standard building.
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
