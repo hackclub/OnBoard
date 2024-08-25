@@ -4,7 +4,7 @@ slack_handle: "@Daniel Zhang"
 github_handle: "@eminentquasar34"
 ---
 
-# YOUR PROJECT NAME
+# Eminent's USB-C Hub
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 It is a USB Hub with one male USB-C, two female USB-Cs, and two female USB-As. I plan to use it on my computer to charge many different devices at once.
