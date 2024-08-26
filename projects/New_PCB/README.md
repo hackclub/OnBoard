@@ -1,5 +1,5 @@
 ---
-name: "Rohit PAndey"
+name: "Rohit Pandey"
 slack_handle: "@Rohit Pandey"
 github_handle: "@RohitPandey1729"
 tutorial: # Link to the tutorial if you used one
