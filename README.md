@@ -101,9 +101,11 @@ In all, you should have the following files under your project folder:
 - [ ] `schematic.pdf`: Export the schematic from your EDA program as a PDF.
     - Go to "File > Export > PDF" **in EasyEDA's Schematic tab** for this.
 - [ ] `src/`: Make a folder called `src` and Whatever format your designer outputs should be included.
-    - For EasyEDA, you need to File > Export > EasyEDA two JSON files - one from the schematic tab and one from the PCB tab. 
+    - For EasyEDA, you need to File > Export > EasyEDA two JSON files - one from the schematic tab and one from the PCB tab.
   
-      <img src="https://github.com/hackclub/OnBoard/assets/32671690/9f63f922-3009-4c40-af0c-b6239cf2074f" width=500/>
+    <p align="center"> 
+    <img src="https://github.com/hackclub/OnBoard/assets/32671690/9f63f922-3009-4c40-af0c-b6239cf2074f" width=500/>
+    </p>
 
     - *Optionally*, for EasyEDA STD, export a 3D Model as `.obj` as save it to the `/src` folder 
     - Using **KiCad**? See [KiCad for Beginners](docs/KiCad_Beginner_Guide.md) for instructions on how to submit.
