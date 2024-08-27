@@ -54,7 +54,7 @@ _If you get stuck on these tutorials, or want more example projects to learn fro
 
 ### 3. Upload to a Vendor and Take a Screenshot
 
-Upload your Gerber files to JLCPCB.com and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^5] if there's a specific one you want to use [^6]. Once completed, take a screenshot with all the final costs and shipping!
+Upload your Gerber files to [JLCPCB.com](https://jlcpcb.com/) and add them to your cart. JLCPCB is the default PCB manufacturer, but you can shop around [^5] if there's a specific one you want to use [^6]. Ensure you complete the checkout process by entering your address and selecting a shipping method. Once completed, take a screenshot with all the final costs and shipping!
 > If you're curious what all the settings are about or how to order for assembly, check out our [`ordering_from_JLCPCB.md`](./docs/ordering_from_JLCPCB.md) doc!
 > To avoid excess shipping fees or customs, check out [`the Shipping Tips`](./community/shipping.md) doc!
 
@@ -96,16 +96,27 @@ With your README filled out, head over to add files to begin uploading your Gerb
 
 In all, you should have the following files under your project folder:
 - [ ] `README.md`: A filled out [`TEMPLATE.md`](./projects/!Template/TEMPLATE.md?plain=1), renamed to `README.md`
-- [ ] `cart.png`: A screenshot of your order details
+- [ ] `cart.png`: A [screenshot](./docs/images/ordering/cart.png) of your order details
 - [ ] `gerber.zip`: This should be the file that you send off to the vendor.
 - [ ] `schematic.pdf`: Export the schematic from your EDA program as a PDF.
-    - Go to "File > Export > PDF" in EasyEDA's Schematic tab for this.
+    - Go to "File > Export > PDF" **in EasyEDA's Schematic tab** for this.
 - [ ] `src/`: Make a folder called `src` and Whatever format your designer outputs should be included.
-    - For EasyEDA, you need to File > Export > EasyEDA two JSON files - one from the schematic tab and one from the PCB tab. <img src="https://github.com/hackclub/OnBoard/assets/32671690/9f63f922-3009-4c40-af0c-b6239cf2074f" width=500/>
-    - Or `name.kicad_pro`, `name_kicad_sch`, and `name.kicad_pcb` for KiCAD
-    - Or `design.json`, `design.sch`, `design.brd`, etc.
+    - For EasyEDA, you need to File > Export > EasyEDA two JSON files - one from the schematic tab and one from the PCB tab.
+  
+    <p align="center"> 
+    <img src="https://github.com/hackclub/OnBoard/assets/32671690/9f63f922-3009-4c40-af0c-b6239cf2074f" width=500/>
+    </p>
 
-Make sure your file names are exactly the same as above.
+    - *Optionally*, for EasyEDA STD, export a 3D Model as `.obj` as save it to the `/src` folder 
+    - Using **KiCad**? See [KiCad for Beginners](docs/KiCad_Beginner_Guide.md) for instructions on how to submit.
+    - Or `design.json`, `design.sch`, `design.brd`, etc for other PCB Editors.
+
+Ensure your file names are exactly the same as above.
+
+Your PR should have a structure like this:
+
+![ix7t2nJ](https://github.com/hackclub/OnBoard/assets/28641114/5f8bac7f-4a91-4e2c-be67-c002025307e0)
+
 If you have all the above, you're done with this step!
 
 ### 6. Create a PR!
@@ -124,18 +135,18 @@ Once you submit your PR, it needs two approvals:
 - One verifying your high school enrollment documents, from HCB.
 - Another one from the engineering team, checking that your design follows the grant requirements.
 
-These reviews typically take 24-48 business hours if everything is correct. Then we merge your PR!
+These reviews typically take 24-48 business hours, and if everything is correct, we'll merge your pull request!
 
 After your PR gets merged, it takes up to 24 business hours for you to receive an email from HCB with a virtual credit card. Make sure to check your spam folder. Then, you can order your board!
 
 ### 8. Ship it!
 
-Post photos of your board in [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ)! We can't wait to see what you make!
+Post photos of your board in [`#electronics`](https://hackclub.slack.com/archives/C056AMWSFKJ)! We can't wait to see what you make!
 
 ![John sharing PCB](docs/images/directions/john-sharing-pcb.png)
 
 ## Example Projects
 
-- [PCB Business Card with NFC](https://jams.hackclub.com/jam/hacker-card)
+- [PCB Business Card with NFC, "Hackercard"](https://jams.hackclub.com/jam/hacker-card)
 - [Build a USB Hub](https://jams.hackclub.com/batch/usb-hub)
 - [Make a Digital Level](https://jams.hackclub.com/batch/sparkletilt-pcb)
