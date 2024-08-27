@@ -1,24 +1,16 @@
-# Invalid label: If there are changes in /projects AND other top-level directories.
 Invalid:
-  - all:
-      - changed-files:
-        - 'projects/**'
-        - '!projects/**'
-        
-# Submission label: Apply when there are changes ONLY within /projects.
-Submission:
-  - all:
-      - changed-files:
-        - 'projects/**'
-      - any:
-          - changed-files:
-            - '!*/**'
+- all:
+  - changed-files:
+    - any-glob-to-any-file: '*'
+    - all-globs-to-any-file: 'projects/**'
 
-# Dev label: Apply when there are changes ONLY outside /projects.
+# Add 'Submission' label to any changes within '/projects' folder or any subfolders
+Submission:
+- changed-files:
+  - any-glob-to-any-file: 'projects/**'
+
 Dev:
-  - all:
-      - changed-files:
-        - '*'
-      - any:
-          - changed-files:
-            - '!projects/**'
+- all:
+  - changed-files:
+    - any-glob-to-any-file: '*'
+    - all-globs-to-any-file: '!projects/**'
