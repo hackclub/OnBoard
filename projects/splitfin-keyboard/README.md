@@ -27,3 +27,4 @@ There was lots of off and on development due to my problematic ideals about what
 I at one point was thinking of making this keyboard with hall-effect keyswitches, an oled display, and an STM32H723 microcontroller as the brain.
 This was obviously too ambitious, and after what seemed like 8 months of off and on research and KiCadding I finally landed on this design.
 What helped was talking the mentors on my robotics team and folks in the qmk discord server who were able to guide me in the right path.
+Using keyboard-tools.xyz to build the matrix kicad project from a keyboard-layout-editor.com layout save a significant amount of time.
