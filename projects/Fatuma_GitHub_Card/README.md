@@ -4,7 +4,7 @@ github_handle: fatuma-tahalil
 tutorial: https://jams.hackclub.com/jam/hacker-card#Wiring%20up%20the%20components
 ---
 
-#Fatuma_Github_Card
+#Fatuma_GitHub_Card
 
 My card is a simple PCB that has my name, cute flower design and github handle.
 
