@@ -1,6 +1,6 @@
 name: Fatuma Tahalil
 slack_handle: Famat
-github_handle: @342629342
+github_handle: fatuma-tahalil
 tutorial: https://jams.hackclub.com/jam/hacker-card#Wiring%20up%20the%20components
 ---
 
