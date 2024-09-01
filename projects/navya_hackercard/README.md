@@ -2,7 +2,7 @@
 name: "Navya Singh"
 slack_handle: "@navya"
 github_handle: "@navya707"
-tutorial: #https://jams.hackclub.com/jam/hacker-card
+tutorial: "https://jams.hackclub.com/jam/hacker-card"
 ---
 
 # navya_hackercard
