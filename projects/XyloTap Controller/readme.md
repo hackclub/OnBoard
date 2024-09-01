@@ -11,7 +11,10 @@ A control board for a self playing xylophone [XyloTap](https://github.com/The-Au
 Based on a Teensy 4.1 it drives 16 solenoids vie MOSFETS and 16 leds as indicators. It has builtin buck converters for power and expansion port to connect a LCD and buttons for a user interface. It can also interface to a button board used for playing the xylophone manually.
 
 <!-- How much is it going to cost? -->
+## Cost
 20-30 USD for the board.
 
+
+## Design
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 The biggest challange was figuring out a way to distribute power to the solenoids. In the end I an going to use external busbars and the board will only handle the control circutry.
