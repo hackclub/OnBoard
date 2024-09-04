@@ -12,7 +12,7 @@ I am making a simple Hacker card/NFC business card as a gift for my robotics tea
 and can be reprogrammed as many times as you want in theory.
 
 <!-- How much is it going to cost? —->
-$62.92 with shipping due to JLC pcb smt assembly service also.
+$39.62 with shipping due to JLC pcb smt assembly service also.
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally Optional*** -->
 I struggled with using vias and routing traces but eventually got there with some practice. The DRC stuff also broke my brain a bit but I figured it out.
