@@ -5,7 +5,7 @@ github_handle: "@nirek13"
 tutorial: https://jams.hackclub.com/jam/hacker-card#Turn%20your%20design...%20into%20an%20actual%20card!
 ---
 
-# YOUR PROJECT NAME
+# Nireks card
 I built the hacker card from the jam 
 
 2$
