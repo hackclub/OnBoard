@@ -5,10 +5,10 @@ github_handle: "@Peepesucksstiks"
 tutorial: no # Link to the tutorial if you used one
 ---
 
-# 5V boost regulator
+# Buck Regulator
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-This is a simple board to regulate 5V. It has 2 input pins and 2 output pins.
+This is a simple board to step down volatge. It has 2 input pins and 2 output pins and a potentiometer.
 
 <!-- How much is it going to cost? -->
 $75.06
