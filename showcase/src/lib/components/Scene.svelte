@@ -11,15 +11,22 @@
 	
 </script>
 
-<T.AmbientLight intensity={1} />
+<T.AmbientLight intensity={2} />
 
 <T.OrthographicCamera
-	zoom={20}
+	zoom={50}
 	makeDefault
 	position={[0, 0, 100]}
 	<!-- on:create={({ ref }) => {
 		ref.lookAt(0, 1, 0);
 	}}> -->
+
+	<OrbitControls 
+	autoRotate
+	enableDamping
+	enablePan={false}
+	enableZoom={false}
+	/>
 
 </T.OrthographicCamera>
 
