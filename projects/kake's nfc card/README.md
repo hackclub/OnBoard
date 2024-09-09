@@ -2,7 +2,7 @@
 name: "Ethan Zhou"
 slack_handle: "@kake"
 github_handle: "@kakenbutter"
-tutorial: # [Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card#Turn%20your%20design...%20into%20an%20actual%20card!)
+tutorial: https://jams.hackclub.com/jam/hacker-card#Turn%20your%20design...%20into%20an%20actual%20card
 ---
 
 # NFC Card
