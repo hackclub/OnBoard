@@ -1,0 +1,20 @@
+<script lang="ts">
+	import { Canvas } from '@threlte/core';
+	import Scene from './Scene.svelte';
+
+</script>
+
+<div>
+	<Canvas>
+	  <Scene />
+	</Canvas>
+</div>
+  
+<style>
+	div {
+		position: relative;
+		inset: 0;
+		object-fit: contain;
+	}
+</style>
+
