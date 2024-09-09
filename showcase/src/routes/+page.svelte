@@ -66,7 +66,7 @@
 			src={item.part}
 			alt="Random Electronics"
 			class="random-electronics"
-			style="top: {item.y}; left: {item.x}"
+			style="top: {item.y}px; left: {item.x}px"
 		/>
 	{/each}
 	</header>
