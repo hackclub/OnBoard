@@ -47,36 +47,31 @@
 				will be awarded a $100 USD grant that can be used for PCB fabrication, component purchases,
 				or tools—just in time for Halloween!
 			</p>
-			<h3>Submission Guidelines:</h3>
+	
+			<h3 class="guidelines-title">🎃 Submission Guidelines 👻</h3>
+			<p class="guidelines-subtitle">Follow these simple steps to submit your project to get funded!</p>
 			<div class="grid-steps">
 				<div class="item-step hoverable">
 					<div class="step-number">1</div>
-					<p class="item-text">Build a board</p>
+					<div class="model-container">
+						<Gallery/>
+					</div>
+					<p class="item-text">Build a spine-chilling board</p>
 				</div>
 				<div class="item-step hoverable">
 					<div class="step-number">2</div>
-					<p class="item-text">Vote in the gallery</p>
+					<p class="item-text">Vote for your favorite designs in the eerie gallery</p>
 				</div>
 				<div class="item-step hoverable">
 					<div class="step-number">3</div>
-					<p class="item-text">Win cool prizes</p>
+					<p class="item-text">Win ghoulish prizes</p>
 				</div>
 				<div class="item-step hoverable">
 					<div class="step-number">4</div>
-					<p class="item-text">Get awesome stickers</p>
+					<p class="item-text">Snag some spook-tacular sticker swag</p>
 				</div>
 			</div>
 		</div>
-
-    <p1>model</p1>
-    <Gallery/>
-
-    <style> 
-      .Gallery {
-        position: absolute;
-      }
-    </style>
-
 	</main>
 
 	<footer>
@@ -139,8 +134,8 @@
 	.grid-steps {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-		gap: 1.5em;
-		padding: 2em;
+		gap: 1.0em;
+		padding: 1em;
 		background: white;
 		border-radius: 10px;
 		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -150,33 +145,19 @@
 		background-size: cover;
 		background-position: center;
 		border-radius: 0.5em;
-		padding: 1em;
 		color: #922222;
 		text-align: center;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
-		height: 200px;
-		max-width: 300px; /* Set a maximum width for the container */
+		position: relative;
 	}
 
 	.item-text {
-		font-weight: 500;
-		font-size: 1.2em;
-		margin-top: 0.5em;
-	}
-
-	.step-number {
-		background-color: #ff6347;
-		color: white;
-		padding: 0.5em;
-		border-radius: 50%;
-		width: 40px;
-		height: 40px;
-		display: inline-block;
-		text-align: center;
-		font-size: 1.5em;
-		margin-bottom: 0.5em;
+		font-weight: 700;
+		font-size: 1.1em;
+		color: #ff6347;
+		text-shadow: 1px 1px 2px #000000;
 	}
 
 	footer {
@@ -205,5 +186,60 @@
 
 	main {
 		min-height: 100vh;
+	}
+
+	.model-container {
+		width: 100%;
+		height: 200px; /* Adjust the height for a better display */
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+		margin-bottom: 10px;
+	}
+
+	.guidelines-title {
+		color: #ffa500;
+		font-size: 2em;
+		margin-top: 1.5em;
+		text-align: center;
+	}
+
+	.guidelines-subtitle {
+		color: #6a5acd;
+		font-size: 1.2em;
+		margin-top: 0.5em;
+		text-align: center;
+		font-style: italic;
+	}
+	
+	.step-number {
+	background-color: #ff4500;
+	color: white;
+	padding: 0.1em; /* Reduced padding */
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	text-align: center;
+	font-size: 0.9em; /* Smaller font size */
+	position: absolute;
+	top: -2px;
+	left: 50%;
+	transform: translateX(-50%);
+	animation: bounce 1s infinite alternate;
+	line-height: 25px; /* Aligns the text vertically in the center */
+	}
+
+
+	/* Bounce animation for step numbers */
+	@keyframes bounce {
+		0% {
+			transform: translateX(-50%) translateY(0);
+		}
+		100% {
+			transform: translateX(-50%) translateY(-10px);
+		}
 	}
 </style>
