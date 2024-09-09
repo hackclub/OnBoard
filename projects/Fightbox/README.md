@@ -5,8 +5,8 @@ github_handle: "@github.com/Marc-Blanco"
 tutorial: # 
 ---
 
-# YOUR PROJECT NAME
-
+# Fightbox
+I created a hitbox copy
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 
 <!-- How much is it going to cost? -->
