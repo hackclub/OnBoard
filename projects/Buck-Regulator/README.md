@@ -1,7 +1,7 @@
 ---
 name: "Pepe Andour"
 slack_handle: "@ibai"
-github_handle: "@Peepesucksstiks"
+github_handle: "@frize317"
 tutorial: no # Link to the tutorial if you used one
 ---
 
