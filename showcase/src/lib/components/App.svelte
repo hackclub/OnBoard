@@ -1,17 +1,23 @@
 <script lang="ts">
-	import { Canvas } from '@threlte/core';
-	import Scene from './Scene.svelte';
+	import Model from './models/pcb.svelte';
+	import { T, useFrame} from '@threlte/core';
+	import { OrbitControls } from '@threlte/extras'
 </script>
-<div>
-	<Canvas>
-	  <Scene />
-	</Canvas>
-</div>
-  
-<style>
-	div {
-		max-width: 100%;
-		min-height: 100%;
-		object-fit: contain;
-	}
-</style>
+
+<T.AmbientLight intensity={2} />
+
+<T.OrthographicCamera
+	zoom={42}
+	makeDefault
+	position={[0, 0, 100]}>
+
+	<OrbitControls 
+	autoRotate
+	enableDamping
+	enablePan={false}
+	enableZoom={false}
+	/>
+
+</T.OrthographicCamera>
+
+<Model scale={100} position.x={-15.35} position.y={8} position.z={0} />
