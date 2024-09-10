@@ -55,8 +55,8 @@
 	function handleClick() {
 		clickCount += 1;
 		if (clickCount >= maxClicks) {
-			window.location.href = "https://www.youtube.com/watch?v=QvCoISXfcE8"; // Change this to your desired URL
-			console.log("Redirecting to form...");
+			window.location.href = 'https://www.youtube.com/watch?v=QvCoISXfcE8'; // Change this to your desired URL
+			console.log('Redirecting to form...');
 		}
 	}
 </script>
@@ -96,7 +96,6 @@
 			/>
 		{/each}
 	</header>
-
 
 	<main id="content">
 		<div class="container">
@@ -232,8 +231,6 @@
 	#form-link:hover {
 		background: #ff8c00;
 	}
-
-
 
 	.grid-steps {
 		display: grid;
@@ -397,9 +394,6 @@
 		z-index: 5;
 	}
 
-	#form-link.disabled {
-	}
-
 	#form-link:hover {
 		background: #d3d3d3; /* Keep it greyed out */
 	}
@@ -409,6 +403,4 @@
 		color: #6a6a6a;
 		margin-top: 0.3em;
 	}
-
-
 </style>
