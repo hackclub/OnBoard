@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Gallery from '$lib/components/App.svelte';
-
 	// Define the structure of a random item
 	interface RandomItem {
 		part: string;
@@ -17,8 +16,8 @@
 	);
 	let randomItems: RandomItem[] = [];
 
-	let innerWidth = 0;
-	let innerHeight = 0;
+	let innerWidth = 400;
+	let innerHeight = 700;
 
 	// Function to generate random positions
 	function getRandomPosition(): { x: number; y: number } {
@@ -45,7 +44,21 @@
 	// Update positions every 5 seconds
 	setInterval(() => {
 		randomItems = createRandomParts();
-	}, 9000); // Adjust interval time as needed
+	}, 3000); // Adjust interval time as needed
+
+	// Variables for click tracking and redirect
+	let clickCount = 0;
+	let maxClicks = 20;
+	let isDisabled = false;
+
+	// Function to handle button click
+	function handleClick() {
+		clickCount += 1;
+		if (clickCount >= maxClicks) {
+			window.location.href = 'https://www.youtube.com/watch?v=QvCoISXfcE8'; // Change this to your desired URL
+			console.log('Redirecting to form...');
+		}
+	}
 </script>
 
 <svelte:window bind:innerWidth bind:innerHeight />
@@ -61,8 +74,17 @@
 			<h3>OnBoard's Month Showcase</h3>
 			<h5>Create a PCB, get a second grant</h5>
 		</div>
-		<a id="form-link" class="hoverable" href="https://onboard.hackclub.com/submit" target="_blank">
+		<a
+			id="form-link"
+			class="hoverable disabled"
+			role="button"
+			tabindex="0"
+			on:click={handleClick}
+			on:keydown={(e) => e.key === 'Enter' && handleClick()}
+			style="pointer-events: {isDisabled ? 'none' : 'auto'}"
+		>
 			Submit your project
+			<span class="coming-soon">Coming Soon</span>
 		</a>
 
 		{#each randomItems as item}
@@ -161,13 +183,15 @@
 		margin: 0;
 		font-family: 'Poppins', sans-serif;
 		background: #f1f1f1;
+		overflow-x: hidden;
 		font-size: 1.2em;
-		overflow-y: auto;
+		z-index: -1;
+		box-shadow: 0 0 50px rgba(77, 76, 119, 0.9) inset;
 	}
 
 	header {
 		padding: 2em;
-		background: linear-gradient(to bottom right, #6a5acd, #483d8b);
+		background: linear-gradient(to Top, #6a5acd, #3c3569);
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -177,8 +201,7 @@
 	}
 
 	.logo {
-		max-width: 10%;
-		height: auto;
+		width: 20vh;
 	}
 
 	.container {
@@ -189,30 +212,16 @@
 
 	#subtitle {
 		color: white;
-		font-size: 1.2em;
+		font-size: 1.1em;
 		margin-top: 0.5em;
-	}
-
-	#form-link {
-		margin-top: 2em;
-		padding: 0.7em 1em;
-		background: #ffa500;
-		border-radius: 0.5em;
-		color: white;
-		font-weight: 700;
-		text-decoration: none;
-		transition: background-color 0.3s ease;
-	}
-
-	#form-link:hover {
-		background: #ff8c00;
+		z-index: 50;
 	}
 
 	.grid-steps {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-		gap: 1.5em;
-		padding: 2em;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted min-width */
+		gap: 1em; /* Smaller gap for mobile */
+		padding: 1em;
 		background: white;
 		border-radius: 10px;
 		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -249,6 +258,7 @@
 		position: absolute;
 		top: -15px;
 		left: 50%;
+		flex-shrink: 1;
 		transform: translateX(-50%);
 		animation: bounce 1s infinite alternate;
 		line-height: 35px;
@@ -272,7 +282,7 @@
 		font-weight: 100;
 		color: #45b8cc;
 		opacity: 0.9;
-		padding-top: 5%;
+		padding-top: 1%;
 	}
 
 	.item-title {
@@ -301,6 +311,30 @@
 		height: auto;
 		object-fit: contain;
 		border-radius: 25px;
+	}
+
+	img {
+		max-width: 100%; /* Ensures images fit within their container */
+		height: auto; /* Maintain aspect ratio */
+	}
+
+	@media (max-width: 600px) {
+		body {
+			font-size: 1em; /* Adjust base font size */
+		}
+
+		.guidelines-title {
+			font-size: 1.5em;
+		}
+
+		.item-title {
+			font-size: 1.1em;
+		}
+
+		#subtitle h3,
+		#subtitle h5 {
+			font-size: 0.8em;
+		}
 	}
 
 	footer {
@@ -341,7 +375,7 @@
 		opacity: 0;
 		transition: transform 1s ease; /* Smooth transition for changing positions */
 		scale: 0.1;
-		z-index: 50; /* Behind other elements */
+		overflow: hidden;
 	}
 
 	@keyframes appearDisappear {
@@ -354,5 +388,32 @@
 			opacity: 0.4;
 			transform: scale(1); /* Appear at full size */
 		}
+	}
+	#form-link {
+		margin-top: 2em;
+		padding: 0.5em 0.8em; /* Reduced padding for smaller devices */
+		background: #d3d3d3;
+		border-radius: 0.5em;
+		color: #fff;
+		font-weight: 650;
+		text-decoration: none;
+		opacity: 0.7;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		z-index: 5;
+		max-width: 100%; /* Allow full width on mobile */
+		max-height: 8vh; /* Slightly reduced height */
+		font-size: 2.5vh; /* Smaller text for mobile */
+	}
+
+	#form-link:hover {
+		background: #d3d3d3; /* Keep it greyed out */
+	}
+
+	#form-link span.coming-soon {
+		font-size: 0.8em; /* Slightly smaller font */
+		color: #6a6a6a;
+		margin-top: 0.3em;
 	}
 </style>
