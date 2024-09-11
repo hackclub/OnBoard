@@ -2,12 +2,13 @@
 	import { Canvas } from '@threlte/core';
 	import Scene from './Scene.svelte';
 </script>
+
 <div>
 	<Canvas>
-	  <Scene />
+		<Scene />
 	</Canvas>
 </div>
-  
+
 <style>
 	div {
 		max-width: 100%;
