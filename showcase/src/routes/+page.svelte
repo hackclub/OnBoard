@@ -1,11 +1,15 @@
 <script lang="ts">
 	import Gallery from '$lib/components/App.svelte';
+	import { onMount } from 'svelte';
+	import { contain } from 'three/src/extras/TextureUtils.js';
 	// Define the structure of a random item
 	interface RandomItem {
 		part: string;
 		x: number;
 		y: number;
 	}
+
+	let randomPartsContainer: HTMLElement;
 
 	let randomParts: string[] = Object.values(
 		import.meta.glob('$lib/assets/*.{png,jpg,jpeg,PNG,JPEG}', {
@@ -16,35 +20,34 @@
 	);
 	let randomItems: RandomItem[] = [];
 
-	let innerWidth = 400;
-	let innerHeight = 700;
-
-	// Function to generate random positions
 	function getRandomPosition(): { x: number; y: number } {
-		let x = Math.random() * innerWidth;
-		let y = Math.random() * innerHeight;
+		const container = randomPartsContainer.getBoundingClientRect();
+		// Generate random x and y positions within the container
+		let x = container.left + Math.random() * container.width;
+		let y = container.top + Math.random() * container.height;
+
 		return { x, y };
 	}
 
 	// Function to create random items with image paths and positions
-	function createRandomParts(): RandomItem[] {
-		return randomParts.map((part) => {
+	// const itemCount = 8;
+	function createRandomParts() {
+		// const selectedParts = randomParts.sort(() => 0.5 - Math.random()).slice(0, itemCount);
+		randomParts.forEach((part) => {
 			const { x, y } = getRandomPosition();
-			return {
-				part,
-				x,
-				y // Create the CSS translate for position
-			};
+			randomItems.push({ part, x, y });
 		});
 	}
 
-	// Initialize random items
-	randomItems = createRandomParts();
-
-	// Update positions every 5 seconds
-	setInterval(() => {
-		randomItems = createRandomParts();
-	}, 3000); // Adjust interval time as needed
+	onMount(() => {
+		// Initialize random items
+		createRandomParts();
+		// Update positions every 3 seconds
+		setInterval(() => {
+			randomItems = [];
+			createRandomParts();
+		}, 1000 * 5);
+	});
 
 	// Variables for click tracking and redirect
 	let clickCount = 0;
@@ -61,14 +64,12 @@
 	}
 </script>
 
-<svelte:window bind:innerWidth bind:innerHeight />
-
 <body>
 	<div class="parts-container"></div>
 
 	<div class="banner"></div>
 
-	<header>
+	<header bind:this={randomPartsContainer}>
 		<img src="/orpeheus.png" alt="Showcase Logo" class="logo" />
 		<div id="subtitle">
 			<h3>OnBoard's Month Showcase</h3>
@@ -198,6 +199,8 @@
 		flex-direction: column;
 		text-align: center;
 		margin-top: 0.5rem;
+
+		position: relative;
 	}
 
 	.logo {
