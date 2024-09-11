@@ -8,18 +8,24 @@ importers:
 
   .:
     dependencies:
+      '@hackclub/banner':
+        specifier: ^1.0.3
+        version: 1.0.3(prop-types@15.8.1)(react-dom@16.14.0(react@16.14.0))(react@16.14.0)
       '@threlte/core':
         specifier: ^7.3.1
-        version: 7.3.1(svelte@4.2.19)(three@0.168.0)
+        version: 7.3.1(svelte@4.2.19)(three@0.167.1)
       '@threlte/extras':
         specifier: ^8.11.5
-        version: 8.11.5(@types/three@0.168.0)(svelte@4.2.19)(three@0.168.0)
+        version: 8.11.5(@types/three@0.168.0)(svelte@4.2.19)(three@0.167.1)
       '@threlte/flex':
         specifier: ^1.0.3
-        version: 1.0.3(svelte@4.2.19)(three@0.168.0)
+        version: 1.0.3(svelte@4.2.19)(three@0.167.1)
       three:
-        specifier: ^0.168.0
-        version: 0.168.0
+        specifier: ^0.167.0
+        version: 0.167.1
+      vite-multiple-assets:
+        specifier: ^1.3.1
+        version: 1.3.1(mime-types@2.1.35)(vite@5.4.3(@types/node@22.5.4))
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^3.2.4
@@ -78,6 +84,10 @@ packages:
   '@ampproject/remapping@2.3.0':
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
+
+  '@babel/runtime@7.25.6':
+    resolution: {integrity: sha512-VBj9MYyDb9tuLq7yzqjgzt6Q+IBQLrGZfdjOekyEirZPHxXWoTSGUTMrpsfi58Up73d13NfYLv8HT9vmznjzhQ==}
+    engines: {node: '>=6.9.0'}
 
   '@cloudflare/kv-asset-handler@0.3.4':
     resolution: {integrity: sha512-YLPHc8yASwjNkmcDMQMY35yiWjoKAKnhUbPRszBRS0YgH+IXtsMp61j+yTcnCE3oO2DgP0U3iejLC8FTtKDC8Q==}
@@ -437,6 +447,13 @@ packages:
   '@fastify/busboy@2.1.1':
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
+
+  '@hackclub/banner@1.0.3':
+    resolution: {integrity: sha512-feY7ZcNrLCWrjYMn3G640LuyMlmJP0GXVPQeyOqe7zU1d4/jcxbly+JvAG4DtEab/z2gHxKUM/ZQ3FK0qMI6oA==}
+    peerDependencies:
+      prop-types: ^15.5.4
+      react: ^16.0.0
+      react-dom: ^16.0.0
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -1122,6 +1139,9 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
+  js-tokens@4.0.0:
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+
   js-yaml@4.1.0:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
     hasBin: true
@@ -1163,6 +1183,10 @@ packages:
   lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
 
+  loose-envify@1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
+    hasBin: true
+
   maath@0.10.8:
     resolution: {integrity: sha512-tRvbDF0Pgqz+9XUa4jjfgAQ8/aPKmQdWXilFu2tMy4GWj4NOsx99HlULO4IeREfbO3a0sA145DZYyvXPkybm0g==}
     peerDependencies:
@@ -1188,6 +1212,14 @@ packages:
   micromatch@4.0.8:
     resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
     engines: {node: '>=8.6'}
+
+  mime-db@1.52.0:
+    resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
+    engines: {node: '>= 0.6'}
+
+  mime-types@2.1.35:
+    resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
+    engines: {node: '>= 0.6'}
 
   mime@3.0.0:
     resolution: {integrity: sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==}
@@ -1249,6 +1281,10 @@ packages:
 
   normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
+    engines: {node: '>=0.10.0'}
+
+  object-assign@4.1.1:
+    resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
 
   ohash@1.1.3:
@@ -1354,6 +1390,9 @@ packages:
   printable-characters@1.0.42:
     resolution: {integrity: sha512-dKp+C4iXWK4vVYZmYSd0KBH5F/h1HoZRsbJ82AVKRO3PEo8L4lBS/vLwhVtpwwuYcoIsVY+1JYKR268yn480uQ==}
 
+  prop-types@15.8.1:
+    resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
+
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
@@ -1361,9 +1400,24 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
+  react-dom@16.14.0:
+    resolution: {integrity: sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==}
+    peerDependencies:
+      react: ^16.14.0
+
+  react-is@16.13.1:
+    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
+
+  react@16.14.0:
+    resolution: {integrity: sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==}
+    engines: {node: '>=0.10.0'}
+
   readdirp@3.6.0:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
+
+  regenerator-runtime@0.14.1:
+    resolution: {integrity: sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==}
 
   regexparam@3.0.0:
     resolution: {integrity: sha512-RSYAtP31mvYLkAHrOlh25pCNQ5hWnT106VukGaaFfuJrZFkGRX5GhUAdPqpSDXxOhA2c4akmRuplv1mRqnBn6Q==}
@@ -1418,6 +1472,9 @@ packages:
 
   sander@0.5.1:
     resolution: {integrity: sha512-3lVqBir7WuKDHGrKRDn/1Ye3kwpXaDOMsiRP1wd6wpZW56gJhsbp5RqQpA6JG/P+pkXizygnr1dKR8vzWaVsfA==}
+
+  scheduler@0.19.1:
+    resolution: {integrity: sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==}
 
   selfsigned@2.4.1:
     resolution: {integrity: sha512-th5B4L2U+eGLq1TVh7zNRGBapioSORUeymIydxgFpwww9d2qyKvtuPU2jJuHvYAwwqi2Y596QBL3eEqcPEYL8Q==}
@@ -1566,8 +1623,8 @@ packages:
     peerDependencies:
       three: '>=0.151'
 
-  three@0.168.0:
-    resolution: {integrity: sha512-6m6jXtDwMJEK/GGMbAOTSAmxNdzKvvBzgd7q8bE/7Tr6m7PaBh5kKLrN7faWtlglXbzj7sVba48Idwx+NRsZXw==}
+  three@0.167.1:
+    resolution: {integrity: sha512-gYTLJA/UQip6J/tJvl91YYqlZF47+D/kxiWrbTon35ZHlXEN0VOo+Qke2walF1/x92v55H6enomymg4Dak52kw==}
 
   tiny-glob@0.2.9:
     resolution: {integrity: sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==}
@@ -1654,6 +1711,12 @@ packages:
 
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+
+  vite-multiple-assets@1.3.1:
+    resolution: {integrity: sha512-iV7lJiunCUyTq2hIsnnoZF2LBKLs9e1ezee0I3TOG9SgBrM2w5vrf4RXDJdVdYmCthujnz2aIx4wYax+0Gpcwg==}
+    peerDependencies:
+      mime-types: ^2.1.35
+      vite: '>=2.9.6'
 
   vite@5.4.3:
     resolution: {integrity: sha512-IH+nl64eq9lJjFqU+/yrRnrHPVTlgy42/+IzbOdaFDVlyLgI/wDlf+FCobXLX1cT0X5+7LMyH1mIy2xJdLfo8Q==}
@@ -1766,6 +1829,10 @@ snapshots:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
+
+  '@babel/runtime@7.25.6':
+    dependencies:
+      regenerator-runtime: 0.14.1
 
   '@cloudflare/kv-asset-handler@0.3.4':
     dependencies:
@@ -1978,6 +2045,13 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
+  '@hackclub/banner@1.0.3(prop-types@15.8.1)(react-dom@16.14.0(react@16.14.0))(react@16.14.0)':
+    dependencies:
+      '@babel/runtime': 7.25.6
+      prop-types: 15.8.1
+      react: 16.14.0
+      react-dom: 16.14.0(react@16.14.0)
+
   '@humanwhocodes/module-importer@1.0.1': {}
 
   '@humanwhocodes/retry@0.3.0': {}
@@ -2120,39 +2194,39 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@threejs-kit/instanced-sprite-mesh@2.4.7(@types/three@0.168.0)(three@0.168.0)':
+  '@threejs-kit/instanced-sprite-mesh@2.4.7(@types/three@0.168.0)(three@0.167.1)':
     dependencies:
       diet-sprite: 0.0.1
       earcut: 2.2.4
-      maath: 0.10.8(@types/three@0.168.0)(three@0.168.0)
-      three: 0.168.0
-      three-instanced-uniforms-mesh: 0.49.1(three@0.168.0)
-      troika-three-utils: 0.49.0(three@0.168.0)
+      maath: 0.10.8(@types/three@0.168.0)(three@0.167.1)
+      three: 0.167.1
+      three-instanced-uniforms-mesh: 0.49.1(three@0.167.1)
+      troika-three-utils: 0.49.0(three@0.167.1)
     transitivePeerDependencies:
       - '@types/three'
 
-  '@threlte/core@7.3.1(svelte@4.2.19)(three@0.168.0)':
+  '@threlte/core@7.3.1(svelte@4.2.19)(three@0.167.1)':
     dependencies:
       mitt: 3.0.1
       svelte: 4.2.19
-      three: 0.168.0
+      three: 0.167.1
 
-  '@threlte/extras@8.11.5(@types/three@0.168.0)(svelte@4.2.19)(three@0.168.0)':
+  '@threlte/extras@8.11.5(@types/three@0.168.0)(svelte@4.2.19)(three@0.167.1)':
     dependencies:
-      '@threejs-kit/instanced-sprite-mesh': 2.4.7(@types/three@0.168.0)(three@0.168.0)
+      '@threejs-kit/instanced-sprite-mesh': 2.4.7(@types/three@0.168.0)(three@0.167.1)
       svelte: 4.2.19
-      three: 0.168.0
-      three-mesh-bvh: 0.7.7(three@0.168.0)
-      three-perf: 1.0.10(three@0.168.0)
-      troika-three-text: 0.49.1(three@0.168.0)
+      three: 0.167.1
+      three-mesh-bvh: 0.7.7(three@0.167.1)
+      three-perf: 1.0.10(three@0.167.1)
+      troika-three-text: 0.49.1(three@0.167.1)
     transitivePeerDependencies:
       - '@types/three'
 
-  '@threlte/flex@1.0.3(svelte@4.2.19)(three@0.168.0)':
+  '@threlte/flex@1.0.3(svelte@4.2.19)(three@0.167.1)':
     dependencies:
       mitt: 3.0.1
       svelte: 4.2.19
-      three: 0.168.0
+      three: 0.167.1
       yoga-layout: 2.0.1
 
   '@tweenjs/tween.js@23.1.3': {}
@@ -2723,6 +2797,8 @@ snapshots:
 
   isexe@2.0.0: {}
 
+  js-tokens@4.0.0: {}
+
   js-yaml@4.1.0:
     dependencies:
       argparse: 2.0.1
@@ -2756,10 +2832,14 @@ snapshots:
 
   lodash.merge@4.6.2: {}
 
-  maath@0.10.8(@types/three@0.168.0)(three@0.168.0):
+  loose-envify@1.4.0:
+    dependencies:
+      js-tokens: 4.0.0
+
+  maath@0.10.8(@types/three@0.168.0)(three@0.167.1):
     dependencies:
       '@types/three': 0.168.0
-      three: 0.168.0
+      three: 0.167.1
 
   magic-string@0.25.9:
     dependencies:
@@ -2779,6 +2859,12 @@ snapshots:
     dependencies:
       braces: 3.0.3
       picomatch: 2.3.1
+
+  mime-db@1.52.0: {}
+
+  mime-types@2.1.35:
+    dependencies:
+      mime-db: 1.52.0
 
   mime@3.0.0: {}
 
@@ -2834,6 +2920,8 @@ snapshots:
   node-forge@1.3.1: {}
 
   normalize-path@3.0.0: {}
+
+  object-assign@4.1.1: {}
 
   ohash@1.1.3: {}
 
@@ -2921,13 +3009,37 @@ snapshots:
 
   printable-characters@1.0.42: {}
 
+  prop-types@15.8.1:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react-is: 16.13.1
+
   punycode@2.3.1: {}
 
   queue-microtask@1.2.3: {}
 
+  react-dom@16.14.0(react@16.14.0):
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      prop-types: 15.8.1
+      react: 16.14.0
+      scheduler: 0.19.1
+
+  react-is@16.13.1: {}
+
+  react@16.14.0:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      prop-types: 15.8.1
+
   readdirp@3.6.0:
     dependencies:
       picomatch: 2.3.1
+
+  regenerator-runtime@0.14.1: {}
 
   regexparam@3.0.0: {}
 
@@ -2999,6 +3111,11 @@ snapshots:
       graceful-fs: 4.2.11
       mkdirp: 0.5.6
       rimraf: 2.7.1
+
+  scheduler@0.19.1:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
 
   selfsigned@2.4.1:
     dependencies:
@@ -3123,22 +3240,22 @@ snapshots:
 
   text-table@0.2.0: {}
 
-  three-instanced-uniforms-mesh@0.49.1(three@0.168.0):
+  three-instanced-uniforms-mesh@0.49.1(three@0.167.1):
     dependencies:
-      three: 0.168.0
-      troika-three-utils: 0.49.0(three@0.168.0)
+      three: 0.167.1
+      troika-three-utils: 0.49.0(three@0.167.1)
 
-  three-mesh-bvh@0.7.7(three@0.168.0):
+  three-mesh-bvh@0.7.7(three@0.167.1):
     dependencies:
-      three: 0.168.0
+      three: 0.167.1
 
-  three-perf@1.0.10(three@0.168.0):
+  three-perf@1.0.10(three@0.167.1):
     dependencies:
-      three: 0.168.0
-      troika-three-text: 0.47.2(three@0.168.0)
+      three: 0.167.1
+      troika-three-text: 0.47.2(three@0.167.1)
       tweakpane: 3.1.10
 
-  three@0.168.0: {}
+  three@0.167.1: {}
 
   tiny-glob@0.2.9:
     dependencies:
@@ -3151,29 +3268,29 @@ snapshots:
 
   totalist@3.0.1: {}
 
-  troika-three-text@0.47.2(three@0.168.0):
+  troika-three-text@0.47.2(three@0.167.1):
     dependencies:
       bidi-js: 1.0.3
-      three: 0.168.0
-      troika-three-utils: 0.47.2(three@0.168.0)
+      three: 0.167.1
+      troika-three-utils: 0.47.2(three@0.167.1)
       troika-worker-utils: 0.47.2
       webgl-sdf-generator: 1.1.1
 
-  troika-three-text@0.49.1(three@0.168.0):
+  troika-three-text@0.49.1(three@0.167.1):
     dependencies:
       bidi-js: 1.0.3
-      three: 0.168.0
-      troika-three-utils: 0.49.0(three@0.168.0)
+      three: 0.167.1
+      troika-three-utils: 0.49.0(three@0.167.1)
       troika-worker-utils: 0.49.0
       webgl-sdf-generator: 1.1.1
 
-  troika-three-utils@0.47.2(three@0.168.0):
+  troika-three-utils@0.47.2(three@0.167.1):
     dependencies:
-      three: 0.168.0
+      three: 0.167.1
 
-  troika-three-utils@0.49.0(three@0.168.0):
+  troika-three-utils@0.49.0(three@0.167.1):
     dependencies:
-      three: 0.168.0
+      three: 0.167.1
 
   troika-worker-utils@0.47.2: {}
 
@@ -3224,6 +3341,11 @@ snapshots:
       punycode: 2.3.1
 
   util-deprecate@1.0.2: {}
+
+  vite-multiple-assets@1.3.1(mime-types@2.1.35)(vite@5.4.3(@types/node@22.5.4)):
+    dependencies:
+      mime-types: 2.1.35
+      vite: 5.4.3(@types/node@22.5.4)
 
   vite@5.4.3(@types/node@22.5.4):
     dependencies:

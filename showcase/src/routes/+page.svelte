@@ -1,15 +1,71 @@
-<script>
-	let isHovered = false;
+<script lang="ts">
 	import Gallery from '$lib/components/App.svelte';
+	// Define the structure of a random item
+	interface RandomItem {
+		part: string;
+		x: number;
+		y: number;
+	}
+
+	let randomParts: string[] = Object.values(
+		import.meta.glob('$lib/assets/*.{png,jpg,jpeg,PNG,JPEG}', {
+			eager: true,
+			query: '?url',
+			import: 'default'
+		})
+	);
+	let randomItems: RandomItem[] = [];
+
+	let innerWidth = 400;
+	let innerHeight = 700;
+
+	// Function to generate random positions
+	function getRandomPosition(): { x: number; y: number } {
+		let x = Math.random() * innerWidth;
+		let y = Math.random() * innerHeight;
+		return { x, y };
+	}
+
+	// Function to create random items with image paths and positions
+	function createRandomParts(): RandomItem[] {
+		return randomParts.map((part) => {
+			const { x, y } = getRandomPosition();
+			return {
+				part,
+				x,
+				y // Create the CSS translate for position
+			};
+		});
+	}
+
+	// Initialize random items
+	randomItems = createRandomParts();
+
+	// Update positions every 5 seconds
+	setInterval(() => {
+		randomItems = createRandomParts();
+	}, 3000); // Adjust interval time as needed
+
+	// Variables for click tracking and redirect
+	let clickCount = 0;
+	let maxClicks = 20;
+	let isDisabled = false;
+
+	// Function to handle button click
+	function handleClick() {
+		clickCount += 1;
+		if (clickCount >= maxClicks) {
+			window.location.href = 'https://www.youtube.com/watch?v=QvCoISXfcE8'; // Change this to your desired URL
+			console.log('Redirecting to form...');
+		}
+	}
 </script>
 
-<head>
-	<title>OnBoard Month Showcase</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
+<svelte:window bind:innerWidth bind:innerHeight />
 
 <body>
+	<div class="parts-container"></div>
+
 	<div class="banner"></div>
 
 	<header>
@@ -18,9 +74,27 @@
 			<h3>OnBoard's Month Showcase</h3>
 			<h5>Create a PCB, get a second grant</h5>
 		</div>
-		<a id="form-link" class="hoverable" href="https://onboard.hackclub.com/submit" target="_blank">
+		<a
+			id="form-link"
+			class="hoverable disabled"
+			role="button"
+			tabindex="0"
+			on:click={handleClick}
+			on:keydown={(e) => e.key === 'Enter' && handleClick()}
+			style="pointer-events: {isDisabled ? 'none' : 'auto'}"
+		>
 			Submit your project
+			<span class="coming-soon">Coming Soon</span>
 		</a>
+
+		{#each randomItems as item}
+			<img
+				src={item.part}
+				alt="Random Electronics"
+				class="random-electronics"
+				style="top: {item.y}px; left: {item.x}px"
+			/>
+		{/each}
 	</header>
 
 	<main id="content">
@@ -47,28 +121,51 @@
 				will be awarded a $100 USD grant that can be used for PCB fabrication, component purchases,
 				or tools—just in time for Halloween!
 			</p>
-	
+
 			<h3 class="guidelines-title">🎃 Submission Guidelines 👻</h3>
-			<p class="guidelines-subtitle">Follow these simple steps to submit your project to get funded!</p>
+			<p class="guidelines-subtitle">
+				Follow these simple steps to submit your project to get funded!
+			</p>
 			<div class="grid-steps">
 				<div class="item-step hoverable">
 					<div class="step-number">1</div>
 					<div class="model-container">
-						<Gallery/>
+						<img src="/amongus.png" alt="Design a PCB" />
 					</div>
-					<p class="item-text">Build a spine-chilling board</p>
+					<div class="item-title">
+						<p class="item-heading">Build a spine-chilling board</p>
+						<p class="item-text">Design a PCB with a Halloween theme or a spooky twist</p>
+					</div>
 				</div>
 				<div class="item-step hoverable">
 					<div class="step-number">2</div>
-					<p class="item-text">Vote for your favorite designs in the eerie gallery</p>
+					<div class="model-container">
+						<Gallery />
+						<p1>Coming soon! A 3D gallery</p1>
+					</div>
+					<div class="item-title">
+						<p class="item-heading">Vote for your favoriate PCB in the Project Gallery</p>
+						<p class="item-text">
+							Participate in our showcase gallery and support your fellow creators
+						</p>
+					</div>
 				</div>
 				<div class="item-step hoverable">
 					<div class="step-number">3</div>
-					<p class="item-text">Win ghoulish prizes</p>
+					<div class="model-container">
+						<img src="/pico.png" alt="Prizes" />
+					</div>
+					<h1 class="item-title">Win hardware, tools and components</h1>
 				</div>
 				<div class="item-step hoverable">
 					<div class="step-number">4</div>
-					<p class="item-text">Snag some spook-tacular sticker swag</p>
+					<div class="model-container">
+						<img src="/OnBoard_holographic_sticker.png" alt="Spooky Stickers" />
+					</div>
+					<div class="item-title">
+						<p class="item-heading">Snag some spook-tacular sticker swag</p>
+						<p class="item-text">Collect limited-edition Halloween-themed PCB stickers!</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -86,12 +183,15 @@
 		margin: 0;
 		font-family: 'Poppins', sans-serif;
 		background: #f1f1f1;
+		overflow-x: hidden;
 		font-size: 1.2em;
+		z-index: -1;
+		box-shadow: 0 0 50px rgba(77, 76, 119, 0.9) inset;
 	}
 
 	header {
 		padding: 2em;
-		background: linear-gradient(to bottom right, #6a5acd, #483d8b);
+		background: linear-gradient(to Top, #6a5acd, #3c3569);
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -101,40 +201,26 @@
 	}
 
 	.logo {
-		max-width: 10%;
-		height: auto;
+		width: 20vh;
 	}
 
 	.container {
 		margin: 0 auto;
 		padding: 1em;
-		scale: 0.9;
+		transform: scale(0.95);
 	}
 
 	#subtitle {
 		color: white;
-		font-size: 1.2em;
+		font-size: 1.1em;
 		margin-top: 0.5em;
-	}
-
-	#form-link {
-		margin-top: 2em;
-		padding: 0.7em;
-		background: #ffa500;
-		border-radius: 0.5em;
-		color: white;
-		font-weight: 700;
-		text-decoration: none;
-	}
-
-	#form-link:hover {
-		background: #ff8c00;
+		z-index: 50;
 	}
 
 	.grid-steps {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-		gap: 1.0em;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted min-width */
+		gap: 1em; /* Smaller gap for mobile */
 		padding: 1em;
 		background: white;
 		border-radius: 10px;
@@ -142,22 +228,113 @@
 	}
 
 	.item-step {
-		background-size: cover;
-		background-position: center;
-		border-radius: 0.5em;
-		color: #922222;
+		background: #f9f9f9;
+		border-radius: 10px;
+		padding: 1.5em;
 		text-align: center;
+		position: relative;
+		transition: transform 0.3s ease;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-end;
+		justify-content: space-between; /* Space items properly */
+	}
+
+	.item-step:hover {
+		transform: translateY(-10px);
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+	}
+
+	.step-number {
+		background-color: #ff4500;
+		color: white;
+		padding: 0.5em;
+		border-radius: 50%;
+		width: 35px;
+		height: 35px;
+		display: inline-block;
+		text-align: center;
+		font-size: 1.2em;
+		position: absolute;
+		top: -15px;
+		left: 50%;
+		flex-shrink: 1;
+		transform: translateX(-50%);
+		animation: bounce 1s infinite alternate;
+		line-height: 35px;
+	}
+
+	.model-container {
 		position: relative;
+		aspect-ratio: 1;
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		filter: drop-shadow(2px 2px 1px #000000);
+		flex-shrink: 1;
+		text-align: center;
+	}
+
+	.model-container p1 {
+		font-size: 0.8em;
+		font-weight: 100;
+		color: #45b8cc;
+		opacity: 0.9;
+		padding-top: 1%;
+	}
+
+	.item-title {
+		font-weight: 700;
+		font-size: 1.3em;
+		color: #ff6347;
+		text-shadow: 1px 1px 2px #000;
+	}
+
+	.item-heading {
+		font-size: 0.9em; /* Adjust as needed */
+		font-weight: bold;
+		color: #ff6347; /* or your preferred color */
+		margin-bottom: 0.2em;
 	}
 
 	.item-text {
-		font-weight: 700;
-		font-size: 1.1em;
-		color: #ff6347;
-		text-shadow: 1px 1px 2px #000000;
+		font-size: 0.6em;
+		font-weight: 300;
+		color: #747f81;
+		margin-top: 0.5em;
+	}
+
+	.model-container img {
+		max-width: 100%;
+		height: auto;
+		object-fit: contain;
+		border-radius: 25px;
+	}
+
+	img {
+		max-width: 100%; /* Ensures images fit within their container */
+		height: auto; /* Maintain aspect ratio */
+	}
+
+	@media (max-width: 600px) {
+		body {
+			font-size: 1em; /* Adjust base font size */
+		}
+
+		.guidelines-title {
+			font-size: 1.5em;
+		}
+
+		.item-title {
+			font-size: 1.1em;
+		}
+
+		#subtitle h3,
+		#subtitle h5 {
+			font-size: 0.8em;
+		}
 	}
 
 	footer {
@@ -166,37 +343,6 @@
 		background: #483d8b;
 		color: white;
 		font-size: 0.9em;
-	}
-
-	.banner {
-		height: 50px;
-		object-fit: cover;
-		width: 100%;
-		opacity: 0.9;
-		background-image: url('/onboard-banner.png');
-	}
-
-	.hoverable {
-		transition: transform 0.3s ease-in-out;
-	}
-
-	.hoverable:hover {
-		transform: translateY(-5px);
-	}
-
-	main {
-		min-height: 100vh;
-	}
-
-	.model-container {
-		width: 100%;
-		height: 200px; /* Adjust the height for a better display */
-		position: relative;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		overflow: hidden;
-		margin-bottom: 10px;
 	}
 
 	.guidelines-title {
@@ -213,33 +359,61 @@
 		text-align: center;
 		font-style: italic;
 	}
-	
-	.step-number {
-	background-color: #ff4500;
-	color: white;
-	padding: 0.1em; /* Reduced padding */
-	border-radius: 50%;
-	width: 25px;
-	height: 25px;
-	display: inline-block;
-	text-align: center;
-	font-size: 0.9em; /* Smaller font size */
-	position: absolute;
-	top: -2px;
-	left: 50%;
-	transform: translateX(-50%);
-	animation: bounce 1s infinite alternate;
-	line-height: 25px; /* Aligns the text vertically in the center */
+
+	.banner {
+		height: 50px;
+		width: 100%;
+		background-image: url('/onboard-banner.png');
+		background-size: cover;
+		background-position: center;
+		opacity: 0.9;
 	}
 
+	.random-electronics {
+		position: absolute; /* Overlay on other elements */
+		animation: appearDisappear 5s ease-in-out infinite;
+		opacity: 0;
+		transition: transform 1s ease; /* Smooth transition for changing positions */
+		scale: 0.1;
+		overflow: hidden;
+	}
 
-	/* Bounce animation for step numbers */
-	@keyframes bounce {
-		0% {
-			transform: translateX(-50%) translateY(0);
-		}
+	@keyframes appearDisappear {
+		0%,
 		100% {
-			transform: translateX(-50%) translateY(-10px);
+			opacity: 0;
+			transform: scale(0.5); /* Only scale, remove the translate part */
 		}
+		50% {
+			opacity: 0.4;
+			transform: scale(1); /* Appear at full size */
+		}
+	}
+	#form-link {
+		margin-top: 2em;
+		padding: 0.5em 0.8em; /* Reduced padding for smaller devices */
+		background: #d3d3d3;
+		border-radius: 0.5em;
+		color: #fff;
+		font-weight: 650;
+		text-decoration: none;
+		opacity: 0.7;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		z-index: 5;
+		max-width: 100%; /* Allow full width on mobile */
+		max-height: 8vh; /* Slightly reduced height */
+		font-size: 2.5vh; /* Smaller text for mobile */
+	}
+
+	#form-link:hover {
+		background: #d3d3d3; /* Keep it greyed out */
+	}
+
+	#form-link span.coming-soon {
+		font-size: 0.8em; /* Slightly smaller font */
+		color: #6a6a6a;
+		margin-top: 0.3em;
 	}
 </style>
