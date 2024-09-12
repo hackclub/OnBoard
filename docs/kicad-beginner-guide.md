@@ -78,4 +78,4 @@ Return to your schematic and double-click on the antenna. Next, click the three-
 ![Completed_Schematic](images/kicad/schematic.png)
 
 ## Submitting Your KiCad Project
-Take a look at [Submitting To KiCad](/submitting-kicad.md) for instructions on how to submit your files.
+Take a look at [Submitting To KiCad](/docs/kicad-submission.md) for instructions on how to submit your files.
