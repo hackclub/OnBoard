@@ -131,7 +131,6 @@
 
 			<Stickers></Stickers>
 
-
 			<h3 class="catagory-title">🎃 Submission Steps 👻</h3>
 			<h4 class="steps-subtitle">
 				Follow these simple steps to submit your project to get funded!
@@ -250,36 +249,36 @@
 	}
 
 	header {
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 3px solid #bbb;
-  }
+		position: relative;
+		overflow: hidden;
+		padding-bottom: 2em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+		border-bottom: 3px solid #bbb;
+	}
 
-  .header-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1; 
-    background-image: url('/background-fall.jpg');
-	background-blend-mode: darken;
-    background-blend-mode: color;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-  }
+	.header-background {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		background-image: url('/background-fall.jpg');
+		background-blend-mode: darken;
+		background-blend-mode: color;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: blur(8px);
+		-webkit-filter: blur(8px);
+	}
 
-  header img {
-	z-index: 50;
-  }
+	header img {
+		z-index: 50;
+	}
 
 	.logo {
 		z-index: 10;
