@@ -54,11 +54,6 @@ Try this out with a few other symbols and then connect them together with the "A
 <p align="left" class="resistor">
   <img src="images/kicad/add_wire.png" alt="Adding a wire" width=20%/>
 </p>
-<style>
-  .resistor{
-    padding-left: 80px
-  }
-</style>
 
 #### Tip
 Use [**Labels**](https://www.baldengineer.com/kicad-bus-labels-and-global-labels.html) and [**Power Symbols**](https://klc.kicad.org/symbol/s7/s7.1/). These are very underused in beginner KiCad projects and while they don't serve much functional perpose they make is so much easier to review and understand your design.
