@@ -164,7 +164,13 @@
 					<div class="model-container">
 						<img src="/pico.png" alt="Prizes" />
 					</div>
-					<h1 class="item-title">Win hardware, tools and components</h1>
+					<div class="item-title">
+						<p class="item-heading">Get grants for the top projects to be built.</p>
+						<p class="item-text">
+							Winners will receive a $100 grant to fund their PCB fabrication, component purchases,
+							or tools.
+						</p>
+					</div>
 				</div>
 				<div class="item-step hoverable">
 					<div class="step-number">4</div>
@@ -180,35 +186,28 @@
 			<h3 class="catagory-title">FAQ</h3>
 			<div class="guidelines">
 				<div class="guidelines-header">
-					<h4>What is OnBoard?</h4>
+					<h4>Does it have to be Halloween themed?</h4>
 					<p>
-						OnBoard is a grant program that provides funding for PCB projects. We're excited to
-						celebrate Halloween with a special showcase event this September!
+						Whether it's spooky, funny, or completely unrelated to Halloween, your project is
+						welcome!
 					</p>
 				</div>
 				<div class="guidelines-header">
-					<h4>How can I participate?</h4>
+					<h4>How does the top project get selected?</h4>
 					<p>
-						To participate, design and submit a PCB with a Halloween theme. Once we have at least 50
-						entries, all participants will receive stickers. Top contenders will receive a $100 USD
-						grant.
-					</p>
-				</div>
-
-				<div class="guidelines-header">
-					<h4>When is the deadline?</h4>
-					<p>
-						The deadline for submissions is September 30th, 2021. Be sure to submit your project by
-						then to be eligible for rewards!
+						Peer voting! Make your project appealing to others. Creativity, innovation, and
+						presentation are key.
 					</p>
 				</div>
 
 				<div class="guidelines-header">
-					<h4>How do I submit my project?</h4>
-					<p>
-						Stay tuned for the submission form, which will be available soon. Once the form is live,
-						you can submit your project and enter the showcase event.
-					</p>
+					<h4>How do we get stickers?</h4>
+					<p>If there are 50+ submissions, we'll send stickers to every participant!</p>
+				</div>
+
+				<div class="guidelines-header">
+					<h4>What about the OnBoard grant?</h4>
+					<p>You can apply for the OnBoard grant after the event. Stay tuned for details.</p>
 				</div>
 			</div>
 		</div>
@@ -345,7 +344,7 @@
 	.item-step {
 		background-image: linear-gradient(to bottom, #f18847, #f5ce4e);
 		border-radius: 10px;
-		padding: 1.5em;
+		padding-inline: 1.5em;
 		text-align: center;
 		position: relative;
 		transition: transform 0.3s ease;
@@ -384,7 +383,7 @@
 	.model-container {
 		position: relative;
 		aspect-ratio: 1;
-		max-width: 90%;
+		max-width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -429,7 +428,7 @@
 		max-width: 100%;
 		height: auto;
 		object-fit: contain;
-		border-radius: 25px;
+		border-radius: 15px;
 	}
 
 	img {
