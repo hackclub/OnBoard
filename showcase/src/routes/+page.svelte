@@ -131,7 +131,9 @@
 			</p>
 
 			<h3 class="catagory-title">🎃 Submission Steps 👻</h3>
-			<p class="steps-subtitle">Follow these simple steps to submit your project to get funded!</p>
+			<h4 class="steps-subtitle">
+				Follow these simple steps to submit your project to get funded!
+			</h4>
 			<div class="grid-steps">
 				<div class="item-step hoverable">
 					<div class="step-number">1</div>
@@ -218,10 +220,15 @@
 </body>
 
 <style>
+	@font-face {
+		font-family: phantomSans;
+		src: url('fonts/PhantomSans-Regular.ttf') format('truetype');
+		font-weight: 1000;
+	}
+
 	body {
 		color: #ff8c37;
 		margin: 0;
-		font-family: phantomSans;
 		background-image: url('/what-the-hex-background.png');
 		overflow-x: hidden;
 		font-size: 1.2em;
@@ -232,9 +239,12 @@
 		transition: background-image 0.2s ease-in-out;
 	}
 
-	@font-face {
+	body p,
+	ul,
+	li {
+		font-size: 1.1em;
+		font-weight: 1000;
 		font-family: phantomSans;
-		src: url(PhantomSans-Regular.ttf);
 	}
 
 	header {
@@ -437,7 +447,7 @@
 		margin-top: 1.2em;
 		text-align: center;
 		font-weight: 800;
-		font-family: PhantomSans;
+		font-family: 'Poppins', sans-serif;
 	}
 
 	.steps-subtitle {
