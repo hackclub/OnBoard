@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Gallery from '$lib/components/App.svelte';
-	// Define the structure of a random item
+	import { onMount } from 'svelte';
+	import Stickers from '$lib/components/stickers.svelte';
+
 	interface RandomItem {
 		part: string;
 		x: number;
@@ -14,37 +16,45 @@
 			import: 'default'
 		})
 	);
+
 	let randomItems: RandomItem[] = [];
+	let randomPartsContainer: HTMLElement;
 
-	let innerWidth = 400;
-	let innerHeight = 700;
-
-	// Function to generate random positions
 	function getRandomPosition(): { x: number; y: number } {
-		let x = Math.random() * innerWidth;
-		let y = Math.random() * innerHeight;
+		const container = randomPartsContainer.getBoundingClientRect();
+
+		let x = Math.floor(Math.random() * (Math.floor(container.width) - Math.ceil(1) + Math.ceil(1)));
+		let y = Math.floor(
+			Math.random() * (Math.floor(container.height) - Math.ceil(1) + Math.ceil(1))
+		);
+
+		// console.log(container.width, container.height);
+		// console.log("x: ", x, "y: ", y);
+
 		return { x, y };
 	}
 
 	// Function to create random items with image paths and positions
-	function createRandomParts(): RandomItem[] {
-		return randomParts.map((part) => {
+	function createRandomParts() {
+		var i: number = 0;
+		for (i; i < 11; i++) {
 			const { x, y } = getRandomPosition();
-			return {
-				part,
-				x,
-				y // Create the CSS translate for position
-			};
-		});
+			const part = randomParts[Math.floor(Math.random() * randomParts.length)];
+			randomItems.push({ part, x, y });
+		}
 	}
 
-	// Initialize random items
-	randomItems = createRandomParts();
+	onMount(() => {
+		// Initialize random items
+		randomItems = [];
 
-	// Update positions every 5 seconds
-	setInterval(() => {
-		randomItems = createRandomParts();
-	}, 3000); // Adjust interval time as needed
+		createRandomParts();
+
+		setInterval(() => {
+			randomItems = [];
+			createRandomParts();
+		}, 5000);
+	});
 
 	// Variables for click tracking and redirect
 	let clickCount = 0;
@@ -61,14 +71,11 @@
 	}
 </script>
 
-<svelte:window bind:innerWidth bind:innerHeight />
-
 <body>
-	<div class="parts-container"></div>
-
 	<div class="banner"></div>
 
-	<header>
+	<header bind:this={randomPartsContainer}>
+		<div class="header-background"></div>
 		<img src="/orpeheus.png" alt="Showcase Logo" class="logo" />
 		<div id="subtitle">
 			<h3>OnBoard's Month Showcase</h3>
@@ -99,7 +106,7 @@
 
 	<main id="content">
 		<div class="container">
-			<h2>How to Join the Fun</h2>
+			<h2>How to enter your PCB</h2>
 			<p>
 				This September, we're kicking off Halloween festivities early with OnBoard! Whether you've
 				already received an OnBoard grant or are simply seeking inspiration, this is your chance to
@@ -122,10 +129,12 @@
 				or tools—just in time for Halloween!
 			</p>
 
-			<h3 class="guidelines-title">🎃 Submission Guidelines 👻</h3>
-			<p class="guidelines-subtitle">
+			<Stickers></Stickers>
+
+			<h3 class="catagory-title">🎃 Submission Steps 👻</h3>
+			<h4 class="steps-subtitle">
 				Follow these simple steps to submit your project to get funded!
-			</p>
+			</h4>
 			<div class="grid-steps">
 				<div class="item-step hoverable">
 					<div class="step-number">1</div>
@@ -141,10 +150,10 @@
 					<div class="step-number">2</div>
 					<div class="model-container">
 						<Gallery />
-						<p1>Coming soon! A 3D gallery</p1>
+						<p1></p1>
 					</div>
 					<div class="item-title">
-						<p class="item-heading">Vote for your favoriate PCB in the Project Gallery</p>
+						<p class="item-heading">Vote for your favoriate design in the Project Gallery</p>
 						<p class="item-text">
 							Participate in our showcase gallery and support your fellow creators
 						</p>
@@ -168,6 +177,40 @@
 					</div>
 				</div>
 			</div>
+			<h3 class="catagory-title">FAQ</h3>
+			<div class="guidelines">
+				<div class="guidelines-header">
+					<h4>What is OnBoard?</h4>
+					<p>
+						OnBoard is a grant program that provides funding for PCB projects. We're excited to
+						celebrate Halloween with a special showcase event this September!
+					</p>
+				</div>
+				<div class="guidelines-header">
+					<h4>How can I participate?</h4>
+					<p>
+						To participate, design and submit a PCB with a Halloween theme. Once we have at least 50
+						entries, all participants will receive stickers. Top contenders will receive a $100 USD
+						grant.
+					</p>
+				</div>
+
+				<div class="guidelines-header">
+					<h4>When is the deadline?</h4>
+					<p>
+						The deadline for submissions is September 30th, 2021. Be sure to submit your project by
+						then to be eligible for rewards!
+					</p>
+				</div>
+
+				<div class="guidelines-header">
+					<h4>How do I submit my project?</h4>
+					<p>
+						Stay tuned for the submission form, which will be available soon. Once the form is live,
+						you can submit your project and enter the showcase event.
+					</p>
+				</div>
+			</div>
 		</div>
 	</main>
 
@@ -178,36 +221,84 @@
 </body>
 
 <style>
+	@font-face {
+		font-family: phantomSans;
+		src: url('/fonts/PhantomSans-Regular.ttf') format('truetype');
+	}
+
 	body {
-		color: #4a4a4a;
+		color: #ff8c37;
 		margin: 0;
-		font-family: 'Poppins', sans-serif;
-		background: #f1f1f1;
+		background-image: url('/what-the-hex-background.png');
+		background-blend-mode: lighten;
 		overflow-x: hidden;
 		font-size: 1.2em;
-		z-index: -1;
-		box-shadow: 0 0 50px rgba(77, 76, 119, 0.9) inset;
+		box-shadow: 0 0 10px rgba(77, 76, 119, 0.9) inset;
+		z-index: -5;
+
+		-webkit-transition: background-image 0.2s ease-in-out;
+		transition: background-image 0.2s ease-in-out;
+	}
+
+	body p,
+	ul,
+	li {
+		font-size: 1.1em;
+		font-weight: 2000;
+		font-family: phantomSans;
 	}
 
 	header {
-		padding: 2em;
-		background: linear-gradient(to Top, #6a5acd, #3c3569);
+		position: relative;
+		overflow: hidden;
+		padding-bottom: 2em;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
 		text-align: center;
-		margin-top: 0.5rem;
+		border-bottom: 3px solid #bbb;
+	}
+
+	.header-background {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		background-image: url('/background-fall.jpg');
+		background-blend-mode: darken;
+		background-blend-mode: color;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: blur(8px);
+		-webkit-filter: blur(8px);
+	}
+
+	header img {
+		z-index: 50;
 	}
 
 	.logo {
-		width: 20vh;
+		z-index: 10;
+		max-width: 230px;
+		min-width: 0px;
+		flex: 1;
+		border: 0;
+		height: auto;
+		box-sizing: border-box;
+		color: white;
 	}
 
 	.container {
-		margin: 0 auto;
+		margin: 0;
 		padding: 1em;
 		transform: scale(0.95);
+	}
+
+	.container p {
+		text-indent: 0.5em;
 	}
 
 	#subtitle {
@@ -215,20 +306,44 @@
 		font-size: 1.1em;
 		margin-top: 0.5em;
 		z-index: 50;
+		font-family: Arial, Helvetica, sans-serif;
+
+		color: rgb(75, 184, 32);
 	}
 
 	.grid-steps {
+		font-family: 'Poppins', sans-serif;
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted min-width */
 		gap: 1em; /* Smaller gap for mobile */
 		padding: 1em;
-		background: white;
+		background-image: linear-gradient(to bottom, #f07021, #f1be0f);
 		border-radius: 10px;
 		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 	}
 
+	@media (min-width: 800px) {
+		.grid-steps {
+			grid-template-columns: repeat(4, 1fr);
+			grid-template-rows: auto;
+		}
+	}
+
+	/* Media query for 2 rows and 2 columns */
+	@media (min-width: 680px) {
+		.grid-steps {
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(2, auto);
+		}
+	}
+
+	@media (min-width: 1300px) {
+		.grid-steps {
+			grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted min-width */
+		}
+	}
+
 	.item-step {
-		background: #f9f9f9;
+		background-image: linear-gradient(to bottom, #f18847, #f5ce4e);
 		border-radius: 10px;
 		padding: 1.5em;
 		text-align: center;
@@ -238,6 +353,8 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between; /* Space items properly */
+
+		align-items: center;
 	}
 
 	.item-step:hover {
@@ -254,7 +371,7 @@
 		height: 35px;
 		display: inline-block;
 		text-align: center;
-		font-size: 1.2em;
+		font-size: 1.1em;
 		position: absolute;
 		top: -15px;
 		left: 50%;
@@ -267,29 +384,31 @@
 	.model-container {
 		position: relative;
 		aspect-ratio: 1;
-		max-width: 100%;
+		max-width: 90%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		filter: drop-shadow(2px 2px 1px #000000);
 		flex-shrink: 1;
 		text-align: center;
 	}
 
 	.model-container p1 {
-		font-size: 0.8em;
-		font-weight: 100;
-		color: #45b8cc;
-		opacity: 0.9;
-		padding-top: 1%;
+		font-style: italic;
+		font-size: 0.6em;
+		font-weight: 500;
+		color: #8b5c5c;
+		opacity: 0.7;
+		padding-top: 3%;
+		text-shadow: 1px 0 3px #bbb94a;
+		font-family: 'Courier New', Courier, monospace;
 	}
 
 	.item-title {
 		font-weight: 700;
 		font-size: 1.3em;
 		color: #ff6347;
-		text-shadow: 1px 1px 2px #000;
+		text-shadow: 0.1px 0 0.1px #bb774a;
 	}
 
 	.item-heading {
@@ -318,22 +437,21 @@
 		height: auto; /* Maintain aspect ratio */
 	}
 
+	main::content {
+		background-color: blue;
+	}
+
 	@media (max-width: 600px) {
 		body {
 			font-size: 1em; /* Adjust base font size */
 		}
 
-		.guidelines-title {
+		.catagory-title {
 			font-size: 1.5em;
 		}
 
 		.item-title {
 			font-size: 1.1em;
-		}
-
-		#subtitle h3,
-		#subtitle h5 {
-			font-size: 0.8em;
 		}
 	}
 
@@ -345,14 +463,16 @@
 		font-size: 0.9em;
 	}
 
-	.guidelines-title {
+	.catagory-title {
 		color: #ffa500;
 		font-size: 2em;
-		margin-top: 1.5em;
+		margin-top: 1.2em;
 		text-align: center;
+		font-weight: 800;
+		font-family: 'Poppins', sans-serif;
 	}
 
-	.guidelines-subtitle {
+	.steps-subtitle {
 		color: #6a5acd;
 		font-size: 1.2em;
 		margin-top: 0.5em;
@@ -366,7 +486,9 @@
 		background-image: url('/onboard-banner.png');
 		background-size: cover;
 		background-position: center;
-		opacity: 0.9;
+		background-blend-mode: lighten;
+		opacity: 5%;
+		background-color: white;
 	}
 
 	.random-electronics {
@@ -403,8 +525,8 @@
 		align-items: center;
 		z-index: 5;
 		max-width: 100%; /* Allow full width on mobile */
-		max-height: 8vh; /* Slightly reduced height */
-		font-size: 2.5vh; /* Smaller text for mobile */
+		max-height: 9.2vh; /* Slightly reduced height */
+		font-size: 2.9vh; /* Smaller text for mobile */
 	}
 
 	#form-link:hover {
@@ -415,5 +537,53 @@
 		font-size: 0.8em; /* Slightly smaller font */
 		color: #6a6a6a;
 		margin-top: 0.3em;
+	}
+
+	.guidelines {
+		display: grid;
+		grid-template-columns: auto auto; /* Make both columns shrink to fit their content */
+		background-color: rgba(255, 255, 255, 0.1);
+		border-radius: 10px;
+		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+		padding: 1em;
+		gap: 2em;
+		margin: auto;
+
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		max-width: 80%; /* Ensure it doesn't overflow the page width */
+	}
+
+	.guidelines-header {
+		outline: 3px solid orange;
+		font-size: 1.2em;
+		color: #6a5acd;
+		background-color: #2a3b4c;
+		border-radius: 0.5rem;
+		grid-column: span 2; /* Ensure headers span across both columns */
+		font-style: italic;
+		padding: 0.5em;
+	}
+
+	.guidelines-header p {
+		text-align: center;
+		color: #ff8c37;
+		font-size: 0.9em;
+		line-height: 1;
+		margin-bottom: 1em;
+		padding: 0.2em;
+	}
+	@media (min-width: 600px) {
+		.guidelines {
+			grid-template-columns: repeat(2, 1fr); /* Two columns on medium and larger screens */
+		}
+	}
+
+	@media (min-width: 800px) {
+		.guidelines {
+			grid-template-columns: repeat(4, 1fr); /* Four columns on larger screens */
+		}
 	}
 </style>
