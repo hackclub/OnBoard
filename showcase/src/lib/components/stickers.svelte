@@ -81,10 +81,13 @@
 		position: relative;
 		width: 100%;
 		height: 100%;
+		top: 50%;
 	}
 
 	.sticker {
 		position: absolute;
+		top: 500px;
+		left: 1000px;
 		width: 5vw; /* Fixed width relative to viewport width */
 		height: auto; /* Maintain aspect ratio */
 		box-sizing: border-box;

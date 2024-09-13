@@ -75,6 +75,7 @@
 	<div class="banner"></div>
 
 	<header bind:this={randomPartsContainer}>
+		<div class="header-background"></div>
 		<img src="/orpeheus.png" alt="Showcase Logo" class="logo" />
 		<div id="subtitle">
 			<h3>OnBoard's Month Showcase</h3>
@@ -104,8 +105,6 @@
 	</header>
 
 	<main id="content">
-		<Stickers></Stickers>
-
 		<div class="container">
 			<h2>How to enter your PCB</h2>
 			<p>
@@ -130,6 +129,9 @@
 				or tools—just in time for Halloween!
 			</p>
 
+			<Stickers></Stickers>
+
+
 			<h3 class="catagory-title">🎃 Submission Steps 👻</h3>
 			<h4 class="steps-subtitle">
 				Follow these simple steps to submit your project to get funded!
@@ -149,10 +151,10 @@
 					<div class="step-number">2</div>
 					<div class="model-container">
 						<Gallery />
-						<p1>COMING SOON! A 3D GALLERY</p1>
+						<p1></p1>
 					</div>
 					<div class="item-title">
-						<p class="item-heading">Vote for your favoriate PCB in the Project Gallery</p>
+						<p class="item-heading">Vote for your favoriate design in the Project Gallery</p>
 						<p class="item-text">
 							Participate in our showcase gallery and support your fellow creators
 						</p>
@@ -222,18 +224,18 @@
 <style>
 	@font-face {
 		font-family: phantomSans;
-		src: url('fonts/PhantomSans-Regular.ttf') format('truetype');
-		font-weight: 1000;
+		src: url('/fonts/PhantomSans-Regular.ttf') format('truetype');
 	}
 
 	body {
 		color: #ff8c37;
 		margin: 0;
 		background-image: url('/what-the-hex-background.png');
+		background-blend-mode: lighten;
 		overflow-x: hidden;
 		font-size: 1.2em;
-		z-index: -1;
-		box-shadow: 0 0 50px rgba(77, 76, 119, 0.9) inset;
+		box-shadow: 0 0 10px rgba(77, 76, 119, 0.9) inset;
+		z-index: -5;
 
 		-webkit-transition: background-image 0.2s ease-in-out;
 		transition: background-image 0.2s ease-in-out;
@@ -243,28 +245,51 @@
 	ul,
 	li {
 		font-size: 1.1em;
-		font-weight: 1000;
+		font-weight: 2000;
 		font-family: phantomSans;
 	}
 
 	header {
-		position: relative;
-		overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 3px solid #bbb;
+  }
 
-		padding: 2em;
-		background: linear-gradient(to Top, #6a5acd, #3c3569);
-		display: flex;
+  .header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+    background-image: url('/background-fall.jpg');
+	background-blend-mode: darken;
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  }
 
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		text-align: center;
-		margin-top: 0.5rem;
-		border-bottom: 3px solid #bbb;
-	}
+  header img {
+	z-index: 50;
+  }
 
 	.logo {
-		width: 20vh;
+		z-index: 10;
+		max-width: 230px;
+		min-width: 0px;
+		flex: 1;
+		border: 0;
+		height: auto;
+		box-sizing: border-box;
+		color: white;
 	}
 
 	.container {
@@ -282,6 +307,9 @@
 		font-size: 1.1em;
 		margin-top: 0.5em;
 		z-index: 50;
+		font-family: Arial, Helvetica, sans-serif;
+
+		color: rgb(75, 184, 32);
 	}
 
 	.grid-steps {
@@ -344,7 +372,7 @@
 		height: 35px;
 		display: inline-block;
 		text-align: center;
-		font-size: 1.2em;
+		font-size: 1.1em;
 		position: absolute;
 		top: -15px;
 		left: 50%;
@@ -426,11 +454,6 @@
 		.item-title {
 			font-size: 1.1em;
 		}
-
-		#subtitle h3,
-		#subtitle h5 {
-			font-size: 0.8em;
-		}
 	}
 
 	footer {
@@ -464,7 +487,9 @@
 		background-image: url('/onboard-banner.png');
 		background-size: cover;
 		background-position: center;
-		opacity: 0.9;
+		background-blend-mode: lighten;
+		opacity: 5%;
+		background-color: white;
 	}
 
 	.random-electronics {
