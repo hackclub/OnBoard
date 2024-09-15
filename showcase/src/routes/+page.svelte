@@ -225,6 +225,16 @@
 		src: url('/fonts/PhantomSans-Regular.ttf') format('truetype');
 	}
 
+	@font-face {
+		font-family: 'Roboto Flex';
+		src:
+			url('https://pixelambacht.nl/remote/RobotoFlex[slnt,wdth,wght,opsz].woff2')
+				format('woff2 supports variations'),
+			url('https://pixelambacht.nl/remote/RobotoFlex[slnt,wdth,wght,opsz].woff2')
+				format('woff2-variations');
+		font-weight: 100 1000;
+	}
+
 	body {
 		color: #ff8c37;
 		margin: 0;
@@ -239,10 +249,8 @@
 		transition: background-image 0.2s ease-in-out;
 	}
 
-	body p,
-	ul,
-	li {
-		font-size: 1.1em;
+	body p {
+		font-size: 1.1rem;
 		font-weight: 2000;
 		font-family: phantomSans;
 	}
@@ -298,15 +306,17 @@
 
 	.container p {
 		text-indent: 0.5em;
+		font-size: 1.5rem;
 	}
 
 	#subtitle {
-		font-size: 1.1em;
+		font-size: 1.8rem;
 		margin-top: 0.5em;
 		z-index: 50;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: 'Roboto Flex';
+		font-weight: 900;
 
-		color: #4b8b20; /* Adjusted for better contrast */
+		color: #8b3520; /* Adjusted for better contrast */
 		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 	}
 
