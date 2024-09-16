@@ -252,6 +252,7 @@
 	body p {
 		font-size: 1.1rem;
 		font-weight: 2000;
+		line-height: 30px;
 		font-family: phantomSans;
 	}
 
@@ -568,7 +569,7 @@
 	.guidelines-header {
 		outline: 3px solid orange;
 		font-size: 1.2em;
-		color: #6a5acd;
+		color: #b65acd;
 		background-color: #2a3b4c;
 		border-radius: 0.5rem;
 		grid-column: span 2; /* Ensure headers span across both columns */
@@ -577,6 +578,7 @@
 	}
 
 	.guidelines-header p {
+		font-style: normal;
 		text-align: center;
 		color: #ff8c37;
 		font-size: 0.9em;
