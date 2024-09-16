@@ -138,7 +138,7 @@
 					<img src="/amongus.png" alt="Design a PCB" />
 				</div>
 				<div class="item-title">
-					<p class="item-heading">Build a unqiue & spooky board</p>
+					<h3 class="item-heading">Build a unqiue & spooky board</h3>
 					<p class="item-text">Design a PCB with a Halloween theme or a spooky twist</p>
 				</div>
 			</div>
@@ -148,7 +148,7 @@
 					<Gallery />
 				</div>
 				<div class="item-title">
-					<p class="item-heading">Vote for your favoriate design in the Project Gallery</p>
+					<h3 class="item-heading">Vote for your favoriate design in the Project Gallery</h3>
 					<p class="item-text">
 						Participate in our showcase gallery and see what everyone has made!
 					</p>
@@ -160,7 +160,7 @@
 					<img src="/OnBoard_holographic_sticker.png" alt="Spooky Stickers" />
 				</div>
 				<div class="item-title">
-					<p class="item-heading">We ship spook-tacular stickers & electronics parts</p>
+					<h3 class="item-heading">We ship spook-tacular stickers & electronics parts</h3>
 					<p class="item-text">
 						Collect limited-edition Halloween-themed PCB stickers! Get a 100$ electronics grant.
 					</p>
@@ -272,11 +272,10 @@
 		width: 100%;
 		height: 100%;
 		z-index: 1;
-		background-image: url('/background-fall.jpg');
+		background-image: url('/background-fall.png');
 		background-blend-mode: darken;
 		background-blend-mode: color;
 		background-repeat: no-repeat;
-		background: url('/background-fall.jpg');
 		opacity: 80%;
 		background-size: cover;
 		filter: blur(8px);
@@ -305,13 +304,11 @@
 		margin: 0;
 		font-family: 'Poppins', sans-serif;
 		display: grid;
-		max-height: 55vh;
 		gap: 1rem;
 		padding: 1rem;
 		background-image: linear-gradient(to bottom, rgba(240, 112, 33, 0.7), rgba(241, 190, 15, 0.7));
 		border-radius: 10px;
 	}
-
 	@media (min-width: 800px) {
 		.grid-steps {
 			grid-template-columns: repeat(4, 1fr);
@@ -357,18 +354,17 @@
 	}
 
 	.step-number {
-		background-color: #ff4500;
-		color: white;
-		padding: 0.4rem;
+		background-color: #533e35;
+		opacity: 0.9;
+		padding: 0.3rem;
 		border-radius: 50%;
-		width: 35px;
-		height: 35px;
+		width: 30px;
+		height: 30px;
 		display: inline-block;
 		text-align: center;
 		font-size: 1.1em;
-		flex-shrink: 1;
 		animation: bounce 1s infinite alternate;
-		line-height: 35px;
+		transform: translateY(-10px);
 	}
 
 	.model-container {
@@ -395,7 +391,7 @@
 		text-align: center;
 		padding-top: 2vh;
 
-		font-size: 1.4rem; /* Adjust as needed */
+		font-size: 1.3rem; /* Adjust as needed */
 		font-weight: bold;
 		margin: 0 auto;
 		color: #ff6347; /* or your preferred color */
@@ -509,7 +505,6 @@
 		max-width: 100%; /* Ensure it doesn't exceed the viewport width */
 		background-color: rgba(255, 255, 255, 0.1);
 		border-radius: 10px;
-		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 		gap: 2.2rem;
 		padding: 1rem;
 		text-align: center;

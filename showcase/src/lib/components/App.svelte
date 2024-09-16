@@ -11,7 +11,8 @@
 
 <style>
 	div {
-		max-width: auto;
+		max-width: 100%;
+		width: 270px;
 		height: 100%;
 		object-fit: scale-down;
 		align-content: center;

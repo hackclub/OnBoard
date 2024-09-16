@@ -19,10 +19,16 @@
 	// Select three random stickers
 	const stickersToDisplay = getRandomStickers(allStickers, 3);
 
-	// Initialize sticker positions with random values, moving state, and wiggling state
-	let positions = stickersToDisplay.map(() => ({
-		left: 0, // Default to 0 for SSR, will be updated on the client side
-		top: 0,  // Default to 0 for SSR
+	// Fixed positions for the stickers
+	const fixedPositions = [
+		{ left: 1500, top: 120 },
+		{ left: 1500, top: 330 },
+		{ left: 1500, top: 500 }
+	];
+
+	// Initialize sticker positions with fixed values
+	let positions = stickersToDisplay.map((_, index) => ({
+		...fixedPositions[index],
 		moving: false,
 		wiggling: false,
 		wiggleTimeout: undefined as number | undefined,
@@ -32,17 +38,6 @@
 
 	// Run this code only in the browser (after component mounts)
 	onMount(() => {
-		// Update positions with random values after component is mounted
-		positions = stickersToDisplay.map(() => ({
-			left: Math.random() * window.innerWidth * 0.8,
-			top: Math.random() * window.innerHeight * 0.8,
-			moving: false,
-			wiggling: false,
-			wiggleTimeout: undefined,
-			startX: 0,
-			startY: 0
-		}));
-
 		// Start the wiggle cycle for each sticker initially
 		positions.forEach((_, index) => scheduleNextWiggle(index));
 	});
@@ -59,7 +54,7 @@
 		sticker.wiggleTimeout = window.setTimeout(() => {
 			sticker.wiggling = false;
 			scheduleNextWiggle(index); // Schedule the next wiggle after a few seconds
-		}, 5000); // Wiggle for 3 seconds
+		}, 3000); // Wiggle for 3 seconds
 	}
 
 	// Schedule the next wiggle after a delay (e.g., 5 seconds)
@@ -69,7 +64,7 @@
 			if (!positions[index].moving) {
 				startWiggle(index);
 			}
-		}, 10000); // Start wiggling again after 5 seconds
+		}, 5000); // Start wiggling again after 5 seconds
 	}
 
 	function onMouseDown(index: number, e: MouseEvent): void {
@@ -98,7 +93,6 @@
 		scheduleNextWiggle(index); // Restart the wiggle timer when movement stops
 	}
 </script>
-
 
 <!-- Register global mouseup and mousemove events for dragging -->
 <svelte:window on:mouseup={() => positions.forEach((_, i) => onMouseUp(i))} on:mousemove={onMouseMove} />
