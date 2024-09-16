@@ -11,8 +11,9 @@
 
 <style>
 	div {
-		max-width: 100%;
-		min-height: 100%;
-		object-fit: contain;
+		max-width: auto;
+		height: 100%;
+		object-fit: scale-down;
+		align-content: center;
 	}
 </style>
