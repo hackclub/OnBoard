@@ -164,7 +164,13 @@
 					<div class="model-container">
 						<img src="/pico.png" alt="Prizes" />
 					</div>
-					<h1 class="item-title">Win hardware, tools and components</h1>
+					<div class="item-title">
+						<p class="item-heading">Get grants for the top projects to be built.</p>
+						<p class="item-text">
+							Winners will receive a $100 grant to fund their PCB fabrication, component purchases,
+							or tools.
+						</p>
+					</div>
 				</div>
 				<div class="item-step hoverable">
 					<div class="step-number">4</div>
@@ -180,35 +186,28 @@
 			<h3 class="catagory-title">FAQ</h3>
 			<div class="guidelines">
 				<div class="guidelines-header">
-					<h4>What is OnBoard?</h4>
+					<h4>Does it have to be Halloween themed?</h4>
 					<p>
-						OnBoard is a grant program that provides funding for PCB projects. We're excited to
-						celebrate Halloween with a special showcase event this September!
+						Whether it's spooky, funny, or completely unrelated to Halloween, your project is
+						welcome!
 					</p>
 				</div>
 				<div class="guidelines-header">
-					<h4>How can I participate?</h4>
+					<h4>How does the top project get selected?</h4>
 					<p>
-						To participate, design and submit a PCB with a Halloween theme. Once we have at least 50
-						entries, all participants will receive stickers. Top contenders will receive a $100 USD
-						grant.
-					</p>
-				</div>
-
-				<div class="guidelines-header">
-					<h4>When is the deadline?</h4>
-					<p>
-						The deadline for submissions is September 30th, 2021. Be sure to submit your project by
-						then to be eligible for rewards!
+						Peer voting! Make your project appealing to others. Creativity, innovation, and
+						presentation are key.
 					</p>
 				</div>
 
 				<div class="guidelines-header">
-					<h4>How do I submit my project?</h4>
-					<p>
-						Stay tuned for the submission form, which will be available soon. Once the form is live,
-						you can submit your project and enter the showcase event.
-					</p>
+					<h4>How do we get stickers?</h4>
+					<p>If there are 50+ submissions, we'll send stickers to every participant!</p>
+				</div>
+
+				<div class="guidelines-header">
+					<h4>What about the OnBoard grant?</h4>
+					<p>You can apply for the OnBoard grant after the event. Stay tuned for details.</p>
 				</div>
 			</div>
 		</div>
@@ -226,6 +225,16 @@
 		src: url('/fonts/PhantomSans-Regular.ttf') format('truetype');
 	}
 
+	@font-face {
+		font-family: 'Roboto Flex';
+		src:
+			url('https://pixelambacht.nl/remote/RobotoFlex[slnt,wdth,wght,opsz].woff2')
+				format('woff2 supports variations'),
+			url('https://pixelambacht.nl/remote/RobotoFlex[slnt,wdth,wght,opsz].woff2')
+				format('woff2-variations');
+		font-weight: 100 1000;
+	}
+
 	body {
 		color: #ff8c37;
 		margin: 0;
@@ -240,11 +249,10 @@
 		transition: background-image 0.2s ease-in-out;
 	}
 
-	body p,
-	ul,
-	li {
-		font-size: 1.1em;
+	body p {
+		font-size: 1.1rem;
 		font-weight: 2000;
+		line-height: 30px;
 		font-family: phantomSans;
 	}
 
@@ -299,24 +307,26 @@
 
 	.container p {
 		text-indent: 0.5em;
+		font-size: 1.5rem;
 	}
 
 	#subtitle {
-		color: white;
-		font-size: 1.1em;
+		font-size: 1.8rem;
 		margin-top: 0.5em;
 		z-index: 50;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: 'Roboto Flex';
+		font-weight: 900;
 
-		color: rgb(75, 184, 32);
+		color: #8b3520; /* Adjusted for better contrast */
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 	}
 
 	.grid-steps {
 		font-family: 'Poppins', sans-serif;
 		display: grid;
-		gap: 1em; /* Smaller gap for mobile */
+		gap: 1em;
 		padding: 1em;
-		background-image: linear-gradient(to bottom, #f07021, #f1be0f);
+		background-image: linear-gradient(to bottom, rgba(240, 112, 33, 0.7), rgba(241, 190, 15, 0.7));
 		border-radius: 10px;
 		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 	}
@@ -343,9 +353,9 @@
 	}
 
 	.item-step {
-		background-image: linear-gradient(to bottom, #f18847, #f5ce4e);
+		background-image: linear-gradient(to bottom, rgba(241, 136, 71, 0.8), rgba(245, 206, 78, 0.8));
 		border-radius: 10px;
-		padding: 1.5em;
+		padding-inline: 1.5em;
 		text-align: center;
 		position: relative;
 		transition: transform 0.3s ease;
@@ -353,7 +363,6 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between; /* Space items properly */
-
 		align-items: center;
 	}
 
@@ -384,13 +393,14 @@
 	.model-container {
 		position: relative;
 		aspect-ratio: 1;
-		max-width: 90%;
+		max-width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		flex-shrink: 1;
 		text-align: center;
+		transform: translateY(1.1em);
 	}
 
 	.model-container p1 {
@@ -407,7 +417,7 @@
 	.item-title {
 		font-weight: 700;
 		font-size: 1.3em;
-		color: #ff6347;
+		color: #333;
 		text-shadow: 0.1px 0 0.1px #bb774a;
 	}
 
@@ -429,7 +439,7 @@
 		max-width: 100%;
 		height: auto;
 		object-fit: contain;
-		border-radius: 25px;
+		border-radius: 15px;
 	}
 
 	img {
@@ -559,7 +569,7 @@
 	.guidelines-header {
 		outline: 3px solid orange;
 		font-size: 1.2em;
-		color: #6a5acd;
+		color: #b65acd;
 		background-color: #2a3b4c;
 		border-radius: 0.5rem;
 		grid-column: span 2; /* Ensure headers span across both columns */
@@ -568,6 +578,7 @@
 	}
 
 	.guidelines-header p {
+		font-style: normal;
 		text-align: center;
 		color: #ff8c37;
 		font-size: 0.9em;
