@@ -96,7 +96,7 @@
 			on:keydown={(e) => e.key === 'Enter' && handleClick()}
 			style="pointer-events: {isDisabled ? 'none' : 'auto'}"
 		>
-			<h3>ENTER YOUR DESIGN</h3>
+			<h3>Submit your creation</h3>
 		</a>
 
 		{#each randomItems as item}
@@ -300,15 +300,16 @@
 
 	#title {
 		z-index: 50;
-		max-width: 500px;
+		max-width: 550px;
 		min-width: 10px;
 		padding-bottom: 1rem;
 		margin: 0.4rem;
 	}
 
 	#title h2 {
-		font-size: 1.2rem;
-		font-weight: 200;
+		font-family: 'New Amsterdam';
+		font-size: 1.1rem;
+		font-weight: 400;
 		padding-top: 0;
 		margin-top: 0;
 		font-weight: 700;
@@ -493,7 +494,9 @@
 	}
 
 	#form-link h3 {
-		font-weight: 900;
+		font-weight: bold;
+		font-family: 'phantomSans';
+		font-style: normal;
 	}
 
 	#form-link:hover {
