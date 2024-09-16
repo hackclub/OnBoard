@@ -21,7 +21,7 @@
 
 	// Fixed positions for the stickers
 	const fixedPositions = [
-		{ left: 1500, top: 120 },
+		{ left: 1500, top: 170 },
 		{ left: 1500, top: 330 },
 		{ left: 1500, top: 500 }
 	];

@@ -75,7 +75,8 @@
 	<div class="banner">
 		<!-- svelte-ignore a11y-distracting-elements -->
 		<marquee>
-			<p1>oooo second grant, how cool is that eh?</p1>
+			<span>oooo second grant, how cool is that eh?</span>
+			<span>woah unrestricted access to purchase parts from wherever</span>
 		</marquee>
 	</div>
 
@@ -83,7 +84,8 @@
 		<div class="header-background"></div>
 		<img src="/orpeheus.png" alt="Showcase Logo" class="logo" />
 		<div id="title">
-			<h2>OnBoard's Month Showcase</h2>
+			<img src="/title.png" alt="Trick or Trace" />
+			<h2>Design a PCB this September, vote on the best designs, and get a second grant</h2>
 		</div>
 		<a
 			id="form-link"
@@ -94,8 +96,7 @@
 			on:keydown={(e) => e.key === 'Enter' && handleClick()}
 			style="pointer-events: {isDisabled ? 'none' : 'auto'}"
 		>
-			Submit your project
-			<span class="coming-soon">Coming Soon</span>
+			<h3>ENTER YOUR DESIGN</h3>
 		</a>
 
 		{#each randomItems as item}
@@ -109,20 +110,17 @@
 	</header>
 
 	<main id="content">
-		<h2>How to enter your PCB</h2>
-		<p>
-			This September, we're kicking off Halloween festivities early with OnBoard! Whether you've
-			already received an OnBoard grant or are simply seeking inspiration, this is your chance to
-			innovate and showcase your skills.
-		</p>
-
 		<p>
 			Ready? Design a unique PCB, either with or without a spooky twist, and create a pull request
-			to the <a href="https://github.com/hackclub/OnBoard">GitHub Repository</a>.
+			to the <a
+				href="https://github.com/hackclub/OnBoard"
+				style="color: #ff8c37; text-decoration: underline;">GitHub Repository</a
+			>. Draw inspiration from Halloween themes, costumes, and common haunted house props and see
+			how you can incorporate them into your PCB.
 		</p>
 
 		<p>
-			All approved particiapnts will recieves a limited-edition sticker kit. Top contenders will be
+			Approved participants will recieves a limited-edition sticker kit. Top contenders will be
 			awarded a $100 USD grant that can be used for PCB fabrication, component purchases (including
 			LCSC & Amazon), or tools—just in time for Halloween!
 		</p>
@@ -145,7 +143,7 @@
 			<div class="item-step hoverable">
 				<div class="step-number">2</div>
 				<div class="model-container">
-					<Gallery />
+					<img src="/gallery.png" alt="Check out the OnBoard Gallery!" />
 				</div>
 				<div class="item-title">
 					<h3 class="item-heading">Vote for your favoriate design in the Project Gallery</h3>
@@ -172,25 +170,32 @@
 			<div class="guidelines-header">
 				<h3>Does it have to be Halloween themed?</h3>
 				<p>
-					Whether it's spooky, funny, or completely unrelated to Halloween, your project is welcome!
+					Whether it's spooky, funny, or completely unrelated to Halloween, your
+					project&nbsp;is&nbsp;welcome!
 				</p>
 			</div>
 			<div class="guidelines-header">
 				<h3>How does the top project get selected?</h3>
 				<p>
-					Peer voting! Make your project appealing to others. Creativity, innovation, and
-					presentation are key.
+					Peer voting! Make your project appealing to others. Creativity, innovation,&nbsp;and
+					presentation&nbsp;are&nbsp;key.
 				</p>
 			</div>
 
 			<div class="guidelines-header">
 				<h3>How do we get stickers?</h3>
-				<p>If there are 50+ submissions, we'll send stickers to every participant!</p>
+				<p>
+					Once there's 50 submissions, we'll send stickers
+					to&nbsp;every&nbsp;approved&nbsp;participant!
+				</p>
 			</div>
 
 			<div class="guidelines-header">
 				<h3>What about the OnBoard grant?</h3>
-				<p>You can apply for the OnBoard grant after the event. Stay tuned for details.</p>
+				<p>
+					You can apply for the OnBoard grant if you haven't got it already, but you can't use it on
+					the same PCB as for Trace or Trick. Stay tuned for details.
+				</p>
 			</div>
 		</div>
 	</main>
@@ -222,7 +227,6 @@
 		background-image: url('/what-the-hex-background.png');
 		background-blend-mode: lighten;
 		overflow-x: hidden;
-		font-size: 1.2em;
 		margin: 0;
 
 		-webkit-transition: background-image 0.2s ease-in-out;
@@ -244,7 +248,6 @@
 	body h3 {
 		color: #7b69f0;
 		font-size: 1.6rem;
-		margin-top: 0.5em;
 		text-align: center;
 		font-style: italic;
 	}
@@ -296,8 +299,21 @@
 	}
 
 	#title {
-		margin-top: 0.5em;
 		z-index: 50;
+		max-width: 500px;
+		min-width: 10px;
+		padding-bottom: 1rem;
+		margin: 0.4rem;
+	}
+
+	#title h2 {
+		font-size: 1.2rem;
+		font-weight: 200;
+		padding-top: 0;
+		margin-top: 0;
+		font-weight: 700;
+		color: #ff8c37;
+		margin-bottom: 0.4rem;
 	}
 
 	.grid-steps {
@@ -345,7 +361,7 @@
 	}
 
 	#content {
-		margin: 2%;
+		margin: 4%;
 		margin-inline: 12%;
 	}
 
@@ -378,13 +394,13 @@
 		max-height: 100%;
 		align-content: center;
 		border-radius: 12px;
+		opacity: 95%;
 	}
 
 	.item-title {
 		font-weight: 700;
 		font-size: 1.3em;
 		color: #333;
-		text-shadow: 0.1px 0 0.1px #bb774a;
 	}
 
 	.item-heading {
@@ -394,15 +410,15 @@
 		font-size: 1.3rem; /* Adjust as needed */
 		font-weight: bold;
 		margin: 0 auto;
-		color: #ff6347; /* or your preferred color */
+
+		color: #7b69f0;
+		text-align: center;
 	}
 
 	.item-text {
 		text-align: center;
-
-		font-size: 1rem;
-		font-weight: 600;
-		color: #747f81;
+		font-size: 0.9rem;
+		color: #6b5bd4;
 	}
 
 	img {
@@ -410,15 +426,6 @@
 		height: auto; /* Maintain aspect ratio */
 	}
 
-	@media (max-width: 600px) {
-		body {
-			font-size: 1em; /* Adjust base font size */
-		}
-
-		.item-title {
-			font-size: 1.1em;
-		}
-	}
 	footer {
 		margin: 0;
 		line-height: normal;
@@ -448,6 +455,8 @@
 		color: #ca6666;
 		font-family: 'Roboto Flex';
 		font-weight: 800;
+		display: flex;
+		justify-content: space-between;
 	}
 
 	.random-electronics {
@@ -471,31 +480,24 @@
 		}
 	}
 	#form-link {
-		margin: 1rem;
-		padding: 0.5em 0.8em; /* Reduced padding for smaller devices */
+		padding: 0.3rem 0.8em; /* Reduced padding for smaller devices */
 		background: #d3d3d3;
+		margin-top: 0;
 		border-radius: 0.5em;
-		color: #fff;
-		font-weight: 650;
-		text-decoration: none;
 		opacity: 0.7;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 		z-index: 5;
 		max-width: 100%; /* Allow full width on mobile */
 		max-height: 9.2vh; /* Slightly reduced height */
 		font-size: 2.9vh; /* Smaller text for mobile */
+		text-align: center;
+	}
+
+	#form-link h3 {
+		font-weight: 900;
 	}
 
 	#form-link:hover {
-		background: #d3d3d3; /* Keep it greyed out */
-	}
-
-	#form-link span.coming-soon {
-		font-size: 0.8em; /* Slightly smaller font */
-		color: #6a6a6a;
-		margin-top: 0.3em;
+		background: #bbbaba; /* Keep it greyed out */
 	}
 
 	.guidelines {
@@ -505,8 +507,8 @@
 		max-width: 100%; /* Ensure it doesn't exceed the viewport width */
 		background-color: rgba(255, 255, 255, 0.1);
 		border-radius: 10px;
-		gap: 2.2rem;
-		padding: 1rem;
+		gap: 5.2rem;
+		padding: 2rem;
 		text-align: center;
 		align-items: center;
 		justify-content: center;
@@ -514,15 +516,23 @@
 	}
 
 	.guidelines-header {
+		height: 100%;
 		outline: 3px solid orange;
 		font-size: 1.3rem;
 		background-color: #2a3b4c;
 		border-radius: 0.5rem;
 		grid-column: span 2; /* Ensure headers span across both columns */
-		padding: 0.7rem;
+		align-items: center;
+		padding: 0.2rem;
+	}
+
+	.guidelines-header h3 {
+		font-size: 1.6rem;
+		padding: 0.2rem;
 	}
 
 	.guidelines-header p {
+		height: auto;
 		text-align: center;
 	}
 
