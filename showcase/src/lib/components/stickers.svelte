@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+
 	// Import all stickers and assert type to string[]
 	const allStickers: string[] = Object.values(
 		import.meta.glob('$lib/assets/stickers/*.{png,jpg,jpeg,PNG,JPEG}', {
@@ -17,14 +19,53 @@
 	// Select three random stickers
 	const stickersToDisplay = getRandomStickers(allStickers, 3);
 
-	// Initialize sticker positions with random values
-	let positions = stickersToDisplay.map(() => ({
-		left: typeof window !== 'undefined' ? Math.random() * window.innerWidth * 0.8 : 0, // Random position within 80% of the viewport width
-		top: typeof window !== 'undefined' ? Math.random() * window.innerHeight * 0.8 : 0, // Random position within 80% of the viewport height
+	// Fixed positions for the stickers
+	const fixedPositions = [
+		{ left: 1500, top: 170 },
+		{ left: 1500, top: 330 },
+		{ left: 1500, top: 500 }
+	];
+
+	// Initialize sticker positions with fixed values
+	let positions = stickersToDisplay.map((_, index) => ({
+		...fixedPositions[index],
 		moving: false,
+		wiggling: false,
+		wiggleTimeout: undefined as number | undefined,
 		startX: 0,
 		startY: 0
 	}));
+
+	// Run this code only in the browser (after component mounts)
+	onMount(() => {
+		// Start the wiggle cycle for each sticker initially
+		positions.forEach((_, index) => scheduleNextWiggle(index));
+	});
+
+	// Wiggle function that starts and stops the wiggle for each sticker
+	function startWiggle(index: number) {
+		const sticker = positions[index];
+
+		// Set wiggling to true and then stop after 3 seconds
+		sticker.wiggling = true;
+		if (sticker.wiggleTimeout !== undefined) {
+			clearTimeout(sticker.wiggleTimeout); // Clear any existing timeout
+		}
+		sticker.wiggleTimeout = window.setTimeout(() => {
+			sticker.wiggling = false;
+			scheduleNextWiggle(index); // Schedule the next wiggle after a few seconds
+		}, 3000); // Wiggle for 3 seconds
+	}
+
+	// Schedule the next wiggle after a delay (e.g., 5 seconds)
+	function scheduleNextWiggle(index: number) {
+		window.setTimeout(() => {
+			// Only start the wiggle if the sticker is not moving
+			if (!positions[index].moving) {
+				startWiggle(index);
+			}
+		}, 5000); // Start wiggling again after 5 seconds
+	}
 
 	function onMouseDown(index: number, e: MouseEvent): void {
 		const sticker = positions[index];
@@ -46,15 +87,15 @@
 		});
 	}
 
-	function onMouseUp(): void {
-		positions = positions.map((sticker) => ({
-			...sticker,
-			moving: false
-		}));
+	function onMouseUp(index: number): void {
+		// Set the moving flag to false for the specific sticker being dragged
+		positions[index].moving = false;
+		scheduleNextWiggle(index); // Restart the wiggle timer when movement stops
 	}
 </script>
 
-<svelte:window on:mouseup={onMouseUp} on:mousemove={onMouseMove} />
+<!-- Register global mouseup and mousemove events for dragging -->
+<svelte:window on:mouseup={() => positions.forEach((_, i) => onMouseUp(i))} on:mousemove={onMouseMove} />
 
 <div class="stickers-container">
 	{#each stickersToDisplay as sticker, index}
@@ -62,7 +103,7 @@
 		<section
 			on:mousedown={(e) => onMouseDown(index, e)}
 			style="left: {positions[index].left}px; top: {positions[index].top}px;"
-			class="sticker {positions[index].moving ? 'moving' : ''}"
+			class="sticker {positions[index].moving ? 'moving' : ''} {positions[index].wiggling ? 'wiggling' : ''}"
 		>
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img src={sticker} unselectable="on" />
@@ -82,22 +123,19 @@
 		width: 100%;
 		height: 100%;
 		top: 50%;
+		cursor: pointer;
 	}
 
 	.sticker {
 		position: absolute;
-		top: 500px;
-		left: 1000px;
-		width: 5vw; /* Fixed width relative to viewport width */
+		width: 4vw; /* Fixed width relative to viewport width */
 		height: auto; /* Maintain aspect ratio */
 		box-sizing: border-box;
 		margin: 0;
 		z-index: 2;
 		user-select: none;
-		transition:
-			transform 0.3s ease,
-			filter 0.3s ease;
-		opacity: 0.6;
+		transition: transform 0.3s ease, filter 0.3s ease;
+		opacity: 1;
 	}
 
 	.sticker img {
@@ -109,10 +147,22 @@
 		filter: drop-shadow(0 0 0.2rem #0008);
 	}
 
+	/* Wiggle animation */
+	@keyframes wiggle {
+		0%, 100% { transform: rotate(0deg); }
+		25% { transform: rotate(2deg); }
+		50% { transform: rotate(-2deg); }
+		75% { transform: rotate(2deg); }
+	}
+
+	.wiggling {
+		animation: wiggle 0.5s ease-in-out infinite;
+	}
+
 	/* When the sticker is being moved, scale it up and enhance the drop shadow */
 	.moving {
 		transform: scale(1.2); /* Scale the container up */
-		opacity: 1;
+		opacity: 0.6;
 	}
 
 	.moving img {
