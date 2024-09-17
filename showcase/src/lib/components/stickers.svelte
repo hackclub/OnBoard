@@ -128,7 +128,7 @@
 
 	.sticker {
 		position: absolute;
-		width: 5vw; /* Fixed width relative to viewport width */
+		width: 4vw; /* Fixed width relative to viewport width */
 		height: auto; /* Maintain aspect ratio */
 		box-sizing: border-box;
 		margin: 0;

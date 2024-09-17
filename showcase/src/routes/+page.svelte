@@ -97,6 +97,7 @@
 			style="pointer-events: {isDisabled ? 'none' : 'auto'}"
 		>
 			<h3>Submit your creation</h3>
+			<h4>Opens on September 28th</h4>
 		</a>
 
 		{#each randomItems as item}
@@ -122,7 +123,7 @@
 		<p>
 			Approved participants will recieves a limited-edition sticker kit. Top contenders will be
 			awarded a $100 USD grant that can be used for PCB fabrication, component purchases (including
-			LCSC & Amazon), or tools—just in time for Halloween!
+			LCSC & DigiKey), or tools—just in time for Halloween!
 		</p>
 
 		<Stickers></Stickers>
@@ -136,8 +137,8 @@
 					<img src="/amongus.png" alt="Design a PCB" />
 				</div>
 				<div class="item-title">
-					<h3 class="item-heading">Build a unqiue & spooky board</h3>
-					<p class="item-text">Design a PCB with a Halloween theme or a spooky twist</p>
+					<h3 class="item-heading">Build a unique, halloween-themed PCB before Halloween</h3>
+					<p class="item-text">Design a PCB with a Halloween theme or a unqiue scary twist.</p>
 				</div>
 			</div>
 			<div class="item-step hoverable">
@@ -194,7 +195,7 @@
 				<h3>What about the OnBoard grant?</h3>
 				<p>
 					You can apply for the OnBoard grant if you haven't got it already, but you can't use it on
-					the same PCB as for Trace or Trick. Stay tuned for details.
+					the same PCB as for Trick or Trace. Stay tuned for details.
 				</p>
 			</div>
 		</div>
@@ -234,7 +235,7 @@
 
 		font-size: 1.5rem;
 		font-weight: 2000;
-		line-height: 28px;
+		line-height: 4vh;
 		font-family: phantomSans;
 	}
 
@@ -265,7 +266,8 @@
 		align-items: center;
 		flex-direction: column;
 		text-align: center;
-		border-bottom: 2px solid #bbb;
+		border-bottom: 2px solid #5c5b5b;
+		border-radius: 5px;
 	}
 
 	.header-background {
@@ -289,6 +291,7 @@
 	.logo {
 		z-index: 10;
 		max-width: 230px;
+		max-height: 40vh;
 		min-width: 0px;
 		flex: 1;
 		border: 0;
@@ -307,18 +310,25 @@
 	}
 
 	#title h2 {
-		font-family: 'New Amsterdam';
-		font-size: 1.1rem;
-		font-weight: 400;
+		font-size: 1.2rem;
+		width: 80%;
+		font-weight: 300;
+		text-align: center;
+		margin: auto;
 		padding-top: 0;
 		margin-top: 0;
 		font-weight: 700;
 		color: #ff8c37;
 		margin-bottom: 0.4rem;
+
+		display: -webkit-box;
+		line-clamp: 2;
+		-webkit-box-orient: vertical;
 	}
 
 	.grid-steps {
 		margin: 0;
+		margin-top: auto;
 		font-family: 'Poppins', sans-serif;
 		display: grid;
 		gap: 1rem;
@@ -407,17 +417,22 @@
 	.item-heading {
 		text-align: center;
 		padding-top: 2vh;
+		padding-left: 1.5rem;
 
-		font-size: 1.3rem; /* Adjust as needed */
+		font-size: 1.2rem; /* Adjust as needed */
 		font-weight: bold;
-		margin: 0 auto;
+		line-height: 23px;
+		height: fit-content;
 
 		color: #7b69f0;
 		text-align: center;
+		text-wrap: stable;
+		margin: auto;
 	}
 
 	.item-text {
 		text-align: center;
+		line-height: 22px;
 		font-size: 0.9rem;
 		color: #6b5bd4;
 	}
@@ -481,26 +496,36 @@
 		}
 	}
 	#form-link {
-		padding: 0.3rem 0.8em; /* Reduced padding for smaller devices */
-		background: #d3d3d3;
+		padding: 1.4rem 0.8em; /* Reduced padding for smaller devices */
+		background: #b3b3b3;
 		margin-top: 0;
 		border-radius: 0.5em;
-		opacity: 0.7;
 		z-index: 5;
 		max-width: 100%; /* Allow full width on mobile */
-		max-height: 9.2vh; /* Slightly reduced height */
-		font-size: 2.9vh; /* Smaller text for mobile */
+		max-height: 10.2vh; /* Slightly reduced height */
+		font-size: 2.3vh; /* Smaller text for mobile */
 		text-align: center;
 	}
 
 	#form-link h3 {
+		margin: 0;
 		font-weight: bold;
 		font-family: 'phantomSans';
 		font-style: normal;
 	}
 
+	#form-link h4 {
+		margin: 0;
+		font-weight: bold;
+		font-family: 'phantomSans';
+		font-style: normal;
+		font-size: 18px;
+		text-decoration: wavy;
+	}
+
 	#form-link:hover {
 		background: #bbbaba; /* Keep it greyed out */
+		transition: 200ms;
 	}
 
 	.guidelines {
