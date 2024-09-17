@@ -1,13 +1,13 @@
 ---
 name: "Souptik Samanta"
 slack_handle: "@Souptik Samanta"
-github_handle: "@Souptik Samanta
+github_handle: "@Souptik-Samanta
 "
-tutorial: # Link to the tutorial if you used one
+tutorial: # no
 ---
-nfc business card pcb 
+Made a hacker card 
 
-i made a nfc business card 
+Made a hacker card 
 
-less than a 100$
+less than a 50$
 
