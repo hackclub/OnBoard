@@ -8,6 +8,7 @@ This is the list of approved vendors that the HCB grant cards can be used on. To
 - [PCBgogo](https://www.pcbgogo.com): Cheaper shipping for UK via Hong Kong post + $50 coupon for first time users.
 - [Aisler](https://aisler.net): A EU-based vendor with green PCBs. Pricing per square centimeter. Similar price as other vendors, but faster shipping to EU countries.
 - [PCBPower](https://pcbpower.com/): An India PCB Manufacturing company. Better shipping costs and no customs for Indian residents.
+- [PCBWay](https://pcbway.com/): A higher quality chinese PCB manufacterer with larger part availability for assembly.
 
 > Keep in mind that some international vendors will place an additional customs surcharge after purchasing. JLCPCB generally covers this in their additional fees breakdown (they don't cover customs in India). It's on you to check before ordering because the grant can't cover additional charges like customs.
 
