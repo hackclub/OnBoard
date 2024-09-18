@@ -4,6 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
+		"dev:host": "vite dev --host",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -14,21 +15,21 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.2.4",
 		"@sveltejs/adapter-cloudflare": "^4.7.2",
-		"@sveltejs/kit": "^2.5.26",
+		"@sveltejs/kit": "^2.5.27",
 		"@sveltejs/vite-plugin-svelte": "^3.1.2",
 		"@types/eslint": "^9.6.1",
 		"@types/three": "^0.168.0",
 		"eslint": "^9.10.0",
 		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-svelte": "^2.43.0",
+		"eslint-plugin-svelte": "^2.44.0",
 		"globals": "^15.9.0",
 		"prettier": "^3.3.3",
 		"prettier-plugin-svelte": "^3.2.6",
 		"svelte": "^4.2.19",
 		"svelte-check": "^3.8.6",
-		"typescript": "^5.5.4",
-		"typescript-eslint": "^8.4.0",
-		"vite": "^5.4.3"
+		"typescript": "^5.6.2",
+		"typescript-eslint": "^8.5.0",
+		"vite": "^5.4.5"
 	},
 	"prepare": "svelte-kit sync",
 	"type": "module",
@@ -37,7 +38,7 @@
 		"@threlte/core": "^7.3.1",
 		"@threlte/extras": "^8.11.5",
 		"@threlte/flex": "^1.0.3",
-		"three": "^0.167.0",
+		"three": "^0.167.1",
 		"vite-multiple-assets": "^1.3.1"
 	}
 }
