@@ -10,6 +10,6 @@ tutorial: # Link to the tutorial if you used one
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 This is my first PCB which I am made using the tutorial  of Maggie Lui
 <!-- How much is it going to cost? -->
-Acc. to Jlpcb its 50$ but will order from pcb power which is quite chep.
+Acc. to Jlpcb its 49.16$ 
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
