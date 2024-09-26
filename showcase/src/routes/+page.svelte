@@ -2,7 +2,7 @@
 	import Gallery from '$lib/components/App.svelte'; // 3d model of a PCB
 	import { onMount } from 'svelte';
 	import Stickers from '$lib/components/stickers.svelte';
-
+ 
 	interface RandomItem {
 		part: string;
 		x: number;
