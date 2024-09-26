@@ -10,7 +10,7 @@
 	}
 
 	let randomParts: string[] = Object.values(
-		import.meta.glob('$lib/assets/*.{png,jpg,jpeg,PNG,JPEG}', {
+		import.meta.glob('$lib/assets/parts/*.{png,jpg,jpeg,PNG,JPEG}', {
 			eager: true,
 			query: '?url',
 			import: 'default'
@@ -69,7 +69,6 @@
 			console.log('Redirecting to form...');
 		}
 	}
-
 </script>
 
 <body>
@@ -82,7 +81,6 @@
 	</div>
 
 	<header bind:this={randomPartsContainer}>
-		<script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
 		<div class="header-background"></div>
 		<img src="/orpeheus.png" alt="Showcase Logo" class="logo" />
 		<div id="title">
@@ -113,7 +111,7 @@
 	</header>
 
 	<main id="content">
-		<zero-md src="/README.md">
+		<zero-md src="README.md">
 			<template>
 				<style>
 					zero-md {
@@ -493,7 +491,7 @@
 		}
 	}
 	#form-link {
-		padding: 1.0rem 1.7rem; /* Reduced padding for smaller devices */
+		padding: 1rem 1.7rem; /* Reduced padding for smaller devices */
 		background: #b3b3b3;
 		margin-top: 0;
 		border-radius: 0.5em;
