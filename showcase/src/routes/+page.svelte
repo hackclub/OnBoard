@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Gallery from '$lib/components/App.svelte';
+	import Gallery from '$lib/components/App.svelte'; // 3d model of a PCB
 	import { onMount } from 'svelte';
 	import Stickers from '$lib/components/stickers.svelte';
 
@@ -69,6 +69,7 @@
 			console.log('Redirecting to form...');
 		}
 	}
+
 </script>
 
 <body>
@@ -81,6 +82,7 @@
 	</div>
 
 	<header bind:this={randomPartsContainer}>
+		<script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
 		<div class="header-background"></div>
 		<img src="/orpeheus.png" alt="Showcase Logo" class="logo" />
 		<div id="title">
@@ -111,20 +113,15 @@
 	</header>
 
 	<main id="content">
-		<p>
-			Ready? Design a unique PCB, either with or without a spooky twist, and create a pull request
-			to the <a
-				href="https://github.com/hackclub/OnBoard"
-				style="color: #ff8c37; text-decoration: underline;">GitHub Repository</a
-			>. Draw inspiration from Halloween themes, costumes, and common haunted house props and see
-			how you can incorporate them into your PCB.
-		</p>
-
-		<p>
-			Approved participants will recieves a limited-edition sticker kit. Top contenders will be
-			awarded a $100 USD grant that can be used for PCB fabrication, component purchases (including
-			LCSC & DigiKey), or tools—just in time for Halloween!
-		</p>
+		<zero-md src="/README.md">
+			<template>
+				<style>
+					zero-md {
+						color: #ff8c37;
+					}
+				</style>
+			</template>
+		</zero-md>
 
 		<Stickers></Stickers>
 
@@ -496,7 +493,7 @@
 		}
 	}
 	#form-link {
-		padding: 1.4rem 0.8em; /* Reduced padding for smaller devices */
+		padding: 1.0rem 1.7rem; /* Reduced padding for smaller devices */
 		background: #b3b3b3;
 		margin-top: 0;
 		border-radius: 0.5em;
@@ -515,12 +512,12 @@
 	}
 
 	#form-link h4 {
-		margin: 0;
-		font-weight: bold;
+		margin: 0.05rem;
+		font-weight: 1000;
 		font-family: 'phantomSans';
 		font-style: normal;
-		font-size: 18px;
-		text-decoration: wavy;
+		font-size: 19px;
+		text-decoration: underline;
 	}
 
 	#form-link:hover {
