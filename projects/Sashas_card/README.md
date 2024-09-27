@@ -1,9 +1,9 @@
 ---
-name: "FIRST LAST"
+name: "Sasha Grigoriev"
 slack_handle: "@Soapy"
 github_handle: "@soapy75"
 tutorial: # Link to the tutorial if you used one
-[[---](https://jams.hackclub.com/jam/hacker-card)](https://jams.hackclub.com/jam/hacker-card)
+https://jams.hackclub.com/jam/hacker-card
 
 # PCB card
 
