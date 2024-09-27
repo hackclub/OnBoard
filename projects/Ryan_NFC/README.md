@@ -2,7 +2,7 @@
 name: "Ryan Hoang"
 slack_handle: "@Ryan Hoang"
 github_handle: "@Doggedwings"
-tutorial: [# Link to the tutorial if you used one ](https://jams.hackclub.com/jam/hacker-card)
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Ryans_Card
