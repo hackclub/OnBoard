@@ -195,7 +195,7 @@
 	</main>
 
 	<footer>
-		<p>Join the event, build something amazing this Halloween season.</p>
+		<p>Join the event, build something amazing this Halloween season</p>
 		<p>Made with &lt;3 and :3 for OnBoard by Ryan Di Lorenzo</p>
 	</footer>
 </body>
@@ -323,7 +323,6 @@
 
 	.grid-steps {
 		margin: 0;
-		margin-top: auto;
 		font-family: 'Poppins', sans-serif;
 		display: grid;
 		gap: 1rem;
@@ -334,7 +333,7 @@
 	}
 
 	/* Media query for up to 3 horizontal grid boxes */
-	@media (min-width: 800px) {
+	@media (min-width: 1000px) {
 		.grid-steps {
 			grid-template-columns: repeat(3, 1fr); /* 3 boxes for larger screens */
 		}
@@ -372,7 +371,6 @@
 		height: 30px;
 		display: inline-block;
 		text-align: center;
-		font-size: 1.1em;
 		animation: bounce 1s infinite alternate;
 		transform: translateY(-10px);
 	}
@@ -399,11 +397,13 @@
 
 	.item-heading {
 		text-align: center;
-		padding-top: 2vh;
+		padding: 1.2vh;
 		font-size: clamp(1.1rem, 1.5vw + 0.5rem, 1.3rem);
 		font-weight: bold;
 		line-clamp: 2;
 		height: fit-content;
+
+		white-space: nowrap;
 
 		color: #7b69f0;
 		text-align: center;
@@ -414,7 +414,8 @@
 	.item-text {
 		text-align: center;
 		line-height: 22px;
-		font-size: 0.9rem;
+		font-size: 1rem;
+		padding-top: 0.2rem;
 		color: #6b5bd4;
 	}
 
@@ -549,7 +550,7 @@
 		margin: 0 auto; /* Center the element horizontally */
 	}
 
-	@media (min-width: 800px) {
+	@media (min-width: 900px) {
 		.guidelines {
 			grid-template-columns: repeat(4, 1fr); /* Four columns on larger screens */
 			grid-auto-rows: 1fr;
