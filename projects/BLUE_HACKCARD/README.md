@@ -1,7 +1,7 @@
 ---
 name: "Harsha Vardhan.L"
 slack_handle: "@blue_harsha"
-github_handle: "@Gblue_clouds4"
+github_handle: "@blue_clouds4"
 tutorial: # https://jams.hackclub.com/jam/hacker-card
 ---
 
