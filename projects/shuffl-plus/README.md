@@ -12,5 +12,7 @@ Shuffl+ is a personal audio player inspired by the iPod classic, unlike the iPod
 <!-- How much is it going to cost? -->
 To make 5 fully assembled PCBs without the Raspberry Pi Zero it is costing me about
 USD 65.07
+I would also need a single raspberry pi zero to test the pcbs
+which seperately costs USD 29.98
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
