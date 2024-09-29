@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Gallery from '$lib/components/App.svelte'; // 3d model of a PCB
+	// import Gallery from '$lib/components/App.svelte'; // 3d model of a PCB
 	import { onMount } from 'svelte';
 	import Stickers from '$lib/components/stickers.svelte';
 
@@ -354,8 +354,9 @@
 	}
 
 	#content {
-		margin: 4%;
-		margin-inline: 12%;
+		margin-bottom: 4%;
+		margin-top: 2%;
+		margin-inline: 15%;
 	}
 
 	.item-step:hover {
@@ -402,8 +403,6 @@
 		font-weight: bold;
 		line-clamp: 2;
 		height: fit-content;
-
-		white-space: nowrap;
 
 		color: #7b69f0;
 		text-align: center;
