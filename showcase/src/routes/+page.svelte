@@ -149,7 +149,7 @@
 				</div>
 			</div>
 			<div class="item-step hoverable">
-				<div class="step-number">4</div>
+				<div class="step-number">3</div>
 				<div class="model-container">
 					<img src="/OnBoard_holographic_sticker.png" alt="Spooky Stickers" />
 				</div>
