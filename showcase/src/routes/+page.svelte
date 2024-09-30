@@ -85,7 +85,7 @@
 		<img src="/Orpheus.png" alt="Showcase Logo" class="logo" />
 		<div id="title">
 			<img src="/title.png" alt="Trick or Trace" />
-			<h2>Design a PCB this September, vote on the best designs, get a second grant</h2>
+			<h2>Design a PCB this October, vote on the best designs, get a second grant</h2>
 		</div>
 		<a
 			id="form-link"
