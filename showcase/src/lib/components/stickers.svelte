@@ -23,7 +23,7 @@
 	const fixedPositions = [
 		{ left: 1500, top: 170 },
 		{ left: 1500, top: 330 },
-		{ left: 1500, top: 500 }
+		{ left: 1500, top: 490 }
 	];
 
 	// Initialize sticker positions with fixed values
