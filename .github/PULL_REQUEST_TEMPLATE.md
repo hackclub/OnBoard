@@ -1,10 +1,10 @@
 ## Submission Checklist:
 
 <!--To check the checkboxes, simply replace the empty space in the brackets with a captial X, like this: [ ] becomes [X]-->
+
 - [ ] I am a current high school, middle school, or home schooled student.
   - [ ] I am 18 or under
-  - [ ] I have filled out the [verification form](https://verify.onboard.hackclub.com)
-    -  *or the [legacy verification form](https://legacy.verify.onboard.hackclub.com)* 
+  - [ ] I have filled out the [verification form](https://airtable.com/app4Bs8Tjwvk5qcD4/pagxECjJZOgvKVnLd/form)
 - [ ] I have joined the [`#electronics`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel on [Slack](https://hackclub.com/slack/?event=onboard)
 - [ ] I made this board from scratch, even if I followed a tutorial
 - [ ] I have followed the directions in [README.md](https://github.com/hackclub/OnBoard/blob/main/README.md#getting-started)
