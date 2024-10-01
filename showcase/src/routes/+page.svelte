@@ -97,7 +97,7 @@
 			style="pointer-events: {isDisabled ? 'none' : 'auto'}"
 		>
 			<h3>Submit your creation</h3>
-			<h4>Opens on October 1st</h4>
+			<h4>Opens on October 4th</h4>
 		</a>
 
 		{#each randomItems as item}
@@ -154,7 +154,7 @@
 					<img src="/OnBoard_holographic_sticker.png" alt="Spooky Stickers" />
 				</div>
 				<div class="item-title">
-					<h3 class="item-heading">We ship spook-tacular stickers & electronics parts</h3>
+					<h3 class="item-heading">We ship spook-tacular stickers & funding</h3>
 					<p class="item-text">
 						Collect limited-edition Halloween-themed PCB stickers! Get a 100$ electronics grant.
 					</p>
@@ -197,12 +197,12 @@
 				</p>
 			</div>
 		</div>
-		<p class="faq-more">
+		<h3 class="faq-more">
 			See more in the <a
 				href="https://github.com/hackclub/OnBoard/blob/main/docs/faq.md"
-				style="color: #ff8c37;">OnBoard FAQ</a
+				style="color: #7b69f0;">OnBoard FAQ</a
 			>.
-		</p>
+		</h3>
 	</main>
 
 	<footer>
@@ -228,7 +228,7 @@
 	}
 
 	.faq-more {
-		color: #ff8c37;
+		color: #7b69f0;
 		text-align: center;
 		margin-bottom: 0;
 	}
