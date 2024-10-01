@@ -501,7 +501,7 @@
 			transform: scale(0.5); /* Only scale, remove the translate part */
 		}
 		50% {
-			opacity: 0.4;
+			opacity: 0.6;
 			transform: scale(1); /* Appear at full size */
 		}
 	}
