@@ -4,7 +4,7 @@ slack_handle: ken
 github_handle: ouo314
 ---
 
-# ESP32 rc car
+# Attiny rc car
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 This is a pcb for a remote control car, featuring the Attiny1616 as the main control and communication chip. 
