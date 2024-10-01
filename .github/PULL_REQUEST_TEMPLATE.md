@@ -15,7 +15,7 @@
   - [ ] Uploaded screenshot of PCB order called `cart.png` with all costs included
   - [ ] I am ordering the smallest batch size (ie. JLCPCB's smallest order is for 5 boards)
   - [ ] If outside the US I've checked that I can afford the customs charges in my country (which isn't covered by the grant)
-<br>
+
 - [ ] (Optional) This project is from a tutorial[^1].
 - [ ] (Optional) This project is for OnBoard Live[^2].
 - [ ] (Optional) This project is for [Trick or Trace](http://showcase.hackclub.com/)
