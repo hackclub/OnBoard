@@ -144,7 +144,7 @@
 				<div class="item-title">
 					<h3 class="item-heading">Vote for your favoriate design in the Project Gallery</h3>
 					<p class="item-text">
-						Participate in our showcase gallery and see what everyone has made!
+						Participate & Vote in the showcase gallery and see what everyone has made! 
 					</p>
 				</div>
 			</div>
@@ -173,7 +173,7 @@
 			<div class="guidelines-header">
 				<h3>What are the requirements for the grant?</h3>
 				<p>
-					Peer voting decides the top project. The top 15% of projects will receive a 100$ grant to
+					Peer voting decides the top project. The top 10% of projects in each catagory will receive a 100$ grant to
 					purchase parts. Everyone else will recieve the Trick or' Trace accessory kit. This is in
 					addition to the standard <a
 						href="https://github.com/hackclub/OnBoard/blob/main/.github/PULL_REQUEST_TEMPLATE.md"
