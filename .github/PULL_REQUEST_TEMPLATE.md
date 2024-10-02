@@ -18,6 +18,7 @@
 
 - [ ] (Optional) This project is from a tutorial[^1].
 - [ ] (Optional) This project is for OnBoard Live[^2].
+- [ ] (Optional) This project is for [Trick or Trace](http://showcase.hackclub.com/)
 - [ ] (Optional) I'm in a FIRST (FRC, FTC, FLL, etc.) team. The number is: ____
 
 [^1]: Projects from a tutorial are 100% fine! We just want to ask so we can count how people are using tutorials.
