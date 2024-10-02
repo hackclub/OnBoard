@@ -97,7 +97,7 @@
 			style="pointer-events: {isDisabled ? 'none' : 'auto'}"
 		>
 			<h3>Submit your creation</h3>
-			<h4>Opens on October 1st</h4>
+			<h4>Opens on October 4th</h4>
 		</a>
 
 		{#each randomItems as item}
@@ -144,7 +144,7 @@
 				<div class="item-title">
 					<h3 class="item-heading">Vote for your favoriate design in the Project Gallery</h3>
 					<p class="item-text">
-						Participate in our showcase gallery and see what everyone has made!
+						Participate & Vote in the showcase gallery and see what everyone has made! 
 					</p>
 				</div>
 			</div>
@@ -154,7 +154,7 @@
 					<img src="/OnBoard_holographic_sticker.png" alt="Spooky Stickers" />
 				</div>
 				<div class="item-title">
-					<h3 class="item-heading">We ship spook-tacular stickers & electronics parts</h3>
+					<h3 class="item-heading">We ship spook-tacular stickers & funding</h3>
 					<p class="item-text">
 						Collect limited-edition Halloween-themed PCB stickers! Get a 100$ electronics grant.
 					</p>
@@ -166,32 +166,43 @@
 			<div class="guidelines-header">
 				<h3>Does my project have to be Halloween-themed?</h3>
 				<p>
-					Not at all! Spooky, funny, or unrelated projects are all welcome. Let your creativity
-					shine and surprise us with something unique!
+					Not at all! Spooky, funny, or unrelated projects are also welcome. Just make sure it's
+					unique, creative and inspiring to others.
 				</p>
 			</div>
 			<div class="guidelines-header">
-				<h3>How is the top project selected?</h3>
+				<h3>What are the requirements for the grant?</h3>
 				<p>
-					Peer voting decides the top project. Focus on creativity, innovation, and presentation to
-					make your project stand out from the crowd!
+					Peer voting decides the top project. The top 10% of projects in each catagory will receive a 100$ grant to
+					purchase parts. Everyone else will recieve the Trick or' Trace accessory kit. This is in
+					addition to the standard <a
+						href="https://github.com/hackclub/OnBoard/blob/main/.github/PULL_REQUEST_TEMPLATE.md"
+						style="color: #ff8c37; text-decoration: underline;">OnBoard grant requirements</a
+					>.
 				</p>
 			</div>
 			<div class="guidelines-header">
-				<h3>How do I get the accessory package?</h3>
+				<h3>How do I get the accessory kit?</h3>
 				<p>
-					Once we reach 50 submissions, all approved participants will receive stickers & gadgets.
-					Just make sure your project is submitted on time!
+					Once we reach 50 submissions, all submitted project participants will receive stickers and
+					a exclusive prize. Just make sure your project is submitted on time!
 				</p>
 			</div>
 			<div class="guidelines-header">
 				<h3>What about the OnBoard grant?</h3>
 				<p>
-					You can apply for the OnBoard grant if your new PCB design is different from your original
-					submission. Think of it as a chance to improve your previous design!
+					You can still apply for the OnBoard grant, but you cannot receive two grants for the same
+					PCB design. Your new PCB must be significantly different, offering a chance to improve
+					your previous design if you've already used your grant.
 				</p>
 			</div>
 		</div>
+		<h3 class="faq-more">
+			See more in the <a
+				href="https://github.com/hackclub/OnBoard/blob/main/docs/faq.md"
+				style="color: #7b69f0;">OnBoard FAQ</a
+			>.
+		</h3>
 	</main>
 
 	<footer>
@@ -214,6 +225,12 @@
 			url('https://pixelambacht.nl/remote/RobotoFlex[slnt,wdth,wght,opsz].woff2')
 				format('woff2-variations');
 		font-weight: 100 1000;
+	}
+
+	.faq-more {
+		color: #7b69f0;
+		text-align: center;
+		margin-bottom: 0;
 	}
 
 	body {
@@ -484,7 +501,7 @@
 			transform: scale(0.5); /* Only scale, remove the translate part */
 		}
 		50% {
-			opacity: 0.4;
+			opacity: 0.6;
 			transform: scale(1); /* Appear at full size */
 		}
 	}
