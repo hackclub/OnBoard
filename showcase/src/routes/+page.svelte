@@ -97,7 +97,7 @@
 			style="pointer-events: {isDisabled ? 'none' : 'auto'}"
 		>
 			<h3>Submit your creation</h3>
-			<h4>Opens on October 4th</h4>
+			<h4>Opens on October 6th</h4>
 		</a>
 
 		{#each randomItems as item}
