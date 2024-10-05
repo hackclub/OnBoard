@@ -97,7 +97,7 @@
 			style="pointer-events: {isDisabled ? 'none' : 'auto'}"
 		>
 			<h3>Submit your creation</h3>
-			<h4>Opens on October 4th</h4>
+			<h4>Opens on October 6th</h4>
 		</a>
 
 		{#each randomItems as item}
@@ -144,7 +144,7 @@
 				<div class="item-title">
 					<h3 class="item-heading">Vote for your favoriate design in the Project Gallery</h3>
 					<p class="item-text">
-						Participate & Vote in the showcase gallery and see what everyone has made! 
+						Participate & Vote in the showcase gallery and see what everyone has made!
 					</p>
 				</div>
 			</div>
@@ -173,9 +173,9 @@
 			<div class="guidelines-header">
 				<h3>What are the requirements for the grant?</h3>
 				<p>
-					Peer voting decides the top project. The top 10% of projects in each catagory will receive a 100$ grant to
-					purchase parts. Everyone else will recieve the Trick or' Trace accessory kit. This is in
-					addition to the standard <a
+					Peer voting decides the top project. The top 10% of projects in each catagory will receive
+					a 100$ grant to purchase parts. Everyone else will recieve the Trick or' Trace accessory
+					kit. This is in addition to the standard <a
 						href="https://github.com/hackclub/OnBoard/blob/main/.github/PULL_REQUEST_TEMPLATE.md"
 						style="color: #ff8c37; text-decoration: underline;">OnBoard grant requirements</a
 					>.
@@ -185,7 +185,9 @@
 				<h3>How do I get the accessory kit?</h3>
 				<p>
 					Once we reach 50 submissions, all submitted project participants will receive stickers and
-					a exclusive prize. Just make sure your project is submitted on time!
+					a exclusive prize.
+					<br /><br />
+					Remember, you may not apply the same PCB for both the original OnBoard Grant and this event!
 				</p>
 			</div>
 			<div class="guidelines-header">

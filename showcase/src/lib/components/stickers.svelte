@@ -64,7 +64,7 @@
 			if (!positions[index].moving) {
 				startWiggle(index);
 			}
-		}, 5000); // Start wiggling again after 5 seconds
+		}, 10000); // Start wiggling again after 5 seconds
 	}
 
 	function onMouseDown(index: number, e: MouseEvent): void {
