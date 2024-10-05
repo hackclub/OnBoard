@@ -1,6 +1,6 @@
 ---
-Name: AKash Goswami
-Slack_Handle: 
+Name: Akash Goswami
+Slack_Handle: Akash Goswami
 Github_Handle: AkashGir
 tutorial: https://jams.hackclub.com/batch/usb-hub
 ---
