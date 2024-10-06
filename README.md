@@ -54,7 +54,7 @@ _If you get stuck on these tutorials, or want more example projects to learn fro
 
 ### 3. Upload to a Vendor and Take a Screenshot
 
-Upload your Gerber files to [JLCPCB.com](https://jlcpcb.com/) and add them to you cart. JLCPCB is the default PCB manufacturer, but you can shop around [^5] if there's a specific one you want to use [^6]. Ensure you complete the checkout process by entering your address and selecting a shipping method. Once completed, take a screenshot with all the final costs and shipping!
+Upload your Gerber files to [JLCPCB.com](https://jlcpcb.com/) and add them to your cart. JLCPCB is the default PCB manufacturer, but you can shop around [^5] if there's a specific one you want to use [^6]. Ensure you complete the checkout process by entering your address and selecting a shipping method. Once completed, take a screenshot with all the final costs and shipping!
 > If you're curious what all the settings are about or how to order for assembly, check out our [`ordering_from_JLCPCB.md`](./docs/ordering_from_JLCPCB.md) doc!
 > To avoid excess shipping fees or customs, check out [`the Shipping Tips`](./community/shipping.md) doc!
 
@@ -99,17 +99,28 @@ In all, you should have the following files under your project folder:
 - [ ] `cart.png`: A [screenshot](./docs/images/ordering/cart.png) of your order details
 - [ ] `gerber.zip`: This should be the file that you send off to the vendor.
 - [ ] `schematic.pdf`: Export the schematic from your EDA program as a PDF.
-    - Go to "File > Export > PDF" in EasyEDA's Schematic tab for this.
+    - Go to "File > Export > PDF" **in EasyEDA's Schematic tab** for this.
 - [ ] `src/`: Make a folder called `src` and Whatever format your designer outputs should be included.
-    - For EasyEDA, you need to File > Export > EasyEDA two JSON files - one from the schematic tab and one from the PCB tab. <img src="https://github.com/hackclub/OnBoard/assets/32671690/9f63f922-3009-4c40-af0c-b6239cf2074f" width=500/>
-    - Or `name.kicad_pro`, `name_kicad_sch`, `name.kicad_pcb` and `name.step` for KiCAD
-    - Or `design.json`, `design.sch`, `design.brd`, etc.
+    - For **EasyEDA STD**, you need to File > Export > EasyEDA two JSON files - one from the schematic tab and one from the PCB tab.
+      - *Optionally*, for EasyEDA STD, export a 3D Model as `.obj` as save it to the `/src` folder 
 
-Make sure your file names are exactly the same as above.
+  
+    <p align="center"> 
+    <img src="https://github.com/hackclub/OnBoard/assets/32671690/9f63f922-3009-4c40-af0c-b6239cf2074f" alt="Export schematic.json in EasyEDA" width=400/>
+    </p>
 
-Your PR should look like this:
+    - For **KiCad**, read the [Submitting for KiCad](docs/kicad-submission.md), add the `.kicad_pcb`, `.kicad_sch` and `.kicad_pro` files to your `/src` folder.
+      - What is **KiCad**? See [KiCad for Beginners](docs/KiCad_Beginner_Guide.md) for a mini tutorial on how to use.
+    - Or `design.json`, `design.sch`, `design.brd`, etc for other PCB Editors.
 
-![ix7t2nJ](https://github.com/hackclub/OnBoard/assets/28641114/5f8bac7f-4a91-4e2c-be67-c002025307e0)
+Ensure your file names are exactly the same as above.
+
+Your PR should have a structure like this:
+
+| EasyEDA STD | KiCad |
+| ----------- | ----------- |
+<img src="https://github.com/hackclub/OnBoard/assets/28641114/5f8bac7f-4a91-4e2c-be67-c002025307e0" alt="EasyEDA Project Example" width="370" /> | <img src="docs/images/kicad/kicad-template.png" alt="KiCad Project Example" width="400" />
+----
 
 If you have all the above, you're done with this step!
 
@@ -131,7 +142,7 @@ Once you submit your PR, it needs two approvals:
 
 These reviews typically take 24-48 business hours, and if everything is correct, we'll merge your pull request!
 
-After your PR gets merged, it takes up to 24 business hours for you to receive an email from HCB with a virtual credit card. Make sure to check your spam folder. Then, you can order your board!
+After your pull request gets merged, it can take up to 24 business hours for you to receive an email from HCB with a virtual credit card. Make sure to check your spam folder. Then, you can order your board!
 
 ### 8. Ship it!
 

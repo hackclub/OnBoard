@@ -1,5 +1,7 @@
 ## Submission Checklist:
 
+<!--To check the checkboxes, simply replace the empty space in the brackets with a captial X, like this: [ ] becomes [X]-->
+
 - [ ] I am a current high school, middle school, or home schooled student.
   - [ ] I am 18 or under
   - [ ] I have filled out the [verification form](https://airtable.com/app4Bs8Tjwvk5qcD4/pagxECjJZOgvKVnLd/form)
@@ -15,8 +17,11 @@
   - [ ] If outside the US I've checked that I can afford the customs charges in my country (which isn't covered by the grant)
 
 - [ ] (Optional) This project is from a tutorial[^1].
+- [ ] (Optional) This project is for OnBoard Live[^2].
+- [ ] (Optional) This project is for [Trick or Trace](http://showcase.hackclub.com/)
 - [ ] (Optional) I'm in a FIRST (FRC, FTC, FLL, etc.) team. The number is: ____
 
 [^1]: Projects from a tutorial are 100% fine! We just want to ask so we can count how people are using tutorials.
+[^2]: OnBoard Live is a special version of OnBoard where you can earn more money for designing advanced boards. Check out the #onboard-live channel on [our Slack](https://hackclub.com/slack/?event=onboard)!
 
 <!-- -Submission- -->
