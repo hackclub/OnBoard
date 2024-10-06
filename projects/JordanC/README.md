@@ -2,7 +2,7 @@
 name: "Jordan Chan"
 slack_handle: "@Jordan Chan"
 github_handle: "@RandomTurtleBoi"
-tutorial: # https://jams.hackclub.com/jam/hacker-card
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # JordanC nfc card
