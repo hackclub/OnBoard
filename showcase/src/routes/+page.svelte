@@ -80,6 +80,7 @@
 			id="form-link"
 			aria-label="Submit your creation">
 			<h3>Submit your creation</h3>
+			<h4>Submissions due on October 18th</h4>
 		</a>
 		{#each randomItems as item}
 			<img
@@ -506,6 +507,15 @@
 		font-weight: bold;
 		font-family: 'Roboto Flex';
 		font-style: normal;
+	}
+
+	#form-link h4 {
+		margin: 0.05rem;
+		font-weight: 1000;
+		font-family: 'phantomSans';
+		font-style: normal;
+		font-size: 19px;
+		text-decoration: underline;
 	}
 
 	#form-link:hover {
