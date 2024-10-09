@@ -80,7 +80,7 @@
 			id="form-link"
 			aria-label="Submit your creation">
 			<h3>Submit your creation</h3>
-			<h4>Submissions due on October 18th</h4>
+			<h4>Submissions due on October 21st</h4>
 		</a>
 		{#each randomItems as item}
 			<img
