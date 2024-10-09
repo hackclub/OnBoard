@@ -2,7 +2,7 @@
 name: "Max Jiang"
 slack_handle: "@U07R8KXDRGC"
 github_handle: "@uint128-t"
-tutorial: [Hacker Card](https://jams.hackclub.com/jam/hacker-card)
+tutorial: "https://jams.hackclub.com/jam/hacker-card"
 ---
 
 # Max's NFC Card
