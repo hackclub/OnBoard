@@ -1,7 +1,7 @@
 ---
 name: "Ayra Ahmed"
 slack_handle: "@Ayra Ahmed"
-  github_handle: "@ayraahmed712"
+github_handle: "@ayraahmed712"
 tutorial: # Link to the tutorial if you used one
 ---
 
