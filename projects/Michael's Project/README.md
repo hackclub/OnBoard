@@ -2,7 +2,7 @@
 name: "Michael Zhu"
 slack_handle: "@Star"
 github_handle: "@Michael-png"
-tutorial: # https://jams.hackclub.com/jam/onboard-grant
+tutorial: https://jams.hackclub.com/jam/onboard-grant
 ---
 
 # PCB CARD
