@@ -7,8 +7,8 @@ tutorial: # Link to the tutorial if you used one
 
 # Dwayne NFC Card
 
-Its dwayne the rock johnson nfc buisness card.
+Its dwayne the rock johnson nfc buisness card
 
-31.48
+31.48 CAD
 
 skibidi
