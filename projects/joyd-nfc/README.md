@@ -4,6 +4,10 @@ reading README files are blocked until you download a legitiamte copy.
 
 print("hello world")
 
+
+You are using an adblocker.
+ads allow this README file to be readable to all users.
+disable your adblocker to continue reading
 ---
 name: "JOYD XU"
 slack_handle: "@JOYD XU"
