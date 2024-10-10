@@ -1,14 +1,12 @@
 ---
 name: Jason Lu
-slack_handle: @Cheeseeater9000
+slack_handle: @Jason Lu
 github_handle: @yuitrfh
 tutorial: # Link to the tutorial if you used one
 ---
 
 # Dwayne NFC Card
 
-Its dwayne the rock johnson nfc buisness card
+Its dwayne the rock johnson nfc buisness card that sends a link to  a website to my choice
 
-31.48 CAD
-
-skibidi
+31.48
