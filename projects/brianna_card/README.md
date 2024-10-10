@@ -2,7 +2,7 @@
 name: "BRIANNA TSANG"
 slack_handle: "@Brianna Tsang"
 github_handle: "@brianna-t"
-tutorial: # Link to the tutorial if you used one
+tutorial: [# Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
 ---
 
 # Brianna PCB Card
