@@ -2,7 +2,7 @@
 name: "Yuyang Fang"
 slack_handle: "@xSunOcean"
 github_handle: "@xSunOcean"
-tutorial: # https://jams.hackclub.com/jam/hacker-card 
+tutorial: # "https://jams.hackclub.com/jam/hacker-card"
 ---
 
 
