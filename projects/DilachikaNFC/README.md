@@ -13,7 +13,7 @@ This is a project I was capable of constructing through a workshop hosted by my 
 
 <!-- How much is it going to cost? --> 
 
-$31.48
+$31.48 USD
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 
