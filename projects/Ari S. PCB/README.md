@@ -1,7 +1,7 @@
 ---
 name: Ari Sachdev
-slack_handle: @Ari Sachdev
-github_handle: @Ari-Sachdev
+slack_handle: Ari Sachdev
+github_handle: Ari-Sachdev
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
