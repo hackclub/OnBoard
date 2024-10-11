@@ -10,11 +10,11 @@
 - [x] I made this board from scratch, even if I followed a tutorial
 - [x] I have followed the directions in [README.md](https://github.com/hackclub/OnBoard/blob/main/README.md#getting-started)
   - [x] Created a folder under `onboard/projects`
-  - [ ] Filled out `TEMPLATE.md` as `README.md` inside your project folder
-  - [ ] Uploaded `gerber.zip` and `schematic.pdf` inside your project folder
+  - [x] Filled out `TEMPLATE.md` as `README.md` inside your project folder
+  - [x] Uploaded `gerber.zip` and `schematic.pdf` inside your project folder
   - [ ] Created a folder called `src` and uploaded design files
   - [ ] Uploaded screenshot of PCB order called `cart.png` with all costs included
-  - [ ] I am ordering the smallest batch size (ie. JLCPCB's smallest order is for 5 boards)
+  - [x] I am ordering the smallest batch size (ie. JLCPCB's smallest order is for 5 boards)
   - [x] If outside the US I've checked that I can afford the customs charges in my country (which isn't covered by the grant)
 
 - [x] (Optional) This project is from a tutorial[^1].
