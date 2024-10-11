@@ -55,20 +55,6 @@
 			createRandomParts();
 		}, 5000);
 	});
-
-	// Variables for click tracking and redirect
-	let clickCount = 0;
-	let maxClicks = 20;
-	let isDisabled = false;
-
-	// Function to handle button click
-	function handleClick() {
-		clickCount += 1;
-		if (clickCount >= maxClicks) {
-			window.location.href = 'https://www.youtube.com/watch?v=QvCoISXfcE8'; // Change this to your desired URL
-			console.log('Redirecting to form...');
-		}
-	}
 </script>
 
 <body>
@@ -88,18 +74,14 @@
 			<h2>Design a PCB this October, vote on the best designs, get a second grant</h2>
 		</div>
 		<a
+			href="https://verify.onboard.hackclub.com" 
+			target="_blank"
+			class="form-link"
 			id="form-link"
-			class="hoverable disabled"
-			role="button"
-			tabindex="0"
-			on:click={handleClick}
-			on:keydown={(e) => e.key === 'Enter' && handleClick()}
-			style="pointer-events: {isDisabled ? 'none' : 'auto'}"
-		>
+			aria-label="Submit your creation">
 			<h3>Submit your creation</h3>
-			<h4>Opens on October 6th</h4>
+			<h4>Submissions due on October 21st</h4>
 		</a>
-
 		{#each randomItems as item}
 			<img
 				src={item.part}
@@ -248,7 +230,7 @@
 		font-size: clamp(1.3rem, 1.6vw, 1.6rem);
 		font-weight: 2000;
 		line-height: 1.3;
-		font-family: phantomSans;
+		font-family: 'phantomSans';
 	}
 
 	body h2 {
@@ -517,12 +499,13 @@
 		max-height: 10.2vh; /* Slightly reduced height */
 		font-size: 2.3vh; /* Smaller text for mobile */
 		text-align: center;
+		text-decoration: none;
 	}
 
 	#form-link h3 {
 		margin: 0;
 		font-weight: bold;
-		font-family: 'phantomSans';
+		font-family: 'Roboto Flex';
 		font-style: normal;
 	}
 
