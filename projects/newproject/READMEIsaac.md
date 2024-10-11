@@ -2,7 +2,7 @@
 name: "FIRST LAST"
 slack_handle: "@Isaac Leung"
 github_handle: "@Builder852"
-tutorial: # Link to the tutorial if you used one
+tutorial: # Link to the tutorial if you used one https://jams.hackclub.com/jam/hacker-card
 ---
 
 # YOUR PROJECT NAME :PCB Board
