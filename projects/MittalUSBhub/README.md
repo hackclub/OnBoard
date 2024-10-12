@@ -1,6 +1,6 @@
 ---
 name: "TARAN MITTAL"
-slack_handle: "@TARAN MITTAL"
+slack_handle: "@Taran Mittal"
 github_handle: "@Overlord-Runt"
 tutorial: # [Link](https://jams.hackclub.com/batch/usb-hub)
 ---
