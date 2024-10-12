@@ -1,6 +1,6 @@
 ---
 name: "Yo Yo Yo"
-slack_handle: "@U07RHNKM869"
+slack_handle: "@Yo"
 github_handle: "@Elsuculento"
 
 ---
