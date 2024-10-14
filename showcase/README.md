@@ -1,12 +1,10 @@
-Design a unique board from scratch and enter it into the contest by submitting a pull request to the <a
-    href="https://github.com/hackclub/OnBoard"
-    style="color: #ff8c37; text-decoration: underline;">GitHub repository</a>.
+Design a unique PCB from scratch and submit it to the project gallery via a pull request in the <a href="https://github.com/hackclub/OnBoard" style="color: #ff8c37; text-decoration: underline;">GitHub repository</a> on the __opening date__ for an additional grant on top of OnBoard's <a href="https://hackclub.com/onboard/" style="color: #ff8c37; text-decoration: underline;">$100 base grant</a>.
+
+Submissions will receive a limited-edition accessory kit, and top entries will be awarded a grant for PCB fabrication, components (including LCSC & DigiKey), or tools — just in time to show off your design for Halloween!
+
+_________________
 
 
-Enter your PCB in one of the three catagories below and have peer voting decide on Creativity, Technicality and Most Spooky Design. Submissions with the top 15% of votes get a $100 grant to get their PCB manufactuered and to purchase any additional hardware or electronics. This means even without years of electronics experience, you can still win!
+Submissions will be peer-reviewed in the categories of Best Creative Design, Most Technically Impressive, and Spookiest Halloween Theme — no extensive experience required. The top voted 10% of entries per catagory will receive a $100 grant to manufacture their PCB and purchase additional hardware or electronics. Get inspired by Halloween themes such as costumes and animatronic props, and incorporate them into your design.
 
-Draw inspiration from Halloween themes, costumes, haunted house animatronics, and see how you can incorporate them into your PCB.
-
-Approved participants will recieves a limited-edition sticker kit. Top contenders will be
-awarded a $100 USD grant that can be used for PCB fabrication, component purchases (including
-LCSC & DigiKey), or tools—just in time for Halloween!
+_Questions? See more in the <a href="#faq" style="color: #ff8c37; text-decoration: underline;">FAQ section<a>_

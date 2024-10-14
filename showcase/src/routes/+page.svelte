@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Gallery from '$lib/components/App.svelte'; // 3d model of a PCB
+	// import Gallery from '$lib/components/App.svelte'; // 3d model of a PCB
 	import { onMount } from 'svelte';
 	import Stickers from '$lib/components/stickers.svelte';
- 
+
 	interface RandomItem {
 		part: string;
 		x: number;
@@ -55,20 +55,6 @@
 			createRandomParts();
 		}, 5000);
 	});
-
-	// Variables for click tracking and redirect
-	let clickCount = 0;
-	let maxClicks = 20;
-	let isDisabled = false;
-
-	// Function to handle button click
-	function handleClick() {
-		clickCount += 1;
-		if (clickCount >= maxClicks) {
-			window.location.href = 'https://www.youtube.com/watch?v=QvCoISXfcE8'; // Change this to your desired URL
-			console.log('Redirecting to form...');
-		}
-	}
 </script>
 
 <body>
@@ -82,24 +68,20 @@
 
 	<header bind:this={randomPartsContainer}>
 		<div class="header-background"></div>
-		<img src="/orpeheus.png" alt="Showcase Logo" class="logo" />
+		<img src="/Orpheus.png" alt="Showcase Logo" class="logo" />
 		<div id="title">
 			<img src="/title.png" alt="Trick or Trace" />
-			<h2>Design a PCB this September, vote on the best designs, and get a second grant</h2>
+			<h2>Design a PCB this October, vote on the best designs, get a second grant</h2>
 		</div>
 		<a
+			href="https://verify.onboard.hackclub.com" 
+			target="_blank"
+			class="form-link"
 			id="form-link"
-			class="hoverable disabled"
-			role="button"
-			tabindex="0"
-			on:click={handleClick}
-			on:keydown={(e) => e.key === 'Enter' && handleClick()}
-			style="pointer-events: {isDisabled ? 'none' : 'auto'}"
-		>
+			aria-label="Submit your creation">
 			<h3>Submit your creation</h3>
-			<h4>Opens on September 28th</h4>
+			<h4>Submissions due on October 21st</h4>
 		</a>
-
 		{#each randomItems as item}
 			<img
 				src={item.part}
@@ -144,61 +126,72 @@
 				<div class="item-title">
 					<h3 class="item-heading">Vote for your favoriate design in the Project Gallery</h3>
 					<p class="item-text">
-						Participate in our showcase gallery and see what everyone has made!
+						Participate & Vote in the showcase gallery and see what everyone has made!
 					</p>
 				</div>
 			</div>
 			<div class="item-step hoverable">
-				<div class="step-number">4</div>
+				<div class="step-number">3</div>
 				<div class="model-container">
 					<img src="/OnBoard_holographic_sticker.png" alt="Spooky Stickers" />
 				</div>
 				<div class="item-title">
-					<h3 class="item-heading">We ship spook-tacular stickers & electronics parts</h3>
+					<h3 class="item-heading">We ship spook-tacular stickers & funding</h3>
 					<p class="item-text">
 						Collect limited-edition Halloween-themed PCB stickers! Get a 100$ electronics grant.
 					</p>
 				</div>
 			</div>
 		</div>
-		<h2>Frequently Asked Questions</h2>
+		<h2 id="faq">Frequently Asked Questions</h2>
 		<div class="guidelines">
 			<div class="guidelines-header">
-				<h3>Does it have to be Halloween themed?</h3>
+				<h3>Does my project have to be Halloween-themed?</h3>
 				<p>
-					Whether it's spooky, funny, or completely unrelated to Halloween, your
-					project&nbsp;is&nbsp;welcome!
+					Not at all! Spooky, funny, or unrelated projects are also welcome. Just make sure it's
+					unique, creative and inspiring to others.
 				</p>
 			</div>
 			<div class="guidelines-header">
-				<h3>How does the top project get selected?</h3>
+				<h3>What are the requirements for the grant?</h3>
 				<p>
-					Peer voting! Make your project appealing to others. Creativity, innovation,&nbsp;and
-					presentation&nbsp;are&nbsp;key.
+					Peer voting decides the top project. The top 10% of projects in each catagory will receive
+					a 100$ grant to purchase parts. Everyone else will recieve the Trick or' Trace accessory
+					kit. This is in addition to the standard <a
+						href="https://github.com/hackclub/OnBoard/blob/main/.github/PULL_REQUEST_TEMPLATE.md"
+						style="color: #ff8c37; text-decoration: underline;">OnBoard grant requirements</a
+					>.
 				</p>
 			</div>
-
 			<div class="guidelines-header">
-				<h3>How do we get stickers?</h3>
+				<h3>How do I get the accessory kit?</h3>
 				<p>
-					Once there's 50 submissions, we'll send stickers
-					to&nbsp;every&nbsp;approved&nbsp;participant!
+					Once we reach 50 submissions, all submitted project participants will receive stickers and
+					a exclusive prize.
+					<br /><br />
+					Remember, you may not apply the same PCB for both the original OnBoard Grant and this event!
 				</p>
 			</div>
-
 			<div class="guidelines-header">
 				<h3>What about the OnBoard grant?</h3>
 				<p>
-					You can apply for the OnBoard grant if you haven't got it already, but you can't use it on
-					the same PCB as for Trick or Trace. Stay tuned for details.
+					You can still apply for the OnBoard grant, but you cannot receive two grants for the same
+					PCB design. Your new PCB must be significantly different, offering a chance to improve
+					your previous design if you've already used your grant.
 				</p>
 			</div>
 		</div>
+		<h3 class="faq-more">
+			See more in the <a
+				href="https://github.com/hackclub/OnBoard/blob/main/docs/faq.md"
+				style="color: #7b69f0;">OnBoard FAQ</a
+			>.
+		</h3>
 	</main>
 
 	<footer>
-		<p>Join the event, build something amazing, and win!</p>
-		<p>Made with ❤️ for OnBoard by Hack Club.</p>
+		<p>Join the event, build something amazing this Halloween season</p>
+		<p>Made with &lt;3 and :3 for OnBoard by Ryan Di Lorenzo</p>
 	</footer>
 </body>
 
@@ -218,6 +211,12 @@
 		font-weight: 100 1000;
 	}
 
+	.faq-more {
+		color: #7b69f0;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
 	body {
 		color: #ff8c37;
 		background-image: url('/what-the-hex-background.png');
@@ -228,10 +227,10 @@
 		-webkit-transition: background-image 0.2s ease-in-out;
 		transition: background-image 0.2s ease-in-out;
 
-		font-size: 1.5rem;
+		font-size: clamp(1.3rem, 1.6vw, 1.6rem);
 		font-weight: 2000;
-		line-height: 4vh;
-		font-family: phantomSans;
+		line-height: 1.3;
+		font-family: 'phantomSans';
 	}
 
 	body h2 {
@@ -294,13 +293,15 @@
 		box-sizing: border-box;
 		color: white;
 		opacity: 70%;
+
+		/* box-shadow: 0 0 100px greenyellow; */
 	}
 
 	#title {
 		z-index: 50;
 		max-width: 550px;
 		min-width: 10px;
-		padding-bottom: 1rem;
+		padding-bottom: 1.2rem;
 		margin: 0.4rem;
 	}
 
@@ -323,32 +324,19 @@
 
 	.grid-steps {
 		margin: 0;
-		margin-top: auto;
 		font-family: 'Poppins', sans-serif;
 		display: grid;
 		gap: 1rem;
 		padding: 1rem;
 		background-image: linear-gradient(to bottom, rgba(240, 112, 33, 0.7), rgba(241, 190, 15, 0.7));
 		border-radius: 10px;
-	}
-	@media (min-width: 800px) {
-		.grid-steps {
-			grid-template-columns: repeat(4, 1fr);
-			grid-template-rows: auto;
-		}
+		grid-template-columns: repeat(1, 1fr); /* Default to 1 box */
 	}
 
-	/* Media query for 2 rows and 2 columns */
-	@media (min-width: 680px) {
+	/* Media query for up to 3 horizontal grid boxes */
+	@media (min-width: 1000px) {
 		.grid-steps {
-			grid-template-columns: repeat(2, 1fr);
-			grid-template-rows: repeat(2, auto);
-		}
-	}
-
-	@media (min-width: 1300px) {
-		.grid-steps {
-			grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted min-width */
+			grid-template-columns: repeat(3, 1fr); /* 3 boxes for larger screens */
 		}
 	}
 
@@ -367,8 +355,9 @@
 	}
 
 	#content {
-		margin: 4%;
-		margin-inline: 12%;
+		margin-bottom: 4%;
+		margin-top: 2%;
+		margin-inline: 15%;
 	}
 
 	.item-step:hover {
@@ -384,14 +373,13 @@
 		height: 30px;
 		display: inline-block;
 		text-align: center;
-		font-size: 1.1em;
 		animation: bounce 1s infinite alternate;
 		transform: translateY(-10px);
 	}
 
 	.model-container {
 		margin-bottom: 0;
-		height: 25vh;
+		max-height: 23vh;
 		align-items: center;
 	}
 
@@ -405,18 +393,16 @@
 
 	.item-title {
 		font-weight: 700;
-		font-size: 1.3em;
+		font-size: 1.3rem;
 		color: #333;
 	}
 
 	.item-heading {
 		text-align: center;
-		padding-top: 2vh;
-		padding-left: 1.5rem;
-
-		font-size: 1.2rem; /* Adjust as needed */
+		padding: 1.2vh;
+		font-size: clamp(1.1rem, 1.5vw + 0.5rem, 1.3rem);
 		font-weight: bold;
-		line-height: 23px;
+		line-clamp: 2;
 		height: fit-content;
 
 		color: #7b69f0;
@@ -428,7 +414,8 @@
 	.item-text {
 		text-align: center;
 		line-height: 22px;
-		font-size: 0.9rem;
+		font-size: 1rem;
+		padding-top: 0.2rem;
 		color: #6b5bd4;
 	}
 
@@ -438,17 +425,29 @@
 	}
 
 	footer {
-		margin: 0;
-		line-height: normal;
 		text-align: center;
 		background: #483d8b;
 		color: white;
-		font-size: 1.2rem;
-		display: flex;
+		padding: 0.9rem;
+		font-size: 1.1rem;
+		display: -webkit-box;
+		-webkit-box-orient: horizontal;
 		justify-content: center;
-		align-items: center;
-		flex-direction: column; /* Ensure content is stacked vertically */
+		overflow: hidden;
 	}
+
+	footer p {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 1;
+		line-clamp: 1;
+		text-overflow: ellipsis;
+		margin: 0 auto;
+		overflow: hidden;
+		text-align: center;
+		padding-top: 0.1rem;
+	}
+
 	.banner {
 		height: 3vh;
 		width: 100%;
@@ -486,7 +485,7 @@
 			transform: scale(0.5); /* Only scale, remove the translate part */
 		}
 		50% {
-			opacity: 0.4;
+			opacity: 0.6;
 			transform: scale(1); /* Appear at full size */
 		}
 	}
@@ -500,12 +499,13 @@
 		max-height: 10.2vh; /* Slightly reduced height */
 		font-size: 2.3vh; /* Smaller text for mobile */
 		text-align: center;
+		text-decoration: none;
 	}
 
 	#form-link h3 {
 		margin: 0;
 		font-weight: bold;
-		font-family: 'phantomSans';
+		font-family: 'Roboto Flex';
 		font-style: normal;
 	}
 
@@ -526,48 +526,41 @@
 	.guidelines {
 		display: grid;
 		margin: 0 auto; /* Center the element horizontally */
-		width: 80%; /* Adjust width as needed */
-		max-width: 100%; /* Ensure it doesn't exceed the viewport width */
 		background-color: rgba(255, 255, 255, 0.1);
 		border-radius: 10px;
-		gap: 5.2rem;
-		padding: 2rem;
+		gap: 4vh; /* Reduced gap for mobile */
+		max-width: 100%;
+		padding: 1rem;
 		text-align: center;
 		align-items: center;
 		justify-content: center;
-		grid-auto-rows: 1fr;
+		grid-auto-rows: auto;
 	}
 
 	.guidelines-header {
-		height: 100%;
 		outline: 3px solid orange;
-		font-size: 1.3rem;
 		background-color: #2a3b4c;
 		border-radius: 0.5rem;
 		grid-column: span 2; /* Ensure headers span across both columns */
 		align-items: center;
-		padding: 0.2rem;
-	}
-
-	.guidelines-header h3 {
-		font-size: 1.6rem;
-		padding: 0.2rem;
+		padding: 1rem;
 	}
 
 	.guidelines-header p {
-		height: auto;
 		text-align: center;
+		margin: 0 auto; /* Center the element horizontally */
 	}
 
-	@media (min-width: 600px) {
-		.guidelines {
-			grid-template-columns: repeat(2, 1fr); /* Two columns on medium and larger screens */
-		}
-	}
-
-	@media (min-width: 800px) {
+	@media (min-width: 900px) {
 		.guidelines {
 			grid-template-columns: repeat(4, 1fr); /* Four columns on larger screens */
+			grid-auto-rows: 1fr;
+			max-width: 80%;
+			gap: 7vh; /* Reduced gap for mobile */
+			padding: 2.2rem; /* Reduced padding for mobile */
+		}
+		.guidelines-header {
+			min-height: 100%;
 		}
 	}
 </style>
