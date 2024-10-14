@@ -12,11 +12,9 @@ It's easier than ever for high school students to get involved with programming;
 
 Every student will receive up to $100 to cover PCB manufacturing costs, and join a community of peers– some more beginner and some more experienced.
 
-<div style="border-left: 4px solid orange; padding-left: 10px;">
 
-## Trick or Trace 🎃
-This Halloween season, OnBoard is launching Trick or Trace, a Halloween-themed PCB design contest! The top submissions will get a $100 grant for tools/parts to build your project– not restricted to PCB fabrication.
-</div>
+## Trick or Trace - *until Oct 21st* 🎃
+> This Halloween season, OnBoard is launching [Trick or Trace](https://trickortrace.hackclub.com/), a Halloween-themed PCB design contest! The top submissions will get a $100 grant for tools/parts to build your project – not restricted to just PCB fabrication.
 
 ## Requirements
 
