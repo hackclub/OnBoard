@@ -5,9 +5,9 @@ github_handle: "@Souptik-Samanta
 "
 tutorial: # no
 ---
-Made a hacker card 
+Made a Arduino pcb
 
-Made a hacker card 
+Made a Arduino pcb 
 
 less than a 50$
 
