@@ -11,6 +11,6 @@ tutorial: # https://jams.hackclub.com/batch/usb-hub
 This USB hub is Yoda-shaped. It is designed to add 3 more USB ports to a laptop, so there will be 4 ports instead of 1.
 
 <!-- How much is it going to cost? -->
-It may cost 93 USD.
+It may cost 56 USD.
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
