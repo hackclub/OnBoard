@@ -5,7 +5,7 @@ github_handle: "@Snipeur060"
 tutorial: # Link to the tutorial if you used one
 ---
 
-# YOUR PROJECT NAME
+# Hackclub Pumpkin
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 This project is made during the Halloween season. I have created an Halloween pumpkin with 3 led (2 for the eyes and one for the nose a big one). It's a spooky DYI decoration 
