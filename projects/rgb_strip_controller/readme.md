@@ -9,6 +9,6 @@ tutorial: # Link to the tutorial if you used one
 
 I will control rgb strip through esp 8266 and i have created a webpage also for that
 
-22$
+~25$
 
 
