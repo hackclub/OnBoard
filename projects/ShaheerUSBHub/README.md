@@ -1,6 +1,6 @@
 
 ---
-name: Brady Sobel
+name: Shaheer Ansari
 slack_handle: #THD1083
 github_handle: "@ShahkerTHD"
 tutorial: USB_Jam
