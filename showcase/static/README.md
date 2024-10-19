@@ -1,4 +1,4 @@
-Design a unique PCB from scratch and submit it to the project gallery via a pull request in the <a href="https://github.com/hackclub/OnBoard" style="color: #ff8c37; text-decoration: underline;">GitHub repository</a> on the __opening date__ for an additional grant on top of OnBoard's <a href="https://hackclub.com/onboard/" style="color: #ff8c37; text-decoration: underline;">$100 base grant</a>.
+Design a unique PCB from scratch and submit it to the project gallery via a pull request in the <a href="https://github.com/hackclub/OnBoard" style="color: #ff8c37; text-decoration: underline;">GitHub repository</a> before __Oct 21st__ for an additional grant on top of OnBoard's <a href="https://hackclub.com/onboard/" style="color: #ff8c37; text-decoration: underline;">$100 base grant</a>.
 
 Submissions will receive a limited-edition accessory kit, and top entries will be awarded a grant for PCB fabrication, components (including LCSC & DigiKey), or tools — just in time to show off your design for Halloween!
 
