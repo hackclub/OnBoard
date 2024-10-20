@@ -5,7 +5,7 @@ github_handle: "@ultimatecontrollerplayer"
 ---
 
 # IR thermometer gun
-
+# for trick or trace
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 This is for trick or trace and its a pcb that uses a seed xiao rp2040 as an mcu for the board to reduce costs as much as possible.
 Then there is the mlx MLX90614ESF-DCC-000-TU which is the infrared thermomether im using.
