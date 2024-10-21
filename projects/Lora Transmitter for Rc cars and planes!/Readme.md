@@ -1,7 +1,6 @@
-
 ---
 name: "Omkar"
-slack_handle: "@omkar"
+slack_handle: "@Omkar"
 github_handle: "@fatpotato317"
 tutorial:
 ---
