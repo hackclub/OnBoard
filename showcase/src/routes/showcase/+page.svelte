@@ -314,7 +314,7 @@
 
     .screenshot {
         width: 100%;
-        height: 150px;
+        height: 200px; /* Larger height for desktop */
         object-fit: contain;
         margin-bottom: 10px;
         border-radius: 5px;
@@ -471,5 +471,50 @@
 
     .close-button:hover {
         background-color: #3a0d3b;
+    }
+
+    /* Responsive Grid Layout for Mobile */
+    @media screen and (max-width: 768px) {
+        .grid-container {
+            grid-template-columns: 1fr; /* Single column on mobile */
+            gap: 15px; /* Smaller gap for better spacing */
+        }
+
+        .grid-item {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px; /* Add more space between cards */
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 1.8rem; /* Reduce size for mobile */
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 1.4rem; /* Slightly smaller subheading */
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1rem; /* Adjust text size */
+            line-height: 1.5; /* Improve readability */
+        }
+
+        .screenshot {
+            width: 100%; /* Keep image at full width */
+            height: auto;
+            max-height: 200px; /* Ensure images are not too tall */
+            object-fit: contain; /* Prevent stretching */
+            margin-bottom: 15px;
+        }
+
+        .reset-button, .vote-button {
+            padding: 10px 20px; /* Make buttons easier to tap */
+            font-size: 1rem; /* Make text on buttons more readable */
+        }
     }
 </style>
