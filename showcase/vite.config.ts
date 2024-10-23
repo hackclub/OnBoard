@@ -1,5 +1,5 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig, searchForWorkspaceRoot } from 'vite'
+import { defineConfig } from 'vite'
 import * as path from "path";
 
 export default defineConfig({
