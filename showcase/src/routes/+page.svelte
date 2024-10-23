@@ -74,11 +74,11 @@
 			<h2>Design a PCB this October, vote on the best designs, get a second grant</h2>
 		</div>
 		<a
-			href="https://verify.onboard.hackclub.com" 
+			href="https://trickortrace.hackclub.com/showcase" 
 			target="_blank"
 			class="form-link"
 			id="form-link"
-			aria-label="Submit your creation">
+			aria-label="Vote now!">
 			<h3>Submit your creation</h3>
 			<h4>Submissions due on October 21st</h4>
 		</a>
