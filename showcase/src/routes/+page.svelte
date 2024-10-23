@@ -79,8 +79,8 @@
 			class="form-link"
 			id="form-link"
 			aria-label="Vote now!">
-			<h3>Submit your creation</h3>
-			<h4>Submissions due on October 21st</h4>
+			<h3>Vote now!</h3>
+			<h4>Voting closes October 24th</h4>
 		</a>
 		{#each randomItems as item}
 			<img
