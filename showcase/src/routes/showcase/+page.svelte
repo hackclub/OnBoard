@@ -13,7 +13,7 @@
         };
     }
 
-    const categories = ['Most Creative', 'Most Technical', 'Best Overall'];
+    const categories = ['Best Creative Design', 'Most Technical', 'Spookiest Halloween Theme'];
     let submissions: Submission[] = [];
     let error: string | null = null;
     let selectedCategory: string = categories[0];
