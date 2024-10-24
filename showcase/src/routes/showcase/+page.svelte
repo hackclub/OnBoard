@@ -1,7 +1,8 @@
 <script lang="ts">
     import { onMount } from 'svelte';
-    import Slack from '$lib/components/Slack.svelte';
+    import { marked } from 'marked';
     import { writable } from 'svelte/store';
+    import Slack from '$lib/components/Slack.svelte';
 
     interface Submission {
         id: string;
@@ -29,6 +30,11 @@
     const showModal = writable(false);
     const showConfirmation = writable(false);
     const showSuccessModal = writable(false);
+    const showMore = writable<Record<string, boolean>>({});
+
+    // Customize the marked renderer to ignore images
+    const renderer = new marked.Renderer();
+    renderer.image = () => '';
 
     onMount(async () => {
         const urlParams = new URLSearchParams(window.location.search);
@@ -155,6 +161,13 @@
         showConfirmation.set(false);
         submitAllVotes();
     }
+
+    function toggleShowMore(id: string) {
+        showMore.update(current => ({
+            ...current,
+            [id]: !current[id]
+        }));
+    }
 </script>
 
 <body>
@@ -176,9 +189,21 @@
                 {#each submissions as submission}
                     <div class="grid-item {votes[submission.id] === selectedCategory ? 'voted' : ''}" data-id="{submission.id}">
                         <h2>{submission.fields['GitHub handle']}</h2>
-                        <p>{submission.fields.Description}</p>
+                        <div class="description">
+                            {#if $showMore[submission.id]}
+                                {@html marked(submission.fields.Description, { renderer })}
+                                <button class="show-more-button" on:click={() => toggleShowMore(submission.id)}>Show Less</button>
+                            {:else}
+                                {@html marked(submission.fields.Description.slice(0, 150), { renderer })}
+                                {#if submission.fields.Description.length > 100}
+                                    <button class="show-more-button" on:click={() => toggleShowMore(submission.id)}>Show More</button>
+                                {/if}
+                            {/if}
+                        </div>
                         {#if submission.fields.Screenshots && submission.fields.Screenshots.length > 0}
-                            <img src="{submission.fields.Screenshots[0].url}" alt="Screenshot" class="screenshot">
+                            <div class="screenshot-container">
+                                <img src="{submission.fields.Screenshots[0].url}" alt="Screenshot" class="screenshot">
+                            </div>
                         {/if}
                         <div class="button-group">
                             <a href="{submission.fields['PR Link']}" target="_blank" class="pr-link-button">View Design Files</a>
@@ -237,11 +262,11 @@
 </body>
 
 <style>
-    /* Styling enhancements */
+    /* Nature-inspired styling */
     body {
-        background-color: #f3f4f6;
+        background-color: #f0f8ff; /* Light, nature-like background */
         font-family: 'Poppins', sans-serif;
-        color: #333;
+        color: #2f4f4f; /* Dark slate gray text */
     }
 
     .container {
@@ -267,7 +292,7 @@
     h1 {
         font-size: 3rem;
         margin-bottom: 20px;
-        color: #6A5ACD;
+        color: #2e8b57; /* Sea green for a more natural vibe */
     }
 
     h2 {
@@ -284,13 +309,18 @@
     }
 
     .grid-item {
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        text-align: left;
-        transition: transform 0.3s ease, background-color 0.3s ease;
-    }
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border: 1px solid #b2dfdb;
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Make the grid-item a column */
+    justify-content: space-between;
+}
 
     .grid-item.voted {
         background-color: #e0f7fa;
@@ -307,24 +337,42 @@
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-bottom: 20px;
         color: #555;
+        display: -webkit-box;
+        -webkit-line-clamp: 5; /* Show more lines to display more text before truncating */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: max-height 0.5s ease;
     }
+
+    .show-more-expanded p {
+        -webkit-line-clamp: unset;
+        max-height: none;
+    }
+
+    .screenshot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-bottom: 15px;
+}
 
     .screenshot {
-        width: 100%;
-        height: 200px; /* Larger height for desktop */
-        object-fit: contain;
-        margin-bottom: 10px;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain; /* Ensures the image is scaled proportionally */
         border-radius: 5px;
     }
-
     .button-group {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    margin-top: auto; /* Push the buttons to the bottom */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
     .pr-link-button {
         display: inline-block;
@@ -346,7 +394,7 @@
     .vote-button {
         padding: 10px 15px;
         border: none;
-        background-color: #FFA500;
+        background-color: #ffa500;
         color: #fff;
         border-radius: 5px;
         cursor: pointer;
@@ -360,7 +408,7 @@
     }
 
     .vote-button:hover:not(:disabled) {
-        background-color: #FF4500;
+        background-color: #ff4500;
     }
 
     .button-container {
@@ -371,7 +419,7 @@
 
     .reset-button {
         padding: 12px 30px;
-        background-color: #6A5ACD;
+        background-color: #6a5acd;
         color: white;
         border: none;
         border-radius: 8px;
@@ -381,10 +429,26 @@
     }
 
     .reset-button:hover {
-        background-color: #483D8B;
+        background-color: #483d8b;
     }
 
-    /* Modal styling */
+    .show-more-button {
+        background: none;
+        border: none;
+        color: #2e8b57; /* More subtle, nature-like color */
+        cursor: pointer;
+        font-size: 0.9rem; /* Smaller size */
+        text-decoration: underline;
+        padding: 0;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .show-more-button:hover {
+        color: #3cb371; /* Lighter, natural hover color */
+    }
+
+    /* Nature-inspired colors for modal */
     .modal {
         display: flex;
         justify-content: center;
@@ -408,6 +472,7 @@
         max-width: 500px;
         border-radius: 10px;
         text-align: center;
+        border: 2px solid #8fbc8f; /* Light sea green */
     }
 
     .close {
@@ -427,7 +492,7 @@
 
     .confirm-button {
         padding: 10px 20px;
-        background-color: #4A154B;
+        background-color: #4a154b;
         color: #fff;
         border: none;
         border-radius: 5px;
@@ -459,7 +524,7 @@
 
     .close-button {
         padding: 10px 20px;
-        background-color: #4A154B;
+        background-color: #4a154b;
         color: #fff;
         border: none;
         border-radius: 5px;
@@ -473,11 +538,25 @@
         background-color: #3a0d3b;
     }
 
+    /* Add subtle nature-themed background elements */
+    body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('leaf.jpg');
+        background-size: cover;
+        opacity: 0.05;
+        pointer-events: none;
+    }
+
     /* Responsive Grid Layout for Mobile */
     @media screen and (max-width: 768px) {
         .grid-container {
             grid-template-columns: 1fr; /* Single column on mobile */
-            gap: 15px; /* Smaller gap for better spacing */
+            gap: 15px;
         }
 
         .grid-item {
@@ -485,36 +564,48 @@
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px; /* Add more space between cards */
+            margin-bottom: 20px;
             text-align: center;
         }
 
+        .grid-item img {
+            justify-content: center;
+            align-items: center;
+        }
+
         h1 {
-            font-size: 1.8rem; /* Reduce size for mobile */
+            font-size: 1.8rem;
             margin-bottom: 15px;
         }
 
         h2 {
-            font-size: 1.4rem; /* Slightly smaller subheading */
+            font-size: 1.4rem;
             margin-bottom: 10px;
         }
 
         p {
-            font-size: 1rem; /* Adjust text size */
-            line-height: 1.5; /* Improve readability */
+            font-size: 1.1rem; /* Increased text size */
+            line-height: 1.6;
+        }
+
+        .screenshot-container {
+            height: 200px; /* Set a fixed height for the container */
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .screenshot {
-            width: 100%; /* Keep image at full width */
-            height: auto;
-            max-height: 200px; /* Ensure images are not too tall */
-            object-fit: contain; /* Prevent stretching */
-            margin-bottom: 15px;
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain; /* Ensures the image is scaled proportionally */
+            border-radius: 5px;
         }
 
         .reset-button, .vote-button {
-            padding: 10px 20px; /* Make buttons easier to tap */
-            font-size: 1rem; /* Make text on buttons more readable */
+            padding: 10px 20px;
+            font-size: 1rem;
         }
     }
 </style>
