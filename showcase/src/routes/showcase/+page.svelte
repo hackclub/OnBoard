@@ -77,33 +77,37 @@
 	});
 
 	function handleVote(submission: Submission) {
-		if (!slackID) {
-			showModal.set(true);
-			return;
-		}
-
-		const previousVote = Object.keys(votes).find((id) => votes[id] === selectedCategory);
-
-		if (previousVote) {
-			return;
-		}
-
-		votes[submission.id] = selectedCategory;
-		currentVotes += 1;
-		hasVoted = true;
-
-		const gridItem = document.querySelector(`.grid-item[data-id="${submission.id}"]`);
-		if (gridItem) {
-			gridItem.classList.add('voted');
-			setTimeout(() => {
-				gridItem.classList.remove('voted');
-			}, 1000);
-		}
-
-		if (currentVotes >= maxVotes) {
-			setTimeout(nextCategory, 2000);
-		}
+	if (!slackID) {
+		showModal.set(true);
+		return;
 	}
+
+	const previousVote = Object.keys(votes).find((id) => votes[id] === selectedCategory);
+
+	if (previousVote) {
+		return;
+	}
+
+	votes[submission.id] = selectedCategory;
+	currentVotes += 1;
+	hasVoted = true;
+
+	const gridItem = document.querySelector(`.grid-item[data-id="${submission.id}"]`);
+	if (gridItem) {
+		gridItem.classList.add('voted');
+		setTimeout(() => {
+			gridItem.classList.remove('voted');
+		}, 1000);
+	}
+
+	// Scroll to the top after voting
+	window.scrollTo({ top: 0, behavior: 'smooth' });
+
+	if (currentVotes >= maxVotes) {
+		setTimeout(nextCategory, 2000);
+	}
+}
+
 
 	async function submitAllVotes() {
 		try {
