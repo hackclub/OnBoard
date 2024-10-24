@@ -25,6 +25,7 @@ export async function GET() {
         );
 
         const data: any = await response.json();
+        console.log!('{ data }', { data });
 
         // if !data then return the raw response from Airtable
         if (!data || !data.records) {
