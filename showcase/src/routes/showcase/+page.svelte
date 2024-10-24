@@ -194,8 +194,8 @@
                                 {@html marked(submission.fields.Description, { renderer })}
                                 <button class="show-more-button" on:click={() => toggleShowMore(submission.id)}>Show Less</button>
                             {:else}
-                                {@html marked(submission.fields.Description.slice(0, 150), { renderer })}
-                                {#if submission.fields.Description.length > 100}
+                                {@html marked(submission.fields.Description.slice(0, 150) + '...', { renderer })}
+                                {#if submission.fields.Description.length > 150}
                                     <button class="show-more-button" on:click={() => toggleShowMore(submission.id)}>Show More</button>
                                 {/if}
                             {/if}
