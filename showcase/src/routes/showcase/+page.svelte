@@ -35,6 +35,7 @@
 	// Customize the marked renderer to ignore images
 	const renderer = new marked.Renderer();
 	renderer.image = () => '';
+	renderer.heading = () => '';
 
 	onMount(async () => {
 		console.log('Component mounted, starting data fetch...');
