@@ -35,14 +35,17 @@
 	// Customize the marked renderer to ignore images
 	const renderer = new marked.Renderer();
 	renderer.image = () => '';
+	renderer.heading = () => '';
 
 	onMount(async () => {
+		console.log('Component mounted, starting data fetch...');
 		const urlParams = new URLSearchParams(window.location.search);
 		const slackIDParam = urlParams.get('slackID');
 		const hashParam = urlParams.get('hash');
 		const slackUsernameParam = urlParams.get('slackUsername');
 
 		if (slackIDParam && hashParam && slackUsernameParam) {
+			console.log('Storing URL parameters in local storage...');
 			localStorage.setItem('slackID', slackIDParam);
 			localStorage.setItem('slackUsername', slackUsernameParam);
 			localStorage.setItem('hash', hashParam);
@@ -59,6 +62,7 @@
 		slackUsername = localStorage.getItem('slackUsername');
 
 		try {
+			console.log('Fetching submissions from API...');
 			const response = await fetch('/api/submissions');
 			const data = await response.json();
 
@@ -67,7 +71,9 @@
 			if (Array.isArray(data)) {
 				submissions = data;
 				maxVotes = Math.ceil(submissions.length * 0.1);
+				console.log(`Submissions loaded successfully. Max votes set to: ${maxVotes}`);
 			} else {
+				console.error('Response is not an array:', data);
 				throw new Error('Response is not an array');
 			}
 		} catch (err) {
@@ -77,37 +83,46 @@
 	});
 
 	function handleVote(submission: Submission) {
+		console.log(`Attempting to vote for submission ID: ${submission.id}`);
+
 		if (!slackID) {
+			console.warn('Slack ID is not available. Showing modal...');
 			showModal.set(true);
 			return;
 		}
 
 		const previousVote = Object.keys(votes).find((id) => votes[id] === selectedCategory);
-
 		if (previousVote) {
+			console.log(`Previous vote found for submission ID: ${previousVote}. Ignoring new vote.`);
 			return;
 		}
 
 		votes[submission.id] = selectedCategory;
 		currentVotes += 1;
 		hasVoted = true;
+		console.log(`Voted for ${submission.fields['GitHub handle']} in category: ${selectedCategory}`);
 
 		const gridItem = document.querySelector(`.grid-item[data-id="${submission.id}"]`);
 		if (gridItem) {
 			gridItem.classList.add('voted');
 			setTimeout(() => {
 				gridItem.classList.remove('voted');
+				console.log(`Voted class removed for submission ID: ${submission.id}`);
 			}, 1000);
 		}
 
-		if (currentVotes >= maxVotes) {
-			setTimeout(nextCategory, 2000);
-		}
-	}
+		// Scroll to the top after voting
+		console.log('Scrolling to the top after voting...');
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+		if (currentVotes <= maxVotes) {
+		setTimeout(nextCategory, 2000);
+	}	}
 
 	async function submitAllVotes() {
 		try {
 			const hash = localStorage.getItem('hash');
+			console.log('Submitting all votes...', { votes, slackID, hashedSlackID: hash });
+
 			const response = await fetch('/api/vote', {
 				method: 'POST',
 				headers: {
@@ -122,15 +137,17 @@
 
 			if (!response.ok) {
 				const errorData = await response.json();
+				console.error('Failed to submit votes:', errorData);
 				throw new Error(errorData.error || 'Failed to submit votes');
 			}
 
-			console.log('All votes submitted');
+			console.log('All votes submitted successfully');
 			voteSubmitted = true;
 			successMessage = 'Success';
 			showSuccessModal.set(true);
 
 			setTimeout(() => {
+				console.log('Redirecting to the homepage...');
 				window.location.href = 'https://onboard.hackclub.com';
 			}, 10000);
 		} catch (error) {
@@ -142,26 +159,33 @@
 	}
 
 	function nextCategory() {
-		if (categoryIndex < categories.length - 1) {
-			categoryIndex += 1;
-			selectedCategory = categories[categoryIndex];
-			currentVotes = 0;
-			hasVoted = false;
-		} else {
-			showConfirmation.set(true);
-		}
-	}
+    console.log(`Current votes: ${currentVotes}, Max votes: ${maxVotes}, Has voted: ${hasVoted}`);
+    
+    if (categoryIndex < categories.length - 1) {
+        categoryIndex += 1;
+        selectedCategory = categories[categoryIndex];
+        currentVotes = 0;
+        hasVoted = false;
+        console.log(`Switched to next category: ${selectedCategory}`);
+    } else {
+        console.log("All categories completed. Displaying confirmation modal.");
+        showConfirmation.set(true);
+    }
+}
 
 	function resetVotes() {
+		console.log('Resetting votes...');
 		window.location.reload();
 	}
 
 	function confirmVotes() {
+		console.log('Confirming votes...');
 		showConfirmation.set(false);
 		submitAllVotes();
 	}
 
 	function toggleShowMore(id: string) {
+		console.log(`Toggling show more for submission ID: ${id}`);
 		showMore.update((current) => ({
 			...current,
 			[id]: !current[id]
