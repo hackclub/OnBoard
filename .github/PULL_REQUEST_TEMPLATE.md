@@ -4,7 +4,8 @@
 
 - [ ] I am a current high school, middle school, or home schooled student.
   - [ ] I am 18 or under
-  - [ ] I have filled out the [verification form](https://airtable.com/app4Bs8Tjwvk5qcD4/pagxECjJZOgvKVnLd/form)
+  - [ ] I have filled out the [verification form](https://verify.onboard.hackclub.com) **(do this for every pull request)**
+    -  *or the [legacy verification form](https://legacy.verify.onboard.hackclub.com) if the above doesn't work* 
 - [ ] I have joined the [`#electronics`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel on [Slack](https://hackclub.com/slack/?event=onboard)
 - [ ] I made this board from scratch, even if I followed a tutorial
 - [ ] I have followed the directions in [README.md](https://github.com/hackclub/OnBoard/blob/main/README.md#getting-started)
@@ -18,9 +19,10 @@
 
 - [ ] (Optional) This project is from a tutorial[^1].
 - [ ] (Optional) This project is for OnBoard Live[^2].
+- [ ] (Optional) This project is for [Trick or Trace](https://showcase.hackclub.com/)[^3].
 - [ ] (Optional) I'm in a FIRST (FRC, FTC, FLL, etc.) team. The number is: ____
 
 [^1]: Projects from a tutorial are 100% fine! We just want to ask so we can count how people are using tutorials.
 [^2]: OnBoard Live is a special version of OnBoard where you can earn more money for designing advanced boards. Check out the #onboard-live channel on [our Slack](https://hackclub.com/slack/?event=onboard)!
-
+[^3]: [Trick or Trace](https://trickortrace.hackclub.com/) is a limited time design contest for PCBs, enter your PCB into one of the three catagories and by peer voting, get chosen for a 100$ additional grant from OnBoard.
 <!-- -Submission- -->
