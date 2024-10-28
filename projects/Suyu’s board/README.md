@@ -1,6 +1,6 @@
 name: "Suyu Peng"
-slack_handle: "@SLACK HANDLE"
-github_handle: "@GITHUB HANDLE"
+slack_handle: "@Suyupeng"
+github_handle: "@suyu-peng"
 tutorial: # Link to the tutorial if you used one
 ---
 
