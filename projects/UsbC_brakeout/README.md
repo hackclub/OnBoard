@@ -6,7 +6,7 @@ github_handle: "@qwell3"
 ---
 
 # Usbc Brakeout
-I made a usb connector with pins to get gnd and 5V
+I made a usb connector with pins to get gnd and 5V, I tried a few versions to make it more compact and this design fit the best
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 
 <!-- How much is it going to cost? -->
