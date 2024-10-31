@@ -23,7 +23,7 @@
 	const fixedPositions = [
 		{ left: 1500, top: 170 },
 		{ left: 1500, top: 330 },
-		{ left: 1500, top: 500 }
+		{ left: 1500, top: 490 }
 	];
 
 	// Initialize sticker positions with fixed values
@@ -64,7 +64,7 @@
 			if (!positions[index].moving) {
 				startWiggle(index);
 			}
-		}, 5000); // Start wiggling again after 5 seconds
+		}, 10000); // Start wiggling again after 5 seconds
 	}
 
 	function onMouseDown(index: number, e: MouseEvent): void {
