@@ -14,5 +14,5 @@ Custom 65% Keyboard Design w/ Rotary Encoder Knob
 
 Standard keyboard matrix that I plan to solder a ProMicro as the microcontroller and an EC-11 rotary encoder for a volume knob.
 
-COST: $43.65
+COST: $31.89
 
