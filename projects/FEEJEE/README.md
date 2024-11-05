@@ -2,7 +2,7 @@
 name: "Natanon Ito"
 slack_handle: "@Iitoobb"
 github_handle: "@iamPeppo"
-tutorial: [# Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
+tutorial:(https://jams.hackclub.com/jam/hacker-card)
 ---
 
 # Natanon's ContactME (NFC card)
