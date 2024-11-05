@@ -5,7 +5,7 @@ github_handle: "@iamPeppo"
 tutorial: [# Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
 ---
 
-# Natanon's ContactME [NFC card]
+# Natanon's ContactME (NFC card)
 
 NFC card which contain my contact information (Email, Github, etc.).
 With an amazing and cool straightfoward design (Rectangle) and simple shades of color (Black).
