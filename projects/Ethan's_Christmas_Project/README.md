@@ -5,7 +5,7 @@ github_handle: "@ethanJPope"
 tutorial:
 ---
 
-# YOUR PROJECT NAME
+# Christmas Project
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 I made a christmas ordament. It wil light up with some LEDs
