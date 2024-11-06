@@ -1,7 +1,7 @@
 ---
-name: "FIRST LAST"
-slack_handle: "@SLACK HANDLE"
-github_handle: "@GITHUB HANDLE"
+name: "Zachary Kennerson"
+slack_handle: "@zach"
+github_handle: "@STAR-Quil"
 ---
 
 # PicoPedal
