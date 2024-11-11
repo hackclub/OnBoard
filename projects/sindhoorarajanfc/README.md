@@ -2,7 +2,7 @@
 name: "Sindhoora Raja"
 slack_handle: "@U07E4G2Q0JY"
 github_handle: "@Sindhoorar10"
-tutorial: #https://jams.hackclub.com/jam/hacker-card
+tutorial: "#https://jams.hackclub.com/jam/hacker-card"
 ---
 
 # Sindhoora's NFC Card
