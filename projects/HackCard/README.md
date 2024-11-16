@@ -5,10 +5,10 @@ github_handle: @Rafi13082007
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
-# YOUR PROJECT NAME
+# Hack Card
 
 I'm making a Hack Card, but in a vertical and horizontal mode.
 
-<!-- How much is it going to cost? -->
+Less than 100$
 
 I followed the tutorial but I felt like while a horizontal design is common, a vertical design would also look cool, so I will be ordering both.
