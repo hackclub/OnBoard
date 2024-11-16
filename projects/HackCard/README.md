@@ -1,8 +1,8 @@
 ---
 name: Mahin Rafi Alam Hassan
-slack_handle: "@SLACK HANDLE"
+slack_handle: Rafi13082007
 github_handle: @Rafi13082007
-tutorial: [# Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # YOUR PROJECT NAME
