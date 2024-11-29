@@ -19,7 +19,7 @@ Back:
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 ## About my board!
-I made my own NFC Card! It will make it easy to list my socials and links!
+I made my own NFC Card! It will make it easy to list my socials and links! I followed the hacker card tutorial c:
 <!-- How much is it going to cost? -->
 ## Cost/Price
 The website said it would cost around 42 dollars.
