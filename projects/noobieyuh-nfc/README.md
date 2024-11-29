@@ -22,5 +22,5 @@ Back:
 I made my own NFC Card! It will make it easy to list my socials and links!
 <!-- How much is it going to cost? -->
 ## Cost/Price
-The website said it would cost around 40 dollars.
+The website said it would cost around 42 dollars.
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
