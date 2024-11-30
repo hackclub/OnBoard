@@ -9,6 +9,6 @@ tutorial: https://jams.hackclub.com/jam/hacker-card
 
 I'm making a Hack Card, but in a vertical and horizontal mode.
 
-Around 60$
+Around 40$
 
 I followed the tutorial but I felt like while a horizontal design is common, a vertical design would also look cool, so I will be ordering both.
