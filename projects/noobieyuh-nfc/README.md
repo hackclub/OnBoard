@@ -13,7 +13,8 @@ Front:
 
 Back:
 
-![image](https://github.com/user-attachments/assets/1e5dec3c-8a18-4408-806e-73f659e44fb6)
+![image](https://github.com/user-attachments/assets/6d50f271-8dd1-43a3-9736-9ccf36ed16ea)
+
 
 
 
