@@ -1,7 +1,7 @@
 ---
 name: Mahin Rafi Alam Hassan
 slack_handle: Rafi13082007
-github_handle: @Rafi13082007
+github_handle: Rafi13082007
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
