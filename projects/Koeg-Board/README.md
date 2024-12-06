@@ -9,6 +9,8 @@ tutorial:
 
 This is my first PCB design, a wireless low profile split keyboard with RGB, based on the nrf52833 SOC. I tried to fit things in as tightly as possible. I used an autoroute (freerouting) to make the easy connections, and the ones it couldn't do I did. Furthermore, I use a PCB antenna. I use a voltage regulator and a level shifter for the LEDs.
 
-≈80usd
+≈90usd
 
-I used a lot of refrence designs, they helped out a lot
+I used refrence designs, they helped out a lot
+
+[repo](https://github.com/KOEGlike/koeg-board-pcb)
