@@ -27,7 +27,7 @@ This way it's much cheaper to manufacture and assemble.
 
 ### What does it cost?
 
-It costs $71.81 with shipping and with a coupon. It uses assembly for only one component
+It costs $49.83 with shipping and with a coupon. It uses assembly for only one component
 (8 pieces per board), the other components I already have left over from other projects.
 
 
