@@ -1,3 +1,4 @@
+![Image of Card](https://github.com/sayhan1610/HackerCard/blob/main/projects/sayhan_rahman/card.gif?raw=true)
 ---
 name: "Sayhan Rahman"
 slack_handle: "@sayhan1610"
