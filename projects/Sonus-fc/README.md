@@ -1,6 +1,6 @@
 ---
 name: "Lalit Kartik"
-slack_handle: "@SLACK HANDLE"
+slack_handle: "LalitKartikeyan G"
 github_handle: "LalitCreations"
 tutorial: # Link to the tutorial if you used one
 ---
