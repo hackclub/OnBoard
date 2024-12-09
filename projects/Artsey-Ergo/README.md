@@ -8,7 +8,7 @@ tutorial: (I didn't use a tutorial)
 # Artsey Ergo
 
 <p align="center">
-<img src="src/_image.png" alt="Artsey Ergo PCB" width="600px" height="auto">
+  <img src="src/_image.png" alt="Artsey Ergo PCB" width="600px" height="auto">
 </p>
 
 A ZMK powered wireless 8-key ortholinear ergonomic keyboard based on the Artsey keyboard.
