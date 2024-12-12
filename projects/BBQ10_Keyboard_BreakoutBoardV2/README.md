@@ -2,7 +2,7 @@
 name: "Spyros Catéchis"
 slack_handle: "@Spyros Catechis"
 github_handle: "@PetabyteBrain"
-tutorial: [One of the designs is this](https://github.com/Dakkaron/Fairberry)
+tutorial: https://github.com/Dakkaron/Fairberry
 ---
 
 # BBQ10_Keyboard_BeakoutBoardV2
