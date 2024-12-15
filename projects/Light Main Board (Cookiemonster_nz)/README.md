@@ -1,7 +1,7 @@
 ---
-name: Christopher Body
-slack_handle: @Chris B
-github_handle: @cookiemonsternz
+name: "Christopher Body"
+slack_handle: "@Chris B"
+github_handle: "@cookiemonsternz"
 ---
 
 # Light Main Board
