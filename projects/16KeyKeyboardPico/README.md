@@ -2,7 +2,7 @@
 ---
 name: Brady Sobel
 slack_handle: #dont have one yet
-github_handle: @goldpanda2258
+github_handle: "@goldpanda2258"
 tutorial: none
 ---
 
