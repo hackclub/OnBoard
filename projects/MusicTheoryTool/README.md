@@ -12,7 +12,7 @@ Its essentialy a musical insturment to help teach people about simple music theo
 how chords work easier and its cool to play.
 
 <!-- How much is it going to cost? -->
-
+$43.26
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 It was hard, the most challenging pcb I have ever designed and vias are really annoying lol. Something that helps is to check all your nets.
