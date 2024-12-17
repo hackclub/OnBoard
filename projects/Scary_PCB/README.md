@@ -1,5 +1,5 @@
 ---
-name: Jaume Cardona
+name: "Jaume Cardona"
 slack_handle: @Jaumx
 github_handle: "@Jaumix3"
 tutorial: # Link to the tutorial if you used one
