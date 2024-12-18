@@ -11,7 +11,6 @@ It's easier than ever for high school students to get involved with programming;
 ---
 
 Every student will receive up to $100 to cover PCB manufacturing costs, and join a community of peers– some more beginner and some more experienced.
-
 ## Requirements
 
 Every design/submission needs to meet the following constraints to be approved:
