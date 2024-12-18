@@ -5,7 +5,7 @@ github_handle: "@mukul0x08"
 tutorial: # [Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
 ---
 
-# YOUR PROJECT NAME
+# mukul0x08-hacker-card
 
 I made an nfc card folling th hacker-card tutorial found on the hack club website with intention to learn pcb design. I have learnt how to use easy eda and find resouces to help me.
 
