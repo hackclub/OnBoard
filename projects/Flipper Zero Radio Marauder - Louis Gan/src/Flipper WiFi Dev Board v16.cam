@@ -1,0 +1,476 @@
+{
+    "author": {
+        "email": "support.eagle@autodesk.com",
+        "name": "Autodesk Fusion Electronics"
+    },
+    "description": {
+        "EN": "Fusion Electronics default 2 layer CAM job."
+    },
+    "output_type": "zip",
+    "outputs": [
+        {
+            "compress_output": true,
+            "export_cad_netlist": true,
+            "export_eda_component_attributes": true,
+            "export_eda_data": true,
+            "export_eda_footprint_names": true,
+            "export_eda_net_attributes": true,
+            "export_job_name_instead_of_product_model_name": true,
+            "export_layer_features_count": true,
+            "export_neutral_net_names": false,
+            "export_step_profile_board_cutouts": true,
+            "export_step_profile_from_board_shape": true,
+            "export_text_attributes": true,
+            "export_unique_id": true,
+            "export_unit": true,
+            "filename_prefix": "CAMOutputs/ODBFiles",
+            "generate_job_file": true,
+            "odb_format_version": "V8.1+",
+            "output_name": "flipper_wifi_dev_board_v16",
+            "output_type": "odb++",
+            "outputs": [
+                {
+                    "layer_context": "BOARD",
+                    "layer_side": "top",
+                    "layer_type": "COMPONENT",
+                    "layers": [
+                    ],
+                    "name": "comp_+_top",
+                    "polarity": "POSITIVE",
+                    "rowid": 1
+                },
+                {
+                    "layer_context": "BOARD",
+                    "layer_side": "top",
+                    "layer_type": "SOLDER_PASTE",
+                    "layers": [
+                        31
+                    ],
+                    "name": "solder_+_paste_+_top",
+                    "polarity": "POSITIVE",
+                    "rowid": 2
+                },
+                {
+                    "layer_context": "BOARD",
+                    "layer_side": "top",
+                    "layer_type": "SILK_SCREEN",
+                    "layers": [
+                        21,
+                        25
+                    ],
+                    "name": "silkscreen_+_top",
+                    "polarity": "POSITIVE",
+                    "rowid": 3
+                },
+                {
+                    "layer_context": "BOARD",
+                    "layer_side": "top",
+                    "layer_type": "SOLDER_MASK",
+                    "layers": [
+                        29
+                    ],
+                    "name": "solder_+_mask_+_top",
+                    "polarity": "POSITIVE",
+                    "rowid": 4
+                },
+                {
+                    "layer_context": "BOARD",
+                    "layer_side": "top",
+                    "layer_type": "SIGNAL",
+                    "layers": [
+                        1,
+                        18,
+                        17
+                    ],
+                    "name": "top",
+                    "polarity": "POSITIVE",
+                    "rowid": 5
+                },
+                {
+                    "dielectric_type": "core",
+                    "layer_context": "BOARD",
+                    "layer_type": "DIELECTRIC",
+                    "layers": [
+                        1,
+                        16
+                    ],
+                    "name": "core_+_top_+_bottom",
+                    "polarity": "POSITIVE",
+                    "rowid": 6
+                },
+                {
+                    "layer_context": "BOARD",
+                    "layer_side": "bottom",
+                    "layer_type": "SIGNAL",
+                    "layers": [
+                        16,
+                        17,
+                        18
+                    ],
+                    "name": "bottom",
+                    "polarity": "POSITIVE",
+                    "rowid": 7
+                },
+                {
+                    "layer_context": "BOARD",
+                    "layer_side": "bottom",
+                    "layer_type": "SOLDER_MASK",
+                    "layers": [
+                        30
+                    ],
+                    "name": "solder_+_mask_+_bottom",
+                    "polarity": "POSITIVE",
+                    "rowid": 8
+                },
+                {
+                    "layer_context": "BOARD",
+                    "layer_side": "bottom",
+                    "layer_type": "SILK_SCREEN",
+                    "layers": [
+                        22,
+                        26
+                    ],
+                    "name": "silkscreen_+_bottom",
+                    "polarity": "POSITIVE",
+                    "rowid": 9
+                },
+                {
+                    "layer_context": "BOARD",
+                    "layer_side": "bottom",
+                    "layer_type": "SOLDER_PASTE",
+                    "layers": [
+                        32
+                    ],
+                    "name": "solder_+_paste_+_bottom",
+                    "polarity": "POSITIVE",
+                    "rowid": 10
+                },
+                {
+                    "layer_context": "BOARD",
+                    "layer_side": "bottom",
+                    "layer_type": "COMPONENT",
+                    "layers": [
+                    ],
+                    "name": "comp_+_bot",
+                    "polarity": "POSITIVE",
+                    "rowid": 11
+                },
+                {
+                    "drills": {
+                        "NPTH": true,
+                        "PTH": true,
+                        "VIA": true
+                    },
+                    "end_name": "bottom",
+                    "layer_context": "BOARD",
+                    "layer_type": "DRILL",
+                    "layers": [
+                        1,
+                        16
+                    ],
+                    "name": "through_+_hole",
+                    "polarity": "POSITIVE",
+                    "rowid": 12,
+                    "start_name": "top"
+                },
+                {
+                    "drills": {
+                        "PSLOT": true
+                    },
+                    "end_name": "bottom",
+                    "layer_context": "BOARD",
+                    "layer_type": "ROUT",
+                    "layers": [
+                        1,
+                        16
+                    ],
+                    "name": "rout",
+                    "polarity": "POSITIVE",
+                    "rowid": 13,
+                    "start_name": "top"
+                }
+            ],
+            "prepend_netattributes_with_numbersign": true,
+            "use_teamhub_location": false
+        },
+        {
+            "filename_prefix": "CAMOutputs/GerberFiles",
+            "format_specifier": {
+                "decimal": 4,
+                "integer": 3
+            },
+            "generate_job_file": true,
+            "output_type": "gerber",
+            "outputs": [
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Copper",
+                        "layer": 1,
+                        "layer_details": "mixed",
+                        "layer_type": "top"
+                    },
+                    "filename_format": "%TEAMHUBNAME/%PROJECTNAME/%PREFIX/copper_top.gbr",
+                    "layers": [
+                        1,
+                        17,
+                        18
+                    ],
+                    "name": "Top Copper",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Copper",
+                        "layer": 2,
+                        "layer_details": "mixed",
+                        "layer_type": "bottom"
+                    },
+                    "filename_format": "%TEAMHUBNAME/%PROJECTNAME/%PREFIX/copper_bottom.gbr",
+                    "layers": [
+                        16,
+                        17,
+                        18
+                    ],
+                    "name": "Bottom Copper",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": true,
+                    "config": {
+                        "file_function": "Profile",
+                        "plating": "non-plated"
+                    },
+                    "filename_format": "%TEAMHUBNAME/%PROJECTNAME/%PREFIX/profile.gbr",
+                    "layers": [
+                    ],
+                    "milling": true,
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Soldermask",
+                        "index": 1,
+                        "layer_type": "top"
+                    },
+                    "filename_format": "%TEAMHUBNAME/%PROJECTNAME/%PREFIX/soldermask_top.gbr",
+                    "layers": [
+                        29
+                    ],
+                    "name": "Soldermask Top",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Soldermask",
+                        "index": 1,
+                        "layer_type": "bottom"
+                    },
+                    "filename_format": "%TEAMHUBNAME/%PROJECTNAME/%PREFIX/soldermask_bottom.gbr",
+                    "layers": [
+                        30
+                    ],
+                    "name": "Soldermask Bottom",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Paste",
+                        "layer_type": "top"
+                    },
+                    "filename_format": "%TEAMHUBNAME/%PROJECTNAME/%PREFIX/solderpaste_top.gbr",
+                    "layers": [
+                        31
+                    ],
+                    "milling": false,
+                    "name": "Solderpaste Top",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Paste",
+                        "layer_type": "bottom"
+                    },
+                    "filename_format": "%TEAMHUBNAME/%PROJECTNAME/%PREFIX/solderpaste_bottom.gbr",
+                    "layers": [
+                        32
+                    ],
+                    "milling": false,
+                    "name": "Solderpaste Bottom",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Legend",
+                        "index": 1,
+                        "layer_type": "top"
+                    },
+                    "filename_format": "%TEAMHUBNAME/%PROJECTNAME/%PREFIX/silkscreen_top.gbr",
+                    "layers": [
+                        125
+                    ],
+                    "milling": false,
+                    "name": "Silkscreen Top",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Legend",
+                        "index": 1,
+                        "layer_type": "bottom"
+                    },
+                    "filename_format": "%TEAMHUBNAME/%PROJECTNAME/%PREFIX/silkscreen_bottom.gbr",
+                    "layers": [
+                        126
+                    ],
+                    "milling": false,
+                    "name": "Silkscreen Bottom",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                }
+            ],
+            "version": "RS274X"
+        },
+        {
+            "extension_type": "pdf",
+            "filename_prefix": "CAMOutputs/ImageFiles",
+            "fit_to_Page": true,
+            "monochrome": true,
+            "output_type": "image",
+            "outputs": [
+            ],
+            "page_size": "A4",
+            "pdf_filename": "%N"
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrillFiles",
+            "format_specifier": {
+                "decimal": 3,
+                "integer": 3
+            },
+            "output_type": "drill",
+            "outputs": [
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "filename_format": "%TEAMHUBNAME/%PROJECTNAME/%DRILLPREFIX/drill_%FROM_%TO.xln",
+                    "name": "Auto Drill",
+                    "type": "autodrills"
+                }
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/Assembly",
+            "output_type": "assembly",
+            "outputs": [
+                {
+                    "filename_format": "%TEAMHUBNAME/%PROJECTNAME/%ASSEMBLYPREFIX/%N",
+                    "list_attribute": true,
+                    "list_type": "values",
+                    "name": "Bill of Material",
+                    "output_format": "txt",
+                    "type": "bom"
+                },
+                {
+                    "filename_format": "%TEAMHUBNAME/%PROJECTNAME/%ASSEMBLYPREFIX/PnP_%N_%BOARDSIDE",
+                    "name": "Pick and Place",
+                    "output_format": "txt",
+                    "type": "pick_and_place"
+                }
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrawingFiles",
+            "output_type": "drawing",
+            "outputs": [
+            ]
+        }
+    ],
+    "timestamp": "2022-12-06T10:37:03",
+    "type": "Fusion Electronics CAM job",
+    "units": "metric",
+    "version": "9.2.0"
+}
