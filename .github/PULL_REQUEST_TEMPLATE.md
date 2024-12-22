@@ -19,9 +19,10 @@
 
 - [ ] (Optional) This project is from a tutorial[^1].
 - [ ] (Optional) This project is for OnBoard Live[^2].
+- [ ] (Optional) This project is for Hacky Holidays[^3].
 - [ ] (Optional) I'm in a FIRST (FRC, FTC, FLL, etc.) team. The number is: ____
 
 [^1]: Projects from a tutorial are 100% fine! We just want to ask so we can count how people are using tutorials.
 [^2]: OnBoard Live is a special version of OnBoard where you can earn more money for designing advanced boards. Check out the #onboard-live channel on [our Slack](https://hackclub.com/slack/?event=onboard)!
-[^3]: [Trick or Trace](https://trickortrace.hackclub.com/) is a limited time design contest for PCBs, enter your PCB into one of the three catagories and by peer voting, get chosen for a 100$ additional grant from OnBoard.
+[^3]: [Hacky Holidays](https://hacky-holidays.hackclub.com/) is a limited time PCB event, design a holiday-themed PCB this Winter, and get it shipped.
 <!-- -Submission- -->
