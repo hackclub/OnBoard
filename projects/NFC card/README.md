@@ -2,7 +2,7 @@
 name: "Gadi Coleman"
 slack_handle: "@Aperaine"
 github_handle: "@Aperaine"
-tutorial: # [Link to the tutorial](https://jams.hackclub.com/jam/hacker-card) if you used one
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # YOUR PROJECT NAME
