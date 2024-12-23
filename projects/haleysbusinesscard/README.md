@@ -2,7 +2,7 @@
 name: "Rhian Cabrera"
 slack_handle: "@Rhian Cabrera"
 github_handle: "@rhinohaley"
-tutorial: # https://jams.hackclub.com/jam/hacker-card#Turn%20your%20design...%20into%20an%20actual%20card!)](https://jams.hackclub.com/jam/hacker-card#Turn%20your%20design...%20into%20an%20actual%20card!
+tutorial: https://jams.hackclub.com/jam/hacker-card#Turn%20your%20design...%20into%20an%20actual%20card!
 ---
 
 # haleysbusiness card
