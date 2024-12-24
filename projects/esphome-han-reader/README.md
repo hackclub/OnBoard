@@ -13,7 +13,7 @@ In Sweden and Norway afaik we have a port on our electrical meters called the [H
 
 <!-- How much is it going to cost? -->
 ## Costs
-Due to the amount of components and the RJ12 port aswell as ESP8266, the total cost of ordering from JLCPCB with the cheapest shipping alternative would come out to $92.13 USD. 
+Due to the amount of components and the RJ12 port aswell as ESP8266 and FTDI chip, the total cost of ordering from JLCPCB with the cheapest shipping alternative would come out to $84.36 USD. 
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 ## Design Process
