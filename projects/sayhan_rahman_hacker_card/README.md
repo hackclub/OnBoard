@@ -6,7 +6,7 @@ tutorial: "https://jams.hackclub.com/jam/hacker-card"
 ---
 
 # Sayhan Rahman's PCB Hacker Card
-![Image of Card](https://github.com/sayhan1610/HackerCard/blob/main/projects/sayhan_rahman/card.gif?raw=true)
+![Image of Card](https://github.com/sayhan1610/OnBoard/blob/main/projects/sayhan_rahman/card.gif?raw=true)
 
 This is a simple PCB business card with NFC antenna in it. Follows Maggie's tutorial on Hack Club Jams but the design is almost completely my own. 
 
