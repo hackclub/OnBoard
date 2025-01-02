@@ -16,7 +16,7 @@ This is a clock-shaped holiday ornament (which unfortunately cannot function as 
 
 ## Cost
 
-$31.70 + $19.24 shipping - $9.00 coupon = **$41.94**
+$31.72 + $18.15 shipping - $9.00 coupon = **$40.87**
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 
