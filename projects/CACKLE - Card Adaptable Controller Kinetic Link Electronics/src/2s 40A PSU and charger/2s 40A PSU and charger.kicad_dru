@@ -1,0 +1,39 @@
+(version 1)
+(rule "exclude USB-C pad clearance"
+	# ignore the usb-c connectors closer than normal pads, with 0.12mm gap
+	(severity exclusion)
+	(condition "A.memberOfFootprint('Connector_USB:USB_C*')")
+	(condition "A.memberOfFootprint('custom_Connector:USB_C*')")
+	(constraint clearance (min 0.12mm))
+)
+(rule "hole to hole clearance"
+	# normal holes
+	(severity error)
+	(constraint hole_to_hole (min 0.5mm))
+)
+(rule "testpoint courtyard clearance"
+	# ignores testpoint courtyard clearance issues, I am not auto testing currently, so clearance doesn't matter
+	(severity exclusion)
+	(constraint courtyard_clearance)
+	(condition "A.Reference == 'TP*'")
+	# for some reason memberOfFootprint doesn't work for this, so I have this instead
+)
+(rule "exclude pads with vias"
+	# Plated through holes with vias around the edges tend to cause DRC errors
+	# hth constraint in main settings has to be set to 0.3mm for this to work, above rule reverses it
+	# for all holes except these
+	(severity exclusion)
+	(condition "A.Pad_Type == 'Through-hole' && B.Pad_Type == 'Through-hole'")
+	(condition "A.memberOfFootprint('MountingHole:*')")
+	(constraint hole_to_hole (min 0.35mm))
+)
+
+(rule "exclude nettie masks"
+	# Ignore errors about solder mask bridgin items of different nets for polygons with no net
+	# Note that this doesn't work yet because kicad doesn't have a parameter to ignore
+	# mask zone overlaps yet. Placeholder test
+	(severity exclusion)
+	(condition "A.NetName == '<no net>'")
+	(condition "A.Type == 'Polygon'")
+	# (constraint assertion "A.Soldermask_Margin_Override == 0mm")
+)
