@@ -3,6 +3,7 @@ name: "Siddhant Kameswar"
 slack_handle: "@grimsteel"
 github_handle: "@grimsteel"
 tutorial: # Link to the tutorial if you used one
+wokwi: # Wokwi doesn't support the CH552 (and my firmware is highly dependent on CH552-specific registers and 8051 ASM.)
 ---
 
 # The Pixel Clock
@@ -15,7 +16,7 @@ This is a clock-shaped holiday ornament (which unfortunately cannot function as 
 
 ## Cost
 
-$32.13 + $18.42 shipping = **$50.55**
+$31.70 + $19.24 shipping - $9.00 coupon = **$41.94**
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 
