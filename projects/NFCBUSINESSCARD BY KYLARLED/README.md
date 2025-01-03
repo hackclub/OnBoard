@@ -1,0 +1,12 @@
+---
+name: "Kylar LeDoux"
+slack_handle: "@The big G.O. est 1984"
+github_handle: "@KylarLeD"
+tutorial: # [pcb card jam]https://jams.hackclub.com/jam/hacker-card#After%20receiving%20your%20PCB
+---
+
+# NFC-BUSINESS-CARD
+
+
+
+ $60.03 US
