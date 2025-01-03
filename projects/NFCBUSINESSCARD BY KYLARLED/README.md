@@ -9,4 +9,4 @@ tutorial: # [pcb card jam]https://jams.hackclub.com/jam/hacker-card#After%20rece
 
 This card, has information on it (like a business card). Whilst also having nfc that can be programmed.
 
- $60.03 US
+$35.93  US
