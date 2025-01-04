@@ -4,7 +4,7 @@ slack_handle: "@souptik samanta"
 github_handle: "@souptik-samanta"
 ---
 
-# Snowglobe
+# Pixel art display
 
 its a led matrix diplay with neopixels
 
