@@ -1,6 +1,6 @@
 ---
 name: "Joel Abu"
-slack_handle: "@Joel"
+slack_handle: "@jabuverse"
 github_handle: "@abusphere"
 tutorial: # Link to the tutorial if you used one
 ---
