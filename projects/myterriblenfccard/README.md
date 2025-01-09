@@ -9,6 +9,7 @@ tutorial: https://jams.hackclub.com/jam/hacker-card
 
 It is a nfc buiness card. nothing out of the ordinary
 
-The total cost is $31.21. 
+The total cost is $24.81
+
 
 Thank you for reading this
