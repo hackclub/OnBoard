@@ -1,8 +1,8 @@
 ---
-name: Brandon Ejiogu
-slack_handle: @HeatedNoob
-github_handle: @HeatedNoob
-tutorial: https://jams.hackclub.com/jam/hacker-card
+name:Brandon Ejiogu
+slack_handle:@HeatedNoob
+github_handle:@HeatedNoob
+tutorial:https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Hallowed
