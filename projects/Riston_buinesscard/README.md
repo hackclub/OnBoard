@@ -5,13 +5,12 @@ github_handle: "@ristonrodrigues723"
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
-#Halloween Card
+#skull pcb lights using xaio esp 32c
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-a halloween themed buissness card with a code to to my boba manor site that can be scanned to open the site,its a varient of the normal buissness hacker card created in the tutorial 
-
+A halloween themed pcb that can be used as spooky decoration for halloweens just plug program and light it
 <!-- How much is it going to cost? -->
 Grand Total
-$41.89
+$55.59
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
