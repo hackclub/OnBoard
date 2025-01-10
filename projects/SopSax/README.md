@@ -2,7 +2,7 @@
 name: "Stefan Lighezan"
 slack_handle: "@Stefan Lighezan"
 github_handle: "@stefanlighezan"
-tutorial: [Tutorial](https://github.com/Whackalenso/CircuitSax)
+tutorial: "https://github.com/Whackalenso/CircuitSax"
 ---
 
 # SopSax
