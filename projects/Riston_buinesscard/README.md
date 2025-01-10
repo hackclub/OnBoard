@@ -11,6 +11,6 @@ tutorial: no tutorial used self created
 A halloween themed pcb that can be used as spooky decoration for halloweens just plug program and light it
 <!-- How much is it going to cost? -->
 Grand Total
-$55.59
+$47
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
