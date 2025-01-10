@@ -9,4 +9,4 @@ tutorial: # [pcb card jam]https://jams.hackclub.com/jam/hacker-card
 
 I found the tutorial for the NFC business card and decided to make a duck-themed one because i love ducks :)
 
-$26.33 US
+$32.68 US
