@@ -4463,6 +4463,12 @@
 		(uuid "a9a327c4-aac7-4caa-968a-6ce7a25a13cf")
 	)
 	(junction
+		(at 101.6 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa192dca-38e8-4d5f-b072-75bdc04b6493")
+	)
+	(junction
 		(at 111.76 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4473,6 +4479,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7a799d4-83cb-4dcb-bde2-81d852772117")
+	)
+	(junction
+		(at 96.52 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf049ffd-e172-43fa-940d-0f8e4c31bffb")
 	)
 	(junction
 		(at 110.49 107.95)
@@ -4588,6 +4600,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 161.29) (xy 96.52 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d1894b-96cc-41b9-8679-83614f55e58f")
+	)
+	(wire
+		(pts
 			(xy 171.45 111.76) (xy 175.26 111.76)
 		)
 		(stroke
@@ -4615,6 +4637,16 @@
 			(type default)
 		)
 		(uuid "0b0eb9fe-57c3-4696-8aa9-3b1081a4afc8")
+	)
+	(wire
+		(pts
+			(xy 109.22 175.26) (xy 109.22 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d578516-df4e-4145-8fef-266a84102c39")
 	)
 	(wire
 		(pts
@@ -4725,6 +4757,16 @@
 			(type default)
 		)
 		(uuid "2b87f0d2-c69f-4544-9cff-79657dcece08")
+	)
+	(wire
+		(pts
+			(xy 101.6 161.29) (xy 110.49 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36cdcf22-a115-41a6-9c36-9a3298e4139c")
 	)
 	(wire
 		(pts
@@ -4938,6 +4980,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 161.29) (xy 96.52 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e60b4d0-a541-4f72-8376-20ce1cc4e9ea")
+	)
+	(wire
+		(pts
 			(xy 172.72 101.6) (xy 182.88 101.6)
 		)
 		(stroke
@@ -4965,6 +5017,16 @@
 			(type default)
 		)
 		(uuid "90fa596e-de96-4f53-92ef-bcf93721bbd3")
+	)
+	(wire
+		(pts
+			(xy 101.6 161.29) (xy 101.6 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919154fa-8ca0-494b-a830-c1cf1e36de76")
 	)
 	(wire
 		(pts
@@ -5108,6 +5170,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 172.72) (xy 115.57 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcdd52f5-9e72-45e2-be36-c92775e1c74f")
+	)
+	(wire
+		(pts
 			(xy 95.25 138.43) (xy 95.25 130.81)
 		)
 		(stroke
@@ -5165,16 +5237,6 @@
 			(type default)
 		)
 		(uuid "eb295004-0e17-42d6-ab14-eb1dea13b5c6")
-	)
-	(wire
-		(pts
-			(xy 109.22 175.26) (xy 115.57 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5929cbf-1e43-43bf-bfe9-007c6c983be7")
 	)
 	(wire
 		(pts
@@ -6103,7 +6165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_TSB003A"
+		(property "Footprint" "Button_Switch_SMD:SW4_KMS-P"
 			(at 180.34 106.68 0)
 			(effects
 				(font
@@ -6315,7 +6377,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
 			(at 198.12 27.94 0)
 			(effects
 				(font
@@ -6368,7 +6430,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 96.52 165.1 0)
+		(at 96.52 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6377,7 +6439,7 @@
 		(fields_autoplaced yes)
 		(uuid "212b6998-2414-4fff-b427-e06705b93510")
 		(property "Reference" "#PWR029"
-			(at 96.52 168.91 0)
+			(at 96.52 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +6448,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 96.52 160.02 0)
+			(at 96.52 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,7 +6456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 165.1 0)
+			(at 96.52 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6403,7 +6465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 165.1 0)
+			(at 96.52 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,7 +6474,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 165.1 0)
+			(at 96.52 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,6 +6556,73 @@
 			(project "PicoMMUBoard"
 				(path "/f73aff3f-6d00-48ac-9ecb-21ed1dd51484"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29612de0-f8c7-4014-85e5-e2bdb6453688")
+		(property "Reference" "#PWR017"
+			(at 87.63 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cba7d225-4511-4d26-84f5-17458a68b933")
+		)
+		(instances
+			(project "PicoMMUBoard"
+				(path "/f73aff3f-6d00-48ac-9ecb-21ed1dd51484"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6627,6 +6756,82 @@
 			(project "PicoMMUBoard"
 				(path "/f73aff3f-6d00-48ac-9ecb-21ed1dd51484"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110.49 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32df8847-644c-40f9-9eed-dbaa742b028d")
+		(property "Reference" "C5"
+			(at 116.078 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 114.046 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 111.4552 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 110.49 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d9fe604-03cb-428b-9e3d-a70139980e22")
+		)
+		(pin "2"
+			(uuid "b88edb20-d440-4386-a1c2-b97814c9d107")
+		)
+		(instances
+			(project "PicoMMUBoard"
+				(path "/f73aff3f-6d00-48ac-9ecb-21ed1dd51484"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7024,7 +7229,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 101.6 165.1 0)
+		(at 101.6 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7033,7 +7238,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a20ca49-fc95-4f6f-9648-8724b112d882")
 		(property "Reference" "#PWR032"
-			(at 101.6 168.91 0)
+			(at 101.6 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,7 +7247,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 101.6 160.02 0)
+			(at 101.6 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7050,7 +7255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 165.1 0)
+			(at 101.6 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7059,7 +7264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 165.1 0)
+			(at 101.6 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,7 +7273,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 165.1 0)
+			(at 101.6 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7228,6 +7433,71 @@
 			(project "PicoMMUBoard"
 				(path "/f73aff3f-6d00-48ac-9ecb-21ed1dd51484"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 115.57 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ea02352-65b7-40a5-b642-d32691cedb91")
+		(property "Reference" "#PWR011"
+			(at 115.57 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 112.522 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 115.57 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9138eb5-0142-46c6-9e20-f7342857a1b7")
+		)
+		(instances
+			(project "PicoMMUBoard"
+				(path "/f73aff3f-6d00-48ac-9ecb-21ed1dd51484"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7905,72 +8175,6 @@
 			(project ""
 				(path "/f73aff3f-6d00-48ac-9ecb-21ed1dd51484"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 115.57 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e82e1bf-efbf-4db8-b380-140db7bc2b15")
-		(property "Reference" "#PWR036"
-			(at 115.57 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 115.57 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 115.57 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6c1ec34-c110-41b1-be98-b267c08856e0")
-		)
-		(instances
-			(project "PicoMMUBoard"
-				(path "/f73aff3f-6d00-48ac-9ecb-21ed1dd51484"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8767,6 +8971,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 110.49 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1b66d84-6ba2-4591-80e7-30715b5fbf09")
+		(property "Reference" "#PWR020"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ecb5d5e-7e3e-4a99-80b3-95bfefe56c73")
+		)
+		(instances
+			(project "PicoMMUBoard"
+				(path "/f73aff3f-6d00-48ac-9ecb-21ed1dd51484"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 86.36 54.61 0)
 		(mirror y)
@@ -9442,6 +9713,82 @@
 			(project "PicoMMUBoard"
 				(path "/f73aff3f-6d00-48ac-9ecb-21ed1dd51484"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e256052a-5aeb-43cd-91cd-f0da82f8b2bf")
+		(property "Reference" "C4"
+			(at 82.042 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 84.074 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 86.6648 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 87.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c36ee5a6-e137-47f5-92d6-8c36a098f8df")
+		)
+		(pin "2"
+			(uuid "408470db-3ea4-4082-876d-7db27315a138")
+		)
+		(instances
+			(project "PicoMMUBoard"
+				(path "/f73aff3f-6d00-48ac-9ecb-21ed1dd51484"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10296,7 +10643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_TSB003A"
+		(property "Footprint" "Button_Switch_SMD:SW4_KMS-P"
 			(at 180.34 119.38 0)
 			(effects
 				(font
