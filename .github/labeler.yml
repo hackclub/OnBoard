@@ -1,8 +1,8 @@
 Invalid:
 - all:
-   - changed-files:
-     - any-glob-to-any-file: 'projects/**'
-     - all-globs-to-any-file: 'projects/**'
+  - changed-files:
+    - any-glob-to-any-file: 'projects/**'
+    - any-glob-to-any-file: '*'
 
 Dev:
 - all:
@@ -11,5 +11,6 @@ Dev:
     - all-globs-to-any-file: '!projects/**'
 
 Submission:
- - changed-files:
-   - any-glob-to-any-file: 'projects/**'
+- all:
+  - changed-files:
+    - any-glob-to-any-file: 'projects/**'
