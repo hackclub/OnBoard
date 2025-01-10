@@ -2,7 +2,7 @@
 name: "RISTON RODRIGUES"
 slack_handle: "@Maximus"
 github_handle: "@ristonrodrigues723"
-tutorial: https://jams.hackclub.com/jam/hacker-card
+tutorial: no tutorial used self created
 ---
 
 #skull pcb lights using xaio esp 32c
