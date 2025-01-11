@@ -9,6 +9,6 @@ tutorial: https://jams.hackclub.com/jam/hacker-card
 
 Basically just [Hacker Board](https://jams.hackclub.com/jam/hacker-card) with some customizations. Added Hack Club flag and reflect [my website design](https://wolf-yuan.dev).
 
-Final cost is $19.29 USD (PCB + Assemble, and probably shipping).
+Final cost is $20.19 USD (PCB + Assemble, and probably shipping).
 
 The board is in black btw.
