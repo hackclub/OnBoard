@@ -23,6 +23,5 @@ I designed the silkscreen using canva. The doodle art is from iStock stock photo
 The biggest challenge I faced was trying to keep all the components as close as possible while ensuring the PCB traces doesn't short.
 
 # Design Files
-
-![BackSilkScreen](https://github.com/user-attachments/assets/da4c07e9-8c70-49c1-9ef1-8c6b997ee16b)
-![FrontSilkScreen](https://github.com/user-attachments/assets/587c8255-a1d2-44d9-9c80-eb4f80c1af97)
+![Back](https://github.com/user-attachments/assets/d34beccf-f5c4-4e43-9156-4bd98941ffd7)
+![Front](https://github.com/user-attachments/assets/125140d5-68f4-4789-a0ee-e38693c44538)
