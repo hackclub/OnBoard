@@ -5,7 +5,7 @@ github_handle: "@YeetTheAnson"
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
-# Ansom's NFC (HACKER) Card
+# Anson's NFC (HACKER) Card
 
 It's a simple NFC card with silkscreen designed on Canva. The silkscreen features a QR code leading to my github page, my name and my contacts.
 
