@@ -11,6 +11,13 @@ It's easier than ever for high school students to get involved with programming;
 ---
 
 Every student will receive up to $100 to cover PCB manufacturing costs, and join a community of peers– some more beginner and some more experienced.
+
+> [!TIP]
+> ❄️ Running now ❄️, [Hacky Holidays](https://hackyholidays.hackclub.com/) is a limited-time workshop for designing your own PCB decor. Come along and join others in huddles, chats and meetups as you put together a personalized, one-of-a-kind light-up trinket to complete your tree :christmas_tree:, light up your room, or anything in-between! You can make any decoration for any holiday, and at the end, all submissions will be compiled, with the top 3 being re-manufactured to be given out as gifts :gift:.
+>
+> If you're submitting for Hacky Holidays, ensure you've included your assembly position files (POS) and bill of materials (BOM) `.csv` files in the `/src/` directory of your project.
+
+
 ## Requirements
 
 Every design/submission needs to meet the following constraints to be approved:
