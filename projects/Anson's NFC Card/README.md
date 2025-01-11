@@ -21,3 +21,8 @@ The total cost is $28.84 including shipping
 
 I designed the silkscreen using canva. The doodle art is from iStock stock photos (https://media.istockphoto.com/id/1133192531/vector/seamless-pattern.jpg?s=612x612&w=0&k=20&c=vW7M01b6xN3KldHFTMePTE14fLAPhnDKVKCwinZ5R0A=)
 The biggest challenge I faced was trying to keep all the components as close as possible while ensuring the PCB traces doesn't short.
+
+# Design Files
+
+![BackSilkScreen](https://github.com/user-attachments/assets/da4c07e9-8c70-49c1-9ef1-8c6b997ee16b)
+![FrontSilkScreen](https://github.com/user-attachments/assets/587c8255-a1d2-44d9-9c80-eb4f80c1af97)
