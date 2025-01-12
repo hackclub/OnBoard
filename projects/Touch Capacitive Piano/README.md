@@ -1,23 +1,22 @@
-
 ---
-Name - Sohjeet Singh
-
-Slack_handle : @sohjeet
-
-github_handl : @sohjeet
-
-Project : Touch Capacitive Piano
-
+name: Sohjeet Singh
+slack_handle: "@sohjeet"
+github_handle: "@sohjeet"
+project: Touch Capacitive Piano
 ---
 
 
 # Touch Capacitive Piano
+
 ## Summary
-#### I will be designing our own touch-capacitive Piano with Arduino Nano. We will include a recording and replay feature on our Piano, I am going to use capacitive touch keys for our piano keys. So along with learning how to build a fun to play piano I will also explore how to design capacitive touch keys on PCB, 
+
+I will be designing our own touch-capacitive Piano with Arduino Nano. We will include a recording and replay feature on our Piano, I am going to use capacitive touch keys for our piano keys. So along with learning how to build a fun to play piano I will also explore how to design capacitive touch keys on PCB, 
 
 ## Plan
-#### Manufaturing cost: $7.80, Shipping: $77.42 (could be reduced to cheaper shipping plan).
-#### Components Required to build a PCB Piano using Arduino Nano
+
+Manufaturing cost: $7.80, Shipping: $77.42 (could be reduced to cheaper shipping plan).
+
+Components Required to build a PCB Piano using Arduino Nano:
 
 `Arduino Nano`
 `Resistors (1Mega Ohm) X 8`
@@ -27,10 +26,10 @@ Project : Touch Capacitive Piano
 `18650 battery Charging Module`
 `DC to DC Voltage Booster`.
 
-#### I will create it in 7 day.
+I will create it in 7 day.
 
 ## Design
-![Circuit design](circuit_design.png)
+
 - The eight 1Mega Ohm Resistors are connected to the Arduino Nano's digital pin number 2 in the following circuit diagram. 
 - The digital pins 3 to 10 were further connected to the other connecting points of each resistor. 
 - I have a slide switch labelled `RECODINGSWITCH`. 

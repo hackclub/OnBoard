@@ -37,27 +37,3 @@ At this point I ran into a conflict between a small, inexpensive microcontroller
 Pivoting to the VL53L1x, my job was a lot easier as the drivers only use \~2.3 kB of flash. The VL53L1x specifically operates at 1.6v\~2.8v logic level, which drove my choice specifically to the STM32L011k for its 1.8v operating level. Doing an I2C shift would be possible, but would introduce a lot of potential problems with high-speed communications. Just shifting SWD and the PWM output would be a lot easier.
 
 A last-minute addition was the INT (interrupt) output pin, as I realized that the sensor update rates weren't quite as good as I thought, and so downstream devices could easily find a notification of new updates useful.
-
----
-
-[X] I am a current high school, middle school, or home schooled student.
-
-[X] I have filled out the [verification form](https://airtable.com/shrbcDANe6ug6gj0p)
-
-[X] I have joined the [`#onboard`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel on Slack
-
-[X] I made this board from scratch, even if I followed a tutorial
-
-[X] I have followed [DIRECTIONS.md](https://github.com/hackclub/OnBoard/directions.md)
-
-[X] Created a folder under `onboard/projects`
-
-[X] Filled out `TEMPLATE.md`
-
-[X] Uploaded Gerber and design files
-
-[X] Uploaded screen shot of PCB passing vendor inspection
-
-[X] I am ordering the smallest batch size (ie. JLCPCB's smallest order is for 5 boards)
-
-[X] If outside the US I've checked that I can afford the customs charges in my country (which isn't covered by the grant)

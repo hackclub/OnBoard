@@ -6,12 +6,11 @@ Never designed a PCB before? You're in the right place! The OnBoard community ha
 - GreatScott!:
   - [Electronic Basics #14: Capacitors](https://www.youtube.com/watch?v=otQGdPLyF3w&list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0&index=42)
   - [Electronic Basics #16: Resistors](https://www.youtube.com/watch?v=7w5I-KbJ1Sg&list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0&index=40)
+- ElectroBOOM: [Electronics](https://youtube.com/playlist?list=PLr_CZLgMkHeXc_45uIgYutY0m6fqmI5du&si=WIVFAfIjkPKWoWJn)
 
 
 ## PCB Tutorials
 
-FILL ME IN!
-
-NFC Business card (by Maggie) - Here's the footage and the [raw](https://www.youtube.com/watch?v=QNMYNFwhsCQ) [files](https://www.youtube.com/watch?v=qcy85PVVtaw). An [edited version](https://youtu.be/enMtMOgimm4) was made by  [@Shrey-Mehra](https://github.com/Shrey-Mehra).
-
-The documentation for the call with a parts list [is here](https://docs.google.com/document/d/1krFZS5pbgI6-snVpr05o-wbVZsnxFnaWauHJtw_QBD0/edit).
+- [PCB Business Card with NFC](https://jams.hackclub.com/jam/hacker-card)
+- [Build a USB Hub](https://jams.hackclub.com/batch/usb-hub)
+- [Make a Digital Level](https://jams.hackclub.com/batch/sparkletilt-pcb)
