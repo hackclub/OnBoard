@@ -1,13 +1,13 @@
 ---
-name: "Rene Sild"
-slack_handle: "@sildrene"
-github_handle: "@renesild"
+name: "Sander Väli"
+slack_handle: "@sandervali"
+github_handle: "@sandervali"
 ---
 
-# Usb HUB
+# usb hub
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-It gives me more usb ports for my laptop.
+Usb hub for my TV.
 <!-- How much is it going to cost? -->
-Just under fifty dollars, using a coupon. 
+It's going to cost me under 50 dollars. 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
