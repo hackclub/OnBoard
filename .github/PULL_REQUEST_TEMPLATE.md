@@ -16,13 +16,17 @@
   - [ ] Uploaded screenshot of PCB order called `cart.png` with all costs included
   - [ ] I am ordering the smallest batch size (ie. JLCPCB's smallest order is for 5 boards)
   - [ ] If outside the US I've checked that I can afford the customs charges in my country (which isn't covered by the grant)
-
-- [ ] (Optional) This project is from a tutorial[^1].
-- [ ] (Optional) This project is for OnBoard Live[^2].
-- [ ] (Optional) This project is for Hacky Holidays[^3].
-- [ ] (Optional) I'm in a FIRST (FRC, FTC, FLL, etc.) team. The number is: ____
+___
+- [ ] *(Optional)* This project is from a tutorial[^1].
+- [ ] *(Optional)* This project is for OnBoard Live[^2].
+- [ ] *(Optional)* This project is for Hacky Holidays[^3].
+  - [ ] I have included the `bom.csv` *(Bill of Materials)* file with the appropriate JLCPCB/LCSC Part numbers in the `/src` directory
+  - [ ] I have included the `positions.csv` file in the `/src` directory
+  - [ ] I have checked <ins>Hacky Holidays</ins> in the [verification form](https://verify.onboard.hackclub.com) and selected the parts I will require
+  - [ ] I have submitted a request for [**Hand Assembly**](https://forms.hackclub.com/t/oUxL8uShxXus) if my PCB is complex, has a high extended component count and/or requires Standard Assembly
+- [ ] *(Optional)* I'm in a FIRST (FRC, FTC, FLL, etc.) team. The number is: ____
 
 [^1]: Projects from a tutorial are 100% fine! We just want to ask so we can count how people are using tutorials.
 [^2]: OnBoard Live is a special version of OnBoard where you can earn more money for designing advanced boards. Check out the #onboard-live channel on [our Slack](https://hackclub.com/slack/?event=onboard)!
-[^3]: [Hacky Holidays](https://hacky-holidays.hackclub.com/) is a limited time PCB event, design a holiday-themed PCB this Winter, and get it shipped.
+[^3]: [Hacky Holidays](https://hacky-holidays.hackclub.com/) is a limited-time PCB event, design a holiday-themed PCB this Winter, and get it shipped.
 <!-- -Submission- -->

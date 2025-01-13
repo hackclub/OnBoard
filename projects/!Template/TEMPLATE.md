@@ -3,6 +3,7 @@ name: "FIRST LAST"
 slack_handle: "@SLACK HANDLE"
 github_handle: "@GITHUB HANDLE"
 tutorial: # Link to the tutorial if you used one
+wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
 
 # YOUR PROJECT NAME
