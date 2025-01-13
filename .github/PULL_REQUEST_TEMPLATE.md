@@ -5,7 +5,6 @@
 - [ ] I am a current high school, middle school, or home schooled student.
   - [ ] I am 18 or under
   - [ ] I have filled out the [verification form](https://verify.onboard.hackclub.com) **(do this for every pull request)**
-    -  *or the [legacy verification form](https://legacy.verify.onboard.hackclub.com) if the above doesn't work* 
 - [ ] I have joined the [`#electronics`](https://hackclub.slack.com/archives/C056AMWSFKJ) channel on [Slack](https://hackclub.com/slack/?event=onboard)
 - [ ] I made this board from scratch, even if I followed a tutorial
 - [ ] I have followed the directions in [README.md](https://github.com/hackclub/OnBoard/blob/main/README.md#getting-started)
