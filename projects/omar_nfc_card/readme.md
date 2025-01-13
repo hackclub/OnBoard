@@ -2,7 +2,7 @@
 name: "Omar Fatin"
 slack_handle: "@omarsy-d"
 github_handle: "@omarsy-d"
-tutorial: # https://jams.hackclub.com/jam/hacker-card
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # NFC card
