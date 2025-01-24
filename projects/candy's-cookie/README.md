@@ -15,6 +15,6 @@ wokwi: https://wokwi.com/projects/420411768278716417
 here's my hacky holidays submission, its a keychain about a burnt cookie with neopixels that represents radioactive chips. The neopixels will pulse and the colours will switch when the button is pressed.
 
 <!-- How much is it going to cost? -->
-my project will cost $70.02 to order the pcb, but someone say the neopixel can be economic, so i think it will be around $45
+my project will cost $76.83 to order the pcb, but someone say the neopixel can be economic, so i think it will be around $50
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
