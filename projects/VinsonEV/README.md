@@ -1,6 +1,6 @@
 ---
 name: "Vinson Huang"
-slack_handle: "@High_Kid"
+slack_handle: "@Vinson Huang"
 github_handle: "@HonkaDonka"
 ---
 
