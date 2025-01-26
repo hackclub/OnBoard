@@ -1,6 +1,6 @@
 ---
 name: "Malhar Palshikar"
-slack_handle: "@SLACK HANDL"
+slack_handle: "Malhar"
 github_handle: "Malhar-Palshikar"
 tutorial: none
 wokwi: ~
