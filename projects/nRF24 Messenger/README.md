@@ -12,10 +12,10 @@ Part list
 - XL-0805QBC (Blue LED)
 - 47Ω (Resistor)
 # Costs
-The total cost is $28.84 including shipping
+The total cost is $47.40 including shipping
 I designed the silkscreen using canva. The doodle art is from iStock stock photos (https://media.istockphoto.com/id/1133192531/vector/seamless-pattern.jpg?s=612x612&w=0&k=20&c=vW7M01b6xN3KldHFTMePTE14fLAPhnDKVKCwinZ5R0A=)
 The biggest challenge I faced was trying to route so many components on a double sided PCB. At last, I decided to auto route about 75% of the traces and the rest was manually routed.
 
 # Design Files
-![Back](https://github.com/user-attachments/assets/d34beccf-f5c4-4e43-9156-4bd98941ffd7)
-![Front](https://github.com/user-attachments/assets/125140d5-68f4-4789-a0ee-e38693c44538)
+![Bottom](https://github.com/user-attachments/assets/7102fb64-61d9-4366-862d-a3c1f2758c93)
+![Top](https://github.com/user-attachments/assets/5be24d4a-9a0b-49f0-b2e0-6957431a4896)
