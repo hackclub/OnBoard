@@ -10,6 +10,6 @@ wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 
 By project is a NFC hacker card with an LED
 
-Around $50
+Around $42 (with coupon)
 
 I did not struggle much because my brother helped me with the project. But I still find electrical wirings congusing, hopefully I can learn more in the future.
