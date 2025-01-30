@@ -2,7 +2,7 @@
 name: "Kaitlyn Zee"
 slack_handle: "@Kaitlyn Z"
 github_handle: "@Yoda-Flash"
-wokwi: # https://wokwi.com/projects/421435412428006401
+wokwi: https://wokwi.com/projects/421435412428006401
 ---
 
 # Lightsaber Ornament
