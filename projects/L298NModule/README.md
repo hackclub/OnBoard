@@ -7,7 +7,7 @@ tutorial: # Link to the tutorial if you used one
 wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
 
-# YOUR PROJECT NAME
+# L298N Module
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 "A Simple L298N Module for my Arduino Car"
