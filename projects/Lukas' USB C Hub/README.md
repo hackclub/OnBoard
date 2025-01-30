@@ -2,7 +2,7 @@
 name: "Lukáš Nagy"
 slack_handle: "@Lukáš Nagy"
 github_handle: "@lukasn9"
-tutorial: # [Link to the tutorial if you used one](https://jams.hackclub.com/batch/usb-hub/part-1)
+tutorial: # https://jams.hackclub.com/batch/usb-hub/part-1
 wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
 
