@@ -3,7 +3,7 @@ name: "Samuel Fernandez"
 slack_handle: "@samuel"
 github_handle: "@polypixeldev"
 tutorial: https://hackyholidays.hackclub.com/guide
-# wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
+# wokwi: Code is in code/main.py
 ---
 
 # sam_sung
