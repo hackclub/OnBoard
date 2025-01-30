@@ -2,10 +2,10 @@
 name: "Kaitlyn Zee"
 slack_handle: "@Kaitlyn Z"
 github_handle: "@Yoda-Flash"
-wokwi: # [Link to the Wokwi project if you're submitting for Hacky Holidays](https://wokwi.com/projects/421435412428006401)
+wokwi: # https://wokwi.com/projects/421435412428006401
 ---
 
-# YOUR PROJECT NAME
+# Lightsaber Ornament
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 A lightsaber ornament made for Hack Club's Hacky Holidays!
