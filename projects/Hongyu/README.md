@@ -4,7 +4,7 @@ slack_handle: "joyjay606"
 github_handle: "jay-lchicken"
 tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
-
+GITHUB keeps having problem with me uploading the cart.png so heres the link: https://ibb.co/MktmT3Rk
 Hong Yu's Business Card
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 Im making something like a business vard but with my name
