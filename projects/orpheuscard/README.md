@@ -2,7 +2,7 @@
 ---
 Name - Arjav Jain
 
-Slack_handle : "@arjav0703"
+Slack_handle : "@arjav"
 
 github_handle : "@arjav0703"
 
