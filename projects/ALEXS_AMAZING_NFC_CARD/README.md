@@ -13,7 +13,7 @@ I made my very own NFC card using a tutorial on Hack Club.
 I uses an NFC chip in order to be used for wireless transmissions of information.
 
 <!-- How much is it going to cost? -->
-5 cards cost $25.31 on JLCPCB with shipping costs to Canada included.
+10 cards cost $28.31 on JLCPCB with shipping costs to Canada included.
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 I had fun learning to design my first PCB and personalizing my NFC card. 
