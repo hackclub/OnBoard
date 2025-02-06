@@ -14,4 +14,4 @@ I made a controller for my FRC Robot. Our team is 9033, and I used ErgoGen  to m
 <!-- How much is it going to cost? -->
 $46.41
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
-I used a tool called ErgoGen which defined the layout in JavaScript. This tool generated the initial pcb layout based on the positions of all the key switches, diodes, and the arduino pro micro. This means I don't have a schematic file because the nets were generated from the ergogen configuration. The ergogen configuration is in the keyboard.js file.
+I used a tool called ErgoGen which defined the layout in JavaScript. This tool generated the initial PCB layout based on the positions of all the key switches, diodes, and the arduino pro micro. This means I don't have a schematic file because the nets were generated from the ErgoGen configuration. The ErgoGen configuration is in the keyboard.js file.
