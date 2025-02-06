@@ -1,0 +1,174 @@
+let output = {
+    points: {
+        zones: {
+            reef: {
+                key: {
+                    spread: 0,
+                    padding: 0,
+                },
+                columns: {},
+                rows: {
+                    first: {},
+                    second: {},
+                }
+            },
+            diodes: {
+                key: {
+                    spread: 0,
+                    padding: 0,
+                    width: 5,
+                    height: 2,
+                },
+                columns: {},
+                rows: {
+                    first: {},
+                    second: {},
+                }
+            },
+            heightsdiodes: {
+                anchor: {
+                    shift: [68, "u * -3 / 2"]
+                },
+                key: {
+                    width: 5,
+                    height: 2,
+                    adjust: { rotate: 90 }
+                },
+                columns: {
+                    first: {},
+                },
+                rows: {
+                    L1: {},
+                    L2: {},
+                    L3: {},
+                    L4: {},
+                }
+            },
+            heights: {
+                anchor: {
+                    shift: [80, "u * -3 / 2"]
+                },
+                key: {
+                },
+                columns: {
+                    first: {},
+                },
+                rows: {
+                    L1: {},
+                    L2: {},
+                    L3: {},
+                    L4: {},
+                }
+            },
+            algaediodes: {
+                anchor: {
+                    shift: [-68, "u * -3 / 2"]
+                },
+                key: {
+                    width: 5,
+                    height: 2,
+                    adjust: { rotate: 90 }
+                },
+                columns: {
+                    first: {},
+                },
+                rows: {
+                    L1: {},
+                    L2: {},
+                }
+            },
+            algae: {
+                anchor: {
+                    shift: [-80, "u * -3 / 2"]
+                },
+                key: {
+                },
+                columns: {
+                    first: {},
+                },
+                rows: {
+                    L1: {},
+                    L2: {},
+                }
+            },
+            mcu: {
+                anchor: {
+                    shift: [-80, 30]
+                },
+                key: {
+                    width: 18,
+                    height: 35,
+                }
+            }
+        }
+    },
+    // outlines: {
+    //     main: [
+    //         {
+    //             what: "rectangle",
+    //             where: true,
+    //             size: 10,
+    //         }
+    //     ]
+    // },
+    // pcbs: {
+    //     main: {
+    //         outlines: [],
+    //         footprints: [{
+    //             where: "/^(reef|heights)_.*/",
+    //             what: "choc",
+    //             params: {
+    //                 from: "",
+    //                 to: "",
+    //             }
+    //         }, {
+    //             where: "/^(heights)?diodes.*/",
+    //             what: "diode",
+    //             params: {
+    //                 from: "",
+    //                 to: "",
+    //             }
+    //         }]
+    //     },
+    // }
+}
+
+const padding_amount = 10
+const spacing_amount = 50
+
+const diode_padding_amount = 22
+const diode_spacing_amount = 50
+
+for (let i = 0; i < 6; i++) {
+    output.points.zones.reef.columns[i.toString()] = {
+        rows: {
+            first: {
+                adjust: [{ rotate: i * 60 }, { shift: [padding_amount, spacing_amount] }]
+            },
+            second: {
+                adjust: [{ rotate: i * 60 }, { shift: [-padding_amount, spacing_amount] }]
+            }
+        }
+    }
+
+    output.points.zones.diodes.columns[i.toString()] = {
+        rows: {
+            first: {
+                adjust: [
+                    { rotate: i * 60 },
+                    { shift: [diode_padding_amount, diode_spacing_amount] },
+                    { rotate: 90 }
+                ]
+            },
+            second: {
+                adjust: [
+                    { rotate: i * 60 },
+                    { shift: [-diode_padding_amount, diode_spacing_amount] },
+                    { rotate: 90 }
+                ]
+            }
+        }
+    }
+}
+
+return output
