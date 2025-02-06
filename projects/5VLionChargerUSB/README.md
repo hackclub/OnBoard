@@ -1,8 +1,8 @@
 
 ---
-name: "Ryan Wang"
-slack_handle: "@Ffive44-1"
-github_handle: "@Ffive44-1"
+name: "Carter Pfaff"
+slack_handle: "@LauraNH2004"
+github_handle: "@LauraNH2004"
 tutorial: # Link to the tutorial if you used one
 wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
