@@ -2,7 +2,7 @@
 name: "Isaac Lau"
 slack_handle: "@劉亦晉Lau Yik Chun Isaac"
 github_handle: "@isaaclau888"
-project: "NFC Business Cards"
+project: "https://jams.hackclub.com/jam/hacker-card"
 ---
 
 #NFC Business Cards
