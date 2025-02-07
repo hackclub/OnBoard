@@ -7,7 +7,7 @@ project: "https://jams.hackclub.com/jam/hacker-card"
 
 #NFC Business Cards
 ## Summary
-##### I am making a NFC business card for myself. It can give my contact with this card and I don't need to tell them my contacts.
+##### I am making a NFC business card for myself. It can give my contact with this card and I don't need to tell people my contacts.
 
 ## Plan
 ##### It will cost $2.65 and I want it as soon as possible.
