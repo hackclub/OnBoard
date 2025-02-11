@@ -6,7 +6,7 @@ tutorial: # https://www.youtube.com/watch?v=kMiJdfgIfqI&t=509s
 wokwi: 
 ---
 
-# YOUR PROJECT NAME
+# Powerbank made out of old Vape batterycells
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 my PCB board connects the individual battery cells from empty vapes which I now want to use together as a power bank so the cells that would otherwise end up in the trash get a second life, for the sake of the environment
