@@ -6,7 +6,7 @@ github_handle: "@TheScarletWarlock645"
 
 # ESP32 WIFI TRAFFIC LOGGER
 
-**Important note**
+**Important note:**
 *I have not included a PNP file, nor a BOM because we have an assembler that we prefer to use here in Warsaw with our boards*
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
