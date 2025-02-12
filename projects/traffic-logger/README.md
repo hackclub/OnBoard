@@ -6,6 +6,9 @@ github_handle: "@TheScarletWarlock645"
 
 # ESP32 WIFI TRAFFIC LOGGER
 
+**Important note**
+*I have not included a PNP file, nor a BOM because we have an assembler that we prefer to use here in Warsaw with our boards*
+
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 We are making an ESP32 based WI-FI traffic logger (hence the name). The idea is that it is a (relativley) small device that recieves data from nearby wifi networks, and attaches GPS data to it, the stores it in a microSD card. We have also added USB-C capability for easy programming and direct data output.
 
