@@ -6,3 +6,9 @@
 6. 2* Joystich Modules (remove the breakout board)
 
 You can leave the Power Switch, Potentiometers, Pushbuttons (that are without the joystick) and Capacitors to me
+
+You can find a PDF containing the bill from my local shop of the esitimate
+
+
+# Arduino Pro Mini Variant Image
+![image](https://github.com/user-attachments/assets/bbdbf92b-5071-49dd-a900-8b3bd47f63fe)
