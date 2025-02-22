@@ -16,7 +16,7 @@ And if you want to save energy, you can turn the LEDs on and off with the built-
 On top of that, the USB hub functionality allowes you to be reminded of the spirit of Christmas whenever you connect some devices to it!
 
 <!-- How much is it going to cost? -->
-According to the cart.png picture, around $45.09.
+According to the cart.png picture, around $45.23.
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 At first, I wanted to make a more complex Hub including an ethernet port and an SD-card reader, but with the deadline approaching and realising the difficulty of the task, I scaled it back to a USB Hub in the shape of a Christmas tree with LEDs decorating it. 
