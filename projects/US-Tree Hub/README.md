@@ -2,7 +2,7 @@
 name: "Kai Spirk"
 slack_handle: "@U07JMTHC0P6"
 github_handle: "@averyinterestingusername"
-tutorial: "[Link to the tutorial.](https://jams.hackclub.com/batch/usb-hub/part-1)"
+tutorial: "https://jams.hackclub.com/batch/usb-hub/part-1"
 wokwi: "I don't have one."
 ---
 
