@@ -7,5 +7,5 @@ wokwi: ""
 ---
 
 # Screaming Dino
-If you touch the capacitive area, the dino screams :0
+If you touch the capacitive area, the dino screams :0  
 Price is about 52$
