@@ -20,4 +20,4 @@ According to the cart.png picture, around $45.23.
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 At first, I wanted to make a more complex Hub including an ethernet port and an SD-card reader, but with the deadline approaching and realising the difficulty of the task, I scaled it back to a USB Hub in the shape of a Christmas tree with LEDs decorating it. 
-It even has one LED at the tip of the tree, as a cherry on top :)
+It has 5 LEDs in total, with one at the tip of the tree, as a cherry on top :)
