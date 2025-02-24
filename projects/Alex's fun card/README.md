@@ -1,8 +1,8 @@
 ---
-name: Alex woods
-slack_handle: woodsa007
-github_handle: @BlueGoblin1912
-tutorial: https://jams.hackclub.com/jam/hacker-card
+name: "Alex woods"
+slack_handle: "@woodsa007"
+github_handle: "@BlueGoblin1912"
+tutorial: "https://jams.hackclub.com/jam/hacker-card"
 ---
 
 # Alex's fun card
