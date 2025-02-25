@@ -6,6 +6,8 @@ github_handle: "@grimsteel"
 
 # beartag
 
+Low cost, open source BLE device tracker | Compatible with macless-haystack | Based on the CH571 MCU
+
 ![image](./image.png)
 
 <!-- How much is it going to cost? -->
