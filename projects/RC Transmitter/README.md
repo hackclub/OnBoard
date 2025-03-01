@@ -4,7 +4,7 @@ slack_handle: "@King Howler"
 github_handle: "@MUmarShahbaz"
 ---
 
-![3D Model](/images/RC%20Transmitter%203D.png)
+![3D Model](images/RC%20Transmitter%203D.png)
 
 # RC Transmitter
 
@@ -14,7 +14,7 @@ The PCB itself shows as around 10$ on JLCPCB and the individual items can cost a
 
 ## Challenges faced
 
-![Front](/images/RC%20Transmitter%202DF.png)
-![Back](/images/RC%20Transmitter%202DB.png)
+![Front](images/RC%20Transmitter%202DF.png)
+![Back](images/RC%20Transmitter%202DB.png)
 
 I was using EasyEDA PRO and before this I tried using EasyEDA STD. The main issue I faced was finding the correct components with correct PCB Footprints. Components like the MPU6050 Module, nRF24l01 Module and the FTDI Module were nowhere to be seen. For these I made do with using Headers which themselves were a difficult to decide which was appropriate or not. Finally finding common components were even more difficult. I especially had Difficulty with the Potentiometers, Pushbuttons and the Toggle Switches.
