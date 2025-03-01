@@ -2,8 +2,8 @@
 name: "Kai Spirk"
 slack_handle: "@U07JMTHC0P6"
 github_handle: "@averyinterestingusername"
-tutorial: "https://jams.hackclub.com/batch/usb-hub/part-1"
-wokwi: "I don't have one."
+tutorial: # [Link to the tutorial.](https://jams.hackclub.com/batch/usb-hub/part-1)
+wokwi: # I don't have one.
 ---
 
 # US-Tree Hub
@@ -16,8 +16,8 @@ And if you want to save energy, you can turn the LEDs on and off with the built-
 On top of that, the USB hub functionality allowes you to be reminded of the spirit of Christmas whenever you connect some devices to it!
 
 <!-- How much is it going to cost? -->
-According to the cart.png picture, around $45.23.
+According to the cart.png picture, around $49.41.
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 At first, I wanted to make a more complex Hub including an ethernet port and an SD-card reader, but with the deadline approaching and realising the difficulty of the task, I scaled it back to a USB Hub in the shape of a Christmas tree with LEDs decorating it. 
-It has 5 LEDs in total, with one at the tip of the tree, as a cherry on top :)
+It even has one LED at the tip of the tree, as a cherry on top :)
