@@ -1,7 +1,7 @@
 ---
 name: "SIRI KARPURAM"
 slack_handle: "@U07UFRVCW2Z"
-github_handle: "@0o0youu0o0"
+github_handle: "@0o0youmu0o0"
 tutorial: # https://jams.hackclub.com/jam/hacker-card
 wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
