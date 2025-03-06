@@ -2,7 +2,7 @@
 name: "Daniel Huang"
 slack_handle: "@dandacooki"
 github_handle: "@z5wmetxZe3N307z2W"
-tutorial:
+tutorial: https://jams.hackclub.com/jam/hacker-card
 wokwi:
 ---
 
