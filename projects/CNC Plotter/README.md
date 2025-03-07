@@ -8,6 +8,6 @@ CNC Plotter
 
 This is a Pen CNC Plotter that can be used to write or draw pictures
 
-600 INR
+600 INR/PCB
 
 Took me a few tries to get things working, this is the second PCB I made after the Hacky Holidays one 
