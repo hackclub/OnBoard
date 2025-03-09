@@ -1,4 +1,3 @@
-
 ---
 name: "Shubh"
 slack_handle: "@shubhisroking"
@@ -8,10 +7,11 @@ wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
 
 # Shubh's NFC Card
-<!-- Describe your board in 2-3 sentences. What are you making? What will it do? --> 
-it's a nfc-enabled business card.
+
+<!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
+This is a PCB card that lights up when it goes near your phone and opens a link.
 
 <!-- How much is it going to cost? -->
-$37.51
+$37.6
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
