@@ -12,6 +12,6 @@ wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 This is a PCB card that lights up when it goes near your phone and opens a link.
 
 <!-- How much is it going to cost? -->
-$37.6
+$50.1
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
