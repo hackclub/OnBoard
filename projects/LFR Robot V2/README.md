@@ -1,5 +1,5 @@
 ---
-name: "Aahil Irfan"
+name: "Aahil Sadiq"
 slack_handle: "@Aahil"
 github_handle: "@Aahil78"
 ---
