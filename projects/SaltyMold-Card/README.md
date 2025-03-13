@@ -12,7 +12,7 @@ wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 A simple NFC card with a LED and an image on it
 
 <!-- How much is it going to cost? -->
-IDK
+19.25$
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 No challenge too easy for me.
