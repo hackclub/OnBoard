@@ -2,7 +2,7 @@
 name: "Anthony Pagone"
 slack_handle: "@Rocco"
 github_handle: "@KingRocco21"
-tutorial: # [Link to the tutorial](https://jams.hackclub.com/jam/hacker-card)
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # Hacker Card
