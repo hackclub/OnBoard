@@ -1,8 +1,8 @@
 ---
-name: "Adarsh D"
-slack_handle: "@Adarsh D"
+name: "Adarsh"
+slack_handle: "@greninja44"
 github_handle: "@Greninja44"
-email:iamdumb2203@gmail.com
+email:greninja220324@gmail.com
 
 
 # YOUR PROJECT NAME
