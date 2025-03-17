@@ -6,7 +6,7 @@ tutorial: # [Link to the tutorial if you used one](https://jams.hackclub.com/jam
 wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
 
-# YOUR PROJECT NAME : Business Card
+# Yannik's Business Card
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? --> My personal Business Card, with a qr code to my makerworld site, and more!
 
