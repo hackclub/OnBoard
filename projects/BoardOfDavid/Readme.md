@@ -6,7 +6,7 @@ tutorial: # "Canyon Crest tutorial"
 wokwi: # N/A
 ---
 
-# YOUR PROJECT NAME BoardOfDavid
+# BoardOfDavid
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 LED sequencer board
