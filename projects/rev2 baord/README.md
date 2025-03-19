@@ -1,6 +1,6 @@
 ---
 name: "Shreyash Sukla"
-slack_handle: "@ERCRICE"
+slack_handle: "@Shreyash shukla"
 github_handle: "@shre-linux"
 
 ---
