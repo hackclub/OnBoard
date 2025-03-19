@@ -2,8 +2,8 @@
 name: "Tan Vu"
 gmail: "tanvu.ocs@gmail.com"
 github_handle: "@tanvu264"
-tutorial: # CCA tutorial
-wokwi: # N/A
+tutorial: "CCA tutorial"
+wokwi: "N/A"
 ---
 
 # Fish LED chaser
