@@ -1,6 +1,6 @@
 ---
 name: "Raunak Gengiti"
-slack_handle: "@SLACK HANDLE"
+email: "gengitir@gmail.com"
 github_handle: "@Amoogilliz"
 tutorial: LED Chaser
 wokwi: N/A
