@@ -2,7 +2,7 @@
 name: Matthew Coward
 slack_handle: matthew.t.coward
 github_handle: MatthewCoward
-tutorial: https://docs.google.com/presentation/d/1GW0NgTC7VBg0u37edfs_3OpUPnbCaQnFMc3EsVhKHl4/present?slide=id.g2dceb74664e_0_351
+tutorial: https://docs.google.com/presentation/d/1GW0NgTC7VBg0u37edfs_3OpUPnbCaQnFMc3EsVhKHl4/present?slide=id.g2dceb74664e_0_351    -- Canyon Crest Tutorial
 wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
 
