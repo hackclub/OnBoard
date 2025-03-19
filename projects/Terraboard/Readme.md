@@ -6,7 +6,7 @@ tutorial: # Canyon Crest Tutorial
 wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
 
-# YOUR PROJECT NAME
+# Terraboard
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 cool led sequencer board
