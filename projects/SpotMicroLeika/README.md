@@ -16,6 +16,7 @@ Auxilary boards needed for this PCB:
 - PCA9685 Servo Driver Module
 - 2 Buck Converters
 Cost: $58.87
+
 PCB Screenshots:
 
 <img src="https://i.postimg.cc/dQz9HncB/image.png" width="45%"></img> <img src="https://i.postimg.cc/ZKpx13Th/image.png" width="45%"></img> <img src="https://i.postimg.cc/JzQchLD6/image.png" width="45%"></img> <img src="https://i.postimg.cc/tRV3xPnV/image.png" width="45%"></img> <img src="https://i.postimg.cc/FHFkDJzp/image.png" width="45%"></img> <img src="https://i.postimg.cc/qv7g8VDZ/image.png" width="45%"></img> 
