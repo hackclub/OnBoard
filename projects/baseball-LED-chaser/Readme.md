@@ -2,7 +2,7 @@
 name: Noah Frizzell
 slack_handle: "noahfrizzell608@gmail.com"
 github_handle: "@Noahfrizzell"
-tutorial: # CCA tutorial
+tutorial: #CCA tutorial
 wokwi: # NA
 ---
 
