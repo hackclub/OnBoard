@@ -6,7 +6,7 @@ tutorial: # CCA tutorial
 wokwi: # N/A
 ---
 
-# YOUR PROJECT NAME
+# Fish LED chaser
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 Fish shaped PCB with LEDs controlled by a 555 timer
