@@ -1,7 +1,7 @@
 ---
 name: "THEO LOKE"
-slack_handle: "@SLACK HANDLE"
-github_handle: "@GITHUB HANDLE"
+slack_handle: "theo.ey.loke"
+github_handle: "theo.ey.loke"
 tutorial: # Link to the tutorial if you used one
 wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
