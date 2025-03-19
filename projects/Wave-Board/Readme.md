@@ -2,7 +2,7 @@
 name: Abraham Jiang
 slack_handle: "@SLACK HANDLE"
 github_handle: jiang-alincoln
-tutorial: [# Link to the tutorial if you used one](https://docs.google.com/presentation/d/1GW0NgTC7VBg0u37edfs_3OpUPnbCaQnFMc3EsVhKHl4/present?slide=id.g2dceb74664e_0_351)
+tutorial:https://docs.google.com/presentation/d/1GW0NgTC7VBg0u37edfs_3OpUPnbCaQnFMc3EsVhKHl4/present?slide=id.g2dceb74664e_0_351
 wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
 
