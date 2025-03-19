@@ -1,5 +1,6 @@
 ---
 name: "Larry Wu"
+slack: "larrypir2@gmail.com"
 github_handle: "@hellopir2"
 tutorial: LED Chaser tutorial
 ---
