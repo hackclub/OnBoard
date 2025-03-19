@@ -2,7 +2,7 @@
 name: "Eran Maor"
 slack_handle: "@eran.maor.em@gmail.com"
 github_handle: "@Cliptaker"
-tutorial: # Canyon Crest tutorial
+tutorial: # "Canyon Crest tutorial"
 wokwi: # N/A
 ---
 
