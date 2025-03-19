@@ -1,9 +1,9 @@
 ---
 name: "JORDAN FALSTAD"
-slack_handle: "@SLACK HANDLE"
-github_handle: "@GITHUB HANDLE"
-tutorial: # Link to the tutorial if you used one
-wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
+slack_handle: "jackson8william@gmail.com"
+github_handle: "@JFalstad"
+tutorial: # Canyon Crest Academy Tutorial
+wokwi: # 
 ---
 
 # BitcoinPCB
@@ -12,4 +12,4 @@ wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 
 <!-- How much is it going to cost? --> $50.94
 
-<!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
+<!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** --> Doing an OnBoard Workshop with Canyon Crest Academy!
