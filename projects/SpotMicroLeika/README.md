@@ -15,6 +15,7 @@ Auxilary boards needed for this PCB:
 - MPU6050 Accelerometer
 - PCA9685 Servo Driver Module
 - 2 Buck Converters
+  
 Cost: $58.87
 
 PCB Screenshots:
