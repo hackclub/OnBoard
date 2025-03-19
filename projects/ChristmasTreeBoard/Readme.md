@@ -2,6 +2,7 @@
 name: "Nicholas Falstad"
 github_handle: "@NicholasFal"
 tutorial: canyon crest tutorial
+email: kingstepfive@gmail.com
 ---
 
 # ChristmasTreeBoard
