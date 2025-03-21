@@ -8,11 +8,11 @@ wokwi: None
 
 # Sisyphus. The Line Follower
 
-Describe your board in 2-3 sentences. What are you making? What will it do?
+### Describe your board in 2-3 sentences. What are you making? What will it do?
 <br>
 It's a all in one high-speed line follower robot powered by the STM32F103 microcontroller and Pololu N20 10:1 high-speed micrometal gear motors. It utilizes 12 IR sensors for precise line detection. The PCB includes built-in 1.8A motor drivers for controlling two high-speed motors, an OLED display, and a header for a Bluetooth receiver module, which must be connected separately. Additionally, four 6x6 tactile buttons allow for manual operation during testing and debugging. An IR decoder receiver is also integrated for remote control functionality.
 <br>
-How much is it going to cost?
+### How much is it going to cost?
 <br>
 Though The cart shows that its 14 $ Its actually going to be around 60$ since some of the parts I am using aren't availible.
 <br>
