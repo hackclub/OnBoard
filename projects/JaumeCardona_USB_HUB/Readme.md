@@ -1,9 +1,9 @@
 
 ---
 name: "Jaume Cardona"
-slack_handle: "@Jaumix"
-github_handle: "@Jaumx"
-tutorial: # Si your USB hub tutorial.  
+slack_handle: "@Jaumx"
+github_handle: "@JaumeCardona18"
+tutorial: # I used your USB hub tutorial.  
 wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
 
