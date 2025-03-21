@@ -11,6 +11,6 @@ tutorial: LED Chaser tutorial
 The board is a simple LED chaser using a 555 timer component. It will have flashing sequential lights that loops.
 
 <!-- How much is it going to cost? -->
-It's going to cost $44.60.
+It's going to cost $17.18.
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
