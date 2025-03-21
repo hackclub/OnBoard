@@ -12,7 +12,7 @@ wokwi: # N/A
 LED sequencer board
 
 <!-- How much is it going to cost? -->
-$63.98
+$43.22
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 Doing an OnBoard Workshop at Canyon Crest Academy!
