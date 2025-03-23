@@ -1,7 +1,7 @@
 ---
 name: Channing Chen
 slack_handle: @Channing
-github_handle: "@chqnninq
+github_handle: @chqnninq
 tutorial: https://jams.hackclub.com/jam/hacker-card
 wokwi: 
 ---
