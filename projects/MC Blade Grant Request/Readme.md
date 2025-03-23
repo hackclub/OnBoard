@@ -12,6 +12,6 @@ I am making a chip that blinks LEDS in sequence using a 555 timer chip, and it w
 
 <!-- How much is it going to cost? -->
 
-$68.91 - inlcuidng shipping
+$51.84 - inlcuidng shipping
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 Some challenges that I had were figuring out what it would look like cosmetically, and I got inspiration from the internet. Another challenge was having the wrong type of LED, since the one we had was out of stock and we had to get a new one
