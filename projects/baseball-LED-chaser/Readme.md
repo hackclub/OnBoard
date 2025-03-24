@@ -2,8 +2,8 @@
 name: Noah Frizzell
 slack_handle: "noahfrizzell608@gmail.com"
 github_handle: "@Noahfrizzell"
-tutorial: #CCAtutorial
-wokwi: #NA
+tutorial: CCAtutorial
+wokwi: NA
 ---
 
 # Baseball LED chaser
