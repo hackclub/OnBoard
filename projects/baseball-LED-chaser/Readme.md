@@ -2,11 +2,11 @@
 name: Noah Frizzell
 slack_handle: "noahfrizzell608@gmail.com"
 github_handle: "@Noahfrizzell"
-tutorial:#CCAtutorial
-wokwi:#NA
+tutorial: #CCAtutorial
+wokwi: #NA
 ---
 
-# YOUR PROJECT NAME
+# Baseball LED chaser
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 baseball shaped PCD with red LEDs. Controlled by a 555 timer.
