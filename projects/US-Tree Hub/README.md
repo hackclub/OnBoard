@@ -1,5 +1,5 @@
 ---
-name: "Kai Spirk"
+name: "B0redChungus"
 slack_handle: "@U07JMTHC0P6"
 github_handle: "@averyinterestingusername"
 tutorial: https://jams.hackclub.com/batch/usb-hub/part-1
