@@ -10,6 +10,6 @@ wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 
 <!-- This board is a simple circuit with 10 LED lights. The board is a bear and the lights outline the bear's face. The components form the bear's facial features. -->
 
-<!-- $68.53 -->
+<!-- $97.23 -->
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
