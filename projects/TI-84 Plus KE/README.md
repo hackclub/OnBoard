@@ -1,4 +1,6 @@
-name:
-slack_handle:
-github_handle:
-project:
+---
+name: Sam Risedorph
+slack_handle: "Sam Risedorph"
+github_handle: "Jimithy339"
+tutorial: # None
+---
