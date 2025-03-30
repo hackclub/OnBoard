@@ -6,7 +6,7 @@ tutorial: jams.hackclub.com/jam/components-in-a-cap
 wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
 
-# YOUR PROJECT NAME
+# Electronic Trash Buzzer
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 
