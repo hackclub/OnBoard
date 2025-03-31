@@ -13,6 +13,6 @@ wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 You use a switch to turn on a buzzer and a rumble moter. It is powered by a usb c.
 <!-- How much is it going to cost? -->
 
-about $86.56, including estimated taxes.
+about $40.43, including estimated taxes.
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
