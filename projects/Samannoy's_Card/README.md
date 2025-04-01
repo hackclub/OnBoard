@@ -10,7 +10,7 @@ wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 
 Its basically a NFC card with which you can like flash off links to your websites, phone numbers, basically anything with RFID technology.
 
-It costs around $47.28
+It costs around $45.28
 
 There were a lot of DRC errors like close pads and tracks, I had to solve them also I went for manual routing which was a very tedious process.
 
