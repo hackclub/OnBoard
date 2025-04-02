@@ -9,6 +9,12 @@ wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 
 # My HackerCard
 
-
-How much is it going to cost? 13$
+How much is it going to cost? 
+Merchandise Total
+$13.00
+Shipping Estimate
+$21.40
+--
+Grand Total
+$34.40
 
