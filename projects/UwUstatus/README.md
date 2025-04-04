@@ -4,7 +4,7 @@ slack_handle: "@Cyao"
 github_handle: "@cheyao"
 ---
 
-# YOUR PROJECT NAME
+# UwUstatus
 
 UwU status! A OLED breakout board for #infill!
 
