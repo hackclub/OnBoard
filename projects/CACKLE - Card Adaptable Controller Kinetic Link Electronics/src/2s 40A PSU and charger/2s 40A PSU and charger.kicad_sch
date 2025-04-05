@@ -1,0 +1,2378 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "eb3f183d-8bb1-43a5-a363-092ed67891e3")
+	(paper "A4")
+	(title_block
+		(title "CACKLE 2s 40A PSU & Charger")
+		(date "2024-12-23")
+		(rev "V1")
+		(comment 1 "Author: Asher Edwards")
+	)
+	(lib_symbols
+		(symbol "Device:D_Schottky"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 110.49 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1efffb4f-5083-4b65-80fc-2431af9fbed9")
+	)
+	(junction
+		(at 74.93 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81db86ab-5c04-44e7-ba26-6457af2784b9")
+	)
+	(junction
+		(at 165.1 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9183ef1f-2af4-4ddd-8ee0-045afe8073f9")
+	)
+	(junction
+		(at 189.23 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8b03193-6f0e-4a0b-84f6-70205eafaee7")
+	)
+	(junction
+		(at 160.02 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4e401ed-a400-4a84-a7e0-089bec49357a")
+	)
+	(junction
+		(at 110.49 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb90247e-347a-4f40-8e45-a88c5ae05a48")
+	)
+	(junction
+		(at 189.23 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb206044-ef9d-4385-bc5a-ca0f7cee377c")
+	)
+	(wire
+		(pts
+			(xy 170.18 140.97) (xy 170.18 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d25202-187a-4a73-abeb-5af46a0b7643")
+	)
+	(wire
+		(pts
+			(xy 97.79 68.58) (xy 97.79 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0431ee2b-4f48-4eac-b99e-1cba1c07d10e")
+	)
+	(wire
+		(pts
+			(xy 107.95 123.19) (xy 107.95 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a09b29f-6758-4111-b062-4cd3dcbb5ee8")
+	)
+	(wire
+		(pts
+			(xy 71.12 121.92) (xy 71.12 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb596d6-3a92-4164-8cac-b4adb4890902")
+	)
+	(wire
+		(pts
+			(xy 181.61 80.01) (xy 189.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1793ec84-5a77-4094-b1f2-6430d001a39b")
+	)
+	(wire
+		(pts
+			(xy 120.65 87.63) (xy 120.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be8d884-604c-4d82-920e-d45c766bb85e")
+	)
+	(wire
+		(pts
+			(xy 170.18 143.51) (xy 170.18 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dca155d-3489-4a59-855f-d60f82852f04")
+	)
+	(wire
+		(pts
+			(xy 165.1 99.06) (xy 165.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed2b064-65eb-47ae-8a34-a8fd6d8fbf0a")
+	)
+	(wire
+		(pts
+			(xy 110.49 147.32) (xy 127 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2189a57a-85f5-4dbf-a16b-326b40bbf72d")
+	)
+	(wire
+		(pts
+			(xy 168.91 54.61) (xy 134.62 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2247ff3d-6b3b-4df1-b084-9705c6105041")
+	)
+	(wire
+		(pts
+			(xy 77.47 102.87) (xy 77.47 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f1ffa6-88c2-4362-a00b-1e5c358fef48")
+	)
+	(wire
+		(pts
+			(xy 64.77 99.06) (xy 74.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b12847f-7a2a-482d-8c62-5310e7984dcb")
+	)
+	(wire
+		(pts
+			(xy 163.83 59.69) (xy 134.62 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f52ebac-b929-44d6-9d77-efc2e1c7eb45")
+	)
+	(wire
+		(pts
+			(xy 77.47 83.82) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8d6741-b02f-4cd7-b606-98154f3396e1")
+	)
+	(wire
+		(pts
+			(xy 161.29 62.23) (xy 134.62 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32dba635-afdd-4f58-b25c-cd91ddb8b5c6")
+	)
+	(wire
+		(pts
+			(xy 74.93 81.28) (xy 97.79 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332b86c9-d2f4-43d5-8e5a-4d5cd20627e0")
+	)
+	(wire
+		(pts
+			(xy 189.23 80.01) (xy 189.23 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336c00dc-3977-42fd-92d2-0a32187c3543")
+	)
+	(wire
+		(pts
+			(xy 107.95 134.62) (xy 110.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39123e29-7f5e-4125-9ed8-b5281d07448e")
+	)
+	(wire
+		(pts
+			(xy 71.12 147.32) (xy 110.49 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a76fc9c-1978-47b5-937b-1dd74cdda3e3")
+	)
+	(wire
+		(pts
+			(xy 181.61 85.09) (xy 207.01 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbab67b-d754-4ade-9a9b-15b092a6ffa7")
+	)
+	(wire
+		(pts
+			(xy 139.7 91.44) (xy 139.7 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558fa873-20b8-42a2-9a27-2ea30421f212")
+	)
+	(wire
+		(pts
+			(xy 168.91 69.85) (xy 168.91 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e326de8-39ca-4ec8-af64-6c940e4f9941")
+	)
+	(wire
+		(pts
+			(xy 107.95 130.81) (xy 107.95 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f169150-0ef2-4d6a-90a8-46687b2d087a")
+	)
+	(wire
+		(pts
+			(xy 118.11 100.33) (xy 129.54 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602239c1-5d8f-4ef5-b5e8-900427d64803")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 128.27 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645a7523-57db-4a20-8ff3-a6346103c0bb")
+	)
+	(wire
+		(pts
+			(xy 74.93 99.06) (xy 74.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c04bbce-afd2-4887-92c9-fdb9b57c49b1")
+	)
+	(wire
+		(pts
+			(xy 166.37 69.85) (xy 166.37 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f76bb64-ab74-4482-ba65-d3f1f6d333fa")
+	)
+	(wire
+		(pts
+			(xy 128.27 91.44) (xy 139.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705aaf8b-00bd-422a-a468-ff1ddfafe6a5")
+	)
+	(wire
+		(pts
+			(xy 74.93 102.87) (xy 74.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711fac7d-3f6c-42b5-9a69-03757771022f")
+	)
+	(wire
+		(pts
+			(xy 91.44 110.49) (xy 160.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73588807-10c8-4d00-84bb-ed0716aa709b")
+	)
+	(wire
+		(pts
+			(xy 181.61 82.55) (xy 207.01 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7542ccb4-e525-4ac4-851b-ebf3048647fd")
+	)
+	(wire
+		(pts
+			(xy 120.65 97.79) (xy 132.08 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ad1b66-b938-4ce6-9865-3ccda9343574")
+	)
+	(wire
+		(pts
+			(xy 165.1 116.84) (xy 165.1 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b02d91-9f0c-46d6-b941-4c0943a61869")
+	)
+	(wire
+		(pts
+			(xy 207.01 72.39) (xy 207.01 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85dc6811-c18e-4e30-a0b6-a187f3fb1c7b")
+	)
+	(wire
+		(pts
+			(xy 110.49 134.62) (xy 115.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ea4d3b-2df9-48ff-89ae-cb2e36353cf6")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 163.83 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885284b9-5f69-4025-a0d1-1a7685987d42")
+	)
+	(wire
+		(pts
+			(xy 132.08 97.79) (xy 132.08 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9053b374-9325-4fe0-911c-c1031848a401")
+	)
+	(wire
+		(pts
+			(xy 107.95 116.84) (xy 165.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94899d9c-8830-4bbe-93ee-c70953963cf9")
+	)
+	(wire
+		(pts
+			(xy 127 151.13) (xy 64.77 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d157fd-3132-4631-aed4-99a094bd179c")
+	)
+	(wire
+		(pts
+			(xy 110.49 142.24) (xy 110.49 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c94cb8a-84ed-469e-8e03-d0ca11671361")
+	)
+	(wire
+		(pts
+			(xy 134.62 66.04) (xy 207.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d95ee71-1cfb-4e96-9409-d147fdd423a2")
+	)
+	(wire
+		(pts
+			(xy 166.37 57.15) (xy 134.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1311b6f-7ce0-4d67-8c2f-807bde42d1ac")
+	)
+	(wire
+		(pts
+			(xy 160.02 86.36) (xy 160.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b3a588-a69e-4268-937a-74d9e0505eba")
+	)
+	(wire
+		(pts
+			(xy 207.01 74.93) (xy 207.01 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76ffdc3-1ca7-4b39-929c-e94a1ed660cc")
+	)
+	(wire
+		(pts
+			(xy 123.19 95.25) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94906bd-653a-4990-a99d-2d56713e191b")
+	)
+	(wire
+		(pts
+			(xy 161.29 69.85) (xy 161.29 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab67f892-2ae3-4104-a46e-6fb1fbd7ab8a")
+	)
+	(wire
+		(pts
+			(xy 97.79 66.04) (xy 97.79 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1240cd-c286-4064-8d8b-bb91c5adb7ad")
+	)
+	(wire
+		(pts
+			(xy 134.62 95.25) (xy 134.62 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01b27bb-83bc-4126-a083-ac13c17fe9d5")
+	)
+	(wire
+		(pts
+			(xy 123.19 87.63) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1bac559-7dad-40e9-ab0f-86b6c2be791e")
+	)
+	(wire
+		(pts
+			(xy 165.1 99.06) (xy 171.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bf4779-fcbc-46ea-84ac-49033f2a979e")
+	)
+	(wire
+		(pts
+			(xy 189.23 130.81) (xy 170.18 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07f3738-cf5c-47fa-83a3-214d334e89dc")
+	)
+	(wire
+		(pts
+			(xy 129.54 100.33) (xy 129.54 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0bd0ad8-eb54-42ca-b00c-1f17ec40e0d8")
+	)
+	(wire
+		(pts
+			(xy 115.57 127) (xy 115.57 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37f3f6e-9810-4df9-87ed-7e92050f71cf")
+	)
+	(wire
+		(pts
+			(xy 64.77 151.13) (xy 64.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3baae44-26aa-4585-9e50-e8b8a0d2f292")
+	)
+	(wire
+		(pts
+			(xy 134.62 77.47) (xy 148.59 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e9a0b1-b72d-4f79-9bae-7048c15bc7a0")
+	)
+	(wire
+		(pts
+			(xy 189.23 80.01) (xy 207.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04e5156-1214-4025-af39-cb3c85a59684")
+	)
+	(wire
+		(pts
+			(xy 189.23 119.38) (xy 189.23 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63ef144-36bc-4875-9527-19707f91125b")
+	)
+	(wire
+		(pts
+			(xy 118.11 87.63) (xy 118.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da507da0-52d0-4ba3-a6a2-60521da0477c")
+	)
+	(wire
+		(pts
+			(xy 134.62 74.93) (xy 148.59 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db69a243-524e-4dbe-b61e-929a84e2bf1f")
+	)
+	(wire
+		(pts
+			(xy 115.57 119.38) (xy 189.23 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde54a67-22c2-438c-a85b-c3ac890ddbdc")
+	)
+	(wire
+		(pts
+			(xy 171.45 99.06) (xy 171.45 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8a0333-032c-4dcb-acc8-a066804b67b6")
+	)
+	(wire
+		(pts
+			(xy 160.02 110.49) (xy 160.02 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feefea20-1123-4bb2-9b23-7f7750cb9d5f")
+	)
+	(text_box "All capacitors (in my current setup) are Ceremic and X5r or X7r according to datasheet recommendations. All low power capacitors should be rated for 6.3v, while high power should be 16v"
+		(exclude_from_sim no)
+		(at 53.34 36.83 0)
+		(size 34.29 17.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3601b890-389c-4ace-a217-9aa5061f1d65")
+	)
+	(text_box "Several components are not orderable from JLCPCB, or cannot be assembled by them (the power edge connectors). So I have added DNP indicators on those"
+		(exclude_from_sim no)
+		(at 30.48 62.23 0)
+		(size 27.94 17.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "723a28dd-c7ba-42ae-8120-828300f08afe")
+	)
+	(text_box "all mosfets I currently have are not on jlcpcb"
+		(exclude_from_sim no)
+		(at 30.48 87.63 0)
+		(size 12.7 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c3959984-e867-42f9-a506-ccc70026f99d")
+	)
+	(text_box "I might want to find a better diode for blocking current, but 0.01ma leakage doesn't seem bad"
+		(exclude_from_sim no)
+		(at 260.35 147.32 0)
+		(size 24.13 11.43)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type color)
+			(color 255 10 16 0)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cf74b19e-4235-425b-88f9-e732708d98e6")
+	)
+	(text "0805 Resistor"
+		(exclude_from_sim no)
+		(at 95.25 137.922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4884c973-f377-4660-b129-559354f9c29d")
+	)
+	(label "SDA"
+		(at 170.18 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e50526b-d227-46a3-91c6-afe04099d8d3")
+	)
+	(label "SCL"
+		(at 170.18 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a742b6e-588b-4123-a0db-0e438efa19aa")
+	)
+	(label "SDA"
+		(at 97.79 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5448ac8b-7f4c-4d1d-9bb2-b79173ffb9fa")
+	)
+	(label "SCL"
+		(at 207.01 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61103e63-c5ef-4d73-b028-5ad0e66b6865")
+	)
+	(label "SDA"
+		(at 207.01 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6863c14c-c2f7-414c-acd6-5a365ddeea8e")
+	)
+	(label "SCL"
+		(at 97.79 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed9d80f7-d86b-488f-b9f4-8d5afbd3764a")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 110.49 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06a003f0-2c40-4b51-abb4-f5667ab21ab7")
+		(property "Netclass" "Logic Pwr"
+			(at 108.712 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 115.57 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2698e34c-455c-4396-9edd-1f98c754d89f")
+		(property "Netclass" "Logic Pwr"
+			(at 109.982 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 83.82 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64d45ffb-0c9a-4fc0-b080-fb1f5d683d39")
+		(property "Netclass" "Logic Pwr"
+			(at 88.392 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 107.95 123.19 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6adb33d2-0731-47d1-83db-daf76ca4c264")
+		(property "Netclass" "Logic Pwr"
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cfe10e6-8815-4a9d-88af-47bf6eae02ce")
+		(property "Reference" "R9"
+			(at 105.664 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10ohm"
+			(at 113.792 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 112.268 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17415"
+			(at 105.664 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41d72c2c-63fb-4f3e-8514-cd5f9cac0f6a")
+		)
+		(pin "1"
+			(uuid "a0784388-8d7b-4662-a8b3-cceba9063d48")
+		)
+		(instances
+			(project "2s 40A PSU and charger"
+				(path "/eb3f183d-8bb1-43a5-a363-092ed67891e3"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 107.95 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b460ef08-ec73-4263-afd9-da30e29d24b2")
+		(property "Reference" "D3"
+			(at 105.41 128.5876 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GSDH3005"
+			(at 105.41 126.0476 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+			(at 107.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 107.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2837790"
+			(at 105.41 128.5876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "886ea123-946f-46c1-bc6e-e152ee8f2f2c")
+		)
+		(pin "1"
+			(uuid "691fd473-aae4-4087-9c5b-f6f231c5db6d")
+		)
+		(instances
+			(project "2s 40A PSU and charger"
+				(path "/eb3f183d-8bb1-43a5-a363-092ed67891e3"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 115.57 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "eaadaaf0-1f83-4b1d-9698-ea5a4cdfef92")
+		(property "Reference" "NT10"
+			(at 114.3 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PWR NetTie"
+			(at 110.236 121.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "custom_Connector:NetTie-2_SMD_Pad0.28mm"
+			(at 115.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 115.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39d98168-5d21-4a77-8a91-b91e6a6b7f0c")
+		)
+		(pin "2"
+			(uuid "598e6775-323d-4fae-90b0-8c24e77533ad")
+		)
+		(instances
+			(project "2s 40A PSU and charger"
+				(path "/eb3f183d-8bb1-43a5-a363-092ed67891e3"
+					(reference "NT10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 115.57 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9b7317f-16c3-48c3-ac6c-b5fd97d8db33")
+		(property "Reference" "D2"
+			(at 118.11 129.8574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GSDH3005"
+			(at 118.11 132.3974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+			(at 115.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 115.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 115.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2837790"
+			(at 118.11 129.8574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "998d3aa2-fed5-45c8-b71f-3efd3202448b")
+		)
+		(pin "1"
+			(uuid "8ac2e8f9-9a16-4dc6-85b8-3ccfa9e62bcd")
+		)
+		(instances
+			(project "2s 40A PSU and charger"
+				(path "/eb3f183d-8bb1-43a5-a363-092ed67891e3"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 107.95 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "feb2cb34-78ee-40f0-a29d-c5fd82433d73")
+		(property "Reference" "NT12"
+			(at 105.664 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PWR NetTie"
+			(at 102.362 117.856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "custom_Connector:NetTie-2_SMD_Pad0.28mm"
+			(at 107.95 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 107.95 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c21c5f91-0d8a-4ca1-af9f-7f22bc86b71f")
+		)
+		(pin "2"
+			(uuid "5c6ae266-1ffc-485a-9ece-473062833883")
+		)
+		(instances
+			(project "2s 40A PSU and charger"
+				(path "/eb3f183d-8bb1-43a5-a363-092ed67891e3"
+					(reference "NT12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 69.85)
+		(size 33.02 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a3003bc-8e40-4cd7-b859-421f37e4b48c")
+		(property "Sheetname" "Connectors"
+			(at 148.59 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 148.59 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USBPWR" output
+			(at 171.45 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6cce8e30-2946-406d-8120-dc791f6159fa")
+		)
+		(pin "Bat Cell 1" bidirectional
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a2f9dc6d-3b67-4ebb-abcb-91611163734f")
+		)
+		(pin "+BAT" bidirectional
+			(at 181.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49823cb4-9993-4fc3-9512-bd384dc92246")
+		)
+		(pin "-BAT" bidirectional
+			(at 181.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d7628519-5e17-4149-879d-5ef735e686ad")
+		)
+		(pin "MOTORPWR" input
+			(at 160.02 86.36 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "13f26b08-e478-4b0a-a03c-5210554b5a0d")
+		)
+		(pin "RS485+" bidirectional
+			(at 148.59 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b27d757c-f347-4612-bbb0-1015a208a3e3")
+		)
+		(pin "3.3v" input
+			(at 148.59 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5fc734aa-e065-42d8-a4a9-1ea03597329f")
+		)
+		(pin "RS485-" bidirectional
+			(at 148.59 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5c74c989-722c-4250-bd8d-90f2a5fba687")
+		)
+		(pin "CC1" bidirectional
+			(at 168.91 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c425690b-93c2-46d9-9679-0f49686bbc09")
+		)
+		(pin "CC2" bidirectional
+			(at 166.37 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5cc9caff-a362-4869-bc4f-a249e5c252d3")
+		)
+		(pin "D-" bidirectional
+			(at 163.83 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1919c004-eba2-4ed7-9288-d7fecbbf9ebe")
+		)
+		(pin "D+" bidirectional
+			(at 161.29 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "47c0c405-e15a-4912-9d6b-9fb9a78ae2e2")
+		)
+		(instances
+			(project "2s 40A PSU and charger"
+				(path "/eb3f183d-8bb1-43a5-a363-092ed67891e3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 125.73)
+		(size 43.18 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51a1bb53-ba94-4dbc-a00c-ce32ffc237e4")
+		(property "Sheetname" "Battery Charger"
+			(at 127 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery Charger.kicad_sch"
+			(at 127 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" input
+			(at 170.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ace08086-b97d-49ab-83bf-655a9bcd0671")
+		)
+		(pin "SCL" input
+			(at 170.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "15c774bd-1b77-4187-8e1c-fb6bd681eee6")
+		)
+		(pin "+BAT" bidirectional
+			(at 170.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "367dfd8d-9df6-44ca-8b3b-37b07f059955")
+		)
+		(pin "IN" input
+			(at 165.1 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9a59b58e-d8e9-4a33-9c17-0101f8f06e35")
+		)
+		(pin "MOTORPWR" output
+			(at 160.02 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4131e964-00c9-40ff-b3f5-5a097327d8e2")
+		)
+		(pin "Charger PROCHOT" output
+			(at 134.62 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "deeab9b5-ffbf-452b-8c2e-946a96266363")
+		)
+		(pin "Charger IADP" output
+			(at 129.54 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "34f4afdc-2d82-4bda-a563-3a310e3ba536")
+		)
+		(pin "Charger IDCHG" output
+			(at 132.08 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0e1a5394-d937-44b9-95a7-b46c73f4fad2")
+		)
+		(pin "PWRON" input
+			(at 139.7 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0f5e7e68-1184-4699-87ec-93a8568ac697")
+		)
+		(pin "Always On PWR" input
+			(at 127 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36ca4bea-57b1-419b-9ef3-87e56af01b74")
+		)
+		(pin "MCU3.3v" input
+			(at 127 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "60a7469d-da69-4c47-8a21-f4926466f521")
+		)
+		(instances
+			(project "2s 40A PSU and charger"
+				(path "/eb3f183d-8bb1-43a5-a363-092ed67891e3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 52.07)
+		(size 36.83 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77be5f81-4ede-42b7-b1c4-fa657e9379ac")
+		(property "Sheetname" "MCU"
+			(at 97.79 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 97.79 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3v" input
+			(at 97.79 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0d16422f-da81-470d-a87c-774b02c4e2af")
+		)
+		(pin "SDA" output
+			(at 97.79 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5c16a19f-4579-4833-a48f-732e1b06a379")
+		)
+		(pin "SCL" output
+			(at 97.79 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b7ec0542-43c8-4b8b-932f-58b3b22b2976")
+		)
+		(pin "Charger PROCHOT" input
+			(at 123.19 87.63 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "94b155d4-cb7a-4bd9-b634-3b1296dde08e")
+		)
+		(pin "RS485-" bidirectional
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5b412e6e-dfde-4e6d-b4e9-650ec23cee25")
+		)
+		(pin "RS485+" bidirectional
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e881a776-d1ce-4543-976e-736f6cd32c37")
+		)
+		(pin "Balancer Alert" input
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eca9f86d-e03f-4671-a46b-bd858581f1b0")
+		)
+		(pin "Charger IDCHG" input
+			(at 120.65 87.63 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19d22103-96c4-4ba9-afb5-7bc2cd9ac270")
+		)
+		(pin "Charger IADP" input
+			(at 118.11 87.63 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9dea92fc-0fee-4112-bba3-ae36e834ffb9")
+		)
+		(pin "PWRON" output
+			(at 128.27 87.63 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8e3d371-d55e-4704-86dd-11341e8ffc5d")
+		)
+		(pin "D+{slash}BOOT" bidirectional
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8eeba6f2-7d59-46d0-8ed2-712b80da413b")
+		)
+		(pin "CC2" bidirectional
+			(at 134.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3bc57a27-87bd-4698-a276-0039d11337d0")
+		)
+		(pin "D-" bidirectional
+			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f01c1b87-f1ae-4393-be06-63b92fb09bb8")
+		)
+		(pin "CC1" bidirectional
+			(at 134.62 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "89399faa-e2b7-429d-8201-f87c662ae6a9")
+		)
+		(instances
+			(project "2s 40A PSU and charger"
+				(path "/eb3f183d-8bb1-43a5-a363-092ed67891e3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 63.5)
+		(size 22.86 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9cf42ac0-c980-41ef-957c-e7b7cc3eb205")
+		(property "Sheetname" "Battery Balancer"
+			(at 207.01 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery Balancer.kicad_sch"
+			(at 207.01 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "-BAT" bidirectional
+			(at 207.01 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f741dfb7-903e-47d2-a754-3ea925a87da8")
+		)
+		(pin "SDA" input
+			(at 207.01 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "86eba565-8b19-46c6-93f2-b6a4a5dd7cbd")
+		)
+		(pin "SCL" input
+			(at 207.01 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e09c2ffb-e854-4f5f-b271-30b66e378195")
+		)
+		(pin "+BAT" bidirectional
+			(at 207.01 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "17570667-95a5-40b8-b3f0-8c3f27dcb40c")
+		)
+		(pin "Bat Cell 1" bidirectional
+			(at 207.01 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bcefb429-42af-4f92-b997-0616c1c0b0fe")
+		)
+		(pin "Balancer Alert" output
+			(at 207.01 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe703203-340b-4f93-8bcb-a1e6c28c7d77")
+		)
+		(instances
+			(project "2s 40A PSU and charger"
+				(path "/eb3f183d-8bb1-43a5-a363-092ed67891e3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 102.87)
+		(size 22.86 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a57a0b4f-e246-497c-8d94-688647d8fd03")
+		(property "Sheetname" "PSU"
+			(at 68.58 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 68.58 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3v" output
+			(at 77.47 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "76eb86f3-e154-4de8-8169-15047e227c4c")
+		)
+		(pin "MCU3.3v" output
+			(at 74.93 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0e01db4b-85ce-4611-a0ce-28ed28f1d300")
+		)
+		(pin "MOTORPWR" input
+			(at 91.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9986bc65-9e98-4fa3-aa01-7525ce75e1e2")
+		)
+		(pin "Always On PWR" input
+			(at 71.12 121.92 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "01d124a9-5e61-4905-a0ac-684ac88a569e")
+		)
+		(instances
+			(project "2s 40A PSU and charger"
+				(path "/eb3f183d-8bb1-43a5-a363-092ed67891e3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
