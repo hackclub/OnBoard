@@ -2,9 +2,12 @@
 name: "SAKSHAM YADAV" 
 slack_handle: "@CodeSaksham"
  github_handle: "@CodeSakshamY"
- tutorial: N/A wokwi: N/A
+ tutorial: N/A
+ wokwi: N/A
  ---  
+ 
 NFC RING
+
   There are various smart rings in the market with costs that are very high.
  I made a basic pcb which i will put inside a ring making a basic smart ring which does not require a battery for normal students who just need it for nfc and not the rest work. This will fulfill the wish of students to own rings at a low cost. 
 
