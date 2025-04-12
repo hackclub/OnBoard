@@ -1,8 +1,8 @@
 ---
 name: "ANOUSHKA BHATTACHARYA"
-slack_handle: "@SLACK HANDLE"
-github_handle: "@GITHUB HANDLE"
-tutorial: # Link to the tutorial if you used one
+slack_handle: "@U07BBK4KHUK"
+github_handle: "arsoninstigator"
+tutorial: [here](https://jams.hackclub.com/batch/usb-hub)
 ---
 
 # anne's usb hub
