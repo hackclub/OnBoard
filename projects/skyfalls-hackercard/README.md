@@ -12,6 +12,6 @@ wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 This is an NFC enabled hacker card. You can scan the card with your phone and it'll light up an LED and take you to my site.
 
 <!-- How much is it going to cost? -->
-The card will cost $5.50 with shipping, but I will probably make a few variations of the design and check if everything works.
+The card will cost $3.50 with shipping, but I will probably make a few variations of the design and check if everything works.
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
