@@ -1,7 +1,7 @@
 ---
 name: Saksham Yadav
-slack_handle: @CodeSaksham
-github_handle: "@CodeSakshamY"
+slack_handle: CodeSaksham
+github_handle: CodeSakshamY
 tutorial: N/A
 wokwi: N/A
 ---
