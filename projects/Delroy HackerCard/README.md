@@ -1,6 +1,16 @@
-name: "Delroy Crasto"
-slack_handle: "@delroyc"
-github_handle: "@delroycrasto"
-tutorial: HackerCard Jam
+# HackerCard Jam Submission
 
-This is my first-ever custom PCB.  Hacker Card that uses NFC to send a signal and light up an LED. It is predicted to cost 3.10$ including the PCB and other basic components.
+**Name:** Delroy Crasto  
+**Slack Handle:** @codelife
+**GitHub Handle:** @Programmer5
+
+---
+
+##  Project: Hacker Card
+
+This is my first-ever custom PCB  a **Hacker Card** that uses **NFC** to send a signal and light up an **LED**.
+
+- 🔧 **Functionality**: Sends a signal via NFC and lights up an LED.  
+- 💰 **Estimated Cost**: ~$3.10 (including PCB and basic components)  
+
+---
