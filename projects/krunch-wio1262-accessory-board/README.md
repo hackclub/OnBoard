@@ -1,5 +1,5 @@
 ---
-name: 
+name: Solar Chow
 slack_handle: @krunch (U0828MFCD99)
 github_handle: @RadioactivePotato
 ---
