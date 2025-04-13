@@ -8,8 +8,8 @@ wokwi:
 
 # Megapad
 
-Just a micropad w/ a USB Hub on it, it was originally designed to be made with hackpad but it's closed.
+Just a micropad with a USB 2.0 Hub on it, it was originally designed to be made with hackpad but it's closed.
 
 ## Cost
 
-Used a lot extended components, costs around $58
+Used a lot extended components, costs $58.98.
