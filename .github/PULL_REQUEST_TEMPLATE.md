@@ -1,6 +1,6 @@
 ## Submission Checklist:
 
-<!--To check the checkboxes, simply replace the empty space in the brackets with a captial X, like this: [ ] becomes [X]-->
+<!--To check the checkboxes, simply replace the empty space in the brackets with a capital X, like this: [ ] becomes [X]-->
 
 - [ ] I am a current high school, middle school, or home schooled student.
   - [ ] I am 18 or under
