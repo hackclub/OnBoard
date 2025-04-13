@@ -1,6 +1,6 @@
 ---
 name: "Felix Wittwer"
-slack_handle: "@Felix Wittwer"
+slack_handle: "@fegolix"
 github_handle: "@felixwittwer"
 tutorial: # Link to the tutorial if you used one
 wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
