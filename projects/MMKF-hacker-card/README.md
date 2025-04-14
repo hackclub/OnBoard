@@ -2,7 +2,7 @@
 name: "Michael Kwiecien-Fisher"
 slack_handle: "@MMKF"
 github_handle: "@MichaelK-F"
-tutorial: [https://jams.hackclub.com/jam/hacker-card](https://jams.hackclub.com/jam/hacker-card)
+tutorial: https://jams.hackclub.com/jam/hacker-card
 ---
 
 # MMKF Hacker Card
