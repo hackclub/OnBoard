@@ -13,4 +13,4 @@ I am making a hacker card that includes my information and a nfc reader that I c
 <!-- How much is it going to cost? -->
 $22.51
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
-For me the design process was a bit hard as though it says it was an easy project, it was quite hard. Some challenges I faced was that the tutorial will say a specific port and it is not there...
+For me the design process was a bit hard as though it says it was an easy project, it was quite hard. Some challenges I faced was that the tutorial will say a specific port and it is not there. It was also that I had an issue, where I misconfigured JLPCB to make it more expnesive than neccessary.
