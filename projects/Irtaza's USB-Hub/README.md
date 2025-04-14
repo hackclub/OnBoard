@@ -9,7 +9,7 @@ wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 # USB Hub
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-I made a USB Hub that connects through a USB A port and can allow the computer to connect to two different USB portd
+I made a USB Hub Keychain that connects through a USB A port and can allow the computer to connect to two different USB ports.
 
 <!-- How much is it going to cost? -->
 $10.23
