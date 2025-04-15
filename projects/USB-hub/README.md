@@ -1,15 +1,17 @@
 ---
-name: "Martin Saar"
-slack_handle: "@VoidPixelator"
-github_handle: "@VoidPixelator"
-tutorial: # Link to the tutorial if you used one
-wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
+name: "Arvin Premlal"
+slack_handle: "@Arvin Premlal"
+github_handle: "@Arvin-Prem"
+project: "Usb-hub"
+tutorial: https://jams.hackclub.com/batch/usb-hub
 ---
 
-# usb-hub
+# PROJECT NAME
+## Summary
+##### This is a 4 port usb hub featuring usb 2.0.
 
-<!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-I'am making a usb hub because I got only 2 usb on my laptop. I always need 1 or 2 more.
-<!-- How much is it going to cost? -->
-Just under 50USD
-<!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
+## Plan
+##### The PCB is going to cost $44.75.
+
+## Design
+##### In my opinion navigating EasyEDA's part selector was difficult at first since I was overwhelmed by the sheer options. Trying to route traces on the PCB was also dificult as this is my first time doing so. ***Totally optional***
