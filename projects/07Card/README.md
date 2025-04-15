@@ -5,7 +5,7 @@ name: Linqi Liu
 
 slack_handle: @e
 
-github_handle: @Stwikeyy
+github_handle: @Stwikey
 
 tutorial: https://jams.hackclub.com/jam/hacker-card
 
