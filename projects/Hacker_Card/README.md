@@ -10,4 +10,4 @@ wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 
 My first PCB! It's a hacker/business NFC Card from Maggie's Jam. It can light up and flash contact info into a mobile device with a tap using NFC!
 
-7.01$
+21.54$
