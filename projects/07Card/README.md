@@ -19,5 +19,5 @@ wokwi: n/a
 I followed the tutorial to make a hackercard. it should be able to transmit a URL on tap and light up.
 
 
-$42.84 USD
+$41.26 USD
 
