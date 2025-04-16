@@ -1,16 +1,5 @@
----
-name: "Rohit Pandey"
-slack_handle: "@RohitPandey"
-github_handle: "@RohitPandey1729"
-tutorial: # Link to the tutorial if you used one
----
-
-# YOUR PROJECT NAME
-Rohit's Hacker Card
-<!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-The board that I am making is a macking card with some information about myself
-
-<!-- How much is it going to cost? -->
-Around $10.
-
-<!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
+IRL Name: Arka Jain
+Name on Slack: @TheRestarted1
+Name on github: @arkajain27
+I made a custom PCB Card which I think is pretty cool!
+Its around $32 dollars which hopefully is not much for you guys
