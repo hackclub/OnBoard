@@ -1,13 +1,16 @@
 ---
-name: "Rene Sild"
-slack_handle: "@sildrene"
-github_handle: "@renesild"
+name: "VANSH CHAUHAN"
+slack_handle: "say.vanshhhhhh"
+github_handle: "lowkeyvansh"
+tutorial: https://jams.hackclub.com/batch/usb-hub
 ---
 
-# Usb HUB
+# Type-A USB Hub
 
-<!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
-It gives me more usb ports for my laptop.
-<!-- How much is it going to cost? -->
-Just under fifty dollars, using a coupon. 
-<!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
+It is a 4 USB's Type-A usb hub, it will give 3 extra ports when connected to your computer.
+![image](https://github.com/lowkeyvansh/OnBoard/assets/141631987/fc54cd85-ec08-42ee-adba-094b265c3e62)
+
+![image](https://github.com/lowkeyvansh/OnBoard/assets/141631987/8d0a69c7-ae5c-48ef-b1c5-900902dd49bc)
+
+
+It will cost me $37.89 for 15 PCB's + $36.43 for shipping which adds up to a total of $80.92
