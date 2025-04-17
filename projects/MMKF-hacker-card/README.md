@@ -11,6 +11,6 @@ tutorial: https://jams.hackclub.com/jam/hacker-card
 It ia a buisness card with an NFC tag built in. It has different ways to contact me and a few cool logos.
 
 <!-- How much is it going to cost? -->
-It will cost $75.09
+It will cost $48.76
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
 I should have started by using KiCad instead of EasyEDA because of the limitations that EasyEDA has.
