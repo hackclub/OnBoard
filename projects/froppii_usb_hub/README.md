@@ -14,4 +14,5 @@ USB hub! with 2 USB A ports and 2 more USB C ports!
 
 ##### How much is it going to cost?
 $5.60
+
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
