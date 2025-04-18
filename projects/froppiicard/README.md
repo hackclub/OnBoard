@@ -13,5 +13,5 @@ Froppiicard
 Froppii's hackercard, followed the hack club jam tutorial. it can use nfc to show my website!
 
 ##### How much is it going to cost?
-$3.50
+$27.82
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
