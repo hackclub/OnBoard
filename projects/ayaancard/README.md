@@ -2,8 +2,8 @@
 name: "Ayaan Grover"
 slack_handle: "U07C4TK524Q"
 github_handle: "@ayaangrover"
-tutorial: # Link to the tutorial if you used one
-wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
+tutorial: "N/A"
+wokwi: "N/A"
 ---
 
 Ayaan's NFC Tag
