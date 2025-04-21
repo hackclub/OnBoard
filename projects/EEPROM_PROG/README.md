@@ -6,8 +6,7 @@ tutorial: # Link to the tutorial if you used one
 wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
 
-# YOUR PROJECT NAME
-EEPROM Programmer
+# EEPROM Programmer
 
 <!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
 USB-C multipurpose EEPROM Programmer with UART and JTAG for reprogramming SPI EEPROM chips, based on the WCH CH347 USB Serial chip.
