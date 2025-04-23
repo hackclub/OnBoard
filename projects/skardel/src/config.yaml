@@ -1,0 +1,495 @@
+units:
+  p: 4
+  px: cx + p
+  py: cy + p
+  platex: 14
+  platey: 14.5
+  mr: 2.2/2
+points:
+  zones:
+    matrix:
+      anchor:
+        shift: [100, -100]
+      key:
+        padding: cy
+        spread: cx
+      columns:
+        outer:
+          key:
+            column_net: P2
+        pinky:
+          key:
+            column_net: P3
+        ring:
+          key:
+            stagger: 5
+            column_net: P4
+        middle:
+          key:
+            stagger: 5
+            column_net: P5
+        index:
+          key:
+            stagger: -5
+            column_net: P6
+        inner:
+          key:
+            stagger: -2
+            column_net: P7
+      rows:
+        bottom:
+          row_net: P16
+        home:
+          row_net: P14
+        top:
+          row_net: P15
+        num:
+          row_net: P18
+    thumb:
+      anchor:
+        ref: matrix_middle_bottom
+        shift: [0.3cx, -1.5cx]
+      columns:
+        out:
+          key:
+            spread: px
+            column_net: P5
+        home:
+          key:
+            splay: -5
+            spread: px + 2
+            column_net: P6
+        in:
+          key:
+            spread: px
+            splay: -15
+            origin: [-0.5cx, -0.5cx]
+            column_net: P7
+      rows:
+        home:
+          row_net: P10
+
+  mirror:
+    ref: matrix_inner_num
+    distance: 60
+
+outlines:
+  _raw:
+    - what: rectangle
+      where: true
+      bound: true
+      asym: left
+      size: [platex, platey]
+
+  _left_keys:
+    - what: rectangle
+      where: true
+      asym: left
+      size: [platex, platey]
+
+  left_board:
+    - what: polygon
+      operation: stack
+      fillet: 4
+      points:
+        - ref: matrix_outer_num
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_pinky_num
+          shift: [0, 0.5py]
+        - ref: matrix_ring_num
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_ring_num
+          shift: [0, 0.5py]
+        - ref: matrix_middle_num
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_middle_num
+          shift: [0.5px, 0.5py]
+        - ref: matrix_index_num
+          shift: [0, 0.5py]
+        - ref: matrix_index_num
+          shift: [0.5px, 0.5py]
+        - ref: matrix_inner_num
+          shift: [1.5px, 0.5py]
+        - ref: matrix_inner_bottom
+          shift: [1.5px, -0.5py]
+        - ref: thumb_in_home
+          shift: [0.5px, 0.5py]
+        - ref: thumb_in_home
+          shift: [0.5px, -0.5py]
+        - ref: thumb_home_home
+          shift: [0px, -0.5py]
+        - ref: thumb_out_home
+          shift: [-0.5px, -0.5py]
+        - ref: matrix_pinky_bottom
+          shift: [px, -0.5py]
+        - ref: matrix_pinky_bottom
+          shift: [-0.5px, -0.5py]
+        - ref: matrix_outer_bottom
+          shift: [-0.5px, -0.5py]
+
+  _left_board_no_mcu:
+    - what: polygon
+      operation: stack
+      fillet: 4
+      points:
+        - ref: matrix_outer_num
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_pinky_num
+          shift: [0, 0.5py]
+        - ref: matrix_ring_num
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_ring_num
+          shift: [0, 0.5py]
+        - ref: matrix_middle_num
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_middle_num
+          shift: [0.5px, 0.5py]
+        - ref: matrix_index_num
+          shift: [0, 0.5py]
+        - ref: matrix_index_num
+          shift: [0.5px, 0.5py]
+        - ref: matrix_inner_num
+          shift: [0.5px, 0.5py]
+        - ref: matrix_inner_bottom
+          shift: [0.5px, -0.5py]
+        - ref: thumb_in_home
+          shift: [0.5px, 0.5py]
+        - ref: thumb_in_home
+          shift: [0.5px, -0.5py]
+        - ref: thumb_home_home
+          shift: [0px, -0.5py]
+        - ref: thumb_out_home
+          shift: [-0.5px, -0.5py]
+        - ref: matrix_pinky_bottom
+          shift: [px, -0.5py]
+        - ref: matrix_pinky_bottom
+          shift: [-0.5px, -0.5py]
+        - ref: matrix_outer_bottom
+          shift: [-0.5px, -0.5py]
+
+  left_combo:
+    - name: left_board
+    - operation: subtract
+      name: _left_keys
+
+  left_standoffs:
+    - what: circle
+      radius: mr
+      where:
+        ref: [matrix_outer_num]
+        shift: [0.5cx, -0.5cy]
+    - what: circle
+      radius: mr
+      where:
+        ref: [matrix_index_num]
+        shift: [0.5cx, -0.5cy]
+    - what: circle
+      radius: mr
+      where:
+        ref: [matrix_outer_bottom]
+        shift: [0.5cx, 0.5cy]
+    - what: circle
+      radius: mr
+      where:
+        ref: [thumb_home_home]
+        shift: [0.65cx, 0]
+    - what: circle
+      radius: mr
+      where:
+        ref: [thumb_out_home]
+        shift: [-0.9cx, 0.5cy]
+
+  left_plate:
+    - name: _left_board_no_mcu
+    - operation: subtract
+      name: _left_keys
+    - operation: stack
+      name: left_standoffs
+
+  _right_keys:
+    - what: rectangle
+      where: true
+      asym: right
+      size: [platex, platey]
+
+  right_board:
+    - what: polygon
+      operation: stack
+      fillet: 4
+      points:
+        - ref: mirror_matrix_outer_num
+          shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_pinky_num
+          shift: [0, 0.5py]
+        - ref: mirror_matrix_ring_num
+          shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_ring_num
+          shift: [0, 0.5py]
+        - ref: mirror_matrix_middle_num
+          shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_middle_num
+          shift: [0.5px, 0.5py]
+        - ref: mirror_matrix_index_num
+          shift: [0, 0.5py]
+        - ref: mirror_matrix_index_num
+          shift: [0.5px, 0.5py]
+        - ref: mirror_matrix_inner_num
+          shift: [1.5px, 0.5py]
+        - ref: mirror_matrix_inner_bottom
+          shift: [1.5px, -0.5py]
+        - ref: mirror_thumb_in_home
+          shift: [0.5px, 0.5py]
+        - ref: mirror_thumb_in_home
+          shift: [0.5px, -0.5py]
+        - ref: mirror_thumb_home_home
+          shift: [0px, -0.5py]
+        - ref: mirror_thumb_out_home
+          shift: [-0.5px, -0.5py]
+        - ref: mirror_matrix_pinky_bottom
+          shift: [px, -0.5py]
+        - ref: mirror_matrix_pinky_bottom
+          shift: [-0.5px, -0.5py]
+        - ref: mirror_matrix_outer_bottom
+          shift: [-0.5px, -0.5py]
+
+  _right_board_no_mcu:
+    - what: polygon
+      operation: stack
+      fillet: 4
+      points:
+        - ref: mirror_matrix_outer_num
+          shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_pinky_num
+          shift: [0, 0.5py]
+        - ref: mirror_matrix_ring_num
+          shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_ring_num
+          shift: [0, 0.5py]
+        - ref: mirror_matrix_middle_num
+          shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_middle_num
+          shift: [0.5px, 0.5py]
+        - ref: mirror_matrix_index_num
+          shift: [0, 0.5py]
+        - ref: mirror_matrix_index_num
+          shift: [0.5px, 0.5py]
+        - ref: mirror_matrix_inner_num
+          shift: [0.5px, 0.5py]
+        - ref: mirror_matrix_inner_bottom
+          shift: [0.5px, -0.5py]
+        - ref: mirror_thumb_in_home
+          shift: [0.5px, 0.5py]
+        - ref: mirror_thumb_in_home
+          shift: [0.5px, -0.5py]
+        - ref: mirror_thumb_home_home
+          shift: [0px, -0.5py]
+        - ref: mirror_thumb_out_home
+          shift: [-0.5px, -0.5py]
+        - ref: mirror_matrix_pinky_bottom
+          shift: [px, -0.5py]
+        - ref: mirror_matrix_pinky_bottom
+          shift: [-0.5px, -0.5py]
+        - ref: mirror_matrix_outer_bottom
+          shift: [-0.5px, -0.5py]
+
+  right_combo:
+    - name: right_board
+    - operation: subtract
+      name: _right_keys
+
+  right_standoffs:
+    - what: circle
+      radius: mr
+      where:
+        ref: [mirror_matrix_outer_num]
+        shift: [0.5cx, -0.5cy]
+    - what: circle
+      radius: mr
+      where:
+        ref: [mirror_matrix_index_num]
+        shift: [0.5cx, -0.5cy]
+    - what: circle
+      radius: mr
+      where:
+        ref: [mirror_matrix_outer_bottom]
+        shift: [0.5cx, 0.5cy]
+    - what: circle
+      radius: mr
+      where:
+        ref: [mirror_thumb_home_home]
+        shift: [0.65cx, 0]
+    - what: circle
+      radius: mr
+      where:
+        ref: [mirror_thumb_out_home]
+        shift: [-0.9cx, 0.5cy]
+
+  right_plate:
+    - name: _right_board_no_mcu
+    - operation: subtract
+      name: _right_keys
+    - operation: stack
+      name: right_standoffs
+
+pcbs:
+  left:
+    template: kicad8
+    outlines:
+      main:
+        outline: left_board
+    footprints:
+      keyswitches:
+        where: [/^matrix_.*/, /^thumb_.*/]
+        what: switch_choc_v1_v2
+        params:
+          side: B
+          hotswap: true
+          include_corner_marks: true
+          include_keycap: true
+          hotswap_3dmodel_filename: "${KICAD9_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
+          hotswap_3dmodel_xyz_offset: [0, 0, -1.5]
+          hotswap_3dmodel_xyz_rotation: [0, 180, 180]
+          switch_3dmodel_filename: "${KICAD9_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+          switch_3dmodel_xyz_offset: [0, 0, -1.5]
+          switch_3dmodel_xyz_rotation: [0, 180, 180]
+          keycap_3dmodel_filename: "/home/arthur/documents/keyboard/pcbs/3d/KLP-Lame-Keycaps/STEP/Choc/KLP_Lame_Normal.step"
+          keycap_3dmodel_xyz_offset: [0, 0, -6.5]
+          keycap_3dmodel_xyz_rotation: [180, 0, 0]
+          choc_v2_support: false
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      diode:
+        where: [/^matrix_.*/, /^thumb_.*/]
+        what: diode_tht_sod123
+        params:
+          side: B
+          diode_3dmodel_filename: "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [0, -5]
+      promicro:
+        what: promicro
+        params:
+          orientation: up
+        where:
+          ref: matrix_inner_num
+          shift: [px, -0.5cy]
+          rotate: 270
+      trrs:
+        what: trrs_pj320a
+        params:
+          TP: VCC
+          R1: P9
+          R2: P8
+          SL: GND
+        where:
+          ref: matrix_inner_bottom
+          shift: [1.4px, 0]
+          rotate: 270
+      holeTopLeft:
+        what: mounting_hole_plated
+        where:
+          ref: [matrix_outer_num]
+          shift: [0.5cx, -0.5cy]
+      holeTopRight:
+        what: mounting_hole_plated
+        where:
+          ref: [matrix_index_num]
+          shift: [0.5cx, -0.5cy]
+      holeBottomLeft:
+        what: mounting_hole_plated
+        where:
+          ref: [matrix_outer_bottom]
+          shift: [0.5cx, 0.5cy]
+      holeBottomRight:
+        what: mounting_hole_plated
+        where:
+          ref: [thumb_home_home]
+          shift: [0.65cx, 0]
+      holeMiddle:
+        what: mounting_hole_plated
+        where:
+          ref: [thumb_out_home]
+          shift: [-0.9cx, 0.5cy]
+
+  right:
+    template: kicad8
+    outlines:
+      main:
+        outline: right_board
+    footprints:
+      keyswitches:
+        where: [/^mirror_matrix_.*/, /^mirror_thumb_.*/]
+        what: switch_choc_v1_v2
+        params:
+          side: B
+          hotswap: true
+          include_corner_marks: true
+          include_keycap: true
+          choc_v2_support: false
+          hotswap_3dmodel_filename: "${KICAD9_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
+          hotswap_3dmodel_xyz_offset: [0, 0, -1.5]
+          hotswap_3dmodel_xyz_rotation: [0, 180, 180]
+          switch_3dmodel_filename: "${KICAD9_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+          switch_3dmodel_xyz_offset: [0, 0, -1.5]
+          switch_3dmodel_xyz_rotation: [0, 180, 180]
+          keycap_3dmodel_filename: "/home/arthur/documents/keyboard/pcbs/3d/KLP-Lame-Keycaps/STEP/Choc/KLP_Lame_Normal.step"
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      diode:
+        where: [/^mirror_matrix_.*/, /^mirror_thumb_.*/]
+        what: diode_tht_sod123
+        params:
+          side: B
+          diode_3dmodel_filename: "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [0, -5]
+      promicro:
+        what: promicro
+        params:
+          orientation: up
+        where:
+          ref: mirror_matrix_inner_num
+          shift: [px, -0.5cy]
+          rotate: 90
+      trrs:
+        what: trrs_pj320a
+        params:
+          TP: VCC
+          R1: P9
+          R2: P8
+          SL: GND
+        where:
+          ref: mirror_matrix_inner_bottom
+          shift: [1.4px, 0]
+          rotate: 270
+      holeTopLeft:
+        what: mounting_hole_plated
+        where:
+          ref: [mirror_matrix_outer_num]
+          shift: [0.5cx, -0.5cy]
+      holeTopRight:
+        what: mounting_hole_plated
+        where:
+          ref: [mirror_matrix_index_num]
+          shift: [0.5cx, -0.5cy]
+      holeBottomLeft:
+        what: mounting_hole_plated
+        where:
+          ref: [mirror_matrix_outer_bottom]
+          shift: [0.5cx, 0.5cy]
+      holeBottomRight:
+        what: mounting_hole_plated
+        where:
+          ref: [mirror_thumb_home_home]
+          shift: [0.65cx, 0]
+      holeMiddle:
+        what: mounting_hole_plated
+        where:
+          ref: [mirror_thumb_out_home]
+          shift: [-0.9cx, 0.5cy]
+
+
