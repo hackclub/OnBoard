@@ -11,5 +11,5 @@ tutorial: # https://jams.hackclub.com/jam/hacker-card#Aesthetics:%20Personalizin
 I built this card as a business card so people can get aquainted with me.
 It contains a QR Code, a NFC chip and text regarding my username on Discord and my emails.
 <!-- How much is it going to cost? -->
-
+Its going to cost €40.31
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
