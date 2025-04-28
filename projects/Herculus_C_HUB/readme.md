@@ -8,7 +8,7 @@ This project is a Batman-shaped USB Hub that supports both USB-C and USB-A conne
 
 "I am vengeance. I am the night. I am... Batman."
 
-🛠️ Features
+## 🛠️ Features
 2x USB Type-C Ports
 
 2x USB Type-A Ports
@@ -23,7 +23,7 @@ Includes onboard QR code linking to the project page
 
 Iconic Batman quotes on PCB silk layer
 
-💵 Manufacturing & Cost
+## 💵 Manufacturing & Cost
 
 Item	Details	Estimated Cost
 PCB Prototype (5 pcs)	Black, HASL finish, 1.6mm thickness	$9.40
@@ -32,7 +32,7 @@ Shipping (Estimate)	Standard shipping(Air mail)	$41.00
 Total		$90.66
 (Prices based on JLCPCB order — see screenshots below.)
 
-📐 Design
+## 📐 Design
 The design process involved:
 
 Managing USB 2.0 high-speed routing for both Type-A and Type-C ports
@@ -44,7 +44,7 @@ Keeping the Batman shape without compromising routing integrity
 Balancing aesthetics ("I'm Batman") and functionality
 
 
-📁 Files Included
+## 📁 Files Included
 schematic.pdf — Full schematic diagram
 
 gerber.zip — Gerber files for fabrication
