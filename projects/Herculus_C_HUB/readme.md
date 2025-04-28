@@ -26,10 +26,14 @@ Iconic Batman quotes on PCB silk layer
 ## 💵 Manufacturing & Cost
 
 Item	Details	Estimated Cost
-PCB Prototype (5 pcs)	Black, HASL finish, 1.6mm thickness	$9.40
-PCBA (Assembly top side, 5 pcs)	SMT economic assembly	$49.26
-Shipping (Estimate)	Standard shipping(Air mail)	$41.00
-Total		$90.66
+
+PCB Prototype (5 pcs)	Black, HASL finish, 1.6mm thickness - 	$9.40
+
+PCBA (Assembly top side, 5 pcs)	SMT economic assembly - 	$49.26
+
+Shipping (Estimate)	Standard shipping(Air mail) - 	$41.00
+
+Total	-	$90.66
 (Prices based on JLCPCB order — see screenshots below.)
 
 ## 📐 Design
