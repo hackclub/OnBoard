@@ -1,8 +1,8 @@
 ---
 name: "Andreas Pärn"
-slack_handle: "@SLACK HANDLE"
-github_handle: "@GITHUB HANDLE"
-tutorial: # Link to the tutorial if you used one
+slack_handle: "@SyntaxSpectre77"
+github_handle: "@SyntaxSpectre77"
+tutorial: # [Link to the tutorial if you used one](https://jams.hackclub.com/jam/hacker-card)
 wokwi: # Link to the Wokwi project if you're submitting for Hacky Holidays
 ---
 
