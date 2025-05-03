@@ -2,8 +2,11 @@ name: Anand Sathy
 
 
 slack_handle: @a3acx
+
 github_handle: @a3acx
+
 tutorial: https://jams.hackclub.com/jam/hacker-card
+
 ---
 
 # Anand's Hackercard
