@@ -1,0 +1,13 @@
+---
+name: "Ayaan Grover"
+slack_handle: "@ayaangrover"
+github_handle: "@ayaangrover"
+tutorial: "N/A"
+wokwi: "N/A"
+---
+
+# YOUR PROJECT NAME
+
+This is a 75% hotswappable keyboard!
+
+It's going to cost $99.18, but without tarrifs and lower shipping it would be around $50, so $50 is enough.
