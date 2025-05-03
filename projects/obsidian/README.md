@@ -6,7 +6,7 @@ tutorial: "N/A"
 wokwi: "N/A"
 ---
 
-# YOUR PROJECT NAME
+# Obsidian One
 
 This is a 75% hotswappable keyboard!
 
