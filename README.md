@@ -1,6 +1,6 @@
 ![Hop Onboard banner logo](https://cloud-b3h81o0df-hack-club-bot.vercel.app/0onboard_github.png)
-
-# OnBoard - Get a $100 grant and make a PCB!
+# Onboard has ended
+# OnBoard - Get a $100 grant and make a PCB(Ended)!
 
 > "I’m so glad that young people can create things like PC boards online. May your creativity have no limits!”
 >
