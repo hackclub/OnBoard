@@ -10,4 +10,4 @@ wokwi: "N/A"
 
 This is a 75% hotswappable keyboard!
 
-It's going to cost $99.18, but without tarrifs and lower shipping it would be around $50, so $50 is enough.
+It's going to cost $99.18, but without tarrifs and lower shipping it would be around $50.
