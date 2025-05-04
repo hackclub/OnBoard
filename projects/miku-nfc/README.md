@@ -9,8 +9,7 @@ tutorial: # https://jams.hackclub.com/jam/hacker-card](https://jams.hackclub.com
 
 Make a key chain that can transmit a URL and light up when tapped!
 
-I believe it costs $2.00 according to the website, with the shipping cost it's subtotal was $26.55
-
+The production cost is 19.02 and shipping is 24.97 with a total of 43.99
 
 | Case | Schematic | PCB |
 |------|-----------|-----|
