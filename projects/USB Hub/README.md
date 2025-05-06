@@ -1,10 +1,13 @@
-name: "MD Abul Hasnat"
-slack_handle: "@Hasnat"
-github_handle: "@Hasnat4763"
+---
+name: "Sander Väli"
+slack_handle: "@sandervali"
+github_handle: "@sandervali"
+---
 
+# usb hub
 
-# Project Name: Multi use USB Hub
-
-My project is a USB hub with integrated audio input/output. It's gonna help with single board computers like the raspberry pi 5 or pi zero w
-It's gonna cost around 70$ 
-The biggest challenge was with the PCM2912A chip and routing the USB traces which (Slack:@whatware) helped a lot with
+<!-- Describe your board in 2-3 sentences. What are you making? What will it do? -->
+Usb hub for my TV.
+<!-- How much is it going to cost? -->
+It's going to cost me under 50 dollars. 
+<!-- Tell us a little bit about your design process. What were some challenges? What helped? ***Totally optional*** -->
