@@ -2,7 +2,7 @@
 name: "ABHINAV GOPALAKRISHNAN"
 slack_handle: "@Abhinav G"
 github_handle: "@abhinavGopal709"
-tutorial: # hacker-card
+tutorial: "hacker-card"
 ---
 
 # Abhinav's PCB Card
