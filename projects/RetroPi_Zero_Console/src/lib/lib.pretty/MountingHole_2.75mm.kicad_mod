@@ -1,0 +1,16 @@
+(module MountingHole_2.75mm (layer F.Cu) (tedit 5C77CCFB)
+  (tags "mounting hole 2.75mm no annular")
+  (attr virtual)
+  (fp_text reference REF** (at 0 -4.445) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value MountingHole_2.75mm (at 0 4.445) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at 0.3 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 3 0) (layer Cmts.User) (width 0.15))
+  (fp_circle (center 0 0) (end 3.1 0) (layer F.CrtYd) (width 0.05))
+  (pad "" np_thru_hole circle (at 0 0) (size 2.75 2.75) (drill 2.75) (layers *.Cu *.Mask))
+)
