@@ -1,4 +1,5 @@
 ![Hop Onboard banner logo](https://cloud-b3h81o0df-hack-club-bot.vercel.app/0onboard_github.png)
+# **<h2>Onboard has ended now :/ <br> But much more to come! Stay tuned :)<h2>**
 
 # OnBoard - Get a $100 grant and make a PCB!
 
