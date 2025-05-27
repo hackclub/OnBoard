@@ -14,5 +14,7 @@ Merchandise Total: $14.60
 
 Shipping Charge: $8.32
 
-Order Total: **$22.92 **
-(I'm so cool i had no challenges except insomnia after procastinating the project for 2 days),yes i know I've to get some sleep.
+Order Total: <b>$22.92</b>
+
+
+(I'm so cool i had no challenges😎)
